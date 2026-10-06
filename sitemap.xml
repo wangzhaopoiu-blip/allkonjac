@@ -1,2 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url><loc>https://allkonjac.com/</loc></url></urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://allkonjac.com/</loc></url>
+  <url><loc>https://allkonjac.com/ingredients/</loc></url>
+  <url><loc>https://allkonjac.com/equipment/</loc></url>
+  <url><loc>https://allkonjac.com/drying-lines/</loc></url>
+  <url><loc>https://allkonjac.com/technology/</loc></url>
+</urlset>

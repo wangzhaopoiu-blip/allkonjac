@@ -1,3 +1,5 @@
+# Public website content may be crawled under the existing site policy.
 User-agent: *
 Allow: /
+
 Sitemap: https://allkonjac.com/sitemap.xml
