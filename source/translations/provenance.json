@@ -1,0 +1,21 @@
+{
+  "source_language": "en",
+  "read_date": "2026-10-06",
+  "accepted_batch_character_counts": [
+    3936,
+    3861,
+    3927,
+    3745,
+    3374
+  ],
+  "records": 466,
+  "source": "https://translate.google.com/",
+  "browser_visual_acceptance": "pending",
+  "review": "Assistant semantic and terminology review",
+  "target_languages": [
+    "th",
+    "id"
+  ],
+  "method": "Official text translation webpage; numeric alignment markers; copy translation or read visible result; whitespace normalized",
+  "unique_strings_per_language": 233
+}

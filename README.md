@@ -1,33 +1,60 @@
 # ALL KONJAC website
 
-Static international B2B website for https://allkonjac.com/.
+Static international B2B website for https://allkonjac.com/. The deployed files are ordinary HTML, CSS, JavaScript and images. No server application or cloud build step is required.
 
-## Public pages
+## Public pages and languages
 
-- / — overview, buyer questions and contact details
-- /ingredients/ — konjac powder, refined powder and konjac gum
-- /equipment/ — konjac food equipment and production-line engineering
-- /drying-lines/ — konjac dried-chip drying systems
-- /technology/ — hydrocolloid formulation and application development
+The English URLs remain unchanged:
 
-No build step is required. Shared styles and navigation are in assets/site.css and assets/site.js. Keep the existing Cloudflare deployment pointed at the repository's static files.
+- `/` — overview, buyer questions and contact details
+- `/ingredients/` — konjac powder, refined powder and konjac gum
+- `/equipment/` — food equipment and production-line engineering
+- `/drying-lines/` — konjac dried-chip drying systems
+- `/technology/` — hydrocolloid formulation and application development
 
-## Cloudflare Workers configuration
+The same five business pages exist under `/th/` for Thai and `/id/` for Indonesian, giving 15 business pages. Language links preserve the current business page. Internal navigation stays in the selected language. All shared assets use `/assets/` URLs, including local font files.
 
-wrangler.jsonc defines the existing allkonjac Worker, the root static asset directory, HTML directory routing, a real 404 response and an empty previews configuration for the static-only site. .assetsignore excludes deployment files, dependencies and repository metadata from the public assets.
+All 15 business pages use shared motion via `body.motion-enabled`. It provides a one-time gentle scroll reveal for titles and copy, staggered business cards, subtle card hover and clipped image zoom. English, Thai and Indonesian use identical behavior. Detail images retain their dimensions and margins; navigation, language controls and the trilingual 404 remain immediately readable. Without JavaScript, IntersectionObserver support, or with reduced motion enabled, content remains fully visible. Reduced motion changes, keyboard focus and printing also reveal pending content. No third-party animation dependency is required.
 
-For production, use `npx wrangler deploy`. For branch previews, use `npx wrangler preview` with Wrangler 4.135.0 or later. Production DNS, domain bindings and the www redirect remain managed in Cloudflare. No separate Worker script or build command is needed for this static site.
+The single root `404.html` provides English, Thai and Indonesian explanations and return links. It carries `noindex,follow` and is not listed in the sitemap. The existing Wrangler `not_found_handling: "404-page"` configuration provides an actual 404 response for unknown paths rather than a 200 rewrite.
 
-## Search and AI discovery
+## Editing and generating
 
-Each page has its own title, description, canonical URL and share metadata. Visible content is delivered as HTML, with Organization, WebSite, WebPage, Service, ItemList and BreadcrumbList JSON-LD where relevant. robots.txt allows crawling under the existing policy; sitemap.xml lists the five canonical pages. llms.txt is an optional factual index for tools that support it and is not a ranking mechanism.
+Python 3.9 or later is sufficient; only the standard library is used. From the repository root:
 
-Before publishing new content, verify specifications and business claims. Do not add certifications, capacity, customers, founding dates or performance guarantees without confirmation. Structured data must match the visible content.
+```text
+python scripts/build.py --self-test
+python scripts/build.py --check
+python scripts/build.py
+```
 
-## Deployment checks
+`--self-test` verifies all 15 template variants, URL and schema transformations, HTML/attribute/JSON escaping, strict missing-key rejection and sitemap count in memory. It can run while translations are being prepared and writes no placeholder translation pages. `--check` validates the complete three-language site in memory. The ordinary command writes the 15 HTML files, root trilingual 404, sitemap and llms.txt only after all inputs validate. It never publishes, installs packages, or contacts a translation service.
 
-Confirm all five pages and their assets return 200. Unknown URLs must return 404. Check redirects from HTTP and HTTPS www.allkonjac.com to https://allkonjac.com, including paths and query strings. DNS and Redirect Rules are managed in Cloudflare and are not created by these HTML files.
+Generator inputs:
 
-Verify the domain in Google Search Console, submit https://allkonjac.com/sitemap.xml, and inspect the five URLs. Check Cloudflare crawler policies and challenges separately: robots.txt cannot override a CDN block.
+- `source/templates/*.html` — editable page templates copied from the approved English HTML; full paragraphs and questions remain intact
+- `source/schema/*.json` — structured-data templates, using objects such as `{"$t": "stable_translation_id"}` for descriptive strings
+- `content/en.json`, `content/th.json`, `content/id.json` — flat JSON objects with identical stable string IDs and non-empty string values
+- `source/translation-context.json` — extraction locations for translators and reviewers
+- `source/original/*.html` — the five original English pages retained as a reference
+- `scripts/build.py` — deterministic static generator
 
-Multi-language pages are deferred. No hreflang is declared for unpublished translations.
+The initial English catalog contains 233 unique strings. Descriptive metadata, alt/aria labels, structured-data descriptions, menu labels, hero overlay and 404 text are included. Duplicate English strings share one ID. Hash-shaped IDs are stable identifiers: keep them when editing an existing string, then update all three catalogs together. Add a new unique key for a new concept or sentence. Template tokens `{{t:ID}}` escape HTML text; `{{a:ID}}` escape HTML attributes. Translations are plain text and must not contain markup. Structured data is serialized with JSON escaping and script-termination protection.
+
+Translations must preserve ALL KONJAC, WhatsApp, WeChat, contact details, URLs and numerical facts. The generator rejects incomplete catalogs, unexpected keys, empty values and changed protected contact/brand/numerical facts. It has no English fallback. Review Thai and Indonesian drafts from Google Translate against the original English and the technical glossary before generating pages; automatic drafts do not establish product specifications or business claims.
+
+`scripts/extract_catalog.py` is the one-time bootstrap extractor. It refuses to replace an existing catalog. Do not rerun it over generated pages; future edits belong in the source templates, structured-data templates and catalogs. Direct edits to generated HTML will be replaced on the next generation. Shared presentation and progressive navigation enhancement remain in `assets/site.css` and `assets/site.js`.
+
+## Discovery metadata
+
+Every business page has its own translated title/description, canonical URL, HTML language and Open Graph locale. The language alternates are reciprocal `en`, `th`, `id` and `x-default`, with `x-default` pointing to the corresponding English business page. The sitemap lists all 15 URLs and the same alternates. There is no automatic IP or browser-language redirect.
+
+Organization and WebSite IDs remain global. Organization contact facts stay unchanged. Page, service, item-list and breadcrumb identities and page links use the corresponding language URL. WebSite `inLanguage` declares all three languages. Descriptive structured-data strings are localized and must match visible business information. No unsupported certifications, capacity, customers, founding dates or performance guarantees may be added.
+
+`llms.txt` is a factual index linking all 15 business pages. It is optional and does not guarantee search rankings or AI citations. `robots.txt` retains the existing crawling policy and points to the sitemap. Google Search Console work and indexing actions are paused for manual review; generation does not submit URLs or change Google settings.
+
+## Hosting and review
+
+The existing `wrangler.jsonc` still points at the root static files for the ALL KONJAC Worker. `.assetsignore` excludes catalogs, templates, scripts, audits, preparation material, dependencies and repository/deployment metadata from public assets. Keep those exclusions when changing the preparation workflow.
+
+Before production publication, review the generated preview in all three languages and check desktop/mobile navigation, current-business-page language switching, long labels, typography, images and keyboard access. Confirm all 15 pages and assets return 200; unknown URLs must return 404. Production DNS, domain bindings and redirects remain separately managed in Cloudflare. This localization generator performs no preview or production deployment, commit, push or Google indexing action.

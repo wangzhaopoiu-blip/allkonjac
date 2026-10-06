@@ -9,3 +9,16 @@ package.json
 package-lock.json
 pnpm-lock.yaml
 README.md
+.assetsignore
+.gitignore
+content/
+source/
+scripts/
+audits/
+audit/
+work/
+__pycache__/
+.pytest_cache/
+.vscode/
+*.log
+*.pyc

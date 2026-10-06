@@ -1,0 +1,96 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://allkonjac.com/#organization",
+      "name": "ALL KONJAC",
+      "url": "https://allkonjac.com/",
+      "description": {
+        "$t": "text_a7ce75df621e"
+      },
+      "email": "583411495@qq.com",
+      "telephone": "+86 15637136906",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": {
+            "$t": "text_2b484f6378bb"
+          },
+          "email": "583411495@qq.com",
+          "telephone": "+86 15637136906",
+          "url": "https://wa.me/8615637136906"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://allkonjac.com/#website",
+      "url": "https://allkonjac.com/",
+      "name": "ALL KONJAC",
+      "inLanguage": "en",
+      "publisher": {
+        "@id": "https://allkonjac.com/#organization"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://allkonjac.com/#webpage",
+      "url": "https://allkonjac.com/",
+      "name": {
+        "$t": "text_28f70d1f5814"
+      },
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://allkonjac.com/#website"
+      },
+      "about": {
+        "@id": "https://allkonjac.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://allkonjac.com/#services"
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://allkonjac.com/#services",
+      "name": {
+        "$t": "text_f4bf0d0afdc1"
+      },
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "url": "https://allkonjac.com/ingredients/",
+          "name": {
+            "$t": "text_fe64ffe7fc31"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "url": "https://allkonjac.com/equipment/",
+          "name": {
+            "$t": "text_65d063b784b9"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "url": "https://allkonjac.com/drying-lines/",
+          "name": {
+            "$t": "text_15c3aca8bbfe"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "url": "https://allkonjac.com/technology/",
+          "name": {
+            "$t": "text_8ee5df0c48c6"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://allkonjac.com/technology/#webpage",
+      "url": "https://allkonjac.com/technology/",
+      "name": {
+        "$t": "text_8d12e31b4adb"
+      },
+      "description": {
+        "$t": "text_02cc86591dc2"
+      },
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://allkonjac.com/#website"
+      },
+      "about": {
+        "@id": "https://allkonjac.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://allkonjac.com/technology/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://allkonjac.com/technology/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://allkonjac.com/technology/#service",
+      "name": {
+        "$t": "text_8ee5df0c48c6"
+      },
+      "serviceType": {
+        "$t": "text_161bf05b6c52"
+      },
+      "description": {
+        "$t": "text_523084358cca"
+      },
+      "url": "https://allkonjac.com/technology/",
+      "provider": {
+        "@id": "https://allkonjac.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://allkonjac.com/technology/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {
+            "$t": "text_3a78695388b3"
+          },
+          "item": "https://allkonjac.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {
+            "$t": "text_8ee5df0c48c6"
+          },
+          "item": "https://allkonjac.com/technology/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://allkonjac.com/#organization",
+      "name": "ALL KONJAC",
+      "url": "https://allkonjac.com/",
+      "description": {
+        "$t": "text_a7ce75df621e"
+      },
+      "email": "583411495@qq.com",
+      "telephone": "+86 15637136906",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": {
+            "$t": "text_2b484f6378bb"
+          },
+          "email": "583411495@qq.com",
+          "telephone": "+86 15637136906",
+          "url": "https://wa.me/8615637136906"
+        }
+      ]
+    }
+  ]
+}

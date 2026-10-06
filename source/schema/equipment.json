@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://allkonjac.com/equipment/#webpage",
+      "url": "https://allkonjac.com/equipment/",
+      "name": {
+        "$t": "text_8c4e2bc2850e"
+      },
+      "description": {
+        "$t": "text_2c567d898da1"
+      },
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://allkonjac.com/#website"
+      },
+      "about": {
+        "@id": "https://allkonjac.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://allkonjac.com/equipment/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://allkonjac.com/equipment/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://allkonjac.com/equipment/#service",
+      "name": {
+        "$t": "text_65d063b784b9"
+      },
+      "serviceType": {
+        "$t": "text_c1998993fdf4"
+      },
+      "description": {
+        "$t": "text_a3e103ea1d7e"
+      },
+      "url": "https://allkonjac.com/equipment/",
+      "provider": {
+        "@id": "https://allkonjac.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://allkonjac.com/equipment/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {
+            "$t": "text_3a78695388b3"
+          },
+          "item": "https://allkonjac.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {
+            "$t": "text_65d063b784b9"
+          },
+          "item": "https://allkonjac.com/equipment/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://allkonjac.com/#organization",
+      "name": "ALL KONJAC",
+      "url": "https://allkonjac.com/",
+      "description": {
+        "$t": "text_a7ce75df621e"
+      },
+      "email": "583411495@qq.com",
+      "telephone": "+86 15637136906",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": {
+            "$t": "text_2b484f6378bb"
+          },
+          "email": "583411495@qq.com",
+          "telephone": "+86 15637136906",
+          "url": "https://wa.me/8615637136906"
+        }
+      ]
+    }
+  ]
+}

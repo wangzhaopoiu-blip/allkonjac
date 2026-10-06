@@ -1,0 +1,133 @@
+{
+  "business_pages": 15,
+  "strings_per_language": 233,
+  "sitemap_urls": 15,
+  "motion_enabled_pages": [
+    "/",
+    "/ingredients/",
+    "/equipment/",
+    "/drying-lines/",
+    "/technology/",
+    "/th/",
+    "/th/ingredients/",
+    "/th/equipment/",
+    "/th/drying-lines/",
+    "/th/technology/",
+    "/id/",
+    "/id/ingredients/",
+    "/id/equipment/",
+    "/id/drying-lines/",
+    "/id/technology/"
+  ],
+  "records": [
+    {
+      "path": "/",
+      "language": "en",
+      "images": 11,
+      "links": 27,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/ingredients/",
+      "language": "en",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/equipment/",
+      "language": "en",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/drying-lines/",
+      "language": "en",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/technology/",
+      "language": "en",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/th/",
+      "language": "th",
+      "images": 11,
+      "links": 27,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/th/ingredients/",
+      "language": "th",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/th/equipment/",
+      "language": "th",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/th/drying-lines/",
+      "language": "th",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/th/technology/",
+      "language": "th",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/id/",
+      "language": "id",
+      "images": 11,
+      "links": 27,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/id/ingredients/",
+      "language": "id",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/id/equipment/",
+      "language": "id",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/id/drying-lines/",
+      "language": "id",
+      "images": 5,
+      "links": 23,
+      "static_checks": "passed"
+    },
+    {
+      "path": "/id/technology/",
+      "language": "id",
+      "images": 4,
+      "links": 23,
+      "static_checks": "passed"
+    }
+  ],
+  "errors": [],
+  "font_sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+  "browser_checks": "local preview blocked by saved permission; production browser checks recorded separately",
+  "hosting_response_checks": "production HTTP verification is recorded separately in the release report"
+}

@@ -1,0 +1,90 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://allkonjac.com/ingredients/#webpage",
+      "url": "https://allkonjac.com/ingredients/",
+      "name": {
+        "$t": "text_72a71b10cbcd"
+      },
+      "description": {
+        "$t": "text_96d56bc0162c"
+      },
+      "inLanguage": "en",
+      "isPartOf": {
+        "@id": "https://allkonjac.com/#website"
+      },
+      "about": {
+        "@id": "https://allkonjac.com/#organization"
+      },
+      "mainEntity": {
+        "@id": "https://allkonjac.com/ingredients/#service"
+      },
+      "breadcrumb": {
+        "@id": "https://allkonjac.com/ingredients/#breadcrumb"
+      }
+    },
+    {
+      "@type": "Service",
+      "@id": "https://allkonjac.com/ingredients/#service",
+      "name": {
+        "$t": "text_fe64ffe7fc31"
+      },
+      "serviceType": {
+        "$t": "text_914f75cce81f"
+      },
+      "description": {
+        "$t": "text_346890f38b99"
+      },
+      "url": "https://allkonjac.com/ingredients/",
+      "provider": {
+        "@id": "https://allkonjac.com/#organization"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://allkonjac.com/ingredients/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": {
+            "$t": "text_3a78695388b3"
+          },
+          "item": "https://allkonjac.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {
+            "$t": "text_fe64ffe7fc31"
+          },
+          "item": "https://allkonjac.com/ingredients/"
+        }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://allkonjac.com/#organization",
+      "name": "ALL KONJAC",
+      "url": "https://allkonjac.com/",
+      "description": {
+        "$t": "text_a7ce75df621e"
+      },
+      "email": "583411495@qq.com",
+      "telephone": "+86 15637136906",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": {
+            "$t": "text_2b484f6378bb"
+          },
+          "email": "583411495@qq.com",
+          "telephone": "+86 15637136906",
+          "url": "https://wa.me/8615637136906"
+        }
+      ]
+    }
+  ]
+}

@@ -1,8 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://allkonjac.com/</loc></url>
-  <url><loc>https://allkonjac.com/ingredients/</loc></url>
-  <url><loc>https://allkonjac.com/equipment/</loc></url>
-  <url><loc>https://allkonjac.com/drying-lines/</loc></url>
-  <url><loc>https://allkonjac.com/technology/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://allkonjac.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/ingredients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/equipment/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/equipment/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/equipment/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/equipment/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/equipment/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/drying-lines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/drying-lines/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/technology/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/technology/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/technology/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/technology/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/ingredients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/equipment/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/equipment/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/equipment/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/equipment/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/equipment/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/drying-lines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/drying-lines/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/technology/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/technology/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/technology/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/technology/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/ingredients/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/equipment/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/equipment/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/equipment/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/equipment/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/equipment/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/drying-lines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/drying-lines/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/drying-lines/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/technology/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/technology/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/technology/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/technology/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
+  </url>
 </urlset>
