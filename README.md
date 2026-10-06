@@ -12,6 +12,12 @@ Static international B2B website for https://allkonjac.com/.
 
 No build step is required. Shared styles and navigation are in assets/site.css and assets/site.js. Keep the existing Cloudflare deployment pointed at the repository's static files.
 
+## Cloudflare Workers configuration
+
+wrangler.jsonc defines the existing allkonjac Worker, the root static asset directory, HTML directory routing, a real 404 response and an empty previews configuration for the static-only site. .assetsignore excludes deployment files, dependencies and repository metadata from the public assets.
+
+For production, use `npx wrangler deploy`. For branch previews, use `npx wrangler preview` with Wrangler 4.135.0 or later. Production DNS, domain bindings and the www redirect remain managed in Cloudflare. No separate Worker script or build command is needed for this static site.
+
 ## Search and AI discovery
 
 Each page has its own title, description, canonical URL and share metadata. Visible content is delivered as HTML, with Organization, WebSite, WebPage, Service, ItemList and BreadcrumbList JSON-LD where relevant. robots.txt allows crawling under the existing policy; sitemap.xml lists the five canonical pages. llms.txt is an optional factual index for tools that support it and is not a ranking mechanism.
