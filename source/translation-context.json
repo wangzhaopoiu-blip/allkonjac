@@ -885,5 +885,65 @@
   ],
   "text_c621f85d098b": [
     "technology:visible"
+  ],
+  "equipment.gallery.eyebrow": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.title": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.description": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.note": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.view": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.close": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.modal": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.gallery.image_note": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.tank.title": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.tank.alt": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.tank.description": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.conveyor.title": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.conveyor.alt": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.conveyor.description": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.single.title": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.single.alt": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.single.description": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.dual.title": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.dual.alt": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
+  ],
+  "equipment.dual.description": [
+    "equipment gallery: title, caption, alt, image viewer or disclosure"
   ]
 }

@@ -58,3 +58,9 @@ Organization and WebSite IDs remain global. Organization contact facts stay unch
 The existing `wrangler.jsonc` still points at the root static files for the ALL KONJAC Worker. `.assetsignore` excludes catalogs, templates, scripts, audits, preparation material, dependencies and repository/deployment metadata from public assets. Keep those exclusions when changing the preparation workflow.
 
 Before production publication, review the generated preview in all three languages and check desktop/mobile navigation, current-business-page language switching, long labels, typography, images and keyboard access. Confirm all 15 pages and assets return 200; unknown URLs must return 404. Production DNS, domain bindings and redirects remain separately managed in Cloudflare. This localization generator performs no preview or production deployment, commit, push or Google indexing action.
+
+## Equipment image gallery (2026-10-07)
+
+The three equipment pages share four AI-enhanced equipment images and translated captions/alt text. Original configuration, ratings and certifications are not inferred from generated pictures. The disclosure stays visible next to the gallery. Source and review records are in source/translations/equipment-gallery.json; new strings use the equipment.* namespace. The complete catalog now contains 253 strings per language.
+
+The source template provides real full-size image links. A native dialog progressively enhances image viewing with Escape, focus restoration and backdrop dismissal. Without script or dialog support, links open the image normally. Cards share the existing one-time motion; the responsive grid uses two columns, one below 700px. Three WebP sizes (480/960/1448px) use srcset; PNG masters remain in the local project outputs and are not deployed. Images are encoded from the approved generated masters without further creative editing.

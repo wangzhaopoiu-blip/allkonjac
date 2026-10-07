@@ -1,0 +1,90 @@
+{
+  "equipment_pages": [
+    {
+      "language": "en",
+      "cards": 4,
+      "responsive_images": 4,
+      "localized_schema_images": 4,
+      "static_checks": "passed"
+    },
+    {
+      "language": "th",
+      "cards": 4,
+      "responsive_images": 4,
+      "localized_schema_images": 4,
+      "static_checks": "passed"
+    },
+    {
+      "language": "id",
+      "cards": 4,
+      "responsive_images": 4,
+      "localized_schema_images": 4,
+      "static_checks": "passed"
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-1448.webp",
+      "bytes": 153150,
+      "sha256": "7be1d48d026c84bd4bff68d1138d9f46ff8b4892406586b1071f582c39c93792"
+    },
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-480.webp",
+      "bytes": 21638,
+      "sha256": "897c74a786e4465d4f9ad85d8de209abf0468776fb7d59a5e45133472514a70a"
+    },
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-960.webp",
+      "bytes": 65150,
+      "sha256": "60586a6f99c1969eec096cd5c72b2c19bf730538ffa3a68f067d03b6a098da9f"
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-1448.webp",
+      "bytes": 105484,
+      "sha256": "aebfc41d2199ce0953b89be2fdc1e3c7648356357d1c720766ed565046807c17"
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-480.webp",
+      "bytes": 14324,
+      "sha256": "383c262731b4365e99e526c367dacf99f62049fcf106c1313e8eb8d207c36961"
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-960.webp",
+      "bytes": 41722,
+      "sha256": "36db4c4a2862c9bc4c288b9fcfcb220d6d5599db0508b16bd575762df7771758"
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-1448.webp",
+      "bytes": 203842,
+      "sha256": "1166bf8f0f5d40dc05948f7ab7e525020bfbb0022be47e3eadcf0d5a7eb80ee6"
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-480.webp",
+      "bytes": 26884,
+      "sha256": "9bad3ed4dec8da56893bf1685499f77dac665cab813dc06271e26a68014e9793"
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-960.webp",
+      "bytes": 82890,
+      "sha256": "403bbc553dcceeeb582897871e423fa3b9a63f8e6d1e585e32f1326c3495759e"
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-1448.webp",
+      "bytes": 143526,
+      "sha256": "654493087e432ce74ab97edc364a1847b9673578bfca35069252c6a1484ee722"
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-480.webp",
+      "bytes": 20910,
+      "sha256": "d902d5d2e93df51670b198ab90b543b977389f5d221f10f8ae871bf2a1f2de0f"
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-960.webp",
+      "bytes": 60532,
+      "sha256": "23c01e093a37da6dff53e4541917f50f26baea6b7cc275b528dee6770fffac51"
+    }
+  ],
+  "errors": [],
+  "browser_visual_check": "Not repeated: saved browser permission restriction and current browser connection failures.",
+  "total_image_asset_bytes": 940052
+}

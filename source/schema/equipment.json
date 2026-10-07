@@ -23,7 +23,21 @@
       },
       "breadcrumb": {
         "@id": "https://allkonjac.com/equipment/#breadcrumb"
-      }
+      },
+      "image": [
+        {
+          "@id": "https://allkonjac.com/equipment/#image-tank"
+        },
+        {
+          "@id": "https://allkonjac.com/equipment/#image-conveyor"
+        },
+        {
+          "@id": "https://allkonjac.com/equipment/#image-single"
+        },
+        {
+          "@id": "https://allkonjac.com/equipment/#image-dual"
+        }
+      ]
     },
     {
       "@type": "Service",
@@ -85,6 +99,62 @@
           "url": "https://wa.me/8615637136906"
         }
       ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://allkonjac.com/equipment/#image-tank",
+      "contentUrl": "https://allkonjac.com/assets/equipment/equipment-three-tank-studio-v1-1448.webp",
+      "caption": {
+        "$t": "equipment.tank.title"
+      },
+      "description": {
+        "$t": "equipment.gallery.image_note"
+      },
+      "inLanguage": "en",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://allkonjac.com/equipment/#image-conveyor",
+      "contentUrl": "https://allkonjac.com/assets/equipment/equipment-conveyor-studio-v1-1448.webp",
+      "caption": {
+        "$t": "equipment.conveyor.title"
+      },
+      "description": {
+        "$t": "equipment.gallery.image_note"
+      },
+      "inLanguage": "en",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://allkonjac.com/equipment/#image-single",
+      "contentUrl": "https://allkonjac.com/assets/equipment/equipment-single-unit-studio-v1-1448.webp",
+      "caption": {
+        "$t": "equipment.single.title"
+      },
+      "description": {
+        "$t": "equipment.gallery.image_note"
+      },
+      "inLanguage": "en",
+      "width": 1448,
+      "height": 1086
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://allkonjac.com/equipment/#image-dual",
+      "contentUrl": "https://allkonjac.com/assets/equipment/equipment-two-unit-studio-v1-1448.webp",
+      "caption": {
+        "$t": "equipment.dual.title"
+      },
+      "description": {
+        "$t": "equipment.gallery.image_note"
+      },
+      "inLanguage": "en",
+      "width": 1448,
+      "height": 1086
     }
   ]
 }

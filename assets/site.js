@@ -82,6 +82,44 @@
     }
   });
 
+  // Native image links remain functional when dialog enhancement is unavailable.
+  const imageDialog = document.querySelector('.equipment-lightbox');
+  if (imageDialog && typeof imageDialog.showModal === 'function') {
+    let imageOpener = null;
+    const imageTitle = imageDialog.querySelector('#equipment-lightbox-title');
+    const imageFrame = imageDialog.querySelector('.equipment-lightbox-picture');
+    document.querySelectorAll('[data-equipment-image]').forEach((link) => {
+      link.addEventListener('click', (event) => {
+        if (event.button !== 0 || event.ctrlKey || event.metaKey || event.shiftKey || event.altKey) return;
+        const thumbnail = link.querySelector('img');
+        if (!thumbnail) return;
+        const image = document.createElement('img');
+        image.src = link.href;
+        image.alt = thumbnail.alt;
+        image.width = thumbnail.width;
+        image.height = thumbnail.height;
+        imageFrame.replaceChildren(image);
+        imageTitle.textContent = link.dataset.title;
+        try { imageDialog.showModal(); } catch (_) { return; }
+        event.preventDefault();
+        imageOpener = link;
+        document.body.classList.add('equipment-modal-open');
+      });
+    });
+    imageDialog.addEventListener('close', () => {
+      document.body.classList.remove('equipment-modal-open');
+      imageFrame.replaceChildren();
+      if (imageOpener) imageOpener.focus({ preventScroll: true });
+      imageOpener = null;
+    });
+    imageDialog.addEventListener('click', (event) => {
+      if (event.target !== imageDialog) return;
+      const bounds = imageDialog.getBoundingClientRect();
+      if (event.clientX < bounds.left || event.clientX > bounds.right || event.clientY < bounds.top || event.clientY > bounds.bottom) imageDialog.close();
+    });
+    window.addEventListener('beforeprint', () => { if (imageDialog.open) imageDialog.close(); });
+  }
+
   // Shared motion applies to all business pages in all three languages.
   if (!document.body.classList.contains('motion-enabled')) return;
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
@@ -121,7 +159,7 @@
     }, { rootMargin: '0px 0px -24px 0px', threshold: 0.08 });
 
     const targets = [...document.querySelectorAll([
-      '.hero-copy > *', '.strip-item', '.section-top > *', '.card',
+      '.hero-copy > *', '.strip-item', '.section-top > *', '.card', '.equipment-showcase',
       '.feature-grid > *', '.technology-intro > .wrap > .text-link',
       '.gallery', '.caption', '.case-grid > *', '.global-grid > *',
       '.faq-list > details', '.contact-box > *', '.contact-card',
@@ -129,7 +167,7 @@
       'main > section > .wrap > h2', '.business-summary', '.related-links',
       '.contact > .wrap > .eyebrow', '.contact > .wrap > p', '.contact > .wrap > .actions'
     ].join(','))];
-    const sequenceGroups = '.hero-copy, .strip-grid, .grid4, .contact-info, .page-hero > .wrap';
+    const sequenceGroups = '.hero-copy, .strip-grid, .grid4, .equipment-gallery-grid, .contact-info, .page-hero > .wrap';
     targets.forEach((element) => {
       const siblings = element.parentElement.matches(sequenceGroups)
         ? [...element.parentElement.children].filter((item) => targets.includes(item))

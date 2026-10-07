@@ -72,3 +72,48 @@ html[lang='th'] body,.error-language[lang='th']{font-family:'Noto Sans Thai',Ari
   .motion-enabled [data-reveal],.motion-enabled .card,.motion-enabled .motion-image img{opacity:1!important;transform:none!important;transition:none!important;pointer-events:auto!important}
 }
 @media print{.motion-enabled [data-reveal]{opacity:1!important;transform:none!important;transition:none!important;pointer-events:auto!important}}
+
+/* Approved equipment photography: shared across all three equipment pages. */
+.equipment-gallery{background:#fff;border-top:1px solid var(--line)}
+.equipment-gallery .section-top{align-items:center}
+.equipment-gallery .section-top p{font-size:15px}
+.equipment-gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+.equipment-showcase{margin:0;min-width:0;border:1px solid var(--line);background:#fff}
+.equipment-image-link{display:block;position:relative;overflow:hidden;background:#eff0ef;aspect-ratio:4/3}
+.equipment-image-link img{display:block;width:100%;height:100%;object-fit:contain;transition:transform 350ms ease}
+.equipment-image-link:focus-visible{outline:3px solid var(--orange);outline-offset:4px}
+.equipment-zoom{position:absolute;right:14px;bottom:14px;background:rgba(255,255,255,.94);color:var(--green);padding:9px 12px;border:1px solid #cad8cf;font-size:12px;font-weight:700;max-width:calc(100% - 28px);overflow-wrap:anywhere}
+.equipment-showcase figcaption{padding:24px}
+.equipment-index{font-size:11px;color:var(--green);font-weight:800;letter-spacing:.14em}
+.equipment-showcase h3{font-size:22px;line-height:1.3;margin:12px 0;overflow-wrap:anywhere}
+.equipment-showcase p{color:var(--muted);font-size:14px;line-height:1.65;margin:0;overflow-wrap:anywhere}
+.equipment-gallery-note{font-size:12px;line-height:1.75;color:var(--muted);margin:20px 0 0;max-width:780px}
+.equipment-lightbox{border:0;border-radius:3px;background:#f5f6f5;color:var(--dark);padding:20px;width:min(1100px,94vw);max-width:94vw;max-height:94vh;max-height:94dvh;overflow:auto}
+.equipment-lightbox:not([open]){display:none}
+.equipment-lightbox::backdrop{background:rgba(16,32,29,.9)}
+.equipment-lightbox form{display:flex;justify-content:flex-end;margin:0}
+.equipment-lightbox-close{background:#fff;border:1px solid var(--green);color:var(--green);padding:10px 16px;min-height:44px;font:inherit;cursor:pointer}
+.equipment-lightbox h3{margin:12px 0;font-size:20px;line-height:1.4}
+.equipment-lightbox-picture{display:flex;justify-content:center}
+.equipment-lightbox-picture img{display:block;object-fit:contain;max-width:100%;width:auto;height:auto;max-height:calc(94vh - 180px);max-height:calc(94dvh - 180px)}
+.equipment-lightbox p{font-size:12px;line-height:1.65;color:var(--muted);margin:12px 0 0}
+body.equipment-modal-open{overflow:hidden}
+html[lang='th'] .equipment-showcase h3,html[lang='th'] .equipment-showcase p{line-height:1.75;letter-spacing:normal}
+@media(hover:hover) and (pointer:fine){
+  .motion-enabled .equipment-showcase:not(.is-pending):hover,.motion-enabled .equipment-showcase:not(.is-pending):focus-within{transform:translateY(-4px);box-shadow:0 12px 24px rgba(11,107,79,.1);transition-delay:0ms}
+  .equipment-image-link:hover img{transform:scale(1.025)}
+}
+@media(max-width:700px){
+  .equipment-gallery-grid{grid-template-columns:1fr}
+  .equipment-gallery .section-top h2{font-size:34px}
+  .equipment-showcase figcaption{padding:20px}
+  .equipment-lightbox{padding:14px}
+}
+@media(prefers-reduced-motion:reduce){
+  .equipment-image-link img,.motion-enabled .equipment-showcase{transform:none!important;transition:none!important}
+}
+@media print{
+  .equipment-lightbox{display:none!important}
+  .equipment-gallery-grid{grid-template-columns:1fr 1fr}
+  .equipment-showcase{break-inside:avoid}
+}

@@ -69,7 +69,7 @@ def audit():
     font=ROOT/'assets/fonts/NotoSansThai-variable.ttf'
     if not font.exists() or not (font.parent/'OFL.txt').exists(): errors.append('Local Thai font or license missing')
     motion_pages=[path for path,(_,doc) in documents.items() if any(tag=='body' and 'motion-enabled' in attrs.get('class','').split() for tag,attrs in doc.tags)]
-    report={'business_pages':15,'strings_per_language':233,'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'local preview blocked by saved permission; production browser checks recorded separately','hosting_response_checks':'production HTTP verification is recorded separately in the release report'}
+    report={'business_pages':15,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'local preview blocked by saved permission; production browser checks recorded separately','hosting_response_checks':'production HTTP verification is recorded separately in the release report'}
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return len(errors)
 
