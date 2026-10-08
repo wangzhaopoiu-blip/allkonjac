@@ -163,11 +163,11 @@
       '.feature-grid > *', '.technology-intro > .wrap > .text-link',
       '.gallery', '.caption', '.case-grid > *', '.global-grid > *',
       '.faq-list > details', '.contact-box > *', '.contact-card',
-      '.page-hero > .wrap > :not(.breadcrumbs)', '.detail-copy > *',
+      '.page-hero > .wrap > :not(.breadcrumbs)', '.detail-copy > *', '.equipment-intro-figure', '.equipment-specifications .section-top > *', '.spec-actions',
       'main > section > .wrap > h2', '.business-summary', '.related-links',
       '.contact > .wrap > .eyebrow', '.contact > .wrap > p', '.contact > .wrap > .actions'
     ].join(','))];
-    const sequenceGroups = '.hero-copy, .strip-grid, .grid4, .equipment-gallery-grid, .contact-info, .page-hero > .wrap';
+    const sequenceGroups = '.hero-copy, .strip-grid, .grid4, .equipment-gallery-grid, .equipment-intro-media, .contact-info, .page-hero > .wrap';
     targets.forEach((element) => {
       const siblings = element.parentElement.matches(sequenceGroups)
         ? [...element.parentElement.children].filter((item) => targets.includes(item))

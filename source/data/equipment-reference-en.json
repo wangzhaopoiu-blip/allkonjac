@@ -1,0 +1,94 @@
+[
+  {
+    "equipment_name": "Konjac Powder Hydration and Mixing Tank",
+    "dimensions_mm": ["1200 × 1200 × 2400"],
+    "remarks": [
+      "PSS-3 discharge level control.",
+      "K-type high-sensitivity temperature probe.",
+      "Double-layer food-grade discharge hose (0.8 MPa).",
+      "Internal 1.5 kW geared, low-noise mixing motor.",
+      "Tank internal volume: 1200 L.",
+      "Cam-rotor discharge pump.",
+      "Safety guardrails and a 3 mm non-slip loading platform (600 × 2400 mm)."
+    ],
+    "power_kw": "36"
+  },
+  {
+    "equipment_name": "Konjac Slurry–Alkali Mixer",
+    "dimensions_mm": ["1150 × 1000 × 1600"],
+    "remarks": [
+      "Mixing cylinder: 102 × 650 mm.",
+      "Precision flowmeter and fine flow-adjustment valve.",
+      "Food-grade discharge hose (0.8 MPa).",
+      "Dual mixing with a 60-tooth agitation system.",
+      "CB7 gear-pump discharge.",
+      "50 L hopper with an internal mirror finish.",
+      "Quick-release seal housing; NSK bearings."
+    ],
+    "power_kw": "16"
+  },
+  {
+    "equipment_name": "High-Shear Emulsifier",
+    "dimensions_mm": ["1200 × 1100 × 1600"],
+    "remarks": [
+      "High-speed shearing.",
+      "Five-stator shear-tooth disc assembly.",
+      "Cam-rotor pump feed."
+    ],
+    "power_kw": "22"
+  },
+  {
+    "equipment_name": "Metering Extruder",
+    "dimensions_mm": ["800 × 420 × 400"],
+    "remarks": [
+      "Adjustable metering speed.",
+      "Geared variable-speed motor."
+    ],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Belt Conveyor",
+    "dimensions_mm": ["3000 × 400 × 1000"],
+    "remarks": [
+      "Wear-resistant polyurethane conveyor belt.",
+      "Adjustable conveyor speed."
+    ],
+    "power_kw": "1.5"
+  },
+  {
+    "equipment_name": "Custom Steaming Trays and Trolley",
+    "dimensions_mm": ["Trays: 600 × 400", "Trolley: 800 × 600 × 2100"],
+    "remarks": ["Custom tray and steaming-trolley arrangement."],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Vacuum Machine",
+    "dimensions_mm": ["1200 × 530 × 950"],
+    "remarks": [
+      "Dual chambers with a double-sided layout.",
+      "Increased vacuum suction."
+    ],
+    "power_kw": "6"
+  },
+  {
+    "equipment_name": "Custom Steam Cabinet",
+    "dimensions_mm": ["1500 × 900 × 2500"],
+    "remarks": [
+      "Steam cabinet specified at 0.6 MPa.",
+      "Automatic steam control."
+    ],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Washing Line",
+    "dimensions_mm": ["20000 × 1800 × 1500"],
+    "remarks": [
+      "Three-section bubble aeration assembly.",
+      "Internal recirculation filter mesh.",
+      "Real-time pH monitoring.",
+      "Perforated conveyor chain plates with customized guide strips.",
+      "Conveyor plate width: 1000 mm."
+    ],
+    "power_kw": "36"
+  }
+]

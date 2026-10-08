@@ -12,6 +12,7 @@ import json
 import re
 import sys
 import xml.etree.ElementTree as ET
+from equipment_reference import overview_images, reference_specifications
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -168,7 +169,7 @@ def localized_internal_links(source, lang):
     return re.sub(r'href="([^"]+)"', replace, source)
 
 
-def render_page(page, lang, catalog):
+def render_page(page, lang, catalog, include_reference=True):
     source = (ROOT / "source/templates" / ((page or "home") + ".html")).read_text(encoding="utf-8")
     source = localized_internal_links(source, lang)
     dynamic = {
@@ -177,6 +178,15 @@ def render_page(page, lang, catalog):
         "motion_attributes": ' class="motion-enabled"',
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
     }
+    if page == "equipment":
+        enabled = lang == "en" and include_reference
+        dynamic.update({
+            "equipment_reference_styles": '<link rel="stylesheet" href="/assets/equipment-reference.css">' if enabled else "",
+            "equipment_intro_class": " equipment-intro-grid" if enabled else "",
+            "equipment_workshop_image": "" if enabled else '<img src="/assets/food-equipment.jpg" alt="' + html.escape(catalog["text_b5ffb92e1590"], quote=True) + '" loading="lazy" width="1702" height="1276" decoding="async">',
+            "equipment_intro_media": overview_images() if enabled else "",
+            "equipment_reference_specs": reference_specifications() if enabled else "",
+        })
     def substitute(match):
         token = match.group(1)
         if token.startswith(("t:", "a:")):
