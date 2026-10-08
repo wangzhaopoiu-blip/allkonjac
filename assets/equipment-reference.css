@@ -9,3 +9,11 @@
 @media(max-width:700px){.spec-cards-grid{grid-template-columns:1fr;gap:16px}.spec-card:last-child{grid-column:auto}.spec-card-heading{padding:22px}.spec-card h3{font-size:22px}.spec-card dl{padding:22px;grid-template-columns:minmax(0,1fr) 85px;gap:22px 14px}.spec-card:last-child .spec-remarks{columns:1}.spec-card .spec-dimension{font-size:15px}.spec-card .spec-power{font-size:25px}.spec-card .spec-power small{display:block;margin:4px 0 0}.spec-card-voltage{padding:15px 18px}}
 @media(prefers-reduced-motion:reduce){.spec-card{transition:none}}
 @media print{.spec-cards-grid{grid-template-columns:1fr;gap:14px}.spec-card{break-inside:avoid}.spec-card-heading{padding:12px;background:#fff}.spec-card h3{font-size:18px}.spec-card dl{padding:12px;gap:12px}.spec-card .spec-remarks{font-size:11px}.spec-card:last-child .spec-remarks{columns:1}.spec-card .spec-power{font-size:20px}}
+
+/* Locale typography; the accepted English layout stays unchanged. */
+html[lang='th'] .equipment-specifications .section-top h2,html[lang='th'] .spec-card h3,html[lang='th'] .equipment-intro-figure h3{line-height:1.5;letter-spacing:0}
+html[lang='th'] .spec-card-label,html[lang='th'] .spec-card dt{font-size:12px;letter-spacing:0;text-transform:none;line-height:1.7}
+html[lang='th'] .equipment-intro-figure p,html[lang='th'] .spec-note,html[lang='th'] .spec-remarks{line-height:1.8;letter-spacing:0}
+html[lang='th'] .spec-card dl,html[lang='id'] .spec-card dl{grid-template-columns:minmax(0,1fr) 120px}
+html[lang='id'] .spec-card dt{letter-spacing:.04em;line-height:1.6;overflow-wrap:anywhere}
+@media(max-width:700px){html[lang='th'] .spec-card dl,html[lang='id'] .spec-card dl{grid-template-columns:minmax(0,1fr) 100px}}

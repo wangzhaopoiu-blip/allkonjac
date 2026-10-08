@@ -1,0 +1,94 @@
+[
+  {
+    "equipment_name": "Tangki Hidrasi dan Pencampuran Tepung Konjak",
+    "dimensions_mm": ["1200 × 1200 × 2400"],
+    "remarks": [
+      "Kontrol level pengeluaran bahan PSS-3.",
+      "Probe suhu tipe K dengan sensitivitas tinggi.",
+      "Selang pengeluaran bahan dua lapis untuk pangan (0.8 MPa).",
+      "Motor pengaduk internal bergir dengan tingkat kebisingan rendah, 1.5 kW.",
+      "Volume internal tangki: 1200 L.",
+      "Pengeluaran bahan menggunakan pompa rotor nok.",
+      "Pagar pengaman dan platform pemuatan antiselip 3 mm (600 × 2400 mm)."
+    ],
+    "power_kw": "36"
+  },
+  {
+    "equipment_name": "Mesin Pencampur Suspensi (Slurry) Konjak dan Larutan Alkali",
+    "dimensions_mm": ["1150 × 1000 × 1600"],
+    "remarks": [
+      "Silinder pencampur: 102 × 650 mm.",
+      "Pengukur aliran presisi dan katup penyetelan aliran halus.",
+      "Selang pengeluaran bahan untuk pangan (0.8 MPa).",
+      "Pencampuran ganda dengan sistem pengaduk 60 gigi.",
+      "Pengeluaran bahan menggunakan pompa roda gigi CB7.",
+      "Hopper 50 L dengan permukaan internal berkilap seperti cermin.",
+      "Rumah seal yang dapat dilepas dengan cepat; bantalan NSK."
+    ],
+    "power_kw": "16"
+  },
+  {
+    "equipment_name": "Mesin Emulsifikasi dengan Gaya Geser Tinggi",
+    "dimensions_mm": ["1200 × 1100 × 1600"],
+    "remarks": [
+      "Proses geser berkecepatan tinggi.",
+      "Rakitan cakram bergigi geser dengan lima stator.",
+      "Pengumpanan bahan menggunakan pompa rotor nok."
+    ],
+    "power_kw": "22"
+  },
+  {
+    "equipment_name": "Ekstruder dengan Pengaturan Dosis",
+    "dimensions_mm": ["800 × 420 × 400"],
+    "remarks": [
+      "Kecepatan penakaran dapat disetel.",
+      "Motor bergir dengan kecepatan variabel."
+    ],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Konveyor Sabuk",
+    "dimensions_mm": ["3000 × 400 × 1000"],
+    "remarks": [
+      "Sabuk konveyor poliuretan yang tahan aus.",
+      "Kecepatan konveyor dapat disetel."
+    ],
+    "power_kw": "1.5"
+  },
+  {
+    "equipment_name": "Baki dan Troli Pengukusan Sesuai Pesanan",
+    "dimensions_mm": ["Baki: 600 × 400", "Troli: 800 × 600 × 2100"],
+    "remarks": ["Susunan baki dan troli pengukusan dibuat sesuai kebutuhan."],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Mesin Vakum",
+    "dimensions_mm": ["1200 × 530 × 950"],
+    "remarks": [
+      "Dua ruang dengan tata letak dua sisi.",
+      "Daya isap vakum yang ditingkatkan."
+    ],
+    "power_kw": "6"
+  },
+  {
+    "equipment_name": "Kabinet Pengukus Sesuai Pesanan",
+    "dimensions_mm": ["1500 × 900 × 2500"],
+    "remarks": [
+      "Kabinet pengukus dengan nilai yang tercantum sebesar 0.6 MPa.",
+      "Kontrol uap otomatis."
+    ],
+    "power_kw": "4.4"
+  },
+  {
+    "equipment_name": "Lini Pencucian",
+    "dimensions_mm": ["20000 × 1800 × 1500"],
+    "remarks": [
+      "Rakitan aerasi gelembung dengan tiga bagian.",
+      "Jaring filter untuk resirkulasi internal.",
+      "Pemantauan pH secara waktu nyata.",
+      "Pelat rantai konveyor berlubang dengan strip pemandu sesuai pesanan.",
+      "Lebar pelat konveyor: 1000 mm."
+    ],
+    "power_kw": "36"
+  }
+]

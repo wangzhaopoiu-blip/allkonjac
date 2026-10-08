@@ -179,13 +179,13 @@ def render_page(page, lang, catalog, include_reference=True):
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
     }
     if page == "equipment":
-        enabled = lang == "en" and include_reference
+        enabled = include_reference
         dynamic.update({
             "equipment_reference_styles": '<link rel="stylesheet" href="/assets/equipment-reference.css">' if enabled else "",
             "equipment_intro_class": " equipment-intro-grid" if enabled else "",
             "equipment_workshop_image": "" if enabled else '<img src="/assets/food-equipment.jpg" alt="' + html.escape(catalog["text_b5ffb92e1590"], quote=True) + '" loading="lazy" width="1702" height="1276" decoding="async">',
-            "equipment_intro_media": overview_images() if enabled else "",
-            "equipment_reference_specs": reference_specifications() if enabled else "",
+            "equipment_intro_media": overview_images(lang) if enabled else "",
+            "equipment_reference_specs": reference_specifications(lang) if enabled else "",
         })
     def substitute(match):
         token = match.group(1)

@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-08",
+  "scope": "New equipment-reference specifications and overview UI strings for Thai and Indonesian, based on the accepted English equipment page.",
+  "accepted_source": {
+    "equipment_records": "source/data/equipment-reference-en.json",
+    "ui_copy": "source/translations/equipment-reference.json:en",
+    "original_ui_implementation": "scripts/equipment_reference.py"
+  },
+  "localized_files": [
+    "source/data/equipment-reference-th.json",
+    "source/data/equipment-reference-id.json",
+    "source/translations/equipment-reference.json"
+  ],
+  "translation_method": "Assistant translation and editing against the accepted English source, followed by independent assistant semantic review.",
+  "google_translate_attempts": {
+    "official_webpage_browser_attempts": 2,
+    "browser_result": "Both attempts timed out.",
+    "web_open_result": "The official translation page was also inaccessible through web open.",
+    "actual_google_draft_obtained": false,
+    "draft_note": "No Google Translate draft was obtained for these new strings. No draft or Google attribution has been invented."
+  },
+  "review": {
+    "reviewer_type": "Independent assistant semantic review; not a native-speaker or certified translation review.",
+    "findings": "Thai and Indonesian text preserves the accepted scope; no additional certifications, material grades, model claims, capacities or other specifications were introduced.",
+    "indonesian_edits": [
+      "The slurry mixer name uses Suspensi (Slurry) to align with the existing Indonesian glossary and retain the industry term.",
+      "The high-speed shearing remark uses Proses geser berkecepatan tinggi to avoid suggesting equipment shifting or sliding."
+    ]
+  },
+  "validation": {
+    "records_per_language": 9,
+    "record_fields": ["equipment_name", "dimensions_mm", "remarks", "power_kw"],
+    "checks": [
+      "The dimensions, power values and numeric-token sequences in every remark match the English source.",
+      "The number and order of records and remarks match the English source.",
+      "Technical identifiers PSS-3, K, CB7, NSK and pH are preserved, along with mm, MPa, kW and L units.",
+      "English UI copy matches the original accepted helper strings."
+    ]
+  },
+  "glossary_sources": [
+    "content/th.json",
+    "content/id.json"
+  ],
+  "terminology_notes": [
+    "Thai uses บุก and ผงบุก; Indonesian uses konjak and Tepung Konjak consistently with the current site.",
+    "The hydration-and-mixing tank name describes mixing konjac powder with water for hydration; it does not imply thermal puffing.",
+    "Ambiguous engineering wording in the accepted English source remains within that source's stated scope; missing units or disputed specifications have not been inferred."
+  ],
+  "historical_translation_records": "Existing Google draft records for earlier site localization were not overwritten. This provenance record applies only to the new equipment-reference strings."
+}
