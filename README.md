@@ -8,6 +8,20 @@ Every public business image embeds the approved Tian Ran Xing logo, rotated -30 
 
 Regenerate with `node scripts/watermark-assets.cjs <private-original-assets-directory> <browser-executable>` using Node.js, Playwright and a Chromium-based browser. If needed, `ALL_KONJAC_NODE_MODULES` points at an existing dependency directory. The private input directory has the same relative image paths as `assets/`. The script always uses retained originals, verifies existing outputs and does not stack watermarks. Keep private originals and backups outside this repository and public deployment directory. Regeneration requires deliberate review of any changed originals or image inventory. Previously saved unwatermarked pictures cannot be recalled.
 
+## Interactive equipment exterior view (2026-10-12)
+
+The English, Thai and Indonesian equipment pages share an exterior 3D reference visualization. The viewer loads automatically and gently rotates while in view. Leaving the section or switching browser tabs pauses drawing and rotation; returning resumes the visitor's selected rotation state. Reduced-motion preferences start still. Dragging, view presets and zoom allow closer inspection, with accessible pause/reset controls and keyboard rotation. Unsupported WebGL falls back to the equipment image.
+
+This model is an exterior visualization with relative proportions. It does not define the dimensions, rating, exact configuration or internal operation of any listed product. Existing reference specifications, contacts and the other business pages are maintained independently. Original videos, workshop reference photos and local source notes are excluded from public assets.
+
+Editable UI, geometry and viewer code are in `source/data/equipment-3d-*.json` and `source/equipment3d/`. Shared section styles and initialization are in `assets/equipment-3d.css` and `assets/equipment-3d.js`. Three.js 0.180.0 and esbuild 0.25.10 are pinned for the viewer build. Supply an installed runtime containing those packages with `node scripts/build_equipment_3d.mjs --runtime <runtime-root>`, then run the normal site generator. The generated viewer assets stay committed, so production hosting still needs only the existing static asset deployment.
+
+The loading/fallback poster follows the current approved image-watermark rules. Retain its unwatermarked original outside the repository and run `node scripts/watermark-equipment3d-poster.cjs <private-original-poster>` after regeneration; this updates only the new poster and its inventory entry. For a reviewed model revision, retain the previous original and use `--replace-reviewed-poster` to replace the inventory entry. PNG and WebP originals are supported; the public output stays WebP. `EQUIPMENT_PLAYWRIGHT_MODULE` can select an existing local Playwright installation. The live 3D rendering remains an exterior visualization and does not assign a manufacturer or reference specification.
+
+The v003 static blade slopes downward from its outer support into the hopper. The user confirmed the direction and requested retaining the provisional 12-degree angle; it has not been measured. Blade guides, supports and a narrow wall passage follow that geometry. No cutting stroke is simulated. Whole-machine exterior acceptance remains pending. Browser verification can use `EQUIPMENT_WEBGL_BACKEND=d3d11` when the installed browser cannot initialize its SwiftShader backend.
+
+`scripts/verify_equipment_3d.cjs --out <QA-directory>` checks automatic loading, rotation, views, input, visibility, mobile simulation and fallback behavior against a local HTTP preview. Pass `--url` or `--playwright-module` for another local runtime. Offline review exports are separate copies with `noindex,nofollow`; they are not production assets.
+
 Static international B2B website for https://allkonjac.com/. The deployed files are ordinary HTML, CSS, JavaScript and images. No server application or cloud build step is required.
 
 ## Public pages and languages

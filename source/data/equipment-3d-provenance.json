@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "source_revision": "v003",
+  "source_model_sha256": "5ae6795b92856d3e83833735ffad0d05191a9591f5d0430980f26a170876a23b",
+  "original_3d_appearance_accepted": false,
+  "user_authorized_website_reuse_and_publication": true,
+  "public_scope": "Equipment-page interactive exterior visualization; no connection to any specific reference configuration is asserted.",
+  "public_assets_exclude": [
+    "original videos",
+    "workshop reference photos",
+    "private file paths",
+    "local provenance notes",
+    "commercial documents"
+  ],
+  "languages": [
+    "en",
+    "th",
+    "id"
+  ],
+  "translations": "Agent translation and terminology review; no Google-generated draft claimed",
+  "baseline_commit": "300a34d06a01878dd9f6c3558f5c5e49ba1150df",
+  "unpublished_GEO_changes": "Kept in the original checkout and excluded from this release",
+  "autoplay": "Loads automatically without clicking; gentle turntable runs when visible, pauses offscreen or in a background tab; reduced-motion preference starts still",
+  "initial_baseline_commit": "57bc3b61f36ed68459228188b92b8fa8eca5843a",
+  "concurrent_watermark_update_preserved": true,
+  "new_poster_watermark": "Existing approved parameters; only the new poster and its inventory record were added",
+  "concurrent_svg_hash_fix_preserved": true,
+  "blade_static_direction_user_accepted": true,
+  "blade_incline_degrees": 12,
+  "blade_incline_measured": false,
+  "mechanical_cutting_animation": false
+}

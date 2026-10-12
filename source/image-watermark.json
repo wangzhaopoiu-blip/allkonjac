@@ -224,6 +224,15 @@
       "height": 1276,
       "format": "image/jpeg",
       "changedPixelRatio": 0.05750840795818307
+    },
+    {
+      "path": "equipment3d/equipment01-poster.webp",
+      "originalSha256": "9c737480cadc6f20b069f14482d7f9eaf74d13767bb5239b3ad1e4d2298c8e09",
+      "watermarkedSha256": "53ef05946ca7b86996fe644fb96848853f35a87534afa546b7e137b55b437b35",
+      "width": 1600,
+      "height": 1000,
+      "format": "image/webp",
+      "changedPixelRatio": 0.071391875
     }
   ],
   "exempt": [

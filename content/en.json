@@ -251,5 +251,15 @@
   "equipment.single.description": "A closer view of the control cabinet, guarded roller arrangement and outlet chute in the supplied single-machine references.",
   "equipment.dual.title": "Two-unit equipment arrangement",
   "equipment.dual.alt": "Two stainless steel machines with different control panels, overhead hoppers, side handwheels, lower outlets and caster wheels.",
-  "equipment.dual.description": "Two equipment configurations shown side by side, retaining their distinct control panels and visible hopper arrangements."
+  "equipment.dual.description": "Two equipment configurations shown side by side, retaining their distinct control panels and visible hopper arrangements.",
+  "equipment3d.eyebrow": "INTERACTIVE EQUIPMENT",
+  "equipment3d.title": "Explore the equipment in 3D",
+  "equipment3d.description": "Rotate, zoom and inspect the blade, base frame and drive assembly from different angles.",
+  "equipment3d.launch": "View in 3D",
+  "equipment3d.loading": "Loading 3D view…",
+  "equipment3d.poster": "Exterior visualization of equipment 01",
+  "equipment3d.frameTitle": "Interactive 3D equipment view",
+  "equipment3d.note": "Reference-based exterior visualization. Dimensions and final configuration are confirmed for each project.",
+  "equipment3d.full": "Open full 3D view",
+  "equipment3d.hint": "Drag to rotate · Scroll or pinch to zoom"
 }

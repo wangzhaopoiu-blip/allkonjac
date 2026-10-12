@@ -1,0 +1,15 @@
+import fs from 'node:fs';import path from 'node:path';import{fileURLToPath}from'node:url';import{createRequire}from'node:module';
+const require=createRequire(import.meta.url),at=process.argv.indexOf('--runtime'),runtime=at>=0?path.resolve(process.argv[at+1]):null;
+const modules=runtime?path.join(runtime,'node_modules'):path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../node_modules');
+const{build}=require(path.join(modules,'esbuild'));
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),out=path.join(root,'assets/equipment3d');
+const physical=fs.realpathSync(root),space=fs.statfsSync(physical);if(/^D:/i.test(physical)&&space.bavail*space.bsize<2*1024**3+20*1024**2)throw new Error('D reserve');
+fs.mkdirSync(out,{recursive:true});
+const result=await build({entryPoints:[path.join(root,'source/equipment3d/viewer.mjs')],bundle:true,write:false,format:'iife',minify:true,target:['chrome110','edge110'],nodePaths:[modules],legalComments:'inline'});
+fs.writeFileSync(path.join(out,'viewer.js'),result.outputFiles[0].text);
+const escape=s=>s.replaceAll('<','\\u003c').replaceAll('\u2028','\\u2028').replaceAll('\u2029','\\u2029');
+const spec=fs.readFileSync(path.join(root,'source/data/equipment-3d-model.json'),'utf8'),ui=fs.readFileSync(path.join(root,'source/data/equipment-3d-ui.json'),'utf8');
+let html=fs.readFileSync(path.join(root,'source/equipment3d/viewer.html'),'utf8').replace('__SPEC__',()=>escape(spec)).replace('__UI__',()=>escape(ui));
+fs.writeFileSync(path.join(out,'viewer.html'),html);
+fs.copyFileSync(path.join(modules,'three/LICENSE'),path.join(out,'THREE-LICENSE.txt'));
+console.log(JSON.stringify({viewer_html_bytes:Buffer.byteLength(html),viewer_js_bytes:result.outputFiles[0].contents.length}));

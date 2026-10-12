@@ -251,5 +251,15 @@
   "equipment.single.description": "Tampilan lebih dekat kabinet kontrol, rangkaian rol dengan pelindung, dan saluran keluar dalam foto referensi mesin tunggal yang diberikan.",
   "equipment.dual.title": "Susunan dua unit peralatan",
   "equipment.dual.alt": "Dua mesin baja tahan karat dengan panel kontrol berbeda, hopper di bagian atas, roda tangan di sisi mesin, lubang keluar bawah, dan roda kastor.",
-  "equipment.dual.description": "Dua konfigurasi peralatan ditampilkan berdampingan dengan mempertahankan perbedaan panel kontrol dan susunan hopper yang terlihat."
+  "equipment.dual.description": "Dua konfigurasi peralatan ditampilkan berdampingan dengan mempertahankan perbedaan panel kontrol dan susunan hopper yang terlihat.",
+  "equipment3d.eyebrow": "PERALATAN INTERAKTIF",
+  "equipment3d.title": "Jelajahi peralatan dalam 3D",
+  "equipment3d.description": "Putar, perbesar, dan lihat bilah, rangka dasar, serta unit penggerak dari berbagai sudut.",
+  "equipment3d.launch": "Lihat dalam 3D",
+  "equipment3d.loading": "Memuat tampilan 3D…",
+  "equipment3d.poster": "Visualisasi bagian luar peralatan 01",
+  "equipment3d.frameTitle": "Tampilan peralatan 3D interaktif",
+  "equipment3d.note": "Visualisasi bagian luar berdasarkan foto referensi. Dimensi dan konfigurasi akhir dikonfirmasi untuk setiap proyek.",
+  "equipment3d.full": "Buka tampilan 3D penuh",
+  "equipment3d.hint": "Seret untuk memutar · Gulir atau cubit untuk memperbesar"
 }
