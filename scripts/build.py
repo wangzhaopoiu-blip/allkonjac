@@ -13,6 +13,7 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 from equipment_reference import overview_images, reference_specifications
+from check_watermarks import verify_watermarks
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -342,6 +343,7 @@ def main():
     args.add_argument("--check", action="store_true", help="validate all catalogs and render in memory without changing files")
     args.add_argument("--self-test", action="store_true", help="verify templates, links, schema, escaping and missing-key rejection using English in memory")
     options = args.parse_args()
+    verify_watermarks(ROOT)
     english = read_json(ROOT / "content/en.json")
     validate_catalog(english, "en")
     if options.self_test:

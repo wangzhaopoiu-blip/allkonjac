@@ -1,4 +1,5 @@
 .wrangler/
 node_modules/
+original-assets/
 __pycache__/
 *.pyc

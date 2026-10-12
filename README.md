@@ -1,5 +1,13 @@
 # ALL KONJAC website
 
+## Approved image watermark (2026-10-12)
+
+Every public business image embeds the approved Tian Ran Xing logo, rotated -30 degrees, at 20% opacity and 25% of the image's short edge, in a staggered repeating pattern. All responsive WebP sizes, full-size gallery images, background images and social-preview pictures are covered. Image URLs, dimensions and formats stay unchanged. The company logo, WeChat QR and language flags are exempt.
+
+`source/image-watermark.json` records approved original/output hashes and the complete image inventory. `scripts/build.py` checks these hashes before rendering; new or changed images must be classified and watermarked before a build succeeds. Run `python scripts/check_watermarks.py` for a standalone check.
+
+Regenerate with `node scripts/watermark-assets.cjs <private-original-assets-directory> <browser-executable>` using Node.js, Playwright and a Chromium-based browser. If needed, `ALL_KONJAC_NODE_MODULES` points at an existing dependency directory. The private input directory has the same relative image paths as `assets/`. The script always uses retained originals, verifies existing outputs and does not stack watermarks. Keep private originals and backups outside this repository and public deployment directory. Regeneration requires deliberate review of any changed originals or image inventory. Previously saved unwatermarked pictures cannot be recalled.
+
 Static international B2B website for https://allkonjac.com/. The deployed files are ordinary HTML, CSS, JavaScript and images. No server application or cloud build step is required.
 
 ## Public pages and languages

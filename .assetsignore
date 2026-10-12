@@ -17,6 +17,7 @@ scripts/
 audits/
 audit/
 work/
+original-assets/
 __pycache__/
 .pytest_cache/
 .vscode/
