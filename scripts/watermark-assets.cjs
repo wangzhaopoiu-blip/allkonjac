@@ -84,7 +84,11 @@ async function main() {
       pending.push({ file, bytes });
       manifest.images.push({ path: file, originalSha256: hash(original), watermarkedSha256: hash(bytes), width: rendered.width, height: rendered.height, format: mime, changedPixelRatio: rendered.changedPixelRatio });
     }
-    for (const file of EXEMPT) manifest.exempt.push({ path: file, sha256: hash(fs.readFileSync(path.join(ASSETS, file))) });
+    for (const file of EXEMPT) {
+      let bytes = fs.readFileSync(path.join(ASSETS, file));
+      if (file.endsWith('.svg')) bytes = Buffer.from(bytes.toString('utf8').replace(/\r\n?/g, '\n'));
+      manifest.exempt.push({ path: file, sha256: hash(bytes) });
+    }
     // Validate every image before touching outputs; always start from the retained originals.
     for (const { file, bytes } of pending) fs.writeFileSync(path.join(ASSETS, file), bytes);
     fs.writeFileSync(MANIFEST, JSON.stringify(manifest, null, 2) + '\n');

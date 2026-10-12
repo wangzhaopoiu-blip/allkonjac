@@ -237,15 +237,15 @@
     },
     {
       "path": "flags/gb.svg",
-      "sha256": "083a54aecad8dfbdec012dc43f8e2c51d58ff2fcc211fd48a7b6843e5db2930e"
+      "sha256": "7ff89730b27f7d039a1d6f02090d2fbf87e9606011c78a10c348ceceb1b8d099"
     },
     {
       "path": "flags/th.svg",
-      "sha256": "d5fb30b70caf39d891c39a976283b4801a7d84e8028b27735395c1ab808fe9d6"
+      "sha256": "b2eb7121cdb677feec18a8659f580bfed43d3eb8ed9671c6ad9019fa6e883b5f"
     },
     {
       "path": "flags/id.svg",
-      "sha256": "8465b94ecd5c5af821aa3c46a7d6d81c4021d43ffc3a3bd4a207436aa2390630"
+      "sha256": "bce02fd4f765c7b2448c71fc6f4eddbbcbe417d6fd6278c2c0db731e03246818"
     }
   ]
 }

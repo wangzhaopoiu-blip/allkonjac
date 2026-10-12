@@ -19,7 +19,11 @@ def verify_watermarks(root=ROOT):
         file = assets / record['path']
         if file.resolve().parent != assets.resolve() and assets.resolve() not in file.resolve().parents:
             raise ValueError('Image path escapes assets directory')
-        digest = hashlib.sha256(file.read_bytes()).hexdigest()
+        data = file.read_bytes()
+        # Git may check SVG text out with CRLF on Windows and LF on Linux.
+        if file.suffix.lower() == '.svg':
+            data = data.replace(b'\r\n', b'\n').replace(b'\r', b'\n')
+        digest = hashlib.sha256(data).hexdigest()
         if digest != record.get('watermarkedSha256', record.get('sha256')):
             raise ValueError('Unapproved or unwatermarked public image: ' + record['path'])
     logo = next(record for record in manifest['exempt'] if record['path'] == 'company-mark.jpg')
