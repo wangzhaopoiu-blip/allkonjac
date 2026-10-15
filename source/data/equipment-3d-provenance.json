@@ -5,7 +5,7 @@
   "source_model_sha256": "5ae6795b92856d3e83833735ffad0d05191a9591f5d0430980f26a170876a23b",
   "original_3d_appearance_accepted": false,
   "user_authorized_website_reuse_and_publication": true,
-  "public_scope": "Equipment-page interactive exterior visualization; no connection to any specific reference configuration is asserted.",
+  "public_scope": "Drying-line-page interactive exterior visualization; no connection to any specific reference configuration is asserted.",
   "public_assets_exclude": [
     "original videos",
     "workshop reference photos",

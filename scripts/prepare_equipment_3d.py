@@ -33,10 +33,10 @@ section='''<section class="equipment-3d" id="equipment-3d"><div class="wrap">
 <iframe id="equipment-3d-frame" data-src="/assets/equipment3d/viewer.html?lang={{lang}}" title="{{a:equipment3d.frameTitle}}" hidden></iframe><div class="equipment-3d-state" role="status" aria-live="polite" hidden>{{t:equipment3d.loading}}</div></div>
 <div class="equipment-3d-caption"><p>{{t:equipment3d.note}}</p><a href="/assets/equipment3d/viewer.html?lang={{lang}}" target="_blank" rel="noopener">{{t:equipment3d.full}} ↗</a></div><span class="equipment-3d-hint">{{t:equipment3d.hint}}</span>
 </div></section>'''
-template=ROOT/'source/templates/equipment.html';text=template.read_text('utf-8')
+template=ROOT/'source/templates/drying-lines.html';text=template.read_text('utf-8')
 if 'id="equipment-3d"' not in text:
-    anchor='<section class="equipment-gallery" id="equipment-gallery">';assert text.count(anchor)==1;text=text.replace(anchor,section+anchor,1)
-if '/assets/equipment-3d.css' not in text:text=text.replace('{{equipment_reference_styles}}','{{equipment_reference_styles}}<link rel="stylesheet" href="/assets/equipment-3d.css"><script src="/assets/equipment-3d.js" defer></script>',1)
+    anchor='<section class="feature">';assert text.count(anchor)==1;text=text.replace(anchor,section+anchor,1)
+if '/assets/equipment-3d.css' not in text:text=text.replace('<link rel="stylesheet" href="/assets/site.css">','<link rel="stylesheet" href="/assets/site.css"><link rel="stylesheet" href="/assets/equipment-3d.css"><script src="/assets/equipment-3d.js" defer></script>',1)
 text=text.replace('alt="{{a:equipment3d.poster}}" width="1440" height="1000"','alt="{{a:equipment3d.poster}}" width="1600" height="1000"')
 template.write_text(text,'utf-8')
 print(json.dumps({'languages':list(UI),'parts':len(spec['parts']),'views':len(spec['views']),'public_model_bytes':(ROOT/'source/data/equipment-3d-model.json').stat().st_size}))

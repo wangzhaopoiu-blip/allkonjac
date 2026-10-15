@@ -10,7 +10,7 @@ Regenerate with `node scripts/watermark-assets.cjs <private-original-assets-dire
 
 ## Interactive equipment exterior view (2026-10-12)
 
-The English, Thai and Indonesian equipment pages share an exterior 3D reference visualization. The viewer loads automatically and gently rotates while in view. Leaving the section or switching browser tabs pauses drawing and rotation; returning resumes the visitor's selected rotation state. Reduced-motion preferences start still. Dragging, view presets and zoom allow closer inspection, with accessible pause/reset controls and keyboard rotation. Unsupported WebGL falls back to the equipment image.
+The English, Thai and Indonesian drying-line pages share an exterior 3D reference visualization. The viewer loads automatically and gently rotates while in view. Leaving the section or switching browser tabs pauses drawing and rotation; returning resumes the visitor's selected rotation state. Reduced-motion preferences start still. Dragging, view presets and zoom allow closer inspection, with accessible pause/reset controls and keyboard rotation. Unsupported WebGL falls back to the equipment image.
 
 This model is an exterior visualization with relative proportions. It does not define the dimensions, rating, exact configuration or internal operation of any listed product. Existing reference specifications, contacts and the other business pages are maintained independently. Original videos, workshop reference photos and local source notes are excluded from public assets.
 
