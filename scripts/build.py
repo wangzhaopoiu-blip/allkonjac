@@ -209,8 +209,8 @@ def render_404(catalogs):
     parts = ['<!doctype html>', '<html lang="en"><head><meta charset="utf-8">',
              '<meta name="viewport" content="width=device-width,initial-scale=1">',
              '<meta name="robots" content="noindex,follow">',
-             '<title>' + html.escape(title) + '</title>', '<link rel="stylesheet" href="/assets/site.css">',
-             '</head><body><main class="wrap page-hero error-page"><div class="brand">ALL <span>KONJAC</span></div>']
+             '<title>' + html.escape(title) + '</title>', '<link rel="icon" type="image/svg+xml" href="/assets/brand/all-konjac-favicon.svg">', '<link rel="icon" sizes="any" href="/favicon.ico">', '<link rel="stylesheet" href="/assets/site.css">',
+             '</head><body><main class="wrap page-hero error-page"><div class="brand"><img src="/assets/brand/all-konjac-wordmark.svg" alt="ALL KONJAC" width="220" height="31"></div>']
     for lang, info in LANGUAGES.items():
         catalog = catalogs[lang]
         parts.extend([f'<section lang="{lang}" class="error-language">',

@@ -255,6 +255,30 @@
     {
       "path": "flags/id.svg",
       "sha256": "bce02fd4f765c7b2448c71fc6f4eddbbcbe417d6fd6278c2c0db731e03246818"
+    },
+    {
+      "path": "brand/all-konjac-favicon.svg",
+      "sha256": "ee0023f65e0373f643d85af24d5b6e6eed87002d2a462b45727cb849eec0faa5"
+    },
+    {
+      "path": "brand/all-konjac-wordmark-white.svg",
+      "sha256": "d39d8817fb37d0eff85ab4d057dfd7d0bdc944aa58ed5a407f40b31862561643"
+    },
+    {
+      "path": "brand/all-konjac-wordmark.svg",
+      "sha256": "2c23c9cace7a5aa9b5a823343c52c65e485e27d16b340c2406c74b3e31767165"
+    },
+    {
+      "path": "brand/apple-touch-icon.png",
+      "sha256": "0a34fbab85518f31fcaef7538e4f0ed65f0b7693f10a531a473ba800d7e2f8df"
+    },
+    {
+      "path": "brand/favicon-16.png",
+      "sha256": "af98c4671847ee4d42713cf519570cfbeff48310985650b3781e1d7f831dd822"
+    },
+    {
+      "path": "brand/favicon-32.png",
+      "sha256": "fb7c4a528940eb4c3925c78cacc6ca7dc4939d671a134bb8a885d4e99cadb851"
     }
   ]
 }
