@@ -98,3 +98,7 @@ The new reference translations were reviewed against the accepted English page. 
 ## ALL KONJAC wordmark (2026-10-15)
 
 The header, footer and trilingual 404 use the pure-letter ALL KONJAC outlined SVG. The small square icon contains only the letters AK. Source and license are in `assets/brand/` and `assets/fonts/Manrope-OFL.txt`. Manrope is licensed under SIL Open Font License 1.1; the website serves the font locally only for the homepage heading. Regenerate pages with `python scripts/build.py` after editing templates.
+
+## Drying-line incline feeder concept (2026-10-15)
+
+The English, Thai and Indonesian drying-line pages show the user-selected incline feeder concept in the left column beside the existing dryer photograph. The image is labeled as an AI concept, not a site photograph or a confirmed equipment configuration. The published WebP uses the approved repeating watermark and is recorded in `source/image-watermark.json`; its retained unwatermarked original stays outside the public site. Source context and the user selection are recorded in `source/data/drying-lift-concept-provenance.json`.

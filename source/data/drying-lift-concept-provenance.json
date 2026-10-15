@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "asset": "assets/drying-line-incline-lift-concept.webp",
+  "reference_image": "assets/drying-line-room.jpg",
+  "retained_original": "outputs/ALL_KONJAC_LIFT_OPTIONS_2026-10-15/retained-original-concept.jpg",
+  "method": "AI concept visualization selected from three local previews",
+  "public_description": "Concept visualization of a stainless-steel incline feeder; not a site photograph or confirmed equipment configuration",
+  "placement": "Left column of the drying-line overview, beside the existing dryer photograph",
+  "languages": ["en", "th", "id"],
+  "user_selected": true
+}

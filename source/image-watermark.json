@@ -233,6 +233,15 @@
       "height": 1000,
       "format": "image/webp",
       "changedPixelRatio": 0.071391875
+    },
+    {
+      "path": "drying-line-incline-lift-concept.webp",
+      "originalSha256": "911b9d68476f71cfb273aac462ac9bc5020cf98671a1d308401f2de33478cb26",
+      "watermarkedSha256": "2339853c7e9d7f452e95aa072055ebf390ac78119e36b1657736bcf6913aa4b6",
+      "width": 1200,
+      "height": 900,
+      "format": "image/webp",
+      "changedPixelRatio": 0.056914814814814814
     }
   ],
   "exempt": [
