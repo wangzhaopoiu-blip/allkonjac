@@ -111,6 +111,12 @@ The English drying-line page includes the two user-selected texture-v4 whole-chi
 
 ## Current business-image watermark policy (2026-10-16)
 
-All 28 public business-image files use the existing ALL KONJAC wordmark, 10% opacity and approximately one third of the previous stamp count (rounded per image). Stamp size is unchanged. `source/image-watermark.json` records the verified original/output hashes and per-image old/new counts. The old company-mark asset is removed.
+All 31 public business-image files use the existing ALL KONJAC wordmark, 10% opacity and approximately one third of the previous stamp count (rounded per image). Stamp size is unchanged. `source/image-watermark.json` records the verified original/output hashes and per-image old/new counts. The old company-mark asset is removed.
 
 Regenerate only from retained unwatermarked originals outside the public checkout. Run `node scripts/rebrand-watermarks.cjs <private-watermark-inputs.json>` with a JSON mapping of asset-relative paths to absolute original paths. The script verifies existing assets and original hashes before replacement, then updates the manifest. `ALL_KONJAC_NODE_MODULES` selects the installed Playwright runtime. Never apply this watermark over already marked output. The three legacy watermark helpers stop when the current manifest is detected.
+
+For adding newly approved images, pass `--only-new` with the complete verified input mapping. Existing marked images and manifest records remain unchanged; only new paths are encoded and appended.
+
+## Supplied flour photograph (2026-10-16)
+
+All three ingredients pages show an enhanced presentation of the user-supplied flour photograph above the product information. The edit corrects colour cast, lighting and composition; it does not establish a species, mesh size, whiteness value or composition. `ingredients.flour.*` strings and `assets/ingredient-flour.css` provide the translated caption and responsive presentation. The 1440/960/480px WebP variants preserve the complete 4:3 composition. The source photo, edited master, prompt and usage records remain outside public hosting.

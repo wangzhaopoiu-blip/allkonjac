@@ -265,5 +265,10 @@
   "equipment3d.frameTitle": "Interactive 3D equipment view",
   "equipment3d.note": "Reference-based exterior visualization. Dimensions and final configuration are confirmed for each project.",
   "equipment3d.full": "Open full 3D view",
-  "equipment3d.hint": "Drag to rotate · Scroll or pinch to zoom"
+  "equipment3d.hint": "Drag to rotate · Scroll or pinch to zoom",
+  "ingredients.flour.eyebrow": "INGREDIENT TEXTURE",
+  "ingredients.flour.title": "Konjac flour",
+  "ingredients.flour.description": "A visual reference for discussing your konjac ingredient requirements.",
+  "ingredients.flour.alt": "A mound of konjac flour on a white surface, showing the powder texture.",
+  "ingredients.flour.note": "Image enhanced from a supplied photograph."
 }

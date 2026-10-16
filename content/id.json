@@ -265,5 +265,10 @@
   "equipment3d.frameTitle": "Tampilan peralatan 3D interaktif",
   "equipment3d.note": "Visualisasi bagian luar berdasarkan foto referensi. Dimensi dan konfigurasi akhir dikonfirmasi untuk setiap proyek.",
   "equipment3d.full": "Buka tampilan 3D penuh",
-  "equipment3d.hint": "Seret untuk memutar · Gulir atau cubit untuk memperbesar"
+  "equipment3d.hint": "Seret untuk memutar · Gulir atau cubit untuk memperbesar",
+  "ingredients.flour.eyebrow": "TAMPILAN BAHAN",
+  "ingredients.flour.title": "Tepung konjak",
+  "ingredients.flour.description": "Referensi visual untuk membahas kebutuhan bahan konjak Anda.",
+  "ingredients.flour.alt": "Tumpukan tepung konjak di atas permukaan putih yang memperlihatkan tekstur bubuknya.",
+  "ingredients.flour.note": "Gambar disempurnakan dari foto yang diberikan."
 }

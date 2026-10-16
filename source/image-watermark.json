@@ -321,6 +321,39 @@
       "changedPixelRatio": 0.008275985717773438,
       "stampCount": 6,
       "previousStampCount": 19
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-1440.webp",
+      "originalSha256": "c0207f339e42a98c40f0f126f8e195aeb6acb16f248f8dd1f4d5848d399c44ae",
+      "watermarkedSha256": "f4a24d22607a7c888294e9f584e3d82c9ef941e7c03a89a49c99a951317c2aa6",
+      "width": 1440,
+      "height": 1080,
+      "format": "image/webp",
+      "changedPixelRatio": 0.009360210905349794,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-960.webp",
+      "originalSha256": "9f192b614dd2a8283b0d084f8c59f43b29df7c395b376d1ed04ace67b9c7d370",
+      "watermarkedSha256": "ad7005dfbfeeec959c0a5175c55f19ff561aa76bb72db50bf81d93a7d35d183c",
+      "width": 960,
+      "height": 720,
+      "format": "image/webp",
+      "changedPixelRatio": 0.010151909722222222,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-480.webp",
+      "originalSha256": "a3719bc6ec45697fda425c23ddeba69355a5cadf9bfdb934d1e8402ffa98f828",
+      "watermarkedSha256": "4f7cfaf6d39c147ccd3784744063e505f3fdf976208f34b33b50e60f24ed6fe6",
+      "width": 480,
+      "height": 360,
+      "format": "image/webp",
+      "changedPixelRatio": 0.012256944444444445,
+      "stampCount": 5,
+      "previousStampCount": 15
     }
   ],
   "exempt": [

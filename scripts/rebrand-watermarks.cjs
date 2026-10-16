@@ -5,12 +5,14 @@ const root=path.resolve(__dirname,'..'),manifestPath=path.join(root,'source/imag
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 async function main(){
  const inputMap=JSON.parse(fs.readFileSync(process.argv[2],'utf8')),old=JSON.parse(fs.readFileSync(manifestPath,'utf8'));
+ const newOnly=process.argv.includes('--only-new'),existingPaths=new Set(old.images.map(x=>x.path));
  const logoPath='brand/all-konjac-wordmark.svg',logo=fs.readFileSync(path.join(root,'assets',logoPath)),pending=[];
  const params={...old.parameters,opacity:0.1,densityScale:1/3};
  for(const record of old.images){const src=inputMap[record.path];if(!src||hash(fs.readFileSync(src))!==record.originalSha256)throw Error('Original missing or changed: '+record.path);if(hash(fs.readFileSync(path.join(root,'assets',record.path)))!==record.watermarkedSha256)throw Error('Unexpected public edit: '+record.path);}
- const browser=await chromium.launch({headless:true,executablePath:process.argv[3]||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
+ const browser=await chromium.launch({headless:true,executablePath:(process.argv[3]&&!process.argv[3].startsWith('--')?process.argv[3]:null)||'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
  try{const page=await browser.newPage();
   for(const [rel,source] of Object.entries(inputMap)){
+   if(newOnly&&existingPaths.has(rel))continue;
    const target=path.resolve(root,'assets',rel);if(!target.startsWith(path.resolve(root,'assets')+path.sep))throw Error('Invalid asset path');
    const original=fs.readFileSync(source),ext=path.extname(source).toLowerCase(),mime=ext==='.png'?'image/png':ext==='.webp'?'image/webp':'image/jpeg',format=/\.webp$/i.test(rel)?'image/webp':'image/jpeg';
    const result=await page.evaluate(async({imageUrl,logoUrl,params,format})=>{
@@ -34,7 +36,7 @@ async function main(){
    const bytes=Buffer.from(result.data,'base64');pending.push({target,bytes,record:{path:rel,originalSha256:hash(original),watermarkedSha256:hash(bytes),width:result.width,height:result.height,format,changedPixelRatio:result.changedPixelRatio,stampCount:result.stampCount,previousStampCount:result.previousStampCount}});
   }
  }finally{await browser.close();}
- const manifest={version:2,brand:'ALL KONJAC',updated:'2026-10-16',parameters:params,minimumChangedPixelRatio:0.001,logoPath,logoSha256:hash(Buffer.from(logo.toString('utf8').replace(/\r\n?/g,'\n'))),images:pending.map(x=>x.record),exempt:old.exempt.filter(x=>x.path!=='company-mark.jpg')};
+ const manifest={version:2,brand:'ALL KONJAC',updated:'2026-10-16',parameters:params,minimumChangedPixelRatio:0.001,logoPath,logoSha256:hash(Buffer.from(logo.toString('utf8').replace(/\r\n?/g,'\n'))),images:[...(newOnly?old.images:[]),...pending.map(x=>x.record)],exempt:old.exempt.filter(x=>x.path!=='company-mark.jpg')};
  for(const x of pending){fs.mkdirSync(path.dirname(x.target),{recursive:true});fs.writeFileSync(x.target,x.bytes);}
  fs.writeFileSync(manifestPath,JSON.stringify(manifest,null,2)+'\n');
  const legacy=path.join(root,'assets/company-mark.jpg');if(fs.existsSync(legacy))fs.unlinkSync(legacy);

@@ -1,0 +1,16 @@
+/* The supplied powder photograph is kept at its full presentation ratio. */
+.ingredient-flour{padding:64px 0;border-bottom:1px solid var(--line)}
+.ingredient-flour-grid{display:grid;grid-template-columns:minmax(0,.75fr) minmax(0,1.25fr);align-items:center;gap:60px}
+.ingredient-flour-copy{min-width:0;max-width:370px}
+.ingredient-flour h2{font-size:clamp(30px,3.4vw,43px);line-height:1.12;letter-spacing:-.03em;margin:12px 0 18px;overflow-wrap:anywhere}
+.ingredient-flour-copy p{margin:0;color:var(--muted);font-size:16px;line-height:1.7}
+.ingredient-flour-figure{min-width:0;margin:0}
+.ingredient-flour-figure img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:contain;background:#f6f6f2;border:1px solid var(--line)}
+.ingredient-flour-figure figcaption{margin-top:12px;color:var(--muted);font-size:12px;line-height:1.65}
+html[lang='th'] .ingredient-flour h2{line-height:1.4;letter-spacing:normal}
+@media(max-width:760px){
+  .ingredient-flour{padding:44px 0}
+  .ingredient-flour-grid{grid-template-columns:minmax(0,1fr);gap:26px}
+  .ingredient-flour-copy{max-width:600px}
+  .ingredient-flour h2{margin-bottom:12px}
+}
