@@ -5,6 +5,7 @@ from urllib.parse import urlsplit, unquote
 import json, re, hashlib, sys
 import xml.etree.ElementTree as ET
 from build import BASE, PAGES, LANGUAGES, page_path, page_url, validate_output
+from quality_content import DETAIL_PATH, DETAIL_URL, validate_detail
 
 ROOT=Path(__file__).resolve().parents[1]
 class Document(HTMLParser):
@@ -20,6 +21,10 @@ def audit():
             try: validate_output(source,page,lang)
             except Exception as e: errors.append(f'{path}: {e}')
             documents[path]=(source,Document(source))
+    extra=(ROOT/DETAIL_PATH/'index.html').read_text(encoding='utf-8')
+    try: validate_detail(extra)
+    except Exception as e: errors.append(f'{DETAIL_PATH}: {e}')
+    documents['/'+DETAIL_PATH+'/']=(extra,Document(extra))
     for path,(source,doc) in documents.items():
         tags=doc.tags
         if '{{' in source: errors.append(f'{path}: unresolved source token')
@@ -46,8 +51,8 @@ def audit():
     namespace='{http://www.sitemaps.org/schemas/sitemap/0.9}'
     sitemap=ET.fromstring((ROOT/'sitemap.xml').read_text(encoding='utf-8'))
     locations=[n.find(namespace+'loc').text for n in sitemap.findall(namespace+'url')]
-    expected={page_url(p,l) for p in PAGES for l in LANGUAGES}
-    if set(locations)!=expected or len(locations)!=15: errors.append('Sitemap URL set differs from fifteen canonical pages')
+    expected={page_url(p,l) for p in PAGES for l in LANGUAGES} | {DETAIL_URL}
+    if set(locations)!=expected or len(locations)!=16: errors.append('Sitemap URL set differs from sixteen canonical pages')
     llms=(ROOT/'llms.txt').read_text(encoding='utf-8')
     if any(url not in llms for url in expected): errors.append('AI content index misses a language page')
     for lang in ['th','id']:
@@ -69,7 +74,7 @@ def audit():
     font=ROOT/'assets/fonts/NotoSansThai-variable.ttf'
     if not font.exists() or not (font.parent/'OFL.txt').exists(): errors.append('Local Thai font or license missing')
     motion_pages=[path for path,(_,doc) in documents.items() if any(tag=='body' and 'motion-enabled' in attrs.get('class','').split() for tag,attrs in doc.tags)]
-    report={'business_pages':15,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'local preview blocked by saved permission; production browser checks recorded separately','hosting_response_checks':'production HTTP verification is recorded separately in the release report'}
+    report={'business_pages':15,'quality_reference_pages':1,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'viewport, navigation, data and image-dialog checks are recorded separately by verify_quality_release.cjs','hosting_response_checks':'production HTTP verification is recorded separately in the release report'}
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return len(errors)
 

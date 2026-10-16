@@ -14,6 +14,7 @@ import sys
 import xml.etree.ElementTree as ET
 from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
+from quality_content import DETAIL_PATH, DETAIL_URL, STYLE as QUALITY_STYLE, summary as quality_summary, materials as drying_materials, detail_page, validate_detail
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -178,6 +179,9 @@ def render_page(page, lang, catalog, include_reference=True):
         "seo_links": seo_links(page, lang), "language_switcher": language_switcher(page, lang, catalog),
         "motion_attributes": ' class="motion-enabled"',
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
+        "quality_styles": QUALITY_STYLE if lang == 'en' and page in ('ingredients', 'drying-lines') else '',
+        "quality_summary": quality_summary() if lang == 'en' and page == 'ingredients' else '',
+        "drying_materials": drying_materials() if lang == 'en' and page == 'drying-lines' else '',
     }
     if page == "equipment":
         enabled = include_reference
@@ -236,6 +240,8 @@ def render_sitemap():
             for variant in LANGUAGES:
                 ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": variant, "href": page_url(page, variant)})
             ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": "x-default", "href": page_url(page, "en")})
+    node = ET.SubElement(root, namespace + "url")
+    ET.SubElement(node, namespace + "loc").text = DETAIL_URL
     ET.indent(root, space="  ")
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding="unicode") + "\n"
 
@@ -253,8 +259,9 @@ def render_llms(catalogs):
             service = next(node for node in schema_for(page, lang, catalogs[lang])["@graph"] if node.get("@type") == "Service")
             parts.append(f'- [{service["name"]}]({page_url(page, lang)}): {service["description"]}')
         parts.append("")
-    parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages and their language alternates.", "",
+    parts.extend(["## Quality reference", f'- [Sample test results and COA reference]({DETAIL_URL}): English historical sample data and a separately marked supplier-provided update; not a batch COA.', "",
+                  "## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and their language alternates, plus one English quality reference page.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -334,7 +341,8 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 15:
+    validate_detail(detail_page(render_page('ingredients', 'en', english)))
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 16:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -360,6 +368,9 @@ def main():
             rendered = render_page(page, lang, catalogs[lang])
             validate_output(rendered, page, lang)
             output[page_path(page, lang).lstrip("/") + "index.html"] = rendered
+    detail = detail_page(output['ingredients/index.html'])
+    validate_detail(detail)
+    output[DETAIL_PATH + '/index.html'] = detail
     output["404.html"] = render_404(catalogs)
     output["sitemap.xml"] = render_sitemap()
     output["llms.txt"] = render_llms(catalogs)
@@ -369,7 +380,7 @@ def main():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, English COA reference, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

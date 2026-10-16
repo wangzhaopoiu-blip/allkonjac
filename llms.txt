@@ -25,10 +25,13 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [Lini Pengeringan Konjak](https://allkonjac.com/id/drying-lines/): ALL KONJAC menyediakan solusi lini pengeringan terintegrasi untuk pengolahan irisan konjak kering. Proyek lini menggabungkan penyiapan bahan, pemindahan bahan, peralatan pengeringan, pengelolaan udara, dan integrasi proses.
 - [Solusi Teknologi Konjak](https://allkonjac.com/id/technology/): ALL KONJAC menawarkan dukungan pengembangan aplikasi konjak dan formulasi hidrokoloid bagi produsen pangan serta mitra internasional. Pembahasan pengembangan dimulai dari produk akhir, kondisi pengolahan, dan sasaran kinerja.
 
+## Quality reference
+- [Sample test results and COA reference](https://allkonjac.com/ingredients/coa-reference/): English historical sample data and a separately marked supplier-provided update; not a batch COA.
+
 ## Contact
 - [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.
 
 ## Website discovery
-- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages and their language alternates.
+- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and their language alternates, plus one English quality reference page.
 
 This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.

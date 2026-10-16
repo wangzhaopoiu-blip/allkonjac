@@ -1,0 +1,246 @@
+{
+  "updated": "2026-10-16",
+  "source_type": "approved historical sample data with separately marked supplier update",
+  "samples": [
+    {
+      "year": 2024,
+      "id": "sample-2024",
+      "title": "Konjac gum sample",
+      "report_number": "XSP202410483",
+      "metadata": [
+        {
+          "label": "Product name in report",
+          "value": "Konjac gum (魔芋胶)"
+        },
+        {
+          "label": "Sample grade",
+          "value": "Super / 特级"
+        },
+        {
+          "label": "Sample No.",
+          "value": "XSP202410483"
+        },
+        {
+          "label": "Produced / purchased / processed date",
+          "value": "2024-03-28"
+        },
+        {
+          "label": "Sample received / tested",
+          "value": "2024-04-01"
+        },
+        {
+          "label": "Report issued",
+          "value": "2024-04-26"
+        },
+        {
+          "label": "Production lot No.",
+          "value": "Not stated in report"
+        }
+      ],
+      "basis": "Report assessment basis: NY/T 494-2010 and GB 2760-2014. The criteria below are those printed in this report.",
+      "rows": [
+        {
+          "item": "Viscosity (No. 4 rotor, 12 r/min, 30°C)",
+          "method": "NY/T 494-2010 6.2.1",
+          "unit": "mPa·s",
+          "criterion": "≥18000",
+          "result": "38000",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Glucomannan (dry basis)",
+          "method": "NY/T 494-2010 Appendix A",
+          "unit": "%",
+          "criterion": "≥70",
+          "result": "91.0",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "pH (1% aqueous solution)",
+          "method": "NY/T 494-2010 6.2.3",
+          "unit": "—",
+          "criterion": "5.0–7.0",
+          "result": "5.83",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Residual sulfur dioxide",
+          "method": "GB 5009.34-2022, Method 1",
+          "unit": "g/kg",
+          "criterion": "≤0.9",
+          "result": "0.366",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Water content",
+          "method": "GB 5009.3-2016, Method 1",
+          "unit": "%",
+          "criterion": "≤11.0",
+          "result": "7.52",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Sand content",
+          "method": "GB/T 5508-2011",
+          "unit": "%",
+          "criterion": "≤0.04",
+          "result": "0.01",
+          "conclusion": "Conforming"
+        }
+      ]
+    },
+    {
+      "year": 2026,
+      "id": "sample-2026",
+      "title": "Purified konjac powder sample",
+      "report_number": "SP2605-0728-001",
+      "metadata": [
+        {
+          "label": "Product name in report",
+          "value": "Purified konjac powder (纯化魔芋粉)"
+        },
+        {
+          "label": "Sample grade",
+          "value": "Super / 特级"
+        },
+        {
+          "label": "Sample No.",
+          "value": "SP2605-0728-001"
+        },
+        {
+          "label": "Produced",
+          "value": "2026-05-08"
+        },
+        {
+          "label": "Pack size stated in report",
+          "value": "500 g / bag"
+        },
+        {
+          "label": "Sample received",
+          "value": "2026-05-12"
+        },
+        {
+          "label": "Test period",
+          "value": "2026-05-12 to 2026-05-19"
+        },
+        {
+          "label": "Report issued",
+          "value": "2026-05-19"
+        },
+        {
+          "label": "Production lot No.",
+          "value": "Not stated in report"
+        }
+      ],
+      "basis": "Report assessment basis: NY/T 494-2010 and GB 2760-2024. The report concludes that tested items with specified criteria conform; items without specified criteria are reported as results only.",
+      "rows": [
+        {
+          "item": "Color",
+          "method": "NY/T 494-2010",
+          "unit": "—",
+          "criterion": "White; a very small amount of pale yellow particles is permitted",
+          "result": "White",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Appearance / form",
+          "method": "NY/T 494-2010",
+          "unit": "—",
+          "criterion": "Purified refined konjac flour: granular, without lumps or mold; purified konjac fine powder: powdery with a small amount of granules",
+          "result": "Purified konjac fine powder, powdery with a small amount of granules",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Odor",
+          "method": "NY/T 494-2010",
+          "unit": "—",
+          "criterion": "A very slight inherent fishy odor of konjac and alcohol odor are permitted",
+          "result": "Very slight inherent fishy odor of konjac and alcohol odor",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "pH (1% aqueous solution)",
+          "method": "NY/T 494-2010",
+          "unit": "—",
+          "criterion": "5.0–7.0",
+          "result": "6.28",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Viscosity (No. 4 rotor, 12 r/min, 30°C)",
+          "method": "NY/T 494-2010 6.2.1",
+          "unit": "mPa·s",
+          "criterion": "≥28000",
+          "result": "34466",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Water content",
+          "method": "GB 5009.3-2016, Method 1",
+          "unit": "%",
+          "criterion": "≤10.0",
+          "result": "8.51",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Particle size (as defined)",
+          "method": "NY/T 494-2010 6.2.7",
+          "unit": "%",
+          "criterion": "≥90",
+          "result": "99.2",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Ash",
+          "method": "GB 5009.4-2016, Method 1",
+          "unit": "%",
+          "criterion": "≤3.0",
+          "result": "2.0",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Glucomannan (dry basis)",
+          "method": "Not provided for this update",
+          "unit": "%",
+          "criterion": "Not provided for this update",
+          "result": "93",
+          "conclusion": "Supplier-provided update",
+          "historical_result": "88.9",
+          "source": "supplier_update"
+        },
+        {
+          "item": "Residual sulfur dioxide",
+          "method": "GB 5009.34-2022, Method 1",
+          "unit": "g/kg",
+          "criterion": "≤0.9",
+          "result": "0.349",
+          "conclusion": "Conforming"
+        },
+        {
+          "item": "Lead (as Pb)",
+          "method": "GB 5009.12-2023, Method 1",
+          "unit": "mg/kg",
+          "criterion": "Not stated",
+          "result": "Not detected (quantitation limit: 0.04)",
+          "conclusion": "Not assessed"
+        },
+        {
+          "item": "Total arsenic (as As)",
+          "method": "GB 5009.11-2024, Part I, Method 1",
+          "unit": "mg/kg",
+          "criterion": "Not stated",
+          "result": "Not detected (quantitation limit: 0.04)",
+          "conclusion": "Not assessed"
+        }
+      ],
+      "supplier_update": {
+        "date": "2026-10-16",
+        "item": "Glucomannan (dry basis)",
+        "value": "93",
+        "unit": "%",
+        "label": "Supplier-provided updated value",
+        "note": "The 93% glucomannan figure was provided by the supplier on 16 October 2026. A revised test report has not been reviewed. This figure is not presented as the result recorded in the historical report."
+      }
+    }
+  ]
+}

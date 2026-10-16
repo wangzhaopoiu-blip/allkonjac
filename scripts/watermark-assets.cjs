@@ -19,6 +19,7 @@ function images(dir, prefix = '') {
 }
 
 async function main() {
+  if (JSON.parse(fs.readFileSync(MANIFEST, 'utf8')).version >= 2) throw new Error('Use scripts/rebrand-watermarks.cjs with a retained original map for the current ALL KONJAC brand');
   const [originalDirectory, executablePath] = process.argv.slice(2);
   if (!originalDirectory || !executablePath) throw new Error('Usage: node scripts/watermark-assets.cjs <private-original-assets-directory> <browser-executable>');
   const originals = fs.realpathSync(originalDirectory);

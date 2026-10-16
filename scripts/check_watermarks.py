@@ -26,10 +26,10 @@ def verify_watermarks(root=ROOT):
         digest = hashlib.sha256(data).hexdigest()
         if digest != record.get('watermarkedSha256', record.get('sha256')):
             raise ValueError('Unapproved or unwatermarked public image: ' + record['path'])
-    logo = next(record for record in manifest['exempt'] if record['path'] == 'company-mark.jpg')
+    logo = next(record for record in manifest['exempt'] if record['path'] == manifest.get('logoPath', 'company-mark.jpg'))
     if logo['sha256'] != manifest['logoSha256']:
         raise ValueError('Approved logo hash differs')
-    if any(record['watermarkedSha256'] == record['originalSha256'] or record['changedPixelRatio'] < 0.01 for record in manifest['images']):
+    if any(record['watermarkedSha256'] == record['originalSha256'] or record['changedPixelRatio'] < manifest.get('minimumChangedPixelRatio', 0.01) for record in manifest['images']):
         raise ValueError('An image has no verified watermark')
     return {'business_images': len(manifest['images']), 'exempt_images': len(manifest['exempt']), 'passed': True}
 
