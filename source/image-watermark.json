@@ -354,6 +354,17 @@
       "changedPixelRatio": 0.012256944444444445,
       "stampCount": 5,
       "previousStampCount": 15
+    },
+    {
+      "path": "drying-line-incline-lift-white-v2.webp",
+      "originalSha256": "4e117cbf026785fc0dd0a2459fd3a4d9edc0ec963388e6d520f4130943892841",
+      "watermarkedSha256": "6c5f446f26b89c9fdbbb1de4f0adf71625b7d22c3b15c1f9843d06d0eab48cc7",
+      "width": 1448,
+      "height": 1086,
+      "format": "image/webp",
+      "changedPixelRatio": 0.00921700599289806,
+      "stampCount": 5,
+      "previousStampCount": 15
     }
   ],
   "exempt": [
