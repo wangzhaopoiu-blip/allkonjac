@@ -18,6 +18,9 @@ from check_watermarks import verify_watermarks
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
 PAGES = ["", "ingredients", "equipment", "drying-lines", "technology"]
+BLOG_PATHS = ["/blog/", "/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
+              "/blog/konjac-glucomannan-food-applications-research-guide/"]
+BLOG_FILES = ["assets/blog.css", "assets/blog.js"] + [path.lstrip("/") + "index.html" for path in BLOG_PATHS]
 LANGUAGES = {
     "en": {"prefix": "", "label": "English", "short": "EN", "og": "en_US", "flag": "gb"},
     "th": {"prefix": "/th", "label": "ภาษาไทย", "short": "TH", "og": "th_TH", "flag": "th"},
@@ -177,6 +180,7 @@ def render_page(page, lang, catalog, include_reference=True):
         "lang": lang, "og_locale": LANGUAGES[lang]["og"], "canonical": page_url(page, lang),
         "seo_links": seo_links(page, lang), "language_switcher": language_switcher(page, lang, catalog),
         "motion_attributes": ' class="motion-enabled"',
+        "english_blog_link": '<a href="/blog/">Blog</a>' if lang == "en" else "",
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
     }
     if page == "equipment":
@@ -236,6 +240,9 @@ def render_sitemap():
             for variant in LANGUAGES:
                 ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": variant, "href": page_url(page, variant)})
             ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": "x-default", "href": page_url(page, "en")})
+    for path in BLOG_PATHS:
+        node = ET.SubElement(root, namespace + "url")
+        ET.SubElement(node, namespace + "loc").text = BASE + path
     ET.indent(root, space="  ")
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding="unicode") + "\n"
 
@@ -252,9 +259,13 @@ def render_llms(catalogs):
         for page in PAGES[1:]:
             service = next(node for node in schema_for(page, lang, catalogs[lang])["@graph"] if node.get("@type") == "Service")
             parts.append(f'- [{service["name"]}]({page_url(page, lang)}): {service["description"]}')
+        if lang == "en":
+            parts.extend(["- [KGM Research Journal](https://allkonjac.com/blog/): Evidence-led konjac glucomannan articles for food formulation.",
+                          "- [KGM ingredient selection](https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/): Hydration, viscosity and gel specification questions.",
+                          "- [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop."])
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages and their language alternates.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and three English KGM blog URLs.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -334,7 +345,7 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 15:
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 18:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -363,13 +374,21 @@ def main():
     output["404.html"] = render_404(catalogs)
     output["sitemap.xml"] = render_sitemap()
     output["llms.txt"] = render_llms(catalogs)
+    for relative in BLOG_FILES:
+        source = ROOT / "source/kgm-blog" / relative
+        rendered = source.read_text(encoding="utf-8")
+        if relative.endswith("index.html"):
+            expected_url = BASE + "/" + relative.removesuffix("index.html")
+            if rendered.count("<h1") != 1 or f'<link rel="canonical" href="{expected_url}">' not in rendered:
+                raise ValueError(f"Invalid KGM blog page: {relative}")
+        output[relative] = rendered
     if not options.check:
         # Nothing writes until every language, template and schema passes.
         for relative, rendered in output.items():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, three KGM blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

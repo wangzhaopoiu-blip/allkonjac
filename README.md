@@ -1,5 +1,9 @@
 # ALL KONJAC website
 
+## KGM research journal (published 2026-10-19)
+
+The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Run `python scripts/build.py` to copy the pages and their CSS/JS into the public site, add English-only Blog links to the five business pages, and include the three blog URLs in `sitemap.xml` and `llms.txt`. The article pages show their publication date and use matching `BlogPosting` dates. Thai and Indonesian navigation does not link to untranslated articles. The underlying literature review and local source documents are outside this public repository. Keep citations and research limitations with the articles; do not turn study outcomes into product claims.
+
 ## Approved image watermark (2026-10-12)
 
 Every public business image embeds the approved Tian Ran Xing logo, rotated -30 degrees, at 20% opacity and 25% of the image's short edge, in a staggered repeating pattern. All responsive WebP sizes, full-size gallery images, background images and social-preview pictures are covered. Image URLs, dimensions and formats stay unchanged. The company logo, WeChat QR and language flags are exempt.

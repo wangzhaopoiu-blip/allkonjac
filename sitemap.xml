@@ -105,4 +105,13 @@
     <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/technology/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
   </url>
+  <url>
+    <loc>https://allkonjac.com/blog/</loc>
+  </url>
+  <url>
+    <loc>https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/</loc>
+  </url>
+  <url>
+    <loc>https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/</loc>
+  </url>
 </urlset>

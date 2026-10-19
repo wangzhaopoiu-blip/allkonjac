@@ -10,6 +10,9 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [Konjac Food Equipment](https://allkonjac.com/equipment/): ALL KONJAC connects konjac food equipment with process planning and production-line integration. The project discussion covers the finished product, factory conditions and the equipment and engineering scope needed for production.
 - [Konjac Drying Lines](https://allkonjac.com/drying-lines/): ALL KONJAC provides integrated drying-line solutions for konjac dried-chip processing. A line project brings together material preparation, conveying, drying equipment, air handling and process integration.
 - [Konjac Technology Solutions](https://allkonjac.com/technology/): ALL KONJAC offers konjac application-development and hydrocolloid formulation support for food manufacturers and international partners. Development discussions begin with the finished product, processing conditions and the performance objective.
+- [KGM Research Journal](https://allkonjac.com/blog/): Evidence-led konjac glucomannan articles for food formulation.
+- [KGM ingredient selection](https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/): Hydration, viscosity and gel specification questions.
+- [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop.
 
 ## ภาษาไทย
 - [ALL KONJAC](https://allkonjac.com/th/): Business overview and buyer questions.
@@ -29,6 +32,6 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.
 
 ## Website discovery
-- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages and their language alternates.
+- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and three English KGM blog URLs.
 
 This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.
