@@ -1,8 +1,12 @@
 # ALL KONJAC website
 
+## External editorial citations
+
+`audits/external-citations-2026-10-19.md` identifies the currently live pages suitable for fact-checked editorial references. The shared process is in `../link-development-2026-10-19.md`. These are internal operating documents excluded from deployment; no link quotas, anchor ratios, paid ranking links or automated placements are part of the site build.
+
 ## KGM research journal (published 2026-10-19)
 
-The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Run `python scripts/build.py` to copy the pages and their CSS/JS into the public site, add English-only Blog links to the five business pages, and include the three blog URLs in `sitemap.xml` and `llms.txt`. The article pages show their publication date and use matching `BlogPosting` dates. Thai and Indonesian navigation does not link to untranslated articles. The underlying literature review and local source documents are outside this public repository. Keep citations and research limitations with the articles; do not turn study outcomes into product claims.
+The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Three buyer guides are maintained in `source/blog/articles.json` with first-party claim records in `source/blog/evidence.json` and rendered by `scripts/buyer_guides.py`. Run `python scripts/build.py` to generate all six Blog pages, add English-only Blog links to the five business pages and direct guide links on the three relevant business pages, and include the six Blog URLs in `sitemap.xml` and `llms.txt`. The article pages show their publication date and use matching `BlogPosting` dates. Thai and Indonesian navigation does not link to untranslated articles. Keep research citations, article limitations and buyer-guide source scope visible; do not turn study outcomes into product claims.
 
 ## Approved image watermark (2026-10-12)
 

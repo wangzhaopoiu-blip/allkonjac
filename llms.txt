@@ -13,6 +13,9 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [KGM Research Journal](https://allkonjac.com/blog/): Evidence-led konjac glucomannan articles for food formulation.
 - [KGM ingredient selection](https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/): Hydration, viscosity and gel specification questions.
 - [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop.
+- [Konjac powder and gum buyer guide](https://allkonjac.com/blog/choose-konjac-powder-gum/): Application and specification questions for ingredient enquiries.
+- [Konjac equipment project brief](https://allkonjac.com/blog/konjac-equipment-project-brief/): Information to prepare before a machine or production-line enquiry.
+- [Konjac dried-chip drying-line planning](https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/): Material, process and factory conditions to define a project.
 
 ## ภาษาไทย
 - [ALL KONJAC](https://allkonjac.com/th/): Business overview and buyer questions.
@@ -32,6 +35,6 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.
 
 ## Website discovery
-- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and three English KGM blog URLs.
+- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and six English blog URLs.
 
 This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.

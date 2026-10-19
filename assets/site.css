@@ -127,3 +127,20 @@ header .brand{display:flex;align-items:center;min-width:0}
 @media(max-width:560px){header .brand img{width:172px}}
 @media(max-width:1100px){header .language-switcher{grid-column:3;grid-row:1}}
 @media(max-width:430px){header .brand img{width:146px}}
+
+/* English buyer guides use the business-page shell; the journal index links both article series. */
+.blog-hero{padding-bottom:52px}
+.blog-hero h1{max-width:930px}
+.blog-hero .blog-date{font-size:13px;color:var(--muted);margin-top:24px}
+.blog-article{max-width:900px;padding-top:48px;padding-bottom:82px}
+.blog-content-section{padding:22px 0 30px;border-bottom:1px solid var(--line)}
+.blog-content-section:first-child{padding-top:0}
+.blog-content-section h2{font-size:clamp(24px,3vw,32px);line-height:1.2;margin:0 0 18px}
+.blog-content-section p,.blog-content-section li{font-size:16px;line-height:1.75;color:#394a44}
+.blog-content-section li{margin:9px 0}
+.blog-content-section ul{padding-left:24px}
+.blog-sources p,.blog-sources li{font-size:14px}
+.blog-sources p{color:var(--muted)}
+.blog-sources a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.blog-next{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:32px}
+@media(max-width:560px){.blog-article{padding-top:36px;padding-bottom:60px}.blog-content-section p,.blog-content-section li{font-size:15px}}

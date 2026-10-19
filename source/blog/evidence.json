@@ -1,0 +1,32 @@
+{
+  "basis": "First-party public ALL KONJAC pages. These links document what the site states; they are not independent verification of business claims.",
+  "sources": {
+    "ingredients": {"url": "https://allkonjac.com/ingredients/", "label": "Konjac Ingredients", "supports": "The three listed ingredient categories, application-led grade discussion, and enquiry details."},
+    "technology": {"url": "https://allkonjac.com/technology/", "label": "Technology Solutions", "supports": "Formulation objectives such as texture, thickening, gel formation, water holding and stability."},
+    "equipment": {"url": "https://allkonjac.com/equipment/", "label": "Konjac Food Equipment", "supports": "Individual-machine and line enquiries, project brief fields, reference-configuration boundaries and service scope."},
+    "drying-lines": {"url": "https://allkonjac.com/drying-lines/", "label": "Konjac Drying Lines", "supports": "Integrated stages of a drying-line project and project-specific configuration boundaries."}
+  },
+  "claims": {
+    "choose-konjac-powder-gum": [
+      {"claim": "ALL KONJAC lists konjac powder, refined konjac powder and konjac gum as enquiry categories.", "source": "ingredients"},
+      {"claim": "Ingredient grade selection is discussed against intended application and requested specification.", "source": "ingredients"},
+      {"claim": "Technology enquiries may address texture, thickening, gel formation, water holding or stability.", "source": "technology"}
+    ],
+    "konjac-equipment-project-brief": [
+      {"claim": "Enquiries may cover individual machines or production-line integration.", "source": "equipment"},
+      {"claim": "The equipment brief calls for product, output, process stages, space, utilities and existing equipment constraints.", "source": "equipment"},
+      {"claim": "Installation, commissioning and training scope is confirmed in the project quotation.", "source": "equipment"},
+      {"claim": "Formulation development can be discussed with process and equipment requirements.", "source": "technology"}
+    ],
+    "plan-konjac-dried-chip-drying-line": [
+      {"claim": "Drying-line projects connect material preparation, conveying, drying equipment, air handling and process integration.", "source": "drying-lines"},
+      {"claim": "Project briefs ask for material, output, process, factory and utility conditions.", "source": "drying-lines"},
+      {"claim": "Equipment images and reference configurations are illustrative; final specifications require project confirmation.", "source": "equipment"}
+    ]
+  },
+  "editorialRules": [
+    "Article checklists are questions and planning guidance, not verified product specifications.",
+    "No certification, customer, capacity, energy, purity, species or legal-entity claim may be inferred from imagery or generic product names.",
+    "Recheck the cited page and update the dateModified field only after a substantive article edit."
+  ]
+}

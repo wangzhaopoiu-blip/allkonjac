@@ -14,13 +14,17 @@ import sys
 import xml.etree.ElementTree as ET
 from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
+from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_article
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
 PAGES = ["", "ingredients", "equipment", "drying-lines", "technology"]
 BLOG_PATHS = ["/blog/", "/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
-              "/blog/konjac-glucomannan-food-applications-research-guide/"]
-BLOG_FILES = ["assets/blog.css", "assets/blog.js"] + [path.lstrip("/") + "index.html" for path in BLOG_PATHS]
+              "/blog/konjac-glucomannan-food-applications-research-guide/",
+              "/blog/choose-konjac-powder-gum/", "/blog/konjac-equipment-project-brief/",
+              "/blog/plan-konjac-dried-chip-drying-line/"]
+KGM_BLOG_PATHS = BLOG_PATHS[:3]
+BLOG_FILES = ["assets/blog.css", "assets/blog.js"] + [path.lstrip("/") + "index.html" for path in KGM_BLOG_PATHS]
 LANGUAGES = {
     "en": {"prefix": "", "label": "English", "short": "EN", "og": "en_US", "flag": "gb"},
     "th": {"prefix": "/th", "label": "ภาษาไทย", "short": "TH", "og": "th_TH", "flag": "th"},
@@ -205,6 +209,14 @@ def render_page(page, lang, catalog, include_reference=True):
     output = TOKEN.sub(substitute, source)
     if TOKEN.search(output):
         raise ValueError(f"Unresolved template token in {lang}/{page or 'home'}")
+    if lang == "en" and page in ARTICLE_LINKS:
+        guide_link = (f'<a href="/blog/{ARTICLE_LINKS[page]}/">'
+                      'Read the buyer guide</a>')
+        output, count = re.subn(r'(<div class="related-links">.*?)(</div>)',
+                                lambda match: match.group(1) + guide_link + match.group(2),
+                                output, count=1, flags=re.S)
+        if count != 1:
+            raise ValueError(f"Missing related links on {page}")
     return output.rstrip() + "\n"
 
 
@@ -262,10 +274,13 @@ def render_llms(catalogs):
         if lang == "en":
             parts.extend(["- [KGM Research Journal](https://allkonjac.com/blog/): Evidence-led konjac glucomannan articles for food formulation.",
                           "- [KGM ingredient selection](https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/): Hydration, viscosity and gel specification questions.",
-                          "- [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop."])
+                          "- [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop.",
+                          "- [Konjac powder and gum buyer guide](https://allkonjac.com/blog/choose-konjac-powder-gum/): Application and specification questions for ingredient enquiries.",
+                          "- [Konjac equipment project brief](https://allkonjac.com/blog/konjac-equipment-project-brief/): Information to prepare before a machine or production-line enquiry.",
+                          "- [Konjac dried-chip drying-line planning](https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/): Material, process and factory conditions to define a project."])
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and three English KGM blog URLs.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and six English blog URLs.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -345,7 +360,7 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 18:
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 21:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -374,6 +389,11 @@ def main():
     output["404.html"] = render_404(catalogs)
     output["sitemap.xml"] = render_sitemap()
     output["llms.txt"] = render_llms(catalogs)
+    articles, evidence = load_editorial(ROOT)
+    if {article_path(article) for article in articles} != set(BLOG_PATHS[3:]):
+        raise ValueError("Buyer guide paths do not match the sitemap")
+    for article in articles:
+        output[article_path(article).lstrip("/") + "index.html"] = render_article(article, evidence)
     for relative in BLOG_FILES:
         source = ROOT / "source/kgm-blog" / relative
         rendered = source.read_text(encoding="utf-8")
@@ -388,7 +408,7 @@ def main():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, three KGM blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, six blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

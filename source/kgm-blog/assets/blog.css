@@ -140,3 +140,15 @@ button{font:inherit}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
 
 .blog-wordmark{display:block;width:180px;height:auto;flex:none}
+
+/* Buyer guides sit beside the existing research series on the journal index. */
+.guides-section{padding:0 0 110px}
+.guide-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.guide-card{border:1px solid var(--line);background:#fff;padding:27px;display:flex;flex-direction:column;min-width:0}
+.guide-tag{color:var(--green);font-size:10px;font-weight:850;letter-spacing:.12em}
+.guide-card h3{font-size:clamp(21px,2vw,27px);line-height:1.27;letter-spacing:-.025em;margin:16px 0}
+.guide-card h3 a:hover{color:var(--green)}
+.guide-card p{font-size:14px;color:var(--muted);line-height:1.6;margin:0 0 24px}
+.guide-note{color:var(--muted);font-size:13px;line-height:1.6;margin:24px 0 0;max-width:760px}
+@media(max-width:900px){.guide-grid{grid-template-columns:1fr}.guides-section{padding-bottom:80px}}
+@media(max-width:700px){.guides-section{padding-bottom:65px}.guide-card{padding:24px}}
