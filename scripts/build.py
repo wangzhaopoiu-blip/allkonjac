@@ -15,6 +15,8 @@ import xml.etree.ElementTree as ET
 from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
 from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_article
+from comparison_blog import render as render_comparison
+from check_language_policy import check as check_language_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -184,7 +186,7 @@ def render_page(page, lang, catalog, include_reference=True):
         "lang": lang, "og_locale": LANGUAGES[lang]["og"], "canonical": page_url(page, lang),
         "seo_links": seo_links(page, lang), "language_switcher": language_switcher(page, lang, catalog),
         "motion_attributes": ' class="motion-enabled"',
-        "english_blog_link": '<a href="/blog/">Blog</a>' if lang == "en" else "",
+        "english_blog_link": '<a href="' + ('' if lang == 'en' else '/' + lang) + '/blog/">' + {'en':'Blog','th':'บทความ','id':'Blog'}[lang] + '</a>',
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
     }
     if page == "equipment":
@@ -402,13 +404,15 @@ def main():
             if rendered.count("<h1") != 1 or f'<link rel="canonical" href="{expected_url}">' not in rendered:
                 raise ValueError(f"Invalid KGM blog page: {relative}")
         output[relative] = rendered
+    render_comparison(ROOT, output)
+    check_language_policy(ROOT, output)
     if not options.check:
         # Nothing writes until every language, template and schema passes.
         for relative, rendered in output.items():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, six blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, eleven blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

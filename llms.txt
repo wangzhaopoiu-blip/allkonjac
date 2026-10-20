@@ -35,6 +35,11 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.
 
 ## Website discovery
-- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and six English blog URLs.
+- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and the research journal and its available language counterparts.
 
 This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.
+
+## Refined powder and gum comparison
+- [English](https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/): Composition, test methods and selection boundaries.
+- [ภาษาไทย](https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/): Composition, test methods and selection boundaries.
+- [Bahasa Indonesia](https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/): Composition, test methods and selection boundaries.

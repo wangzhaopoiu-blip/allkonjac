@@ -1,0 +1,92 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+印尼语
+泰语
+英语
+原文
+clear
+4,164
+高级
+翻译结果
+[[U090]] Menyebutkan nomor *spindle* (alat pengukur viskositas) tanpa menyertakan model instrumennya bukanlah metode yang lengkap. Begitu pula, suhu atau kecepatan rotasi tertentu tidak boleh dianggap sebagai metode universal yang berlaku untuk semua tingkatan (*grade*) konjac. Gunakanlah metode yang disyaratkan oleh spesifikasi yang berlaku, atau metode yang telah disepakati dan sesuai untuk tujuan perbandingan Anda.
+
+[[U091]] Pisahkan tiga pertanyaan berikut: Seberapa cepat bahan tersebut terdispersi dan terhidrasi? Berapa viskositas yang dicapai oleh sistem yang telah terhidrasi tersebut? Apakah produk pangan akhir memiliki tekstur yang diinginkan? Jawaban atas pertanyaan-pertanyaan ini dapat menentukan pemilihan tingkatan (*grade*) konjac yang tepat.
+
+[[U092]] 5. Memilih tingkatan (*grade*) berdasarkan target produk pangan akhir
+
+[[U093]] Tugas pengembangan produk pangan
+
+[[U094]] Parameter akhir yang berguna dalam pengujian
+
+[[U095]] Mengapa nama produk saja tidak cukup
+
+[[U096]] Produk pangan berbasis gel konjac
+
+[[U097]] Dispersi, proses pembentukan, tekstur, pelepasan air, dan perilaku setelah melalui perlakuan panas yang direncanakan
+
+[[U098]] Pembentukan gel bergantung pada formulasi dan proses pengolahan, termasuk kondisi alkali dan suhu (jika relevan)
+
+[[U099]] Minuman atau sistem serat terdispersi
+
+[[U100]] Kemampuan dispersi, perubahan viskositas seiring waktu, kualitas sensori, dan stabilitas selama proses produksi yang sebenarnya
+
+[[U101]] Pengujian viskositas tinggi dalam air tidak dapat menggantikan uji coba langsung pada produk minuman
+
+[[U102]] Sistem adonan atau mi
+
+[[U103]] Pengelolaan air, toleransi terhadap pencampuran, kemudahan penanganan, dan kualitas akhir saat dikonsumsi
+
+[[U104]] Tingkatan (*grade*) KGM yang berbeda menghasilkan keluaran yang berbeda pula dalam studi spesifik mengenai adonan dan roti kukus
+
+[[U105]] Produk daging atau campuran hidrokoloid
+
+[[U106]] Tekstur, penyusutan saat dimasak (*cooking loss*), pelepasan air, dan stabilitas selama proses produksi yang sebenarnya
+
+[[U107]] Protein, garam, dan hidrokoloid lainnya dapat mengubah hasil akhir; oleh karena itu, suatu tingkatan (*grade*) harus diuji dalam resep yang spesifik tersebut
+
+[[U108]] Poin-poin di atas merupakan pertanyaan untuk evaluasi, bukan rekomendasi dosis yang baku. Jangan menggunakan rasio penggantian yang seragam antara bubuk konjac murni (*refined powder*) dengan gum lainnya. Uji coba harus dilakukan untuk menentukan dosis dan kondisi pemrosesan yang tepat guna mencapai target yang diinginkan. [[U109]] Nilailah biaya dalam penggunaan, bukan sekadar harga per kilogram. Mulailah dengan mengalikan harga satuan dengan dosis yang digunakan per bets, lalu perhitungkan perbedaan yang terukur dalam hal waktu proses, rendemen, dan kualitas. Bubuk yang lebih mahal hanya akan menjadi ekonomis jika hasil yang tervalidasi dapat membenarkan biayanya.
+
+[[U110]] 6. Daftar periksa praktis untuk membandingkan pemasok
+
+[[U111]] Mintalah informasi yang sama kepada setiap pemasok agar penawaran dapat dibandingkan berdasarkan tolok ukur yang setara:
+
+[[U112]] Identitas dan ketertelusuran: nama produk, tingkatan (grade), nomor bets, versi spesifikasi, dan standar yang berlaku.
+
+[[U113]] Komposisi: analit, batas (limit), hasil pengujian bets, metode analisis, dan dasar pelaporan.
+
+[[U114]] Metode fungsional: metode pengukuran viskositas secara lengkap, ditambah dengan pengujian hidrasi atau gel yang telah disepakati.
+
+[[U115]] Kualitas fisik: distribusi ukuran partikel atau spesifikasi ayakan, batasan warna dan aroma, serta metode evaluasinya.
+
+[[U116]] Dokumen keamanan dan pasar: hasil pengujian mikrobiologis, kontaminan, dan residu yang relevan untuk tingkatan produk tersebut serta pasar yang dituju, termasuk informasi mengenai pelarut yang digunakan dalam proses produksi (jika ada).
+
+[[U117]] Ketentuan pasokan: kemasan, masa simpan yang terdokumentasi beserta petunjuk penyimpanannya, evaluasi sampel, dan ketentuan mengenai konsistensi antar-bets.
+
+[[U118]] Mintalah hasil pengujian untuk material yang ditawarkan. Sertifikat umum, label "food grade" (tingkat pangan) tanpa keterangan lebih lanjut, atau klaim bahwa "kemurnian tertinggi selalu yang terbaik" tidak dapat menggantikan perbandingan ini.
+
+[[U119]] Setelah material diidentifikasi, gunakan panduan permintaan informasi bahan (ingredient enquiry guide) untuk menyusun ringkasan proyek. Untuk penjelasan lebih mendalam mengenai pengujian hidrasi, viskositas, dan gel, silakan baca panduan formulasi KGM kami.
+
+[[U120]] 7. Pertanyaan yang sering diajukan
+
+[[U121]] Apakah *konjac gum* selalu memiliki kandungan KGM yang lebih tinggi dibandingkan *refined konjac powder* (bubuk konjac murni)?
+
+[[U122]] Jangan mengambil keputusan hanya berdasarkan namanya saja. Bandingkan analit yang ditentukan serta metode pengujian untuk setiap tingkatan produk yang spesifik. Definisi menurut regulasi dan label komersial tidak selalu menggunakan tolok ukur yang sama.
+
+[[U123]] Apakah bubuk yang lebih halus selalu memiliki kemampuan hidrasi yang lebih baik? [[U124]] Karakteristik partikel dapat memengaruhi hidrasi, namun dispersi praktis juga bergantung pada kondisi pencampuran dan penambahan. Bandingkan kurva hidrasi serta pembentukan gumpalan dalam proses Anda, alih-alih hanya memilih berdasarkan ukuran mesh.
+
+[[U125]] Bisakah saya mengganti satu jenis produk dengan jenis lainnya pada dosis yang sama?
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

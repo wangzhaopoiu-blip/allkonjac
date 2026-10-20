@@ -1,0 +1,135 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+印尼语
+泰语
+英语
+原文
+clear
+4,289
+高级
+翻译结果
+[[U000]] Bubuk Konjac Murni (Refined Konjac Powder) vs. Gum Konjac: Perbedaan, Spesifikasi, dan Cara Memilih
+
+[[U001]] Bandingkan spesifikasi di balik penamaannya—serta hasil akhirnya pada produk pangan Anda.
+
+[[U002]] Bahan / Perbandingan teknis
+
+[[U003]] Jurnal
+
+[[U004]] Situs utama
+
+[[U005]] Jelajahi bahan-bahan
+
+[[U006]] Menu
+
+[[U007]] Di halaman ini
+
+[[U008]] Diterbitkan
+
+[[U009]] Referensi
+
+[[U010]] Menentukan karakteristik bahan
+
+[[U011]] Nama, analit, dan dasar pengujian
+
+[[U012]] Menyelaraskan metode
+
+[[U013]] Hidrasi dan viskositas terukur
+
+[[U014]] Validasi dalam produk pangan
+
+[[U015]] Kinerja dan biaya penggunaan
+
+[[U016]] Geser atau gulir tabel untuk melihat semua kolom.
+
+[[U017]] Perbandingan teknis ini tidak mencantumkan spesifikasi untuk produk "konjac" secara umum. Pastikan kembali tingkatan (grade) produk yang diusulkan, dokumen bets, serta tujuan penggunaannya. Hasil penelitian ini bukan merupakan klaim kesehatan produk.
+
+[[U018]] Lanjutkan membaca
+
+[[U019]] Siapkan permintaan informasi bahan (Bahasa Inggris)
+
+[[U020]] Panduan formulasi KGM (Bahasa Inggris)
+
+[[U021]] Kembali ke jurnal
+
+
+[[U022]] Sains bahan untuk pengembangan produk pangan. Pastikan kembali tingkatan (grade) produk, bets, metode, dan hasil akhir pada produk pangan. [[U023]] Pertanyaan seputar proyek
+
+[[U024]] Spesifikasi bahan baru
+
+[[U025]] Riset dan panduan proyek terkait konjac
+
+[[U026]] Perbandingan teknis antara bubuk konjac murni (refined konjac powder) dan gum konjac bagi pembeli bahan baku serta pengembang produk pangan.
+
+[[U027]] Baca perbandingan teknisnya
+
+[[U028]] Sumber-sumber yang dipublikasikan dicantumkan di bawah ini. Judul artikel ilmiah dan pengidentifikasi standar tetap menggunakan format bibliografi aslinya.
+
+[[U029]] Jawaban singkat
+
+[[U030]] Bubuk konjac murni dan gum konjac merupakan bahan yang sama-sama berasal dari konjac, namun nama saja tidak cukup untuk menunjukkan bagaimana performa satu jenis dibandingkan dengan jenis lainnya. Anda perlu membandingkan komposisi yang dinyatakan beserta metode pengujiannya, riwayat pemrosesan, karakteristik hidrasi, viskositas yang terukur, serta kinerjanya dalam produk pangan Anda. Nilai komposisi yang lebih tinggi tidak dengan sendirinya menjamin hidrasi yang lebih cepat, pembentukan gel yang lebih kuat, atau dosis penggunaan yang lebih rendah.
+
+[[U031]] Dalam proses pengadaan, gunakan nama bahan sebagai titik awal diskusi. Gunakan spesifikasi mutu (grade), sertifikat analisis (COA) untuk setiap bets, serta uji coba formulasi untuk mengambil keputusan. Artikel ini menjelaskan perbandingan teknis tersebut; sementara panduan pertanyaan seputar bahan baku kami menjelaskan informasi apa saja yang perlu Anda sampaikan kepada pemasok.
+
+[[U032]] 1. Mulailah dengan nama—dan spesifikasi di baliknya
+
+[[U033]] Konjac glukomanan (KGM) adalah polisakarida yang berperan dalam fungsi pengentalan dan pembentukan tekstur pada bahan-bahan berbasis konjac. Dalam konteks komersial, istilah seperti tepung konjac, bubuk konjac murni, tepung konjac yang dimurnikan, dan gum konjac dapat merujuk pada material dengan komposisi dan riwayat pemrosesan yang berbeda-beda. Istilah-istilah ini bukanlah suatu tingkatan baku yang secara universal menunjukkan tingkat kemurnian atau viskositas tertentu untuk setiap namanya.
+
+[[U034]] Tiongkok memiliki standar terpisah, yaitu standar untuk bubuk konjac murni (GB/T 18104-2000) dan tepung konjac (NY/T 494-2010). Dokumen resmi tersebut menetapkan identitas standar masing-masing; Spesifikasi pembelian tetap memerlukan klausul dan metode pengujian yang relevan. Deskripsi penjualan dalam bahasa Inggris tidak cukup untuk menetapkan kesetaraan antara standar atau kategori regulasi.
+
+[[U035]] Apa yang Anda bandingkan
+
+[[U036]] Bubuk konjak yang dimurnikan (refined konjac powder)
+
+[[U037]] Bahan yang ditawarkan sebagai gom konjak (konjac gum)
+
+[[U038]] Apa yang perlu diminta
+
+
+[[U039]] Identitas produk
+
+[[U040]] Deskripsi komersial atau deskripsi berbasis standar untuk bahan konjak yang dimurnikan
+
+[[U041]] Deskripsi komersial atau kategori zat tambahan (aditif) yang ditetapkan, bergantung pada pasarnya
+
+[[U042]] Nama produk yang tepat, tingkatan (grade), standar yang berlaku, dan pasar tujuan
+
+[[U043]] Komposisi
+
+[[U044]] Bergantung pada tingkatan (grade) dan metode analisisnya
+
+[[U045]] Bergantung pada tingkatan (grade) dan identitas regulasinya
+
+[[U046]] Analit yang disebutkan, metode, hasil, serta keterangan apakah hasil tersebut didasarkan pada kondisi kering (dry basis) atau kondisi sebagaimana produk diterima (as-supplied basis)
+
+[[U047]] Hidrasi
+
+[[U048]] Bergantung pada partikel, dispersi, dan kondisi proses
+
+[[U049]] Harus diukur; istilah "gom" (gum) tidak menjamin hidrasi yang cepat
+
+[[U050]] Profil hidrasi di bawah kondisi pencampuran yang direncanakan
+
+[[U051]] Viskositas dan perilaku pembentukan gel
+
+[[U052]] Harus dievaluasi menggunakan metode dan formulasi yang ditetapkan
+
+[[U053]] Harus dievaluasi menggunakan metode dan formulasi yang sama
+
+[[U054]] Metode pengukuran viskositas lengkap dan kriteria penerimaan untuk produk pangan akhir
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存
+有翻译结果

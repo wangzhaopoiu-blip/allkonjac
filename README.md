@@ -106,3 +106,7 @@ The new reference translations were reviewed against the accepted English page. 
 ## ALL KONJAC wordmark (2026-10-15)
 
 The header, footer and trilingual 404 use the pure-letter ALL KONJAC outlined SVG. The small square icon contains only the letters AK. Source and license are in `assets/brand/` and `assets/fonts/Manrope-OFL.txt`. Manrope is licensed under SIL Open Font License 1.1; the website serves the font locally only for the homepage heading. Regenerate pages with `python scripts/build.py` after editing templates.
+
+## Public language policy
+
+All public language versions must contain no Han text or Chinese font declarations in body copy, navigation, references, metadata or styles. Preserve original raster images, including existing brand marks and QR annotations. Translate Chinese text with Google Translate into the page language, then review terminology, numerical facts and meaning. Internal Chinese manuscripts must remain excluded from static deployment. `python scripts/build.py` enforces this boundary. Comparison translation provenance is in `source/comparison/translation-review.md`.

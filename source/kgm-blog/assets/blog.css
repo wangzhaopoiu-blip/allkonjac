@@ -1,7 +1,7 @@
 :root{--green:#0b6b4f;--deep:#123a2d;--ink:#15201d;--muted:#64716d;--line:#dfe5e2;--soft:#f4f6f5;--orange:#e77b18;--paper:#fff;--max:1180px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,"Noto Sans SC","Microsoft YaHei",Arial,Helvetica,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
 a{color:inherit;text-decoration:none}
 button{font:inherit}
 .shell{width:min(var(--max),calc(100% - 52px));margin-inline:auto}

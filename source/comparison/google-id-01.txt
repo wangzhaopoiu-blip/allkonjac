@@ -1,0 +1,90 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+印尼语
+泰语
+英语
+原文
+clear
+3,930
+高级
+翻译结果
+[[U055]] Warna, aroma, dan tampilan
+
+[[U056]] Bergantung pada tingkatan (grade) dan kelompok produksi (batch)
+
+[[U057]] Bergantung pada tingkatan (grade) dan kelompok produksi (batch)
+
+[[U058]] Evaluasi sampel, batasan, dan metode pemeriksaan yang disepakati
+
+[[U059]] Harga dan dosis penggunaan
+
+[[U060]] Konfirmasikan melalui uji coba yang disertai perhitungan biaya
+
+[[U061]] Konfirmasikan melalui uji coba yang disertai perhitungan biaya
+
+[[U062]] Harga per satuan massa dan dosis yang diperlukan untuk mencapai target pangan yang sama
+
+[[U063]] Tidak satu pun kolom tersebut memberikan jaminan produk "ALL KONJAC" (konjac murni/utuh). Pastikan spesifikasi dari tingkatan (grade) produk yang sebenarnya ditawarkan.
+
+[[U064]] 2. Bagaimana proses pengolahan dapat mengubah bahan
+
+[[U065]] Penggilingan, pemisahan, ekstraksi, pencucian, dan pengeringan dapat mengubah jumlah komponen non-glukomanan serta karakteristik bubuk yang dihasilkan. Proses pengolahan juga dapat memengaruhi struktur polimer. Oleh karena itu, nama proses harus dipahami bersamaan dengan data komposisi dan pengukuran fungsional.
+
+[[U066]] Spesifikasi Uni Eropa (EU) menunjukkan mengapa terminologi yang tepat itu penting: *konjac gum* E425(i) didefinisikan melalui ekstraksi berbasis air dari tepung konjac, sedangkan *konjac glucomannan* E425(ii) didefinisikan melalui pencucian tepung konjac menggunakan etanol yang mengandung air. Keduanya merupakan kategori yang berbeda; deskripsi informal seperti "gum yang dimurnikan dengan alkohol" tidak menjelaskan kategori mana yang dipenuhi oleh suatu produk.
+
+[[U067]] Perilaku partikel dan perilaku larutan akhir juga memerlukan perhatian khusus. Dalam sebuah studi terhadap tujuh jenis tepung konjac yang dimurnikan, ukuran partikel dan morfologi permukaan berkaitan dengan perilaku hidrasi, sementara viskositas akhir bergantung pada faktor-faktor struktural tambahan. Studi tersebut tidak menetapkan ukuran partikel (mesh size) universal ataupun peringkat kinerja untuk setiap tingkatan (grade) komersial.
+
+[[U068]] 3. Perhatikan angka komposisi tanpa mencampuradukkan dasar pengujian
+
+[[U069]] Istilah "kandungan KGM", "karbohidrat", dan "total serat pangan" bukanlah label yang dapat saling menggantikan untuk satu jenis pengukuran yang sama. Sebelum membandingkan persentase, pastikan untuk mengidentifikasi analit (zat yang diukur), metode yang digunakan, serta dasar pelaporannya. [[U070]] Entri spesifikasi UE
+
+[[U071]] Kriteria komposisi yang tercantum dalam spesifikasi
+
+[[U072]] Hal yang tidak ditetapkan oleh angka tersebut
+
+[[U073]] E425(i): gom konjak (konjac gum)
+
+[[U074]] Setidaknya 75% karbohidrat
+
+[[U075]] Tingkat “kemurnian KGM 75%” yang bersifat universal atau jaminan kinerja pada produk pangan akhir
+
+[[U076]] E425(ii): konjak glukomanan (konjac glucomannan)
+
+[[U077]] Setidaknya 95% total serat pangan (dietary fibre) berdasarkan berat kering
+
+[[U078]] Pengukuran kadar KGM dengan metode yang setara, atau pemenuhan terhadap seluruh spesifikasi dan ketentuan penggunaan lainnya
+
+[[U079]] Sumber: Peraturan Komisi (UE) No 231/2012, entri E425; perbedaan ini juga didokumentasikan dalam evaluasi ulang oleh EFSA. Ini hanyalah kriteria komposisi pilihan, bukan daftar periksa pemenuhan (kepatuhan) yang lengkap.
+
+[[U080]] Sebagai contoh, pernyataan “KGM 90%” dari pemasok harus disertai dengan metode dan dasar perhitungannya. Angka tersebut saja tidak membuktikan ataupun menyanggah pemenuhan kriteria total serat pangan. Mintalah hasil pengujian yang relevan alih-alih sekadar mengonversi satu label ke label lainnya.
+
+[[U081]] Spesifikasi identitas dan kemurnian bahan tambahan pangan merupakan hal yang terpisah dari izin penggunaan bahan tersebut dalam kategori pangan tertentu. Peraturan UE tidak menetapkan persyaratan yang berlaku di AS. Pastikan jenis pangan, tujuan penggunaan, dan pasar tujuan sebelum melakukan pemesanan.
+
+[[U082]] 4. Bandingkan viskositas hanya jika metode yang digunakan sama
+
+[[U083]] Angka “20.000 mPa·s” tidak lengkap tanpa keterangan mengenai metode pengukurannya. Catat hal-hal berikut untuk kedua sampel sebelum menganggap nilai viskositasnya dapat dibandingkan:
+
+[[U084]] Sampel dan konsentrasi: jenis (grade), nomor bets, konsentrasi, serta keterangan apakah konsentrasi tersebut didasarkan pada bubuk sebagaimana dipasok atau berdasarkan berat kering (dry matter). [[U085]] Air dan formulasi: media pengujian, pH, serta garam atau bahan-bahan lainnya.
+
+[[U086]] Persiapan: urutan penambahan, metode dispersi, dan kondisi pencampuran.
+
+[[U087]] Waktu: waktu hidrasi, waktu istirahat, dan titik waktu saat pembacaan dilakukan.
+
+[[U088]] Suhu: suhu selama proses hidrasi dan pada saat pengukuran.
+
+[[U089]] Instrumen: model, geometri atau spindel, kecepatan rotasi, dan prosedur pembacaan yang dilaporkan.
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

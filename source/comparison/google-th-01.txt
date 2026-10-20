@@ -1,0 +1,156 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+泰语
+英语
+印尼语
+原文
+clear
+3,930
+高级
+翻译结果
+[[U055]] สี กลิ่น และลักษณะปรากฏ
+
+[[U056]] ขึ้นอยู่กับเกรดและล็อตการผลิต
+
+[[U057]] ขึ้นอยู่กับเกรดและล็อตการผลิต
+
+[[U058]] การประเมินตัวอย่าง การกำหนดขีดจำกัด และวิธีการตรวจสอบที่ตกลงร่วมกัน
+
+[[U059]] ราคาและปริมาณที่ต้องใช้ในการทำงานจริง
+
+[[U060]] ยืนยันผลผ่านการทดลองที่คำนวณต้นทุนแล้ว
+
+[[U061]] ยืนยันผลผ่านการทดลองที่คำนวณต้นทุนแล้ว
+
+[[U062]] ราคาต่อหน่วยน้ำหนัก และปริมาณที่จำเป็นต้องใช้เพื่อให้ได้ผลลัพธ์ตามเป้าหมายที่ต้องการในผลิตภัณฑ์อาหาร
+
+[[U063]] ข้อมูลในทั้งสองคอลัมน์นี้ไม่ได้เป็นการรับประกันผลิตภัณฑ์ "คอนยัค" (Konjac) ในภาพรวม โปรดตรวจสอบข้อมูลจำเพาะ (Specification) ของเกรดผลิตภัณฑ์ที่นำเสนอจริง
+
+[[U064]] 2. กระบวนการผลิตสามารถเปลี่ยนแปลงคุณสมบัติของวัตถุดิบได้อย่างไร
+
+[[U065]] กระบวนการต่าง ๆ เช่น การบด การแยกส่วนประกอบ การสกัด การล้าง และการทำให้แห้ง สามารถเปลี่ยนแปลงปริมาณของสารที่ไม่ใช่กลูโคแมนแนน (non-glucomannan) รวมถึงคุณลักษณะของผงที่ได้ นอกจากนี้ กระบวนการผลิตยังอาจส่งผลต่อโครงสร้างพอลิเมอร์ ดังนั้น การระบุชื่อกระบวนการผลิตจึงจำเป็นต้องพิจารณาควบคู่ไปกับข้อมูลองค์ประกอบและการวัดค่าเชิงหน้าที่ (functional measurements)
+
+[[U066]] ข้อกำหนดของสหภาพยุโรป (EU) แสดงให้เห็นว่าเหตุใดการใช้คำศัพท์ที่แม่นยำจึงมีความสำคัญ โดย E425(i) Konjac gum (กัมจากคอนยัค) นิยามไว้ว่าเป็นผลิตภัณฑ์ที่ได้จากการสกัดด้วยน้ำจากแป้งคอนยัค ในขณะที่ E425(ii) Konjac glucomannan (กลูโคแมนแนนจากคอนยัค) นิยามไว้ว่าเป็นผลิตภัณฑ์ที่ได้จากการล้างแป้งคอนยัคด้วยเอทานอลที่มีน้ำผสมอยู่ ทั้งสองรายการนี้ถือเป็นสิ่งที่แตกต่างกัน ดังนั้นคำอธิบายทั่วไป เช่น “กัมที่ผ่านการทำให้บริสุทธิ์ด้วยแอลกอฮอล์” จึงไม่สามารถระบุได้แน่ชัดว่าผลิตภัณฑ์นั้นตรงกับข้อกำหนดรายการใด
+
+[[U067]] พฤติกรรมของอนุภาคและพฤติกรรมของสารละลายขั้นสุดท้ายเป็นสิ่งที่ต้องพิจารณาแยกจากกัน จากการศึกษาแป้งคอนยัคที่ผ่านการทำให้บริสุทธิ์จำนวน 7 ชนิด พบว่าขนาดอนุภาคและลักษณะทางสัณฐานวิทยาของพื้นผิวมีความสัมพันธ์กับพฤติกรรมการดูดซับน้ำ (hydration behaviour) ในขณะที่ค่าความหนืดสุดท้ายขึ้นอยู่กับปัจจัยด้านโครงสร้างอื่น ๆ การศึกษานี้ไม่ได้กำหนดขนาดอนุภาค (mesh size) ที่เป็นมาตรฐานสากล หรือจัดลำดับประสิทธิภาพสำหรับผลิตภัณฑ์เชิงพาณิชย์ทุกเกรด
+
+[[U068]] 3. การอ่านตัวเลของค์ประกอบต้องไม่นำเกณฑ์การทดสอบที่แตกต่างกันมาปะปนกัน
+
+[[U069]] คำว่า “ปริมาณ KGM”, “คาร์โบไฮเดรต” และ “ใยอาหารรวม (total dietary fibre)” ไม่ใช่คำที่ใช้แทนกันได้สำหรับการวัดค่าเพียงค่าเดียว ก่อนที่จะเปรียบเทียบค่าเป็นเปอร์เซ็นต์ จำเป็นต้องระบุให้ชัดเจนว่าสารที่วัดคืออะไร ใช้วิธีการใด และใช้เกณฑ์พื้นฐานใดในการรายงานผล [[U070]] รายการข้อกำหนดของสหภาพยุโรป (EU)
+
+[[U071]] เกณฑ์องค์ประกอบที่ระบุไว้ในข้อกำหนด
+
+[[U072]] สิ่งที่ตัวเลขดังกล่าวไม่ได้บ่งชี้
+
+[[U073]] E425(i): กัมจากบุก (konjac gum)
+
+[[U074]] คาร์โบไฮเดรตไม่น้อยกว่า 75%
+
+[[U075]] เกรดที่มี “ความบริสุทธิ์ของ KGM 75%” เป็นมาตรฐานสากล หรือการรับประกันประสิทธิภาพเมื่อนำไปใช้ในผลิตภัณฑ์อาหารสำเร็จรูป
+
+[[U076]] E425(ii): บุกกลูโคแมนแนน (konjac glucomannan)
+
+[[U077]] ใยอาหารรวมไม่น้อยกว่า 95% (คำนวณจากน้ำหนักแห้ง)
+
+[[U078]] ผลการวิเคราะห์ปริมาณ KGM ที่มีความหมายเดียวกัน หรือการปฏิบัติตามข้อกำหนดและเงื่อนไขการใช้งานอื่น ๆ ทั้งหมด
+
+[[U079]] ที่มา: กฎระเบียบของคณะกรรมาธิการยุโรป (EU) ฉบับที่ 231/2012 ในส่วนที่เกี่ยวกับ E425 โดยความแตกต่างนี้ยังระบุไว้ในการประเมินซ้ำของ EFSA ด้วย ทั้งนี้ ข้อมูลดังกล่าวเป็นเพียงเกณฑ์องค์ประกอบบางประการเท่านั้น ไม่ใช่รายการตรวจสอบความสอดคล้องตามข้อกำหนดทั้งหมด
+
+[[U080]] ตัวอย่างเช่น หากซัพพลายเออร์ระบุว่ามี “KGM 90%” ควรระบุวิธีวิเคราะห์และเกณฑ์ที่ใช้ประกอบด้วย ตัวเลขเพียงอย่างเดียวไม่สามารถยืนยันหรือปฏิเสธได้ว่าผลิตภัณฑ์นั้นเป็นไปตามเกณฑ์ใยอาหารรวมหรือไม่ ดังนั้น ควรขอผลการทดสอบที่เกี่ยวข้อง แทนที่จะใช้วิธีแปลงข้อมูลจากฉลากหนึ่งไปสู่อีกฉลากหนึ่ง
+
+[[U081]] ข้อกำหนดด้านอัตลักษณ์และความบริสุทธิ์ของวัตถุเจือปนอาหารนั้น แยกต่างหากจากการอนุญาตให้ใช้ส่วนผสมดังกล่าวในกลุ่มผลิตภัณฑ์อาหารประเภทใดประเภทหนึ่ง กฎระเบียบของสหภาพยุโรปไม่ได้กำหนดตามข้อกำหนดของสหรัฐอเมริกา ดังนั้น ควรตรวจสอบประเภทอาหาร วัตถุประสงค์การใช้งาน และตลาดปลายทางให้ชัดเจนก่อนทำการสั่งซื้อ
+
+[[U082]] 4. เปรียบเทียบค่าความหนืดเฉพาะเมื่อใช้วิธีการวัดเดียวกันเท่านั้น
+
+[[U083]] การระบุค่าความหนืดว่า “20,000 mPa·s” โดยไม่มีการระบุวิธีวัดถือว่าข้อมูลไม่สมบูรณ์ ก่อนที่จะเปรียบเทียบค่าความหนืดของตัวอย่างสองรายการ ควรบันทึกข้อมูลต่อไปนี้ไว้:
+
+[[U084]] ตัวอย่างและความเข้มข้น: เกรด, รุ่นการผลิต (batch), ความเข้มข้น, และระบุว่าความเข้มข้นนั้นคำนวณจากน้ำหนักผงตามสภาพที่ได้รับมา หรือคำนวณจากน้ำหนักแห้ง (dry matter) [[U085]] น้ำและสูตรผสม: ตัวกลางที่ใช้ในการทดสอบ ค่า pH รวมถึงเกลือหรือส่วนประกอบอื่น ๆ
+
+[[U086]] การเตรียม: ลำดับการเติมสาร วิธีการกระจายตัว และสภาวะในการผสม
+
+[[U087]] เวลา: ระยะเวลาในการให้สารดูดซับน้ำ (hydration time) ระยะเวลาพัก และช่วงเวลาที่ทำการอ่านค่า
+
+[[U088]] อุณหภูมิ: อุณหภูมิระหว่างขั้นตอนการให้สารดูดซับน้ำ และอุณหภูมิขณะทำการวัดค่า
+
+[[U089]] เครื่องมือ: รุ่นของเครื่องมือ รูปทรงหรือหัววัด (spindle) ความเร็วรอบ และขั้นตอนการอ่านค่าที่รายงานไว้
+[[U055]] s̄ī klìn læa lạks̄ʹṇa prākt̩
+
+[[U056]] k̄hụ̂n xyū̀ kạb ke rd læa l̆x tkār p̄hlit
+
+[[U057]] k̄hụ̂n xyū̀ kạb ke rd læa l̆x tkār p̄hlit
+
+[[U058]] kār pramein tạwxỳāng kār kảh̄nd k̄hīd cảkạd læa wiṭhī kār trwc s̄xb thī̀ tklng r̀wm kạn
+
+[[U059]] rākhā læa primāṇ thī̀ t̂xng chı̂ nı kār thảngān cring
+
+[[U060]] yụ̄nyạn p̄hl p̄h̀ān kār thdlxng thī̀ khảnwṇ t̂nthun læ̂w
+
+[[U061]] yụ̄nyạn p̄hl p̄h̀ān kār thdlxng thī̀ khảnwṇ t̂nthun læ̂w
+
+[[U062]] rākhā t̀x h̄ǹwy n̂ả h̄nạk læa primāṇ thī̀ cảpĕn t̂xng chı̂ pheụ̄̀x h̄ı̂ dị̂ p̄hllạphṭh̒ tām pêā h̄māy thī̀ t̂xngkār nı p̄hlitp̣hạṇṯh̒ xāh̄ār
+
+[[U063]] k̄ĥxmūl nı thậng s̄xng khxlạmn̒ nī̂ mị̀ dị̂ pĕnkār rạb prakạn p̄hlitp̣hạṇṯh̒ "khxnyạkh" (Konjac) nı p̣hāph rwm pord trwc s̄xb k̄ĥxmūl cảpheāa (Specification) k̄hxng kerd p̄hlitp̣hạṇṯh̒ thī̀ nả s̄enx cring
+
+[[U064]] 2. Krabwnkār p̄hlit s̄āmārt̄h pelī̀ynpælng khuṇs̄mbạti k̄hxng wạtt̄hudib dị̂ xỳāngrị
+
+[[U065]] krabwnkār t̀āng «chèn kār bd kār yæk s̄̀wn prakxb kār s̄kạd kār l̂āng læa kār thảh̄ı̂ h̄æ̂ng s̄āmārt̄h pelī̀ynpælng primāṇ k̄hxng s̄ār thī̀ mị̀ chı̀ klū kho mæn næn (non-glucomannan) rwm t̄hụng khuṇlạks̄ʹṇa k̄hxng p̄hng thī̀ dị̂ nxkcāk nī̂ krabwnkār p̄hlit yạng xāc s̄̀ng p̄hl t̀x khorngs̄r̂āng phx li me xr̒ dạng nận kār rabu chụ̄̀x krabwnkār p̄hlit cụng cảpĕn t̂xng phicārṇā khwbkhū̀ pị kạb k̄ĥxmūl xngkh̒ prakxb læa kār wạd kh̀ā cheing h̄n̂āthī̀ (functional measurements)
+
+[[U066]] k̄ĥx kảh̄nd k̄hxng s̄h̄p̣hāph yurop (EU) s̄ædng h̄ı̂ h̄ĕn ẁā h̄etu dı kār chı̂ khả ṣ̄ạphth̒ thī̀ mæ̀nyả cụng mī khwām s̄ảkhạỵ doy E425(i) Konjac gum (kạm cāk khxnyạkh) niyām wị̂ ẁā pĕn p̄hlitp̣hạṇṯh̒ thī̀ dị̂ cāk kār s̄kạd d̂wy n̂ả cāk pæ̂ng khxnyạkh nı k̄hṇa thī̀ E425(ii) Konjac glucomannan (klū kho mæn næn cāk khxnyạkh) niyām wị̂ ẁā pĕn p̄hlitp̣hạṇṯh̒ thī̀ dị̂ cāk kār l̂āng pæ̂ng khxnyạkh d̂wy xe thā nxl thī̀ mī n̂ả p̄hs̄m xyū̀ thậng s̄xng rāykār nī̂ t̄hụ̄x pĕn s̄ìng thī̀ tæk t̀āng kạn dạng nận khả xṭhibāy thạ̀wpị chèn “kạm thī̀ p̄h̀ān kār thảh̄ı̂ bris̄uthṭhi̒ d̂wy xælkxḥxl̒” cụng mị̀ s̄āmārt̄h rabu dị̂ næ̀chạd ẁā p̄hlitp̣hạṇṯh̒ nận trng kạb k̄ĥx kảh̄nd rāykār dı
+
+[[U067]] phvtikrrm k̄hxng xnup̣hākh læa phvtikrrm k̄hxng s̄ārlalāy k̄hận s̄udtĥāy pĕn s̄ìng thī̀ t̂xng phicārṇā yæk cāk kạn cāk kār ṣ̄ụks̄ʹā pæ̂ng khxnyạkh thī̀ p̄h̀ān kār thảh̄ı̂ bris̄uthṭhi̒ cảnwn 7 chnid phb ẁā k̄hnād xnup̣hākh læa lạks̄ʹṇa thāng s̄ạṇṭ̄hān withyā k̄hxng phụ̄̂n p̄hiw mī khwām s̄ạmphạnṭh̒ kạb phvtikrrm kār dūd sạb n̂ả (hydration behaviour) nı k̄hṇa thī̀ kh̀ā khwām h̄nụ̄d s̄udtĥāy k̄hụ̂n xyū̀ kạb pạccạy d̂ān khorngs̄r̂āng xụ̄̀n «kār ṣ̄ụks̄ʹā nī̂ mị̀ dị̂ kảh̄nd k̄hnād xnup̣hākh (mesh size) thī̀ pĕn mātrṭ̄hān s̄ākl h̄rụ̄x cạd lảdạb pras̄ithṭhip̣hāph s̄ảh̄rạb p̄hlitp̣hạṇṯh̒ cheing phāṇichy̒ thuk kerd
+
+[[U068]] 3. Kār x̀ān tạwlek̄h xngkh̒ prakxb t̂xng mị̀ nả keṇṯh̒ kār thds̄xb thī̀ tæk t̀āng kạn mā papn kạn
+
+[[U069]] khả ẁā “primāṇ KGM”, “khār̒boḥịdert” læa “yı xāh̄ār rwm (total dietary fibre)” mị̀chı̀ khả thī̀ chı̂ thæn kạn dị̂ s̄ảh̄rạb kār wạd kh̀ā pheīyng kh̀ā deīyw k̀xn thī̀ ca perīyb theīyb kh̀ā pĕn pexr̒sĕnt̒ cảpĕn t̂xng rabu h̄ı̂ chạdcen ẁā s̄ār thī̀ wạd khụ̄x xarị chı̂ wiṭhī kār dı læa chı̂ keṇṯh̒ phụ̄̂n ṭ̄hān dı nı kār rāyngān p̄hl [[U070]] rāykār k̄ĥx kảh̄nd k̄hxng s̄h̄p̣hāph yurop (EU)
+
+[[U071]] keṇṯh̒ xngkh̒ prakxb thī̀ rabu wị̂ nı k̄ĥx kảh̄nd
+
+[[U072]] s̄ìng thī̀ tạwlek̄h dạng kl̀āw mị̀ dị̂ b̀ng chī̂
+
+[[U073]] E425(i): Kạm cāk buk (konjac gum)
+
+[[U074]] khār̒boḥịdert mị̀ n̂xy kẁā 75%
+
+[[U075]] kerd thī̀ mī “khwām bris̄uthṭhi̒ k̄hxng KGM 75%” pĕn mātrṭ̄hān s̄ākl h̄rụ̄x kār rạb prakạn pras̄ithṭhip̣hāph meụ̄̀x nả pị chı̂ nı p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp
+
+[[U076]] E425(ii): Bu kk lū kho mæn næn (konjac glucomannan)
+
+[[U077]] yı xāh̄ār rwm mị̀ n̂xy kẁā 95% (khảnwṇ cāk n̂ả h̄nạk h̄æ̂ng)
+
+[[U078]] p̄hl kār wikherāah̄̒ primāṇ KGM thī̀ mī khwām h̄māy deīywkạn h̄rụ̄x kār pt̩ibạti tām k̄ĥx kảh̄nd læa ngeụ̄̀xnk̄hị kār chı̂ ngān xụ̄̀n «thậngh̄md
+
+[[U079]] thī̀mā: Kḍ rabeīyb k̄hxng khṇa krrmāṭhikār yurop (EU) c̄hbạb thī̀ 231/2012 nı s̄̀wn thī̀ keī̀yw kạb E425 doy khwām tæk t̀āng nī̂ yạng rabu wị̂ nı kār pramein ŝả k̄hxng EFSA d̂wy thậngnī̂ k̄ĥxmūl dạng kl̀āw pĕn pheīyng keṇṯh̒ xngkh̒ prakxb bāng prakār thèānận mị̀chı̀ rāykār trwc s̄xb khwām s̄xdkhl̂xng tām k̄ĥx kảh̄nd thậngh̄md
+
+[[U080]] tạwxỳāng chèn h̄āk sạphphlāy xe xr̒ rabu ẁā mī “KGM 90%” khwr rabu wiṭhī wikherāah̄̒ læa keṇṯh̒ thī̀ chı̂ prakxb d̂wy tạwlek̄h pheīyng xỳāng deīyw mị̀ s̄āmārt̄h yụ̄nyạn h̄rụ̄x pt̩is̄eṭh dị̂ ẁā p̄hlitp̣hạṇṯh̒ nận pĕn pị tām keṇṯh̒ yı xāh̄ār rwm h̄rụ̄x mị̀ dạng nận khwr k̄hx p̄hl kār thds̄xb thī̀ keī̀ywk̄ĥxng thænthī̀ ca chı̂ wiṭhī pælng k̄ĥxmūl cāk c̄hlāk h̄nụ̀ng pị s̄ū̀ xīk c̄hlāk h̄nụ̀ng
+
+[[U081]] k̄ĥx kảh̄nd d̂ān xạt lạks̄ʹṇ̒ læa khwām bris̄uthṭhi̒ k̄hxng wạtt̄hu ceụ̄xpn xāh̄ār nận yæk t̀āng h̄āk cāk kār xnuỵāt h̄ı̂ chı̂ s̄̀wn p̄hs̄m dạng kl̀āw nı klùm p̄hlitp̣hạṇṯh̒ xāh̄ār prap̣heth dı prap̣heth h̄nụ̀ng kḍ rabeīyb k̄hxng s̄h̄p̣hāph yurop mị̀ dị̂ kảh̄nd tām k̄ĥx kảh̄nd k̄hxng s̄h̄rạṭ̄hxmerikā dạng nận khwr trwc s̄xb prap̣heth xāh̄ār wạtt̄hupras̄ngkh̒ kār chı̂ ngān læa tlād plāy thāng h̄ı̂ chạdcen k̀xn thảkār s̄ạ̀ng sụ̄̂x
+
+[[U082]] 4. Perīyb theīyb kh̀ā khwām h̄nụ̄d c̄hephāa meụ̄̀x chı̂ wiṭhī kār wạd deīywkạn thèānận
+
+[[U083]] kār rabu kh̀ā khwām h̄nụ̄d ẁā “20,000 mPa·s” doy mị̀mī kār rabu wiṭhī wạd t̄hụ̄xẁā k̄ĥxmūl mị̀ s̄mbūrṇ̒ k̀xn thī̀ ca perīyb theīyb kh̀ā khwām h̄nụ̄d k̄hxng tạwxỳāng s̄xng rāykār khwr bạnthụk k̄ĥxmūl t̀x pị nī̂ wị̂:
+
+[[U084]] tạwxỳāng læa khwām k̄hêm k̄ĥn: Kerd, rùn kār p̄hlit (batch), khwām k̄hêm k̄ĥn, læa rabu ẁā khwām k̄hêm k̄ĥn nận khảnwṇ cāk n̂ả h̄nạk p̄hng tām s̄p̣hāph thī̀ dị̂ rạb mā h̄rụ̄x khảnwṇ cāk n̂ả h̄nạk h̄æ̂ng (dry matter) [[U085]] n̂ả læa s̄ūtr p̄hs̄m: Tạwklāng thī̀ chı̂ nı kār thds̄xb kh̀ā pH rwm t̄hụng kelụ̄x h̄rụ̄x s̄̀wn prakxb xụ̄̀n «
+
+[[U086]] kārte rī ym: Lảdạb kār teim s̄ār wiṭhī kārk ra cā y tạw læa s̄p̣hāwa nı kār p̄hs̄m
+
+[[U087]] welā: Raya welā nı kār h̄ı̂ s̄ār dūd sạb n̂ả (hydration time) raya welā phạk læa ch̀wng welā thī̀thảkār x̀ān kh̀ā
+
+[[U088]] xuṇh̄p̣hūmi: Xuṇh̄p̣hūmi rah̄ẁāng k̄hận txn kār h̄ı̂ s̄ār dūd sạb n̂ả læa xuṇh̄p̣hūmi k̄hṇa thảkār wạd kh̀ā
+
+[[U089]] kherụ̄̀xng mụ̄x: Rùn k̄hxng kherụ̄̀xng mụ̄x rūp thrng h̄rụ̄x h̄ạw wạd (spindle) khwāmrĕw rxb læa k̄hận txn kār x̀ān kh̀āthī̀ rāyngān wị̂
+展开
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

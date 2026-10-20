@@ -1,0 +1,1397 @@
+{
+  "ui": {
+    "title": "U000",
+    "deck": "U001",
+    "category": "U002",
+    "journal": "U003",
+    "home": "U004",
+    "ingredients": "U005",
+    "menu": "U006",
+    "toc": "U007",
+    "published": "U008",
+    "references": "U009",
+    "step1": "U010",
+    "step1note": "U011",
+    "step2": "U012",
+    "step2note": "U013",
+    "step3": "U014",
+    "step3note": "U015",
+    "tablehint": "U016",
+    "note": "U017",
+    "related": "U018",
+    "enquiry": "U019",
+    "research": "U020",
+    "back": "U021",
+    "footer": "U022",
+    "contact": "U023",
+    "newlabel": "U024",
+    "indexTitle": "U025",
+    "indexDeck": "U026",
+    "read": "U027",
+    "sourcescope": "U028"
+  },
+  "units": [
+    {
+      "id": "U000",
+      "text": "Refined Konjac Powder vs. Konjac Gum: Differences, Specifications and How to Choose"
+    },
+    {
+      "id": "U001",
+      "text": "Compare the specification behind the name—and the result in your food."
+    },
+    {
+      "id": "U002",
+      "text": "Ingredients / Technical comparison"
+    },
+    {
+      "id": "U003",
+      "text": "Journal"
+    },
+    {
+      "id": "U004",
+      "text": "Main site"
+    },
+    {
+      "id": "U005",
+      "text": "Explore ingredients"
+    },
+    {
+      "id": "U006",
+      "text": "Menu"
+    },
+    {
+      "id": "U007",
+      "text": "On this page"
+    },
+    {
+      "id": "U008",
+      "text": "Published"
+    },
+    {
+      "id": "U009",
+      "text": "References"
+    },
+    {
+      "id": "U010",
+      "text": "Define the material"
+    },
+    {
+      "id": "U011",
+      "text": "Name, analyte and test basis"
+    },
+    {
+      "id": "U012",
+      "text": "Align the method"
+    },
+    {
+      "id": "U013",
+      "text": "Hydration and measured viscosity"
+    },
+    {
+      "id": "U014",
+      "text": "Validate in food"
+    },
+    {
+      "id": "U015",
+      "text": "Performance and cost in use"
+    },
+    {
+      "id": "U016",
+      "text": "Swipe or scroll the table to see all columns."
+    },
+    {
+      "id": "U017",
+      "text": "This technical comparison does not state specifications for an ALL KONJAC product. Confirm the proposed grade, batch documents and intended use. Research findings are not product health claims."
+    },
+    {
+      "id": "U018",
+      "text": "Continue reading"
+    },
+    {
+      "id": "U019",
+      "text": "Prepare an ingredient enquiry (English)"
+    },
+    {
+      "id": "U020",
+      "text": "KGM formulation guide (English)"
+    },
+    {
+      "id": "U021",
+      "text": "Back to journal"
+    },
+    {
+      "id": "U022",
+      "text": "Ingredient science for food development. Confirm the actual grade, batch, method and finished-food result."
+    },
+    {
+      "id": "U023",
+      "text": "Project enquiries"
+    },
+    {
+      "id": "U024",
+      "text": "New / Ingredient specifications"
+    },
+    {
+      "id": "U025",
+      "text": "Konjac research and project guides"
+    },
+    {
+      "id": "U026",
+      "text": "A technical comparison of refined konjac powder and konjac gum for ingredient buyers and food developers."
+    },
+    {
+      "id": "U027",
+      "text": "Read the technical comparison"
+    },
+    {
+      "id": "U028",
+      "text": "Published sources are linked below. Scientific article titles and standard identifiers retain their original bibliographic form."
+    },
+    {
+      "id": "U029",
+      "text": "The short answer"
+    },
+    {
+      "id": "U030",
+      "text": "Refined konjac powder and konjac gum are related konjac ingredients, but their names alone do not tell you how one grade will perform against another. Compare the declared composition and its test method, processing history, hydration behaviour, measured viscosity and performance in your food. A higher composition value does not, by itself, establish faster hydration, stronger gel formation or a lower dose."
+    },
+    {
+      "id": "U031",
+      "text": "For procurement, use the name to begin the discussion. Use a grade specification, a batch certificate of analysis (COA) and a formulation trial to make the decision. This article explains the technical comparison; our ingredient enquiry guide explains what to send to a supplier."
+    },
+    {
+      "id": "U032",
+      "text": "1. Start with the name—and the specification behind it"
+    },
+    {
+      "id": "U033",
+      "text": "Konjac glucomannan (KGM) is the polysaccharide associated with the thickening and texture functions of konjac ingredients. In commercial discussions, konjac flour, refined konjac powder, purified konjac flour and konjac gum can describe materials with different compositions and processing histories. They are not a universal ladder with a single purity or viscosity assigned to each name."
+    },
+    {
+      "id": "U034",
+      "text": "China has separate standards titled Konjac refined powder (GB/T 18104-2000) and Konjac flour (NY/T 494-2010). Their official records establish the document identities; a purchase specification still needs the relevant clauses and test methods. An English sales description is not enough to establish equivalence between standards or regulatory categories."
+    },
+    {
+      "id": "U035",
+      "text": "What you are comparing"
+    },
+    {
+      "id": "U036",
+      "text": "Refined konjac powder"
+    },
+    {
+      "id": "U037",
+      "text": "A material offered as konjac gum"
+    },
+    {
+      "id": "U038",
+      "text": "What to request"
+    },
+    {
+      "id": "U039",
+      "text": "Product identity"
+    },
+    {
+      "id": "U040",
+      "text": "A commercial or standard-based description of a refined konjac material"
+    },
+    {
+      "id": "U041",
+      "text": "A commercial description or a defined additive category, depending on the market"
+    },
+    {
+      "id": "U042",
+      "text": "Exact product name, grade, applicable standard and destination market"
+    },
+    {
+      "id": "U043",
+      "text": "Composition"
+    },
+    {
+      "id": "U044",
+      "text": "Depends on the grade and analytical method"
+    },
+    {
+      "id": "U045",
+      "text": "Depends on the grade and regulatory identity"
+    },
+    {
+      "id": "U046",
+      "text": "Named analyte, method, result and whether it is on a dry or as-supplied basis"
+    },
+    {
+      "id": "U047",
+      "text": "Hydration"
+    },
+    {
+      "id": "U048",
+      "text": "Depends on particles, dispersion and process conditions"
+    },
+    {
+      "id": "U049",
+      "text": "Must also be measured; the word “gum” does not guarantee rapid hydration"
+    },
+    {
+      "id": "U050",
+      "text": "Hydration profile under the intended mixing conditions"
+    },
+    {
+      "id": "U051",
+      "text": "Viscosity and gel behaviour"
+    },
+    {
+      "id": "U052",
+      "text": "Must be evaluated using a defined method and formulation"
+    },
+    {
+      "id": "U053",
+      "text": "Must be evaluated using the same method and formulation"
+    },
+    {
+      "id": "U054",
+      "text": "Full viscosity method and finished-food acceptance criteria"
+    },
+    {
+      "id": "U055",
+      "text": "Colour, odour and appearance"
+    },
+    {
+      "id": "U056",
+      "text": "Grade- and batch-dependent"
+    },
+    {
+      "id": "U057",
+      "text": "Grade- and batch-dependent"
+    },
+    {
+      "id": "U058",
+      "text": "Sample evaluation, limits and agreed inspection method"
+    },
+    {
+      "id": "U059",
+      "text": "Price and working dose"
+    },
+    {
+      "id": "U060",
+      "text": "Confirm through a costed trial"
+    },
+    {
+      "id": "U061",
+      "text": "Confirm through a costed trial"
+    },
+    {
+      "id": "U062",
+      "text": "Price per unit mass and dose needed to meet the same food target"
+    },
+    {
+      "id": "U063",
+      "text": "Neither column defines an ALL KONJAC product guarantee. Confirm the specification of the actual grade being offered."
+    },
+    {
+      "id": "U064",
+      "text": "2. How processing can change the material"
+    },
+    {
+      "id": "U065",
+      "text": "Milling, separation, extraction, washing and drying can change the amount of non-glucomannan material and the characteristics of the resulting powder. Processing can also affect polymer structure. A process name therefore needs to be read alongside composition and functional measurements."
+    },
+    {
+      "id": "U066",
+      "text": "EU specifications illustrate why precise terminology matters: E425(i) konjac gum is defined through aqueous extraction from konjac flour, while E425(ii) konjac glucomannan is defined through washing konjac flour with water-containing ethanol. These are distinct entries; an informal description such as “alcohol-purified gum” does not establish which entry a product meets."
+    },
+    {
+      "id": "U067",
+      "text": "Particle behaviour and final solution behaviour also need separate attention. In a study of seven purified konjac flours, particle size and surface morphology were associated with hydration behaviour, while final viscosity depended on additional structural factors. That study does not establish a universal mesh size or a performance ranking for every commercial grade."
+    },
+    {
+      "id": "U068",
+      "text": "3. Read composition numbers without mixing the test bases"
+    },
+    {
+      "id": "U069",
+      "text": "“KGM content”, “carbohydrate” and “total dietary fibre” are not interchangeable labels for a single measurement. Before comparing percentages, identify the analyte, method and reporting basis."
+    },
+    {
+      "id": "U070",
+      "text": "EU specification entry"
+    },
+    {
+      "id": "U071",
+      "text": "Composition criterion stated in the specification"
+    },
+    {
+      "id": "U072",
+      "text": "What the number does not establish"
+    },
+    {
+      "id": "U073",
+      "text": "E425(i): konjac gum"
+    },
+    {
+      "id": "U074",
+      "text": "At least 75% carbohydrate"
+    },
+    {
+      "id": "U075",
+      "text": "A universal “75% KGM purity” grade or a final-food performance guarantee"
+    },
+    {
+      "id": "U076",
+      "text": "E425(ii): konjac glucomannan"
+    },
+    {
+      "id": "U077",
+      "text": "At least 95% total dietary fibre on a dry-weight basis"
+    },
+    {
+      "id": "U078",
+      "text": "A measured KGM assay of exactly the same meaning, or compliance with every other specification and use condition"
+    },
+    {
+      "id": "U079",
+      "text": "Source: Commission Regulation (EU) No 231/2012, E425 entries; the distinction is also documented in EFSA’s re-evaluation. These are selected composition criteria, not a complete compliance checklist."
+    },
+    {
+      "id": "U080",
+      "text": "For example, a supplier’s “90% KGM” statement should be accompanied by its method and basis. That number alone neither proves nor disproves compliance with a total-dietary-fibre criterion. Request the relevant test results rather than converting one label into another."
+    },
+    {
+      "id": "U081",
+      "text": "Additive identity and purity specifications are also separate from permission to use an ingredient in a particular food category. EU rules do not establish US requirements. Confirm the intended food, use and destination market before ordering."
+    },
+    {
+      "id": "U082",
+      "text": "4. Compare viscosity only when the methods match"
+    },
+    {
+      "id": "U083",
+      "text": "A quote of “20,000 mPa·s” is incomplete without its method. Record the following for both samples before treating their viscosity values as comparable:"
+    },
+    {
+      "id": "U084",
+      "text": "Sample and concentration: grade, batch, concentration, and whether the concentration is based on powder as supplied or dry matter."
+    },
+    {
+      "id": "U085",
+      "text": "Water and formulation: test medium, pH and any salts or other ingredients."
+    },
+    {
+      "id": "U086",
+      "text": "Preparation: addition order, dispersion method and mixing conditions."
+    },
+    {
+      "id": "U087",
+      "text": "Time: hydration time, rest time and the point at which the reading is taken."
+    },
+    {
+      "id": "U088",
+      "text": "Temperature: temperature during hydration and at measurement."
+    },
+    {
+      "id": "U089",
+      "text": "Instrument: model, geometry or spindle, rotational speed and the reported reading procedure."
+    },
+    {
+      "id": "U090",
+      "text": "A spindle number without the instrument model is not a complete method. Nor should a particular temperature or rotation speed be presented as the universal method for every konjac grade. Use the method required by the applicable specification, or an agreed method suitable for your comparison."
+    },
+    {
+      "id": "U091",
+      "text": "Keep three questions separate: How quickly does it disperse and hydrate? What viscosity does the hydrated system reach? Does the finished food have the required texture? The answers can lead to different grade choices."
+    },
+    {
+      "id": "U092",
+      "text": "5. Choose a grade by the finished-food target"
+    },
+    {
+      "id": "U093",
+      "text": "Food-development task"
+    },
+    {
+      "id": "U094",
+      "text": "Useful trial endpoints"
+    },
+    {
+      "id": "U095",
+      "text": "Why the product name is insufficient"
+    },
+    {
+      "id": "U096",
+      "text": "Konjac gel foods"
+    },
+    {
+      "id": "U097",
+      "text": "Dispersion, forming process, texture, water release and behaviour after the intended heat treatment"
+    },
+    {
+      "id": "U098",
+      "text": "Gel formation depends on formulation and processing, including alkali and heat conditions where relevant"
+    },
+    {
+      "id": "U099",
+      "text": "Beverages or dispersed fibre systems"
+    },
+    {
+      "id": "U100",
+      "text": "Dispersibility, viscosity over time, sensory quality and stability in the actual process"
+    },
+    {
+      "id": "U101",
+      "text": "A highly viscous water test is not a substitute for a beverage trial"
+    },
+    {
+      "id": "U102",
+      "text": "Dough or noodle systems"
+    },
+    {
+      "id": "U103",
+      "text": "Water management, mixing tolerance, handling and final eating quality"
+    },
+    {
+      "id": "U104",
+      "text": "Different KGM grades have produced different outcomes in a specific dough and steamed-bread study"
+    },
+    {
+      "id": "U105",
+      "text": "Meat products or hydrocolloid blends"
+    },
+    {
+      "id": "U106",
+      "text": "Texture, cooking loss, water release and stability under the actual process"
+    },
+    {
+      "id": "U107",
+      "text": "Proteins, salts and other hydrocolloids can change the result; a grade must be tested in that recipe"
+    },
+    {
+      "id": "U108",
+      "text": "These are evaluation questions, not fixed dosage recommendations. Do not use a universal replacement ratio between refined powder and gum. The trial must establish the dose and processing conditions needed to meet the same target."
+    },
+    {
+      "id": "U109",
+      "text": "Assess cost in use, not only price per kilogram. Start with unit price multiplied by the working dose per batch, then account for any measured differences in process time, yield and quality. A more expensive powder is economical only if the validated result justifies its cost."
+    },
+    {
+      "id": "U110",
+      "text": "6. A practical supplier-comparison checklist"
+    },
+    {
+      "id": "U111",
+      "text": "Ask each supplier for the same information so the offers can be compared on a common basis:"
+    },
+    {
+      "id": "U112",
+      "text": "Identity and traceability: product name, grade, batch number, specification version and applicable standard."
+    },
+    {
+      "id": "U113",
+      "text": "Composition: analyte, limit, batch result, analytical method and reporting basis."
+    },
+    {
+      "id": "U114",
+      "text": "Functional method: complete viscosity method plus any agreed hydration or gel test."
+    },
+    {
+      "id": "U115",
+      "text": "Physical quality: particle-size distribution or sieve specification, colour and odour limits, and the evaluation method."
+    },
+    {
+      "id": "U116",
+      "text": "Safety and market documents: applicable microbiological, contaminant and residue results for the grade and intended market, including processing-solvent information where relevant."
+    },
+    {
+      "id": "U117",
+      "text": "Supply conditions: packaging, documented shelf life and storage instructions, sample evaluation and batch-consistency arrangements."
+    },
+    {
+      "id": "U118",
+      "text": "Request results for the proposed material. A generic certificate, an unqualified “food grade” label or a claim that the “highest purity is always best” does not replace this comparison."
+    },
+    {
+      "id": "U119",
+      "text": "Once the material is identified, use the ingredient enquiry guide to prepare a project brief. For a deeper explanation of hydration, viscosity and gel testing, read our KGM formulation guide."
+    },
+    {
+      "id": "U120",
+      "text": "7. Frequently asked questions"
+    },
+    {
+      "id": "U121",
+      "text": "Is konjac gum always higher in KGM than refined konjac powder?"
+    },
+    {
+      "id": "U122",
+      "text": "Do not decide from the names alone. Compare the specified analyte and test method for the actual grades. Regulatory definitions and commercial labels do not always use the same measurements."
+    },
+    {
+      "id": "U123",
+      "text": "Does finer powder always hydrate better?"
+    },
+    {
+      "id": "U124",
+      "text": "Particle characteristics can affect hydration, but practical dispersion also depends on mixing and addition conditions. Compare the hydration curve and lump formation in your process rather than selecting solely by mesh count."
+    },
+    {
+      "id": "U125",
+      "text": "Can I replace one grade with another at the same dose?"
+    },
+    {
+      "id": "U126",
+      "text": "Treat substitution as a formulation change. Compare samples under the same conditions, then establish the dose that achieves the same finished-food target. No fixed exchange ratio is supplied by the product names."
+    },
+    {
+      "id": "U127",
+      "text": "Does a high-purity grade automatically qualify for health claims?"
+    },
+    {
+      "id": "U128",
+      "text": "No. Ingredient identity, permitted use, product composition and the conditions for any claim are separate questions. A composition percentage is not permission to make a health claim for the finished product."
+    }
+  ],
+  "blocks": [
+    {
+      "id": "U029",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-the-short-answer",
+        "data-unit": "U029"
+      },
+      "refs": []
+    },
+    {
+      "id": "U030",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U030"
+      },
+      "refs": [
+        "#ref-1",
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U031",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U031"
+      },
+      "refs": []
+    },
+    {
+      "id": "U032",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-1-start-with-the-name-and-the-specification-behind-it",
+        "data-unit": "U032"
+      },
+      "refs": []
+    },
+    {
+      "id": "U033",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U033"
+      },
+      "refs": [
+        "#ref-1",
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U034",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U034"
+      },
+      "refs": [
+        "#ref-3",
+        "#ref-4"
+      ]
+    },
+    {
+      "id": "U035",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U035"
+      },
+      "refs": []
+    },
+    {
+      "id": "U036",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U036"
+      },
+      "refs": []
+    },
+    {
+      "id": "U037",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U037"
+      },
+      "refs": []
+    },
+    {
+      "id": "U038",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U038"
+      },
+      "refs": []
+    },
+    {
+      "id": "U039",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U039"
+      },
+      "refs": []
+    },
+    {
+      "id": "U040",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U040"
+      },
+      "refs": []
+    },
+    {
+      "id": "U041",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U041"
+      },
+      "refs": []
+    },
+    {
+      "id": "U042",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U042"
+      },
+      "refs": []
+    },
+    {
+      "id": "U043",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U043"
+      },
+      "refs": []
+    },
+    {
+      "id": "U044",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U044"
+      },
+      "refs": []
+    },
+    {
+      "id": "U045",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U045"
+      },
+      "refs": []
+    },
+    {
+      "id": "U046",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U046"
+      },
+      "refs": []
+    },
+    {
+      "id": "U047",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U047"
+      },
+      "refs": []
+    },
+    {
+      "id": "U048",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U048"
+      },
+      "refs": []
+    },
+    {
+      "id": "U049",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U049"
+      },
+      "refs": []
+    },
+    {
+      "id": "U050",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U050"
+      },
+      "refs": []
+    },
+    {
+      "id": "U051",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U051"
+      },
+      "refs": []
+    },
+    {
+      "id": "U052",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U052"
+      },
+      "refs": []
+    },
+    {
+      "id": "U053",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U053"
+      },
+      "refs": []
+    },
+    {
+      "id": "U054",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U054"
+      },
+      "refs": []
+    },
+    {
+      "id": "U055",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U055"
+      },
+      "refs": []
+    },
+    {
+      "id": "U056",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U056"
+      },
+      "refs": []
+    },
+    {
+      "id": "U057",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U057"
+      },
+      "refs": []
+    },
+    {
+      "id": "U058",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U058"
+      },
+      "refs": []
+    },
+    {
+      "id": "U059",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U059"
+      },
+      "refs": []
+    },
+    {
+      "id": "U060",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U060"
+      },
+      "refs": []
+    },
+    {
+      "id": "U061",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U061"
+      },
+      "refs": []
+    },
+    {
+      "id": "U062",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U062"
+      },
+      "refs": []
+    },
+    {
+      "id": "U063",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U063"
+      },
+      "refs": []
+    },
+    {
+      "id": "U064",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-2-how-processing-can-change-the-material",
+        "data-unit": "U064"
+      },
+      "refs": []
+    },
+    {
+      "id": "U065",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U065"
+      },
+      "refs": [
+        "#ref-1",
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U066",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U066"
+      },
+      "refs": [
+        "#ref-1"
+      ]
+    },
+    {
+      "id": "U067",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U067"
+      },
+      "refs": [
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U068",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-3-read-composition-numbers-without-mixing-the-test-bases",
+        "data-unit": "U068"
+      },
+      "refs": []
+    },
+    {
+      "id": "U069",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U069"
+      },
+      "refs": []
+    },
+    {
+      "id": "U070",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U070"
+      },
+      "refs": []
+    },
+    {
+      "id": "U071",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U071"
+      },
+      "refs": []
+    },
+    {
+      "id": "U072",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U072"
+      },
+      "refs": []
+    },
+    {
+      "id": "U073",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U073"
+      },
+      "refs": []
+    },
+    {
+      "id": "U074",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U074"
+      },
+      "refs": []
+    },
+    {
+      "id": "U075",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U075"
+      },
+      "refs": []
+    },
+    {
+      "id": "U076",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U076"
+      },
+      "refs": []
+    },
+    {
+      "id": "U077",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U077"
+      },
+      "refs": []
+    },
+    {
+      "id": "U078",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U078"
+      },
+      "refs": []
+    },
+    {
+      "id": "U079",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U079"
+      },
+      "refs": [
+        "#ref-1",
+        "#ref-5"
+      ]
+    },
+    {
+      "id": "U080",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U080"
+      },
+      "refs": []
+    },
+    {
+      "id": "U081",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U081"
+      },
+      "refs": []
+    },
+    {
+      "id": "U082",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-4-compare-viscosity-only-when-the-methods-match",
+        "data-unit": "U082"
+      },
+      "refs": []
+    },
+    {
+      "id": "U083",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U083"
+      },
+      "refs": []
+    },
+    {
+      "id": "U084",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U084"
+      },
+      "refs": []
+    },
+    {
+      "id": "U085",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U085"
+      },
+      "refs": []
+    },
+    {
+      "id": "U086",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U086"
+      },
+      "refs": []
+    },
+    {
+      "id": "U087",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U087"
+      },
+      "refs": []
+    },
+    {
+      "id": "U088",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U088"
+      },
+      "refs": []
+    },
+    {
+      "id": "U089",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U089"
+      },
+      "refs": []
+    },
+    {
+      "id": "U090",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U090"
+      },
+      "refs": []
+    },
+    {
+      "id": "U091",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U091"
+      },
+      "refs": [
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U092",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-5-choose-a-grade-by-the-finished-food-target",
+        "data-unit": "U092"
+      },
+      "refs": []
+    },
+    {
+      "id": "U093",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U093"
+      },
+      "refs": []
+    },
+    {
+      "id": "U094",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U094"
+      },
+      "refs": []
+    },
+    {
+      "id": "U095",
+      "tag": "th",
+      "attrs": {
+        "data-unit": "U095"
+      },
+      "refs": []
+    },
+    {
+      "id": "U096",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U096"
+      },
+      "refs": []
+    },
+    {
+      "id": "U097",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U097"
+      },
+      "refs": []
+    },
+    {
+      "id": "U098",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U098"
+      },
+      "refs": [
+        "#ref-6"
+      ]
+    },
+    {
+      "id": "U099",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U099"
+      },
+      "refs": []
+    },
+    {
+      "id": "U100",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U100"
+      },
+      "refs": []
+    },
+    {
+      "id": "U101",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U101"
+      },
+      "refs": []
+    },
+    {
+      "id": "U102",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U102"
+      },
+      "refs": []
+    },
+    {
+      "id": "U103",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U103"
+      },
+      "refs": []
+    },
+    {
+      "id": "U104",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U104"
+      },
+      "refs": [
+        "#ref-7"
+      ]
+    },
+    {
+      "id": "U105",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U105"
+      },
+      "refs": []
+    },
+    {
+      "id": "U106",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U106"
+      },
+      "refs": []
+    },
+    {
+      "id": "U107",
+      "tag": "td",
+      "attrs": {
+        "data-unit": "U107"
+      },
+      "refs": []
+    },
+    {
+      "id": "U108",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U108"
+      },
+      "refs": []
+    },
+    {
+      "id": "U109",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U109"
+      },
+      "refs": []
+    },
+    {
+      "id": "U110",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-6-a-practical-supplier-comparison-checklist",
+        "data-unit": "U110"
+      },
+      "refs": []
+    },
+    {
+      "id": "U111",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U111"
+      },
+      "refs": []
+    },
+    {
+      "id": "U112",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U112"
+      },
+      "refs": []
+    },
+    {
+      "id": "U113",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U113"
+      },
+      "refs": []
+    },
+    {
+      "id": "U114",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U114"
+      },
+      "refs": []
+    },
+    {
+      "id": "U115",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U115"
+      },
+      "refs": []
+    },
+    {
+      "id": "U116",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U116"
+      },
+      "refs": []
+    },
+    {
+      "id": "U117",
+      "tag": "li",
+      "attrs": {
+        "data-unit": "U117"
+      },
+      "refs": []
+    },
+    {
+      "id": "U118",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U118"
+      },
+      "refs": []
+    },
+    {
+      "id": "U119",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U119"
+      },
+      "refs": []
+    },
+    {
+      "id": "U120",
+      "tag": "h2",
+      "attrs": {
+        "id": "section-7-frequently-asked-questions",
+        "data-unit": "U120"
+      },
+      "refs": []
+    },
+    {
+      "id": "U121",
+      "tag": "h3",
+      "attrs": {
+        "id": "section-is-konjac-gum-always-higher-in-kgm-than-refined-konjac-powder",
+        "data-unit": "U121"
+      },
+      "refs": []
+    },
+    {
+      "id": "U122",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U122"
+      },
+      "refs": [
+        "#ref-1",
+        "#ref-3",
+        "#ref-4"
+      ]
+    },
+    {
+      "id": "U123",
+      "tag": "h3",
+      "attrs": {
+        "id": "section-does-finer-powder-always-hydrate-better",
+        "data-unit": "U123"
+      },
+      "refs": []
+    },
+    {
+      "id": "U124",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U124"
+      },
+      "refs": [
+        "#ref-2"
+      ]
+    },
+    {
+      "id": "U125",
+      "tag": "h3",
+      "attrs": {
+        "id": "section-can-i-replace-one-grade-with-another-at-the-same-dose",
+        "data-unit": "U125"
+      },
+      "refs": []
+    },
+    {
+      "id": "U126",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U126"
+      },
+      "refs": []
+    },
+    {
+      "id": "U127",
+      "tag": "h3",
+      "attrs": {
+        "id": "section-does-a-high-purity-grade-automatically-qualify-for-health-claims",
+        "data-unit": "U127"
+      },
+      "refs": []
+    },
+    {
+      "id": "U128",
+      "tag": "p",
+      "attrs": {
+        "data-unit": "U128"
+      },
+      "refs": []
+    }
+  ],
+  "template": "<article class=\"prose\"><section class=\"direct-answer\"><h2 id=\"section-the-short-answer\" data-unit=\"U029\">The short answer</h2>\n<p data-unit=\"U030\">Refined konjac powder and konjac gum are related konjac ingredients, but their names alone do not tell you how one grade will perform against another. Compare the <strong>declared composition and its test method, processing history, hydration behaviour, measured viscosity and performance in your food</strong>. A higher composition value does not, by itself, establish faster hydration, stronger gel formation or a lower dose. <a href=\"#ref-1\"></a> <a href=\"#ref-2\"></a></p>\n<p data-unit=\"U031\">For procurement, use the name to begin the discussion. Use a grade specification, a batch certificate of analysis (COA) and a formulation trial to make the decision. This article explains the technical comparison; our <a href=\"../choose-konjac-powder-gum/index.html\">ingredient enquiry guide</a> explains what to send to a supplier.</p>\n</section><h2 id=\"section-1-start-with-the-name-and-the-specification-behind-it\" data-unit=\"U032\">1. Start with the name—and the specification behind it</h2>\n<p data-unit=\"U033\">Konjac glucomannan (KGM) is the polysaccharide associated with the thickening and texture functions of konjac ingredients. In commercial discussions, <em>konjac flour</em>, <em>refined konjac powder</em>, <em>purified konjac flour</em> and <em>konjac gum</em> can describe materials with different compositions and processing histories. They are not a universal ladder with a single purity or viscosity assigned to each name. <a href=\"#ref-1\"></a> <a href=\"#ref-2\"></a></p>\n<p data-unit=\"U034\">China has separate standards titled <strong>Konjac refined powder (GB/T 18104-2000)</strong> and <strong>Konjac flour (NY/T 494-2010)</strong>. Their official records establish the document identities; a purchase specification still needs the relevant clauses and test methods. An English sales description is not enough to establish equivalence between standards or regulatory categories. <a href=\"#ref-3\"></a> <a href=\"#ref-4\"></a></p>\n<div class=\"table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table\"><table>\n<thead>\n<tr>\n<th data-unit=\"U035\">What you are comparing</th>\n<th data-unit=\"U036\">Refined konjac powder</th>\n<th data-unit=\"U037\">A material offered as konjac gum</th>\n<th data-unit=\"U038\">What to request</th>\n</tr>\n</thead>\n<tbody><tr>\n<td data-unit=\"U039\">Product identity</td>\n<td data-unit=\"U040\">A commercial or standard-based description of a refined konjac material</td>\n<td data-unit=\"U041\">A commercial description or a defined additive category, depending on the market</td>\n<td data-unit=\"U042\">Exact product name, grade, applicable standard and destination market</td>\n</tr>\n<tr>\n<td data-unit=\"U043\">Composition</td>\n<td data-unit=\"U044\">Depends on the grade and analytical method</td>\n<td data-unit=\"U045\">Depends on the grade and regulatory identity</td>\n<td data-unit=\"U046\">Named analyte, method, result and whether it is on a dry or as-supplied basis</td>\n</tr>\n<tr>\n<td data-unit=\"U047\">Hydration</td>\n<td data-unit=\"U048\">Depends on particles, dispersion and process conditions</td>\n<td data-unit=\"U049\">Must also be measured; the word “gum” does not guarantee rapid hydration</td>\n<td data-unit=\"U050\">Hydration profile under the intended mixing conditions</td>\n</tr>\n<tr>\n<td data-unit=\"U051\">Viscosity and gel behaviour</td>\n<td data-unit=\"U052\">Must be evaluated using a defined method and formulation</td>\n<td data-unit=\"U053\">Must be evaluated using the same method and formulation</td>\n<td data-unit=\"U054\">Full viscosity method and finished-food acceptance criteria</td>\n</tr>\n<tr>\n<td data-unit=\"U055\">Colour, odour and appearance</td>\n<td data-unit=\"U056\">Grade- and batch-dependent</td>\n<td data-unit=\"U057\">Grade- and batch-dependent</td>\n<td data-unit=\"U058\">Sample evaluation, limits and agreed inspection method</td>\n</tr>\n<tr>\n<td data-unit=\"U059\">Price and working dose</td>\n<td data-unit=\"U060\">Confirm through a costed trial</td>\n<td data-unit=\"U061\">Confirm through a costed trial</td>\n<td data-unit=\"U062\">Price per unit mass and dose needed to meet the same food target</td>\n</tr>\n</tbody></table></div><p class=\"table-hint\">Swipe or scroll the table to see all columns.</p>\n<p data-unit=\"U063\">Neither column defines an ALL KONJAC product guarantee. Confirm the specification of the actual grade being offered.</p>\n<h2 id=\"section-2-how-processing-can-change-the-material\" data-unit=\"U064\">2. How processing can change the material</h2>\n<p data-unit=\"U065\">Milling, separation, extraction, washing and drying can change the amount of non-glucomannan material and the characteristics of the resulting powder. Processing can also affect polymer structure. A process name therefore needs to be read alongside composition and functional measurements. <a href=\"#ref-1\"></a> <a href=\"#ref-2\"></a></p>\n<p data-unit=\"U066\">EU specifications illustrate why precise terminology matters: <strong>E425(i) konjac gum</strong> is defined through aqueous extraction from konjac flour, while <strong>E425(ii) konjac glucomannan</strong> is defined through washing konjac flour with water-containing ethanol. These are distinct entries; an informal description such as “alcohol-purified gum” does not establish which entry a product meets. <a href=\"#ref-1\"></a></p>\n<p data-unit=\"U067\">Particle behaviour and final solution behaviour also need separate attention. In a study of seven purified konjac flours, particle size and surface morphology were associated with hydration behaviour, while final viscosity depended on additional structural factors. That study does not establish a universal mesh size or a performance ranking for every commercial grade. <a href=\"#ref-2\"></a></p>\n<h2 id=\"section-3-read-composition-numbers-without-mixing-the-test-bases\" data-unit=\"U068\">3. Read composition numbers without mixing the test bases</h2>\n<p data-unit=\"U069\">“KGM content”, “carbohydrate” and “total dietary fibre” are not interchangeable labels for a single measurement. Before comparing percentages, identify the analyte, method and reporting basis.</p>\n<div class=\"table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table\"><table>\n<thead>\n<tr>\n<th data-unit=\"U070\">EU specification entry</th>\n<th data-unit=\"U071\">Composition criterion stated in the specification</th>\n<th data-unit=\"U072\">What the number does not establish</th>\n</tr>\n</thead>\n<tbody><tr>\n<td data-unit=\"U073\">E425(i): konjac gum</td>\n<td data-unit=\"U074\">At least <strong>75% carbohydrate</strong></td>\n<td data-unit=\"U075\">A universal “75% KGM purity” grade or a final-food performance guarantee</td>\n</tr>\n<tr>\n<td data-unit=\"U076\">E425(ii): konjac glucomannan</td>\n<td data-unit=\"U077\">At least <strong>95% total dietary fibre on a dry-weight basis</strong></td>\n<td data-unit=\"U078\">A measured KGM assay of exactly the same meaning, or compliance with every other specification and use condition</td>\n</tr>\n</tbody></table></div><p class=\"table-hint\">Swipe or scroll the table to see all columns.</p>\n<p data-unit=\"U079\">Source: Commission Regulation (EU) No 231/2012, E425 entries; the distinction is also documented in EFSA’s re-evaluation. These are selected composition criteria, <strong>not a complete compliance checklist</strong>. <a href=\"#ref-1\"></a> <a href=\"#ref-5\"></a></p>\n<p data-unit=\"U080\">For example, a supplier’s “90% KGM” statement should be accompanied by its method and basis. That number alone neither proves nor disproves compliance with a total-dietary-fibre criterion. Request the relevant test results rather than converting one label into another.</p>\n<p data-unit=\"U081\">Additive identity and purity specifications are also separate from permission to use an ingredient in a particular food category. EU rules do not establish US requirements. Confirm the intended food, use and destination market before ordering.</p>\n<h2 id=\"section-4-compare-viscosity-only-when-the-methods-match\" data-unit=\"U082\">4. Compare viscosity only when the methods match</h2>\n<p data-unit=\"U083\">A quote of “20,000 mPa·s” is incomplete without its method. Record the following for both samples before treating their viscosity values as comparable:</p>\n<ul>\n<li data-unit=\"U084\"><strong>Sample and concentration:</strong> grade, batch, concentration, and whether the concentration is based on powder as supplied or dry matter.</li>\n<li data-unit=\"U085\"><strong>Water and formulation:</strong> test medium, pH and any salts or other ingredients.</li>\n<li data-unit=\"U086\"><strong>Preparation:</strong> addition order, dispersion method and mixing conditions.</li>\n<li data-unit=\"U087\"><strong>Time:</strong> hydration time, rest time and the point at which the reading is taken.</li>\n<li data-unit=\"U088\"><strong>Temperature:</strong> temperature during hydration and at measurement.</li>\n<li data-unit=\"U089\"><strong>Instrument:</strong> model, geometry or spindle, rotational speed and the reported reading procedure.</li>\n</ul>\n<p data-unit=\"U090\">A spindle number without the instrument model is not a complete method. Nor should a particular temperature or rotation speed be presented as the universal method for every konjac grade. Use the method required by the applicable specification, or an agreed method suitable for your comparison.</p>\n<p data-unit=\"U091\">Keep three questions separate: <strong>How quickly does it disperse and hydrate? What viscosity does the hydrated system reach? Does the finished food have the required texture?</strong> The answers can lead to different grade choices. <a href=\"#ref-2\"></a></p>\n<h2 id=\"section-5-choose-a-grade-by-the-finished-food-target\" data-unit=\"U092\">5. Choose a grade by the finished-food target</h2>\n<div class=\"table-scroll\" tabindex=\"0\" role=\"region\" aria-label=\"Comparison table\"><table>\n<thead>\n<tr>\n<th data-unit=\"U093\">Food-development task</th>\n<th data-unit=\"U094\">Useful trial endpoints</th>\n<th data-unit=\"U095\">Why the product name is insufficient</th>\n</tr>\n</thead>\n<tbody><tr>\n<td data-unit=\"U096\">Konjac gel foods</td>\n<td data-unit=\"U097\">Dispersion, forming process, texture, water release and behaviour after the intended heat treatment</td>\n<td data-unit=\"U098\">Gel formation depends on formulation and processing, including alkali and heat conditions where relevant <a href=\"#ref-6\"></a></td>\n</tr>\n<tr>\n<td data-unit=\"U099\">Beverages or dispersed fibre systems</td>\n<td data-unit=\"U100\">Dispersibility, viscosity over time, sensory quality and stability in the actual process</td>\n<td data-unit=\"U101\">A highly viscous water test is not a substitute for a beverage trial</td>\n</tr>\n<tr>\n<td data-unit=\"U102\">Dough or noodle systems</td>\n<td data-unit=\"U103\">Water management, mixing tolerance, handling and final eating quality</td>\n<td data-unit=\"U104\">Different KGM grades have produced different outcomes in a specific dough and steamed-bread study <a href=\"#ref-7\"></a></td>\n</tr>\n<tr>\n<td data-unit=\"U105\">Meat products or hydrocolloid blends</td>\n<td data-unit=\"U106\">Texture, cooking loss, water release and stability under the actual process</td>\n<td data-unit=\"U107\">Proteins, salts and other hydrocolloids can change the result; a grade must be tested in that recipe</td>\n</tr>\n</tbody></table></div><p class=\"table-hint\">Swipe or scroll the table to see all columns.</p>\n<p data-unit=\"U108\">These are evaluation questions, not fixed dosage recommendations. Do not use a universal replacement ratio between refined powder and gum. The trial must establish the dose and processing conditions needed to meet the same target.</p>\n<p data-unit=\"U109\">Assess <strong>cost in use</strong>, not only price per kilogram. Start with unit price multiplied by the working dose per batch, then account for any measured differences in process time, yield and quality. A more expensive powder is economical only if the validated result justifies its cost.</p>\n<h2 id=\"section-6-a-practical-supplier-comparison-checklist\" data-unit=\"U110\">6. A practical supplier-comparison checklist</h2>\n<p data-unit=\"U111\">Ask each supplier for the same information so the offers can be compared on a common basis:</p>\n<ol>\n<li data-unit=\"U112\"><strong>Identity and traceability:</strong> product name, grade, batch number, specification version and applicable standard.</li>\n<li data-unit=\"U113\"><strong>Composition:</strong> analyte, limit, batch result, analytical method and reporting basis.</li>\n<li data-unit=\"U114\"><strong>Functional method:</strong> complete viscosity method plus any agreed hydration or gel test.</li>\n<li data-unit=\"U115\"><strong>Physical quality:</strong> particle-size distribution or sieve specification, colour and odour limits, and the evaluation method.</li>\n<li data-unit=\"U116\"><strong>Safety and market documents:</strong> applicable microbiological, contaminant and residue results for the grade and intended market, including processing-solvent information where relevant.</li>\n<li data-unit=\"U117\"><strong>Supply conditions:</strong> packaging, documented shelf life and storage instructions, sample evaluation and batch-consistency arrangements.</li>\n</ol>\n<p data-unit=\"U118\">Request results for the proposed material. A generic certificate, an unqualified “food grade” label or a claim that the “highest purity is always best” does not replace this comparison.</p>\n<p data-unit=\"U119\">Once the material is identified, use the <a href=\"../choose-konjac-powder-gum/index.html\">ingredient enquiry guide</a> to prepare a project brief. For a deeper explanation of hydration, viscosity and gel testing, read our <a href=\"../konjac-glucomannan-ingredient-selection-hydration-viscosity/index.html\">KGM formulation guide</a>.</p>\n<h2 id=\"section-7-frequently-asked-questions\" data-unit=\"U120\">7. Frequently asked questions</h2>\n<h3 id=\"section-is-konjac-gum-always-higher-in-kgm-than-refined-konjac-powder\" data-unit=\"U121\">Is konjac gum always higher in KGM than refined konjac powder?</h3>\n<p data-unit=\"U122\">Do not decide from the names alone. Compare the specified analyte and test method for the actual grades. Regulatory definitions and commercial labels do not always use the same measurements. <a href=\"#ref-1\"></a> <a href=\"#ref-3\"></a> <a href=\"#ref-4\"></a></p>\n<h3 id=\"section-does-finer-powder-always-hydrate-better\" data-unit=\"U123\">Does finer powder always hydrate better?</h3>\n<p data-unit=\"U124\">Particle characteristics can affect hydration, but practical dispersion also depends on mixing and addition conditions. Compare the hydration curve and lump formation in your process rather than selecting solely by mesh count. <a href=\"#ref-2\"></a></p>\n<h3 id=\"section-can-i-replace-one-grade-with-another-at-the-same-dose\" data-unit=\"U125\">Can I replace one grade with another at the same dose?</h3>\n<p data-unit=\"U126\">Treat substitution as a formulation change. Compare samples under the same conditions, then establish the dose that achieves the same finished-food target. No fixed exchange ratio is supplied by the product names.</p>\n<h3 id=\"section-does-a-high-purity-grade-automatically-qualify-for-health-claims\" data-unit=\"U127\">Does a high-purity grade automatically qualify for health claims?</h3>\n<p data-unit=\"U128\">No. Ingredient identity, permitted use, product composition and the conditions for any claim are separate questions. A composition percentage is not permission to make a health claim for the finished product.</p>\n<h2 id=\"references\">References</h2>\n<ol>\n<li><span id=\"ref-1\"></span>European Commission. <strong>Regulation (EU) No 231/2012</strong>, entries E425(i) and E425(ii). <a href=\"https://eur-lex.europa.eu/eli/reg/2012/231/oj/eng\">EUR-Lex document and current-version access</a>. See the <a href=\"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX%3A02012R0231-20260818\">consolidated text dated 18 August 2026</a>.</li>\n<li><span id=\"ref-2\"></span>Guo L, et al. <strong>Characterization and physicochemical properties analysis of konjac glucomannan: Implications for structure-properties relationships.</strong> <em>Food Hydrocolloids</em>. 2021;120:106818. <a href=\"https://doi.org/10.1016/j.foodhyd.2021.106818\">Publisher / DOI</a>.</li>\n<li><span id=\"ref-3\"></span>National Public Service Platform for Standards Information, China. <strong>GB/T 18104-2000: Konjac refined powder.</strong> <a href=\"https://std.samr.gov.cn/gb/search/gbDetailed?id=71F772D7909FD3A7E05397BE0A0AB82A\">Official standard record</a>. The record identifies the document; this article does not reproduce its grade tables.</li>\n<li><span id=\"ref-4\"></span>National Public Service Platform for Standards Information, China. <strong>NY/T 494-2010: Konjac flour.</strong> <a href=\"https://std.samr.gov.cn/hb/search/stdHBDetailed?id=B070C7DD7FB49659E05397BE0A0AB560\">Official standard record</a>. The record identifies the document; this article does not reproduce its grade tables.</li>\n<li><span id=\"ref-5\"></span>EFSA ANS Panel. <strong>Re-evaluation of konjac gum (E425i) and konjac glucomannan (E425ii) as food additives.</strong> <em>EFSA Journal</em>. 2017;15(6):4864. <a href=\"https://doi.org/10.2903/j.efsa.2017.4864\">Scientific opinion</a>.</li>\n<li><span id=\"ref-6\"></span>Sun Y, et al. <strong>Review of Konjac Glucomannan Structure, Properties, Gelation Mechanism, and Application in Medical Biology.</strong> <em>Polymers</em>. 2023;15(8):1852. <a href=\"https://doi.org/10.3390/polym15081852\">Review</a>. Used here for structural and gelation background, not product health claims.</li>\n<li><span id=\"ref-7\"></span>Guo J, et al. <strong>Effects of konjac glucomannan with different viscosities on dough and steamed bread.</strong> <em>Food Chemistry</em>. 2022;368:130853. <a href=\"https://pubmed.ncbi.nlm.nih.gov/34425337/\">PubMed</a>.</li>\n</ol>\n</article>"
+}
