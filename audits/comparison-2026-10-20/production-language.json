@@ -1,0 +1,302 @@
+{
+  "date": "2026-10-20",
+  "assets_checked": 49,
+  "rows": [
+    {
+      "url": "https://allkonjac.com/404.html",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/llms.txt",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/robots.txt",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/sitemap.xml",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/blog.css",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/blog.js",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/comparison.css",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment-3d.css",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment-3d.js",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment-reference.css",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/site.css",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/site.js",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/drying-lines/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/equipment/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/ingredients/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/technology/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/brand/all-konjac-favicon.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/brand/all-konjac-wordmark-white.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/brand/all-konjac-wordmark.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment3d/THREE-LICENSE.txt",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment3d/viewer.html",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/equipment3d/viewer.js",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/flags/gb.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/flags/id.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/flags/th.svg",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/fonts/Manrope-OFL.txt",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/assets/fonts/OFL.txt",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/choose-konjac-powder-gum/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/konjac-equipment-project-brief/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/blog/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/drying-lines/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/equipment/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/ingredients/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/technology/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/blog/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/drying-lines/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/equipment/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/ingredients/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/technology/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    },
+    {
+      "url": "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "language_policy_passed": true,
+      "matches_local_excluding_cf_analytics": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
