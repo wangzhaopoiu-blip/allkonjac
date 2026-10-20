@@ -5,7 +5,7 @@
   "source_model_sha256": "5ae6795b92856d3e83833735ffad0d05191a9591f5d0430980f26a170876a23b",
   "original_3d_appearance_accepted": false,
   "user_authorized_website_reuse_and_publication": true,
-  "public_scope": "Equipment-page interactive exterior visualization; no connection to any specific reference configuration is asserted.",
+  "public_scope": "Drying-lines-page interactive exterior visualization in English, Thai and Indonesian; the model is not identified as a dryer or an exact project configuration.",
   "public_assets_exclude": [
     "original videos",
     "workshop reference photos",
@@ -29,5 +29,6 @@
   "blade_static_direction_user_accepted": true,
   "blade_incline_degrees": 12,
   "blade_incline_measured": false,
-  "mechanical_cutting_animation": false
+  "mechanical_cutting_animation": false,
+  "page_placement_updated": "2026-10-20"
 }

@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote
 import json, re, hashlib, sys
 import xml.etree.ElementTree as ET
-from build import BASE, PAGES, LANGUAGES, page_path, page_url, validate_output
+from build import BASE, BLOG_PATHS, PAGES, LANGUAGES, page_path, page_url, validate_output
 
 ROOT=Path(__file__).resolve().parents[1]
 class Document(HTMLParser):
@@ -46,10 +46,11 @@ def audit():
     namespace='{http://www.sitemaps.org/schemas/sitemap/0.9}'
     sitemap=ET.fromstring((ROOT/'sitemap.xml').read_text(encoding='utf-8'))
     locations=[n.find(namespace+'loc').text for n in sitemap.findall(namespace+'url')]
-    expected={page_url(p,l) for p in PAGES for l in LANGUAGES}
-    if set(locations)!=expected or len(locations)!=15: errors.append('Sitemap URL set differs from fifteen canonical pages')
+    business_urls={page_url(p,l) for p in PAGES for l in LANGUAGES}
+    expected=business_urls | {BASE + path for path in BLOG_PATHS}
+    if set(locations)!=expected or len(locations)!=len(expected): errors.append('Sitemap URL set differs from canonical business and blog pages')
     llms=(ROOT/'llms.txt').read_text(encoding='utf-8')
-    if any(url not in llms for url in expected): errors.append('AI content index misses a language page')
+    if any(url not in llms for url in expected): errors.append('AI content index misses a business or blog page')
     for lang in ['th','id']:
         en=json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))
         locale=json.loads((ROOT/f'content/{lang}.json').read_text(encoding='utf-8'))
