@@ -11,10 +11,12 @@ from html.parser import HTMLParser
 import json
 import re
 import sys
+from urllib.parse import quote
 import xml.etree.ElementTree as ET
 from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
 from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_article
+from localized_blog import SLUGS as BLOG_SLUGS, blog_path, load_localized, render_index as render_localized_blog_index, render_article as render_localized_blog_article
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -30,8 +32,36 @@ LANGUAGES = {
     "th": {"prefix": "/th", "label": "ภาษาไทย", "short": "TH", "og": "th_TH", "flag": "th"},
     "id": {"prefix": "/id", "label": "Bahasa Indonesia", "short": "ID", "og": "id_ID", "flag": "id"},
 }
+ALL_BLOG_PATHS = [blog_path(slug, lang) for lang in LANGUAGES
+                  for slug in ("", *BLOG_SLUGS)]
 TOKEN = re.compile(r"\{\{([^{}]+)\}\}")
 GLOBAL_IDS = {BASE + "/#organization", BASE + "/#website"}
+BUYER_PAGES = set(PAGES[1:])
+BLOG_LABELS = {"en": "Blog", "th": "บทความ", "id": "Blog"}
+
+
+def buyer_brief(page, lang):
+    data = read_json(ROOT / "source/buyer-briefs.json")
+    if set(data) != set(LANGUAGES):
+        raise ValueError("Buyer briefs must cover all three website languages")
+    locale = data[lang]
+    if set(locale) != BUYER_PAGES | {"labels"} or len(locale["labels"]) != 4:
+        raise ValueError(f"Incomplete buyer briefs for {lang}")
+    brief = locale[page]
+    if len(brief.get("items", [])) != 4 or not brief.get("heading") or not brief.get("message"):
+        raise ValueError(f"Incomplete buyer brief for {lang}/{page}")
+    if any(not isinstance(value, str) or not value.strip() for value in
+           [brief["heading"], brief["message"], *locale["labels"], *brief["items"]]):
+        raise ValueError(f"Empty buyer brief text for {lang}/{page}")
+    cards = ''.join('<article><h3>' + html.escape(label) + '</h3><p>' + html.escape(body) + '</p></article>'
+                    for label, body in zip(locale["labels"], brief["items"]))
+    section = ('<section class="buyer-brief" id="buyer-brief"><div class="wrap"><h2>'
+               + html.escape(brief["heading"]) + '</h2><div class="buyer-brief-grid">' + cards
+               + '</div></div></section>')
+    whatsapp = 'https://wa.me/8615637136906?text=' + quote(brief["message"])
+    email = ('mailto:583411495@qq.com?subject=' + quote('ALL KONJAC - ' + brief["heading"])
+             + '&body=' + quote(brief["message"]))
+    return section, whatsapp, email
 
 
 def page_path(page, lang):
@@ -184,7 +214,7 @@ def render_page(page, lang, catalog, include_reference=True):
         "lang": lang, "og_locale": LANGUAGES[lang]["og"], "canonical": page_url(page, lang),
         "seo_links": seo_links(page, lang), "language_switcher": language_switcher(page, lang, catalog),
         "motion_attributes": ' class="motion-enabled"',
-        "english_blog_link": '<a href="/blog/">Blog</a>' if lang == "en" else "",
+        "english_blog_link": f'<a href="{blog_path(lang=lang)}">{BLOG_LABELS[lang]}</a>',
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
     }
     if page == "equipment":
@@ -209,6 +239,18 @@ def render_page(page, lang, catalog, include_reference=True):
     output = TOKEN.sub(substitute, source)
     if TOKEN.search(output):
         raise ValueError(f"Unresolved template token in {lang}/{page or 'home'}")
+    if page in BUYER_PAGES:
+        section, whatsapp, email = buyer_brief(page, lang)
+        contact = '<section class="contact" id="contact">'
+        if output.count(contact) != 1:
+            raise ValueError(f"Missing contact section in {lang}/{page}")
+        output = output.replace(contact, section + contact)
+        old_whatsapp = 'href="https://wa.me/8615637136906"'
+        old_email = 'href="mailto:583411495@qq.com"'
+        if output.count(old_whatsapp) != 1 or output.count(old_email) != 1:
+            raise ValueError(f"Unexpected contact links in {lang}/{page}")
+        output = output.replace(old_whatsapp, 'href="' + html.escape(whatsapp, quote=True) + '"', 1)
+        output = output.replace(old_email, 'href="' + html.escape(email, quote=True) + '"', 1)
     if lang == "en" and page in ARTICLE_LINKS:
         guide_link = (f'<a href="/blog/{ARTICLE_LINKS[page]}/">'
                       'Read the buyer guide</a>')
@@ -252,9 +294,15 @@ def render_sitemap():
             for variant in LANGUAGES:
                 ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": variant, "href": page_url(page, variant)})
             ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": "x-default", "href": page_url(page, "en")})
-    for path in BLOG_PATHS:
+    for path in ALL_BLOG_PATHS:
         node = ET.SubElement(root, namespace + "url")
         ET.SubElement(node, namespace + "loc").text = BASE + path
+        slug = path.split("/blog/", 1)[1].strip("/")
+        for variant in LANGUAGES:
+            ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": variant,
+                                                  "href": BASE + blog_path(slug, variant)})
+        ET.SubElement(node, xhtml + "link", {"rel": "alternate", "hreflang": "x-default",
+                                              "href": BASE + blog_path(slug)})
     ET.indent(root, space="  ")
     return '<?xml version="1.0" encoding="UTF-8"?>\n' + ET.tostring(root, encoding="unicode") + "\n"
 
@@ -271,16 +319,13 @@ def render_llms(catalogs):
         for page in PAGES[1:]:
             service = next(node for node in schema_for(page, lang, catalogs[lang])["@graph"] if node.get("@type") == "Service")
             parts.append(f'- [{service["name"]}]({page_url(page, lang)}): {service["description"]}')
-        if lang == "en":
-            parts.extend(["- [KGM Research Journal](https://allkonjac.com/blog/): Evidence-led konjac glucomannan articles for food formulation.",
-                          "- [KGM ingredient selection](https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/): Hydration, viscosity and gel specification questions.",
-                          "- [KGM food applications](https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/): What selected food studies show and where their conclusions stop.",
-                          "- [Konjac powder and gum buyer guide](https://allkonjac.com/blog/choose-konjac-powder-gum/): Application and specification questions for ingredient enquiries.",
-                          "- [Konjac equipment project brief](https://allkonjac.com/blog/konjac-equipment-project-brief/): Information to prepare before a machine or production-line enquiry.",
-                          "- [Konjac dried-chip drying-line planning](https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/): Material, process and factory conditions to define a project."])
+        parts.append(f'- [Konjac research and buyer guides]({BASE + blog_path(lang=lang)}): '
+                     'Five articles on KGM studies, ingredient selection, equipment enquiries and drying-line planning.')
+        for slug in BLOG_SLUGS:
+            parts.append(f'- [{slug.replace("-", " ")}]({BASE + blog_path(slug, lang)})')
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 canonical business pages, their language alternates and six English blog URLs.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and 18 Blog URLs with three-language alternates.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -360,7 +405,7 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 21:
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 33:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -390,10 +435,16 @@ def main():
     output["sitemap.xml"] = render_sitemap()
     output["llms.txt"] = render_llms(catalogs)
     articles, evidence = load_editorial(ROOT)
+    localized_blog = load_localized(ROOT)
     if {article_path(article) for article in articles} != set(BLOG_PATHS[3:]):
         raise ValueError("Buyer guide paths do not match the sitemap")
     for article in articles:
         output[article_path(article).lstrip("/") + "index.html"] = render_article(article, evidence)
+    for lang in ("th", "id"):
+        output[blog_path(lang=lang).lstrip("/") + "index.html"] = render_localized_blog_index(lang, localized_blog[lang])
+        for slug in BLOG_SLUGS:
+            output[blog_path(slug, lang).lstrip("/") + "index.html"] = render_localized_blog_article(
+                lang, slug, localized_blog[lang], {"articles": articles})
     for relative in BLOG_FILES:
         source = ROOT / "source/kgm-blog" / relative
         rendered = source.read_text(encoding="utf-8")
@@ -408,7 +459,7 @@ def main():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, six blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, 18 blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

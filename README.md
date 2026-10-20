@@ -4,9 +4,11 @@
 
 `audits/external-citations-2026-10-19.md` identifies the currently live pages suitable for fact-checked editorial references. The shared process is in `../link-development-2026-10-19.md`. These are internal operating documents excluded from deployment; no link quotas, anchor ratios, paid ranking links or automated placements are part of the site build.
 
-## KGM research journal (published 2026-10-19)
+## Three-language KGM journal (2026-10-20)
 
-The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Three buyer guides are maintained in `source/blog/articles.json` with first-party claim records in `source/blog/evidence.json` and rendered by `scripts/buyer_guides.py`. Run `python scripts/build.py` to generate all six Blog pages, add English-only Blog links to the five business pages and direct guide links on the three relevant business pages, and include the six Blog URLs in `sitemap.xml` and `llms.txt`. The article pages show their publication date and use matching `BlogPosting` dates. Thai and Indonesian navigation does not link to untranslated articles. Keep research citations, article limitations and buyer-guide source scope visible; do not turn study outcomes into product claims.
+The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Three English buyer guides are maintained in `source/blog/articles.json`, with first-party claim records in `source/blog/evidence.json`. Thai and Indonesian Blog copy is in `source/blog/localized.json`; `scripts/localized_blog.py` renders those twelve pages. Run `python scripts/build.py` to generate all 18 Blog pages and the 15 business pages. Each language has Blog navigation, reciprocal language links, canonical URLs, and sitemap entries. Research citations, study limitations, and buyer-guide source scope must remain visible. Thai and Indonesian editorial drafts still require native industry review.
+
+`source/buyer-briefs.json` supplies the four business-line enquiry briefs in all three languages. These distinguish buyer inputs, documents to discuss, decision boundaries and next steps. WhatsApp and email links carry business-line context; clicks are intent signals rather than qualified leads. The internal baseline, 24-question AI observation set, photo provenance gaps and post-release checks are in `audits/seo-geo-release-2026-10-20.md`.
 
 ## Approved image watermark (2026-10-12)
 
@@ -85,7 +87,7 @@ Organization and WebSite IDs remain global. Organization contact facts stay unch
 
 ## Hosting and review
 
-The existing `wrangler.jsonc` still points at the root static files for the ALL KONJAC Worker. `.assetsignore` excludes catalogs, templates, scripts, audits, preparation material, dependencies and repository/deployment metadata from public assets. Keep those exclusions when changing the preparation workflow.
+`wrangler.jsonc` binds root static assets to `worker.mjs`. The Worker redirects HTTP to HTTPS with status 301 while preserving path and query, and delegates HTTPS requests to the static assets binding. `.assetsignore` excludes catalogs, templates, scripts, audits, preparation material, the Worker source, dependencies and repository/deployment metadata from public assets. Keep those exclusions when changing the preparation workflow.
 
 Before production publication, review the generated preview in all three languages and check desktop/mobile navigation, current-business-page language switching, long labels, typography, images and keyboard access. Confirm all 15 pages and assets return 200; unknown URLs must return 404. Production DNS, domain bindings and redirects remain separately managed in Cloudflare. This localization generator performs no preview or production deployment, commit, push or Google indexing action.
 

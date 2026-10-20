@@ -9,6 +9,7 @@ if(menuButton&&siteNav){
   siteNav.addEventListener('click',event=>{
     if(event.target.closest('a')){siteNav.classList.remove('open');menuButton.setAttribute('aria-expanded','false');}
   });
+  document.documentElement.classList.add('js');
 }
 const progress=document.querySelector('.reading-progress');
 if(progress){

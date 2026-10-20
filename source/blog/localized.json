@@ -1,0 +1,164 @@
+{
+  "th": {
+    "ui": {
+      "blog": "บทความ",
+      "home": "หน้าหลัก",
+      "contact": "ติดต่อ",
+      "indexTitle": "บทความวิจัยและคู่มือโครงการบุก",
+      "indexDescription": "อ่านสรุปงานวิจัย KGM และคู่มือผู้ซื้อสำหรับวัตถุดิบบุก เครื่องจักรอาหาร และสายการอบชิ้นบุกแห้ง โดยระบุขอบเขตที่ต้องตรวจสอบในแต่ละโครงการ",
+      "research": "งานวิจัยและการประยุกต์ใช้",
+      "guides": "คู่มือผู้ซื้อ",
+      "read": "อ่านบทความ",
+      "published": "เผยแพร่",
+      "updated": "ปรับปรุง",
+      "sources": "แหล่งข้อมูลและขอบเขต",
+      "firstParty": "คู่มือวางแผนนี้อ้างอิงหน้าธุรกิจของ ALL KONJAC ซึ่งเป็นข้อมูลจากเว็บไซต์ผู้ให้บริการเอง ไม่ใช่ผลทดสอบผลิตภัณฑ์อิสระหรือข้อกำหนดโครงการขั้นสุดท้าย",
+      "researchScope": "ผลการศึกษาขึ้นอยู่กับวัตถุดิบ สูตร และวิธีทดลองที่ระบุในงานวิจัย ไม่ใช่คำรับรองผลของผลิตภัณฑ์ ALL KONJAC หรือสูตรที่ใช้ได้ทั่วไป",
+      "next": "ดูบริการที่เกี่ยวข้อง",
+      "enquire": "ส่งข้อมูลโครงการ",
+      "all": "ดูบทความทั้งหมด",
+      "nav": ["วัตถุดิบ", "เครื่องจักร", "สายการอบแห้ง", "เทคโนโลยี"]
+    },
+    "articles": {
+      "konjac-glucomannan-ingredient-selection-hydration-viscosity": {
+        "title": "การเลือก KGM สำหรับอาหาร: แยกการดูดน้ำ ความหนืด และสมรรถนะของเจล",
+        "description": "แนวทางอ่านข้อมูล KGM โดยแยกความเร็วในการดูดน้ำ ค่าความหนืดที่วัดได้ และเนื้อสัมผัสในอาหารจริง พร้อมข้อจำกัดของงานวิจัย",
+        "summary": "เริ่มจากกระบวนการและอาหารสำเร็จรูป แล้วเปรียบเทียบเกรดด้วยวิธีทดสอบเดียวกัน",
+        "relatedPage": "/th/ingredients/",
+        "sections": [
+          {"heading": "คำตอบโดยตรง", "paragraphs": ["ข้อกำหนดวัตถุดิบ KGM ที่ใช้ได้จริงต้องเริ่มจากอาหารและกระบวนการผลิต ความเร็วในการดูดน้ำ ความหนืดหลังดูดน้ำ และสมรรถนะเจลเป็นคนละการวัด ผงที่กระจายตัวเร็วไม่จำเป็นต้องให้ความหนืดสุดท้ายสูงสุด และค่าความหนืดสูงเพียงค่าเดียวไม่สามารถทำนายเนื้อสัมผัสที่ดีที่สุดในทุกสูตรได้ [1][2]"]},
+          {"heading": "เหตุใด KGM จึงให้ผลต่างกัน", "paragraphs": ["KGM เป็นพอลิแซ็กคาไรด์ที่มีหน่วยกลูโคสและแมนโนส รวมทั้งหมู่อะเซทิลบางส่วน เมื่อดูดน้ำ สายพอลิเมอร์มีส่วนสร้างความหนืด การกำจัดหมู่อะเซทิลภายใต้สภาวะด่างและความร้อนที่เหมาะสมอาจช่วยให้เกิดเจลที่คงตัวมากขึ้น [1]", "ผลเมื่อผสมกับไฮโดรคอลลอยด์อื่นขึ้นอยู่กับความเข้มข้น ลำดับการผสม pH เกลือ และประวัติอุณหภูมิ [3] หลักการเหล่านี้ไม่หมายความว่าผงบุกทุกชนิดให้ผลเหมือนกัน"]},
+          {"heading": "ข้อมูลสี่ด้านก่อนเปรียบเทียบเกรด", "bullets": ["ระบุชนิดวัตถุดิบว่าเป็นแป้งบุก ผงบุกบริสุทธิ์ กัมบุก หรือ KGM ที่ผ่านกระบวนการเฉพาะ ขอใบรับรองผลวิเคราะห์ของล็อตปัจจุบัน วิธีวิเคราะห์ และข้อกำหนดสำหรับตลาดปลายทาง", "ทดสอบการกระจายและดูดน้ำด้วยอุณหภูมิน้ำ เครื่องผสม ลำดับการเติม ความเข้มข้น และเวลาที่ใช้จริง งานศึกษาผงบุกบริสุทธิ์เจ็ดตัวอย่างพบความเกี่ยวข้องกับขนาดอนุภาคและลักษณะพื้นผิว แต่ไม่กำหนดขนาดอนุภาคสากล [2]", "เปรียบเทียบความหนืดเฉพาะเมื่อความเข้มข้น อุณหภูมิ เวลาดูดน้ำ เครื่องมือ และแรงเฉือนตรงกัน งานศึกษาเกรดความหนืดสามระดับพบผลต่อแป้งโดและขนมปังนึ่งต่างกัน [4]", "ทดลองในสูตรอาหารจริง โดยดูการแปรรูป ผลผลิต เนื้อสัมผัส การแยกน้ำ และความคงตัวตามการใช้งาน อย่านำผลจาก KGM ในน้ำไปใช้แทนผลในสูตรที่มีโปรตีน แป้ง หรือกัมอื่น [1][3]"]},
+          {"heading": "ขอบเขตการนำไปใช้", "paragraphs": ["ขนาดอนุภาคที่ละเอียดกว่าไม่ได้รับประกันความหนืดสูงกว่า การดูดน้ำในน้ำเย็นไม่เท่ากับการเกิดเจลคงตัว และเกรดความหนืดสูงสุดไม่จำเป็นต้องเหมาะกับเครื่องดื่ม เคลือบผิว เนื้อสัตว์ หรือแป้งโดทุกชนิด [1][2][4] ขอเอกสารของเกรดและล็อตที่เสนอ แล้วทดลองกับผลิตภัณฑ์ของคุณก่อนตัดสินใจ"]}
+        ]
+      },
+      "konjac-glucomannan-food-applications-research-guide": {
+        "title": "งานวิจัย KGM ในอาหารบอกอะไร: แป้งโด ไส้กรอกไขมันต่ำ และสารเคลือบผลไม้",
+        "description": "อ่านผลการศึกษา KGM ในอาหารตามวัตถุดิบ สูตร และวิธีทดลองจริง โดยไม่ใช้ผลในห้องทดลองเป็นสูตรสากล",
+        "summary": "ผลจากการทดลองแต่ละสูตรเป็นจุดเริ่มต้นในการออกแบบการทดลอง ไม่ใช่คำรับรองผลทุกโรงงาน",
+        "relatedPage": "/th/technology/",
+        "sections": [
+          {"heading": "คำตอบโดยตรง", "paragraphs": ["KGM อาจช่วยด้านความหนืด การจัดการน้ำ และโครงสร้างในอาหาร แต่งานวิจัยแต่ละชิ้นทดสอบวัตถุดิบและสูตรเฉพาะ ผลที่เผยแพร่ใช้ตั้งคำถามเพื่อพัฒนาผลิตภัณฑ์ได้ แต่ไม่ใช่สูตรสำเร็จสำหรับทุกสายการผลิต [1]–[4]"]},
+          {"heading": "แป้งโดและขนมปังนึ่ง", "paragraphs": ["งานใน Food Chemistry เปรียบเทียบ KGM สามเกรดที่มีความหนืดต่างกันในแป้งโดและขนมปังนึ่ง รายงานการเปลี่ยนแปลงของสมบัติการไหลและโครงสร้างจุลภาค โดยเกรดที่มีความหนืดสูงกว่าช่วยคุณภาพขนมปังนึ่งในระบบทดลองนั้น [1] จึงควรทดสอบเกรดพร้อมปริมาณที่เติม การดูดน้ำ ความทนต่อการผสม และเนื้อสัมผัสสุดท้าย ผลนี้ไม่ระบุเกรดที่ดีที่สุดสำหรับแป้งหรือกระบวนการทุกชนิด"]},
+          {"heading": "ไส้กรอกไขมันต่ำ: อ่านฐานของเปอร์เซ็นต์", "paragraphs": ["งานใน Meat Science ใช้เจลแป้งบุกที่ 0%, 10% และ 20% ในไส้กรอกเนื้อแกะหมักที่มีไขมัน 8% ในสูตรนั้น เจล 10% ให้สมบัติบางอย่างใกล้เคียงตัวเปรียบเทียบ ส่วน 20% ทำให้ผลผลิตหลังปรุงลดลงเล็กน้อยและเปลี่ยนผลด้านประสาทสัมผัสกับเนื้อสัมผัสบางส่วน [2]", "ตัวเลข 10% หมายถึงปริมาณเจลในสูตรทดลอง ไม่ใช่อัตราเติมผง KGM สากล และไม่ยืนยันความปลอดภัยหรืออายุเก็บของสูตรอื่น สูตรใหม่ต้องตรวจผลผลิต เนื้อสัมผัส จุลชีววิทยา และประสาทสัมผัสเอง"]},
+          {"heading": "สารเคลือบผลไม้: ส่วนผสมอื่นก็สำคัญ", "paragraphs": ["การทดลองส้มคัมควอตใช้ KGM ร่วมกับเคอร์คูมินและฟลอเรติน สารเคลือบผสมให้ผลในแบบทดสอบต้านออกซิเดชัน ยับยั้งแบคทีเรียบางชนิดที่ทดสอบ และช่วยรักษาตัวชี้วัดคุณภาพบางอย่าง [3] ไม่ควรยกผลเหล่านี้ให้ KGM เดี่ยว", "งานมะม่วงอีกชิ้นใช้ KGM ร่วมกับเส้นใยนาโนเซลลูโลสที่เติมหมู่คาร์บอกซิลและกรดแทนนิก [4] ผลเป็นของระบบหลายส่วนผสมและเงื่อนไขเก็บรักษาที่ศึกษา ต้องตรวจข้ออนุญาตของส่วนผสม ข้อกำหนดสารเคลือบอาหาร ผลต่อรสสัมผัส วิธีใช้ และสภาพเก็บรักษาในตลาดเป้าหมาย"]},
+          {"heading": "นำงานวิจัยไปวางแผนทดลอง", "bullets": ["บันทึกเกรด KGM เจล หรือฟิล์มผสม และส่วนประกอบออกฤทธิ์อื่นทุกชนิด", "ระบุสูตรควบคุมและฐานของเปอร์เซ็นต์ที่ใช้เปรียบเทียบ", "บันทึกการผสม ความร้อน การเคลือบ และการเก็บรักษา", "เลือกตัวชี้วัดที่ต้องทดลองซ้ำในผลิตภัณฑ์และสายการผลิตของคุณ"], "paragraphs": ["ขอเอกสารวิเคราะห์ของล็อตวัตถุดิบที่เสนอ และตรวจผลในสูตรจริงก่อนตัดสินใจซื้อ"]}
+        ]
+      },
+      "choose-konjac-powder-gum": {
+        "title": "เลือกผงบุก ผงบุกบริสุทธิ์ หรือกัมบุกสำหรับโครงการอาหารอย่างไร",
+        "description": "เริ่มเปรียบเทียบวัตถุดิบบุกจากการใช้งาน สภาพการผลิต และข้อกำหนดที่ต้องการ",
+        "summary": "กำหนดอาหารสำเร็จรูป หน้าที่ของวัตถุดิบ และวิธีประเมินตัวอย่างก่อนเลือกเกรด",
+        "relatedPage": "/th/ingredients/",
+        "sections": [
+          {"heading": "คำตอบโดยตรง", "paragraphs": ["อย่าเลือกจากชื่อผงบุก ผงบุกบริสุทธิ์ หรือกัมบุกเพียงอย่างเดียว ระบุอาหารสำเร็จรูป หน้าที่ของวัตถุดิบ สภาวะการผลิต และข้อกำหนดที่ต้องการ ALL KONJAC แสดงทั้งสามประเภทเพื่อเริ่มหารือเรื่องเกรดตามการใช้งานจริง คำแนะนำสุดท้ายต้องพิจารณาข้อมูลโครงการและผลตัวอย่าง"]},
+          {"heading": "เกณฑ์เปรียบเทียบ", "bullets": ["การใช้งาน: อาหารสำเร็จรูปและหน้าที่ของวัตถุดิบ", "เป้าหมาย: เนื้อสัมผัส ความหนืด เจล การอุ้มน้ำ หรือความคงตัว", "กระบวนการ: จุดเติมวัตถุดิบและสภาวะการผลิต", "การจัดซื้อ: ข้อกำหนด ปริมาณ บรรจุภัณฑ์ และตลาดปลายทาง"], "paragraphs": ["คำว่าเกรดอาหารหรือบริสุทธิ์เพียงอย่างเดียวไม่ยืนยันความบริสุทธิ์เฉพาะ การรับรอง หรือความเหมาะสมกับประเทศปลายทาง"]},
+          {"heading": "ข้อมูลที่ควรส่ง", "bullets": ["ผลิตภัณฑ์และผลที่ต้องการ", "สูตรและข้อจำกัดกระบวนการที่เปิดเผยได้", "ข้อกำหนด ปริมาณ บรรจุภัณฑ์ และตลาดปลายทาง", "วิธีประเมินตัวอย่างและเกณฑ์ยอมรับ"], "paragraphs": ["ขอข้อกำหนดของเกรดที่เสนอและตรวจตัวอย่างก่อนถือว่าเป็นตัวแทนของการจัดหาระยะยาว"]}
+        ]
+      },
+      "konjac-equipment-project-brief": {
+        "title": "ข้อมูลที่ควรเตรียมก่อนสอบถามโครงการเครื่องจักรอาหารบุก",
+        "description": "รายการข้อมูลผลิตภัณฑ์ กระบวนการ กำลังผลิตเป้าหมาย สถานที่ และขอบเขตบริการสำหรับโครงการเครื่องจักรบุก",
+        "summary": "เริ่มจากอาหารที่ต้องการผลิตและงานที่เครื่องจักรต้องรองรับ",
+        "relatedPage": "/th/equipment/",
+        "sections": [
+          {"heading": "คำตอบโดยตรง", "paragraphs": ["ข้อมูลโครงการเครื่องจักรควรเริ่มจากอาหารสำเร็จรูปและงานผลิตที่ต้องการ ALL KONJAC รับหารือทั้งเครื่องจักรเดี่ยวและการเชื่อมต่อสายการผลิต หน้าธุรกิจขอข้อมูลกำลังผลิตเป้าหมาย ขั้นตอนผลิต พื้นที่ สาธารณูปโภค และข้อจำกัดการติดตั้ง"]},
+          {"heading": "ข้อมูลก่อนเปรียบเทียบรูปแบบ", "bullets": ["อาหารสำเร็จรูป สูตรหรือบรรจุภัณฑ์ที่เกี่ยวข้อง", "ขั้นตอนที่เครื่องจักรใหม่ต้องรองรับและเครื่องเดิมที่ยังใช้", "กำลังผลิตเป้าหมายและตารางการเดินเครื่อง", "ผังโรงงาน ทางเข้าออก และสาธารณูปโภค", "ขอบเขตจัดหา ติดตั้ง ทดสอบเดินเครื่อง และฝึกอบรม"], "paragraphs": ["ขนาด กำลังไฟ และรูปแบบอ้างอิงไม่ใช่คำรับรองว่าเหมาะกับทุกโรงงาน รายละเอียดและความรับผิดชอบสุดท้ายต้องอยู่ในใบเสนอราคาโครงการ"]},
+          {"heading": "ขั้นตอนถัดไป", "paragraphs": ["ส่งข้อมูลผลิตภัณฑ์ กำลังผลิต กระบวนการ ผังโรงงาน และจุดเชื่อมต่อเครื่องเดิม ระบุว่าต้องการสายใหม่ การขยาย หรือการปรับปรุง หากต้องพัฒนาสูตรด้วย ให้บอกปัญหาผลิตภัณฑ์และเป้าหมายการทดลอง"]}
+        ]
+      },
+      "plan-konjac-dried-chip-drying-line": {
+        "title": "วางแผนสายการอบชิ้นบุกแห้งอย่างไร",
+        "description": "รายการข้อมูลวัตถุดิบ การลำเลียง การอบ การจัดการอากาศ และสภาพโรงงานเพื่อเริ่มวางแผนสายการผลิต",
+        "summary": "มองสายการอบเป็นกระบวนการเชื่อมต่อที่ออกแบบตามวัตถุดิบ ผลลัพธ์ และโรงงานจริง",
+        "relatedPage": "/th/drying-lines/",
+        "sections": [
+          {"heading": "คำตอบโดยตรง", "paragraphs": ["เริ่มจากลักษณะวัตถุดิบ ชิ้นบุกแห้งที่ต้องการ และสภาพโรงงาน ALL KONJAC นำเสนอการหารือโครงการที่เชื่อมการเตรียมวัตถุดิบ การลำเลียง เครื่องอบ การจัดการอากาศ และการบูรณาการกระบวนการ รูปแบบที่เหมาะสมต้องยืนยันเป็นรายโครงการ"]},
+          {"heading": "ข้อมูลในเอกสารโครงการ", "bullets": ["ลักษณะวัตถุดิบและขั้นตอนเตรียมก่อนอบ", "ผลลัพธ์ชิ้นแห้งและกำลังผลิตเป้าหมาย", "เส้นทางวัตถุดิบเข้า ผ่าน และออกจากเครื่องอบ", "พื้นที่ ทางเข้าออก และสาธารณูปโภค", "ขอบเขตการเตรียม ลำเลียง อบ จัดการอากาศ และบริการสนับสนุน"], "paragraphs": ["ภาพบนเว็บไซต์ใช้แสดงประเภทเครื่องจักรหรือกระบวนการ ไม่ยืนยันขนาด การใช้พลังงาน หรือประสิทธิภาพการอบของโครงการใหม่"]},
+          {"heading": "คำถามเพื่อสรุปขอบเขต", "bullets": ["ขั้นตอนใดอยู่ในขอบเขตผู้จัดหา และขั้นตอนใดเป็นของโรงงาน", "ข้อมูลวัตถุดิบและผลผลิตใดจำเป็นต่อการกำหนดขนาดสาย", "เครื่องเดิมและสาธารณูปโภคจะเชื่อมต่ออย่างไร", "งานติดตั้ง ทดสอบเดินเครื่อง และฝึกอบรมใดต้องอยู่ในใบเสนอราคา"], "paragraphs": ["ยืนยันเกณฑ์สมรรถนะและหน้าที่รับผิดชอบในข้อเสนอโครงการ ไม่อนุมานจากภาพอ้างอิง"]}
+        ]
+      }
+    }
+  },
+  "id": {
+    "ui": {
+      "blog": "Blog",
+      "home": "Beranda",
+      "contact": "Kontak",
+      "indexTitle": "Riset konjak dan panduan perencanaan proyek",
+      "indexDescription": "Ringkasan riset KGM dan panduan pembeli untuk bahan konjak, peralatan pangan, serta lini pengeringan irisan konjak. Setiap artikel menjelaskan hal yang perlu diuji dalam proyek Anda",
+      "research": "Riset dan aplikasi",
+      "guides": "Panduan pembeli",
+      "read": "Baca artikel",
+      "published": "Terbit",
+      "updated": "Diperbarui",
+      "sources": "Sumber dan batasan",
+      "firstParty": "Panduan perencanaan ini memakai halaman bisnis ALL KONJAC sebagai sumber pihak pertama. Halaman tersebut bukan pengujian produk independen atau spesifikasi akhir proyek.",
+      "researchScope": "Hasil studi berlaku untuk bahan, formulasi, dan metode yang diteliti. Hasil tersebut bukan jaminan kinerja produk ALL KONJAC atau resep yang berlaku umum.",
+      "next": "Lihat layanan terkait",
+      "enquire": "Kirim kebutuhan proyek",
+      "all": "Semua artikel",
+      "nav": ["Bahan baku", "Peralatan", "Lini pengeringan", "Teknologi"]
+    },
+    "articles": {
+      "konjac-glucomannan-ingredient-selection-hydration-viscosity": {
+        "title": "Memilih KGM untuk pangan: pisahkan hidrasi, viskositas, dan kinerja gel",
+        "description": "Cara membaca data KGM dengan membedakan laju hidrasi, viskositas terukur, dan tekstur produk akhir beserta batas studi",
+        "summary": "Mulai dari proses dan pangan akhir; bandingkan grade dengan metode uji yang sama",
+        "relatedPage": "/id/ingredients/",
+        "sections": [
+          {"heading": "Jawaban langsung", "paragraphs": ["Spesifikasi bahan KGM yang berguna dimulai dari proses dan pangan akhir. Kecepatan hidrasi, viskositas setelah hidrasi, dan kinerja gel adalah pengukuran berbeda. Bubuk yang cepat terdispersi belum tentu memberi viskositas akhir tertinggi; satu angka viskositas tinggi juga tidak meramalkan tekstur terbaik untuk setiap resep [1][2]."]},
+          {"heading": "Mengapa perilaku KGM berbeda", "paragraphs": ["KGM merupakan polisakarida yang mengandung unit glukosa dan manosa serta sebagian gugus asetil. Setelah terhidrasi, rantai polimernya menyumbang viskositas. Dalam kondisi alkali dan pemanasan yang sesuai, deasetilasi dan asosiasi antarrantai dapat menghasilkan gel yang lebih persisten [1].", "Campuran dengan hidrokoloid lain dipengaruhi konsentrasi, urutan pencampuran, pH, garam, serta riwayat suhu [3]. Prinsip ini tidak berarti semua bubuk yang disebut konjak berperilaku sama."]},
+          {"heading": "Empat hal sebelum membandingkan grade", "bullets": ["Pastikan identitas bahan: tepung konjak, bubuk hasil pemurnian, gom konjak, atau bahan glukomanan yang diproses khusus. Minta COA lot terkini, metode analisis, dan spesifikasi yang relevan untuk pasar tujuan.", "Uji dispersi dan hidrasi memakai suhu air, alat pencampur, urutan penambahan, konsentrasi, serta waktu yang sesuai proses Anda. Studi tujuh tepung konjak murni mengaitkan hidrasi dengan ukuran partikel dan morfologi permukaan, tetapi tidak menetapkan target ukuran universal [2].", "Bandingkan viskositas hanya bila konsentrasi, suhu, waktu hidrasi, instrumen, dan kondisi geser sama. Studi tiga grade viskositas menunjukkan hasil adonan dan roti kukus yang berbeda [4].", "Uji resep lengkap dan ukur hal yang relevan, seperti kemudahan pemompaan, hasil pemasakan, kekuatan gel, sineresis, tekstur sensoris, dan stabilitas. Jangan menganggap hasil KGM dalam air berlaku otomatis untuk resep berprotein, pati, atau gom lain [1][3]."]},
+          {"heading": "Batas penerapan", "paragraphs": ["Partikel lebih halus tidak selalu berarti viskositas akhir lebih tinggi. Hidrasi dalam air dingin berbeda dari pembentukan gel persisten. Grade dengan viskositas tertinggi belum tentu tepat untuk minuman, pelapis, produk daging, atau setiap adonan [1][2][4]. Periksa dokumen grade dan lot yang ditawarkan lalu uji pada produk Anda."]}
+        ]
+      },
+      "konjac-glucomannan-food-applications-research-guide": {
+        "title": "Apa yang ditunjukkan studi KGM pada pangan: adonan, sosis rendah lemak, dan pelapis buah",
+        "description": "Membaca hasil studi KGM sesuai bahan, formulasi, dan metode uji tanpa menganggapnya resep universal",
+        "summary": "Hasil setiap formulasi adalah titik awal untuk uji produk, bukan jaminan hasil di semua pabrik",
+        "relatedPage": "/id/technology/",
+        "sections": [
+          {"heading": "Jawaban langsung", "paragraphs": ["KGM dapat berperan pada viskositas, pengelolaan air, dan struktur pangan. Namun setiap penelitian memakai bahan dan formulasi tertentu. Hasil terbitan berguna untuk menyusun pertanyaan pengembangan, bukan resep siap pakai bagi semua lini produksi [1]–[4]."]},
+          {"heading": "Adonan dan roti kukus", "paragraphs": ["Studi Food Chemistry membandingkan tiga grade KGM dengan viskositas berbeda pada adonan dan roti kukus. Studi itu melaporkan perubahan reologi serta mikrostruktur; grade berviskositas lebih tinggi meningkatkan kualitas roti kukus dalam percobaan tersebut [1]. Rencana uji perlu memasukkan grade dan dosis, penyerapan air, toleransi pencampuran, penanganan adonan, dan tekstur akhir. Hasilnya tidak menetapkan grade terbaik untuk semua tepung atau proses."]},
+          {"heading": "Sosis rendah lemak: perhatikan dasar persentasenya", "paragraphs": ["Studi Meat Science memakai gel tepung konjak pada tingkat 0%, 10%, dan 20% dalam formulasi sosis domba yang diawetkan dengan lemak 8%. Dalam sistem itu, gel 10% memberi beberapa sifat yang mendekati kontrol; tingkat 20% sedikit menurunkan hasil pemasakan dan mengubah sejumlah hasil sensoris serta tekstur [2].", "Angka 10% adalah jumlah gel dalam resep yang diuji, bukan dosis umum bubuk KGM. Angka itu juga tidak membuktikan keamanan atau umur simpan resep lain. Produk baru memerlukan pemeriksaan hasil pemasakan, tekstur, mikrobiologi, dan sensorisnya sendiri."]},
+          {"heading": "Pelapis buah: komponen tambahan penting", "paragraphs": ["Studi kumquat menggabungkan KGM dengan kurkumin dan floretin. Pelapis komposit menunjukkan aktivitas antioksidan dalam uji laboratorium, menghambat beberapa bakteri yang diuji, serta membantu menjaga sejumlah ukuran mutu buah [3]. Hasil itu tidak boleh diklaim sebagai sifat KGM murni.", "Studi mangga berikutnya menggabungkan KGM dengan nanoserat selulosa terkarboksilasi dan asam tanat [4]. Hasilnya berlaku untuk sistem multibahan dan kondisi penyimpanan yang diteliti. Pengembang perlu memeriksa izin bahan, ketentuan pelapis pangan, dampak sensoris, cara aplikasi, dan kondisi simpan di pasar tujuan."]},
+          {"heading": "Ubah studi menjadi rencana uji", "bullets": ["Catat grade KGM, gel atau film komposit, beserta semua komponen aktif lainnya.", "Sebutkan formulasi kontrol dan dasar persentase yang dibandingkan.", "Catat kondisi pencampuran, pemanasan, pelapisan, dan penyimpanan.", "Tentukan hasil yang harus diuji ulang pada produk dan lini Anda."], "paragraphs": ["Minta dokumen analisis untuk lot bahan yang ditawarkan dan uji dalam formulasi nyata sebelum mengambil keputusan."]}
+        ]
+      },
+      "choose-konjac-powder-gum": {
+        "title": "Cara memilih tepung konjak, bubuk hasil pemurnian, atau gom konjak untuk pangan",
+        "description": "Mulai membandingkan bahan konjak menurut aplikasi, kondisi proses, dan spesifikasi yang dibutuhkan",
+        "summary": "Tentukan pangan akhir, fungsi bahan, dan cara mengevaluasi sampel sebelum memilih grade",
+        "relatedPage": "/id/ingredients/",
+        "sections": [
+          {"heading": "Jawaban langsung", "paragraphs": ["Jangan memilih hanya dari sebutan tepung konjak, bubuk hasil pemurnian, atau gom konjak. Jelaskan pangan akhir, peran bahan, kondisi proses, dan spesifikasi yang diperlukan. ALL KONJAC mencantumkan ketiganya sebagai kategori pertanyaan dan membahas grade sesuai aplikasi. Rekomendasi akhir memerlukan tinjauan kebutuhan proyek serta hasil sampel."]},
+          {"heading": "Dasar perbandingan", "bullets": ["Aplikasi: pangan akhir dan peran bahan di dalamnya.", "Sasaran: tekstur, pengentalan, gel, daya ikat air, atau stabilitas.", "Proses: titik penambahan bahan dan kondisi pengolahan.", "Pembelian: spesifikasi, jumlah, kemasan, serta pasar tujuan."], "paragraphs": ["Istilah hasil pemurnian atau food grade saja tidak menetapkan tingkat kemurnian tertentu, sertifikasi, atau kesesuaian untuk pasar tujuan."]},
+          {"heading": "Informasi untuk dikirim", "bullets": ["Produk akhir dan hasil yang diinginkan.", "Formulasi serta batas proses yang dapat dibagikan.", "Spesifikasi, jumlah, kemasan, dan pasar tujuan.", "Metode evaluasi sampel serta kriteria penerimaan."], "paragraphs": ["Minta spesifikasi grade yang diusulkan dan periksa sampelnya sebelum menganggapnya mewakili pasokan berikutnya."]}
+        ]
+      },
+      "konjac-equipment-project-brief": {
+        "title": "Informasi untuk ringkasan proyek peralatan pangan konjak",
+        "description": "Daftar produk, proses, target keluaran, lokasi, dan layanan sebelum membahas mesin atau lini pangan konjak",
+        "summary": "Mulai dari pangan yang akan dibuat dan tugas produksi yang harus didukung mesin",
+        "relatedPage": "/id/equipment/",
+        "sections": [
+          {"heading": "Jawaban langsung", "paragraphs": ["Ringkasan proyek peralatan dimulai dari pangan akhir dan tugas produksi. ALL KONJAC menerima pertanyaan tentang mesin tunggal maupun integrasi lini. Halaman bisnisnya meminta target keluaran, tahapan proses, ruang, utilitas, dan batasan instalasi."]},
+          {"heading": "Informasi sebelum membandingkan konfigurasi", "bullets": ["Pangan akhir serta persyaratan formulasi atau kemasan yang relevan.", "Tahapan yang dicakup peralatan baru dan mesin lama yang tetap dipakai.", "Target keluaran serta jadwal operasi.", "Tata letak, akses lokasi, dan utilitas yang tersedia.", "Batas pasokan, instalasi, komisioning, serta pelatihan."], "paragraphs": ["Dimensi, daya, dan susunan referensi bukan janji kecocokan untuk setiap pabrik. Konfigurasi dan tanggung jawab akhir harus tercantum dalam penawaran proyek."]},
+          {"heading": "Langkah berikutnya", "paragraphs": ["Kirim produk, target keluaran, alur proses, tata letak pabrik, dan titik sambungan mesin lama. Jelaskan apakah proyek berupa lini baru, perluasan, atau peningkatan. Bila formulasi juga perlu dikembangkan, sampaikan masalah produk serta tujuan uji."]}
+        ]
+      },
+      "plan-konjac-dried-chip-drying-line": {
+        "title": "Cara merencanakan lini pengeringan irisan konjak",
+        "description": "Data bahan, pemindahan, pengeringan, pengelolaan udara, dan kondisi pabrik untuk memulai proyek lini",
+        "summary": "Rencanakan lini sebagai proses terhubung yang mengikuti bahan masuk, hasil kering, dan pabrik nyata",
+        "relatedPage": "/id/drying-lines/",
+        "sections": [
+          {"heading": "Jawaban langsung", "paragraphs": ["Mulailah dari bahan konjak yang masuk, hasil irisan kering yang diinginkan, dan kondisi pabrik. ALL KONJAC menjelaskan proyek lini sebagai proses terintegrasi yang mencakup persiapan bahan, pemindahan, peralatan pengeringan, pengelolaan udara, serta integrasi proses. Konfigurasi tepatnya ditentukan per proyek."]},
+          {"heading": "Isi ringkasan perencanaan", "bullets": ["Bentuk bahan masuk dan persiapan sebelum pengeringan.", "Hasil irisan kering serta target keluaran.", "Aliran bahan masuk, melalui, dan keluar dari pengering beserta sambungan mesin lama.", "Ruang, akses, utilitas, dan batasan instalasi.", "Tahapan persiapan, pemindahan, pengeringan, pengelolaan udara, dan dukungan yang diminta."], "paragraphs": ["Gambar situs menunjukkan kategori peralatan atau proses; gambar itu tidak membuktikan konfigurasi, dimensi, penggunaan energi, atau kinerja pengeringan untuk lini yang diusulkan."]},
+          {"heading": "Pertanyaan untuk membatasi proyek", "bullets": ["Tahap mana yang disediakan pemasok dan mana yang tetap menjadi tanggung jawab pabrik?", "Data bahan dan hasil apa yang diperlukan untuk menentukan ukuran lini?", "Bagaimana peralatan lama dan utilitas akan disambungkan?", "Tugas instalasi, komisioning, dan pelatihan apa yang harus masuk penawaran?"], "paragraphs": ["Pastikan kriteria kinerja serta tanggung jawab dalam proposal khusus proyek, bukan dari halaman referensi."]}
+        ]
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ from html import escape
 import json
 from pathlib import Path
 import re
+from localized_blog import alternate_links, language_switcher
 
 BASE = "https://allkonjac.com"
 BLOG = "/blog/"
@@ -82,7 +83,7 @@ def json_script(schema):
     return json.dumps(schema, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c").replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
 
 
-def shared_header(current):
+def shared_header(current, slug=""):
     nav = [("/ingredients/", "Ingredients"), ("/equipment/", "Equipment"),
            ("/drying-lines/", "Drying Lines"), ("/technology/", "Technology"),
            ("/blog/", "Blog"), ("/#contact", "Contact")]
@@ -92,7 +93,8 @@ def shared_header(current):
             '<img src="/assets/brand/all-konjac-wordmark.svg" alt="ALL KONJAC" width="220" height="31"></a>'
             '<button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation" '
             'aria-label="Open menu" data-label-open="Open menu" data-label-close="Close menu">Menu</button>'
-            '<nav class="navlinks" id="primary-navigation" aria-label="Primary navigation">' + links + '</nav></div></header>')
+            '<nav class="navlinks" id="primary-navigation" aria-label="Primary navigation">' + links + '</nav>'
+            + language_switcher(slug, "en") + '</div></header>')
 
 
 def shared_footer():
@@ -107,6 +109,7 @@ def shared_footer():
 
 def document(path, title, description, main, schema, page_type="website"):
     canonical = BASE + path
+    slug = path.removeprefix(BLOG).strip("/")
     e = lambda value: escape(value, quote=True)
     return ('<!doctype html>\n<html lang="en"><head><meta charset="utf-8">'
             '<meta name="viewport" content="width=device-width,initial-scale=1">'
@@ -114,7 +117,8 @@ def document(path, title, description, main, schema, page_type="website"):
             '<meta name="description" content="' + e(description) + '">'
             '<meta name="robots" content="index,follow,max-image-preview:large">'
             '<link rel="canonical" href="' + canonical + '">'
-            '<meta property="og:type" content="' + page_type + '">'
+            + alternate_links(slug)
+            + '<meta property="og:type" content="' + page_type + '">'
             '<meta property="og:site_name" content="ALL KONJAC">'
             '<meta property="og:locale" content="en_US">'
             '<meta property="og:title" content="' + e(title) + ' | ALL KONJAC">'
@@ -127,7 +131,7 @@ def document(path, title, description, main, schema, page_type="website"):
             '<script src="/assets/site.js" defer></script>'
             '<script type="application/ld+json">' + json_script(schema) + '</script>'
             '</head><body><a class="skip-link" href="#main-content">Skip to content</a>'
-            + shared_header("/blog/") + '<main id="main-content">' + main + '</main>'
+            + shared_header("/blog/", slug) + '<main id="main-content">' + main + '</main>'
             + shared_footer() + '</body></html>\n')
 
 

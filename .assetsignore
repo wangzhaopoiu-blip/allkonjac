@@ -4,6 +4,7 @@
 .wrangler/
 node_modules/
 wrangler.jsonc
+worker.mjs
 wrangler.toml
 package.json
 package-lock.json

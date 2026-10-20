@@ -107,20 +107,128 @@
   </url>
   <url>
     <loc>https://allkonjac.com/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/choose-konjac-powder-gum/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/konjac-equipment-project-brief/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/konjac-glucomannan-food-applications-research-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/choose-konjac-powder-gum/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/konjac-equipment-project-brief/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/th/blog/plan-konjac-dried-chip-drying-line/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/konjac-glucomannan-food-applications-research-guide/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-glucomannan-food-applications-research-guide/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-glucomannan-food-applications-research-guide/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/choose-konjac-powder-gum/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/choose-konjac-powder-gum/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/choose-konjac-powder-gum/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/konjac-equipment-project-brief/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/konjac-equipment-project-brief/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/konjac-equipment-project-brief/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/blog/plan-konjac-dried-chip-drying-line/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/blog/plan-konjac-dried-chip-drying-line/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/" />
   </url>
 </urlset>

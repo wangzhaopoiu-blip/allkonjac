@@ -1,5 +1,6 @@
 
 :root{--green:#0b6b4f;--dark:#15201d;--muted:#64716d;--line:#dfe5e2;--soft:#f4f6f5;--white:#fff;--orange:#e77b18}
+.buyer-brief{background:#f4f6f5}.buyer-brief h2{font-size:clamp(28px,3vw,40px);line-height:1.2;margin:0 0 28px}.buyer-brief-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.buyer-brief-grid article{background:#fff;border:1px solid var(--line);padding:24px;min-width:0}.buyer-brief-grid h3{color:var(--green);font-size:16px;margin:0 0 10px}.buyer-brief-grid p{margin:0;color:#34423f;line-height:1.7}.buyer-brief-grid p,.buyer-brief-grid h3{overflow-wrap:anywhere}@media(max-width:700px){.buyer-brief-grid{grid-template-columns:1fr}.buyer-brief-grid article{padding:20px}}
 @font-face{font-family:'Noto Sans Thai';src:url('/assets/fonts/NotoSansThai-variable.ttf') format('truetype');font-style:normal;font-weight:100 900;font-display:swap}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;color:var(--dark);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55;background:#fff}a{color:inherit;text-decoration:none}.wrap{width:min(1180px,92%);margin:auto}
 header{height:76px;border-bottom:1px solid var(--line);background:#fff;position:sticky;top:0;z-index:20}.nav{height:100%;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{flex:0 0 auto;font-weight:800;letter-spacing:.02em;font-size:22px;white-space:nowrap}.brand span{color:var(--green)}.navlinks{display:flex;align-items:center;gap:22px;min-width:0;font-size:13px;color:#34423f}.navlinks a{min-width:0;overflow-wrap:anywhere}.navlinks a:hover{color:var(--green)}
@@ -141,6 +142,6 @@ header .brand{display:flex;align-items:center;min-width:0}
 .blog-content-section ul{padding-left:24px}
 .blog-sources p,.blog-sources li{font-size:14px}
 .blog-sources p{color:var(--muted)}
-.blog-sources a{color:var(--green);text-decoration:underline;text-underline-offset:3px}
+.blog-sources a{color:var(--green);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
 .blog-next{display:flex;align-items:center;gap:24px;flex-wrap:wrap;margin-top:32px}
 @media(max-width:560px){.blog-article{padding-top:36px;padding-bottom:60px}.blog-content-section p,.blog-content-section li{font-size:15px}}

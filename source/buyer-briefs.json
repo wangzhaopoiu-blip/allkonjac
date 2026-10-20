@@ -1,0 +1,131 @@
+{
+  "en": {
+    "labels": ["Send with your enquiry", "Documents to discuss", "Decision boundary", "Next step"],
+    "ingredients": {
+      "heading": "Prepare an ingredient enquiry",
+      "items": [
+        "Describe the finished food, ingredient function, process conditions, requested specification, quantity, packing and destination market.",
+        "Ask which current grade specification, sample information and market-related documents can be supplied for the proposed grade.",
+        "A product name or food-grade label alone does not confirm suitability, purity or regulatory status for your market. Evaluate the actual sample and documents.",
+        "Send the brief, agree on a proposed grade and evaluation method, then confirm the supply terms before ordering."
+      ],
+      "message": "Hello ALL KONJAC. I have a konjac ingredients enquiry. Destination market: . Finished product and requirement: ."
+    },
+    "equipment": {
+      "heading": "Prepare an equipment project enquiry",
+      "items": [
+        "Describe the finished food, process stages, target output, operating schedule, factory layout, utilities and existing machines.",
+        "Ask for a project-specific equipment list, interface and utility requirements, and a quotation stating installation, commissioning and training scope.",
+        "Gallery images and listed configurations are references; final dimensions, power, capacity and responsibilities require a project proposal.",
+        "Share the project brief, review the proposed configuration and exclusions, then agree on acceptance criteria before ordering."
+      ],
+      "message": "Hello ALL KONJAC. I have a konjac food equipment enquiry. Destination market: . Product, output and site conditions: ."
+    },
+    "drying-lines": {
+      "heading": "Prepare a drying-line enquiry",
+      "items": [
+        "Describe incoming material, required dried-chip result, target output, operating schedule, site layout and available utilities.",
+        "Ask for a project-specific process outline, equipment and interface list, utility requirements and quotation boundaries.",
+        "Photographs and diagrams illustrate process categories; they do not establish drying performance, energy use or a final configuration.",
+        "Share the material and factory brief, review the proposed line scope, then agree on trials and acceptance criteria."
+      ],
+      "message": "Hello ALL KONJAC. I have a konjac dried-chip drying-line enquiry. Destination market: . Material, output and site conditions: ."
+    },
+    "technology": {
+      "heading": "Prepare an application-development enquiry",
+      "items": [
+        "Describe the finished food, current formulation, processing method, ingredient constraints and the texture or stability problem.",
+        "Ask which sample, test method, deliverable and technical-document scope can be agreed for this particular project.",
+        "Published studies and general ingredient descriptions do not predict performance in your own formulation or establish market compliance.",
+        "Share the development brief, agree on a trial method and success criteria, then confirm responsibilities and commercial scope."
+      ],
+      "message": "Hello ALL KONJAC. I have a konjac application-development enquiry. Destination market: . Product, process and target result: ."
+    }
+  },
+  "th": {
+    "labels": ["ข้อมูลที่ควรส่ง", "เอกสารที่ควรสอบถาม", "ข้อจำกัดในการตัดสินใจ", "ขั้นตอนถัดไป"],
+    "ingredients": {
+      "heading": "เตรียมข้อมูลสอบถามวัตถุดิบบุก",
+      "items": [
+        "ระบุผลิตภัณฑ์อาหารสำเร็จรูป หน้าที่ของวัตถุดิบ สภาวะการผลิต ข้อกำหนดที่ต้องการ ปริมาณ บรรจุภัณฑ์ และตลาดปลายทาง",
+        "สอบถามว่ามีข้อกำหนดผลิตภัณฑ์ฉบับปัจจุบัน ข้อมูลตัวอย่าง และเอกสารสำหรับตลาดปลายทางใดบ้างสำหรับเกรดที่เสนอ",
+        "ชื่อผลิตภัณฑ์หรือคำว่าเกรดอาหารเพียงอย่างเดียวไม่ยืนยันความเหมาะสม ความบริสุทธิ์ หรือสถานะด้านกฎระเบียบในตลาดของคุณ ต้องตรวจตัวอย่างและเอกสารจริง",
+        "ส่งข้อมูลโครงการ ตกลงเกรดที่เสนอและวิธีประเมิน แล้วจึงยืนยันเงื่อนไขการจัดหาก่อนสั่งซื้อ"
+      ],
+      "message": "สวัสดี ALL KONJAC ต้องการสอบถามวัตถุดิบบุก ตลาดปลายทาง: . ผลิตภัณฑ์และข้อกำหนด: ."
+    },
+    "equipment": {
+      "heading": "เตรียมข้อมูลสอบถามโครงการเครื่องจักร",
+      "items": [
+        "ระบุอาหารสำเร็จรูป ขั้นตอนการผลิต กำลังผลิตเป้าหมาย ตารางการเดินเครื่อง ผังโรงงาน สาธารณูปโภค และเครื่องจักรเดิม",
+        "ขอรายการเครื่องจักรเฉพาะโครงการ ข้อกำหนดการเชื่อมต่อและสาธารณูปโภค รวมถึงใบเสนอราคาที่ระบุขอบเขตติดตั้ง ทดสอบเดินเครื่อง และฝึกอบรม",
+        "ภาพและรูปแบบเครื่องจักรที่แสดงเป็นข้อมูลอ้างอิง ขนาด กำลังไฟ กำลังผลิต และความรับผิดชอบสุดท้ายต้องระบุในข้อเสนอโครงการ",
+        "ส่งข้อมูลโครงการ ตรวจรูปแบบที่เสนอและรายการที่ไม่รวม แล้วตกลงเกณฑ์การตรวจรับก่อนสั่งซื้อ"
+      ],
+      "message": "สวัสดี ALL KONJAC ต้องการสอบถามเครื่องจักรผลิตอาหารบุก ตลาดปลายทาง: . ผลิตภัณฑ์ กำลังผลิต และสภาพโรงงาน: ."
+    },
+    "drying-lines": {
+      "heading": "เตรียมข้อมูลสอบถามสายการอบแห้ง",
+      "items": [
+        "ระบุลักษณะวัตถุดิบ ชิ้นบุกแห้งที่ต้องการ กำลังผลิตเป้าหมาย ตารางการเดินเครื่อง ผังสถานที่ และสาธารณูปโภคที่มี",
+        "ขอแผนกระบวนการเฉพาะโครงการ รายการเครื่องจักรและจุดเชื่อมต่อ ความต้องการสาธารณูปโภค และขอบเขตใบเสนอราคา",
+        "ภาพถ่ายและแผนภาพแสดงประเภทกระบวนการ ไม่ยืนยันประสิทธิภาพการอบแห้ง การใช้พลังงาน หรือรูปแบบสุดท้าย",
+        "ส่งข้อมูลวัตถุดิบและโรงงาน ตรวจขอบเขตสายการผลิตที่เสนอ แล้วตกลงการทดลองและเกณฑ์การตรวจรับ"
+      ],
+      "message": "สวัสดี ALL KONJAC ต้องการสอบถามสายการอบชิ้นบุกแห้ง ตลาดปลายทาง: . วัตถุดิบ กำลังผลิต และสภาพโรงงาน: ."
+    },
+    "technology": {
+      "heading": "เตรียมข้อมูลสอบถามการพัฒนาการใช้งาน",
+      "items": [
+        "ระบุอาหารสำเร็จรูป สูตรปัจจุบัน วิธีผลิต ข้อจำกัดด้านวัตถุดิบ และปัญหาด้านเนื้อสัมผัสหรือความคงตัว",
+        "สอบถามขอบเขตตัวอย่าง วิธีทดสอบ สิ่งส่งมอบ และเอกสารทางเทคนิคที่สามารถตกลงกันได้สำหรับโครงการนี้",
+        "งานวิจัยที่ตีพิมพ์และคำอธิบายวัตถุดิบทั่วไปไม่สามารถทำนายผลในสูตรของคุณหรือยืนยันการปฏิบัติตามกฎระเบียบของตลาดได้",
+        "ส่งข้อมูลการพัฒนา ตกลงวิธีทดลองและเกณฑ์ความสำเร็จ แล้วจึงยืนยันหน้าที่และขอบเขตทางการค้า"
+      ],
+      "message": "สวัสดี ALL KONJAC ต้องการสอบถามการพัฒนาการใช้งานบุก ตลาดปลายทาง: . ผลิตภัณฑ์ กระบวนการ และผลที่ต้องการ: ."
+    }
+  },
+  "id": {
+    "labels": ["Informasi untuk dikirim", "Dokumen yang perlu ditanyakan", "Batas keputusan", "Langkah berikutnya"],
+    "ingredients": {
+      "heading": "Siapkan pertanyaan tentang bahan baku konjak",
+      "items": [
+        "Jelaskan produk pangan akhir, fungsi bahan, kondisi proses, spesifikasi yang diminta, jumlah, kemasan, dan pasar tujuan.",
+        "Tanyakan spesifikasi grade terkini, informasi sampel, dan dokumen terkait pasar tujuan yang dapat disediakan untuk grade yang diusulkan.",
+        "Nama produk atau istilah food grade saja tidak memastikan kesesuaian, kemurnian, atau status regulasi di pasar Anda. Evaluasi sampel dan dokumen yang sebenarnya.",
+        "Kirim ringkasan kebutuhan, sepakati grade usulan dan metode evaluasi, lalu pastikan ketentuan pasokan sebelum memesan."
+      ],
+      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang bahan baku konjak. Pasar tujuan: . Produk dan kebutuhan: ."
+    },
+    "equipment": {
+      "heading": "Siapkan pertanyaan proyek peralatan",
+      "items": [
+        "Jelaskan pangan akhir, tahapan proses, target kapasitas, jadwal operasi, tata letak pabrik, utilitas, dan mesin yang sudah ada.",
+        "Minta daftar peralatan khusus proyek, kebutuhan antarmuka dan utilitas, serta penawaran yang menyebut ruang lingkup instalasi, komisioning, dan pelatihan.",
+        "Gambar galeri dan konfigurasi yang tercantum adalah referensi; dimensi, daya, kapasitas, dan tanggung jawab akhir memerlukan proposal proyek.",
+        "Kirim ringkasan proyek, tinjau konfigurasi serta pengecualiannya, lalu sepakati kriteria penerimaan sebelum memesan."
+      ],
+      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang peralatan pangan konjak. Pasar tujuan: . Produk, kapasitas, dan kondisi pabrik: ."
+    },
+    "drying-lines": {
+      "heading": "Siapkan pertanyaan lini pengeringan",
+      "items": [
+        "Jelaskan bahan masuk, hasil irisan konjak kering yang diinginkan, target keluaran, jadwal operasi, tata letak lokasi, dan utilitas yang tersedia.",
+        "Minta gambaran proses khusus proyek, daftar peralatan dan antarmuka, kebutuhan utilitas, serta batas ruang lingkup penawaran.",
+        "Foto dan diagram menggambarkan kategori proses; keduanya tidak menetapkan kinerja pengeringan, pemakaian energi, atau konfigurasi akhir.",
+        "Kirim informasi bahan dan pabrik, tinjau ruang lingkup lini yang diusulkan, lalu sepakati uji coba dan kriteria penerimaan."
+      ],
+      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang lini pengeringan irisan konjak. Pasar tujuan: . Bahan, keluaran, dan kondisi pabrik: ."
+    },
+    "technology": {
+      "heading": "Siapkan pertanyaan pengembangan aplikasi",
+      "items": [
+        "Jelaskan pangan akhir, formulasi saat ini, metode proses, batasan bahan, serta masalah tekstur atau stabilitas.",
+        "Tanyakan ruang lingkup sampel, metode uji, hasil kerja, dan dokumen teknis yang dapat disepakati untuk proyek ini.",
+        "Studi terbitan dan uraian umum bahan tidak dapat meramalkan hasil dalam formulasi Anda atau memastikan kepatuhan di pasar tujuan.",
+        "Kirim ringkasan pengembangan, sepakati metode uji dan kriteria keberhasilan, lalu pastikan tanggung jawab dan lingkup komersial."
+      ],
+      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang pengembangan aplikasi konjak. Pasar tujuan: . Produk, proses, dan hasil yang diinginkan: ."
+    }
+  }
+}
