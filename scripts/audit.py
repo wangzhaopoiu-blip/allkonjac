@@ -58,7 +58,7 @@ def audit():
     sitemap=ET.fromstring((ROOT/'sitemap.xml').read_text(encoding='utf-8'))
     locations=[n.find(namespace+'loc').text for n in sitemap.findall(namespace+'url')]
     expected={page_url(p,l) for p in PAGES for l in LANGUAGES} | {BASE+p for p in ALL_BLOG_PATHS}
-    if set(locations)!=expected or len(locations)!=33: errors.append('Sitemap URL set differs from 33 canonical pages')
+    if set(locations)!=expected or len(locations)!=36: errors.append('Sitemap URL set differs from 36 canonical pages')
     llms=(ROOT/'llms.txt').read_text(encoding='utf-8')
     if any(url not in llms for url in expected): errors.append('AI content index misses a language page')
     for lang in ['th','id']:
@@ -82,7 +82,7 @@ def audit():
     font=ROOT/'assets/fonts/NotoSansThai-variable.ttf'
     if not font.exists() or not (font.parent/'OFL.txt').exists(): errors.append('Local Thai font or license missing')
     motion_pages=[path for path,(_,doc) in documents.items() if any(tag=='body' and 'motion-enabled' in attrs.get('class','').split() for tag,attrs in doc.tags)]
-    report={'business_pages':15,'blog_pages':18,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'mobile and desktop browser review must be recorded for this release','hosting_response_checks':'production HTTP verification must be recorded for this release'}
+    report={'business_pages':15,'blog_pages':21,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'mobile and desktop browser review must be recorded for this release','hosting_response_checks':'production HTTP verification must be recorded for this release'}
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return len(errors)
 

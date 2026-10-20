@@ -17,6 +17,8 @@ from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
 from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_article
 from localized_blog import SLUGS as BLOG_SLUGS, blog_path, load_localized, render_index as render_localized_blog_index, render_article as render_localized_blog_article
+from comparison_blog import render as render_comparison, SLUG as COMPARISON_SLUG
+from check_language_policy import check as check_language_policy
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -33,7 +35,7 @@ LANGUAGES = {
     "id": {"prefix": "/id", "label": "Bahasa Indonesia", "short": "ID", "og": "id_ID", "flag": "id"},
 }
 ALL_BLOG_PATHS = [blog_path(slug, lang) for lang in LANGUAGES
-                  for slug in ("", *BLOG_SLUGS)]
+                  for slug in ("", *BLOG_SLUGS, COMPARISON_SLUG)]
 TOKEN = re.compile(r"\{\{([^{}]+)\}\}")
 GLOBAL_IDS = {BASE + "/#organization", BASE + "/#website"}
 BUYER_PAGES = set(PAGES[1:])
@@ -251,9 +253,9 @@ def render_page(page, lang, catalog, include_reference=True):
             raise ValueError(f"Unexpected contact links in {lang}/{page}")
         output = output.replace(old_whatsapp, 'href="' + html.escape(whatsapp, quote=True) + '"', 1)
         output = output.replace(old_email, 'href="' + html.escape(email, quote=True) + '"', 1)
-    if lang == "en" and page in ARTICLE_LINKS:
-        guide_link = (f'<a href="/blog/{ARTICLE_LINKS[page]}/">'
-                      'Read the buyer guide</a>')
+    if page in ARTICLE_LINKS:
+        label = {"en": "Read the buyer guide", "th": "อ่านคู่มือผู้ซื้อ", "id": "Baca panduan pembeli"}[lang]
+        guide_link = f'<a href="{blog_path(ARTICLE_LINKS[page], lang)}">{label}</a>'
         output, count = re.subn(r'(<div class="related-links">.*?)(</div>)',
                                 lambda match: match.group(1) + guide_link + match.group(2),
                                 output, count=1, flags=re.S)
@@ -320,12 +322,12 @@ def render_llms(catalogs):
             service = next(node for node in schema_for(page, lang, catalogs[lang])["@graph"] if node.get("@type") == "Service")
             parts.append(f'- [{service["name"]}]({page_url(page, lang)}): {service["description"]}')
         parts.append(f'- [Konjac research and buyer guides]({BASE + blog_path(lang=lang)}): '
-                     'Five articles on KGM studies, ingredient selection, equipment enquiries and drying-line planning.')
-        for slug in BLOG_SLUGS:
+                     'Six articles on KGM studies, ingredient selection, grade comparisons, equipment enquiries and drying-line planning.')
+        for slug in (*BLOG_SLUGS, COMPARISON_SLUG):
             parts.append(f'- [{slug.replace("-", " ")}]({BASE + blog_path(slug, lang)})')
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and 18 Blog URLs with three-language alternates.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and 21 Blog URLs with three-language alternates.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -405,7 +407,7 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 33:
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 36:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -453,13 +455,15 @@ def main():
             if rendered.count("<h1") != 1 or f'<link rel="canonical" href="{expected_url}">' not in rendered:
                 raise ValueError(f"Invalid KGM blog page: {relative}")
         output[relative] = rendered
+    render_comparison(ROOT, output)
+    check_language_policy(ROOT, output)
     if not options.check:
         # Nothing writes until every language, template and schema passes.
         for relative, rendered in output.items():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, 18 blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, 21 blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":

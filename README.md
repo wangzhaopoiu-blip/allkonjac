@@ -20,7 +20,7 @@ Regenerate with `node scripts/watermark-assets.cjs <private-original-assets-dire
 
 ## Interactive equipment exterior view (2026-10-12)
 
-The English, Thai and Indonesian equipment pages share an exterior 3D reference visualization. The viewer loads automatically and gently rotates while in view. Leaving the section or switching browser tabs pauses drawing and rotation; returning resumes the visitor's selected rotation state. Reduced-motion preferences start still. Dragging, view presets and zoom allow closer inspection, with accessible pause/reset controls and keyboard rotation. Unsupported WebGL falls back to the equipment image.
+The English, Thai and Indonesian drying-line pages share an exterior 3D reference visualization. The equipment pages no longer embed it. The viewer loads automatically and gently rotates while in view. Leaving the section or switching browser tabs pauses drawing and rotation; returning resumes the visitor's selected rotation state. Reduced-motion preferences start still. Dragging, view presets and zoom allow closer inspection, with accessible pause/reset controls and keyboard rotation. Unsupported WebGL falls back to the equipment image.
 
 This model is an exterior visualization with relative proportions. It does not define the dimensions, rating, exact configuration or internal operation of any listed product. Existing reference specifications, contacts and the other business pages are maintained independently. Original videos, workshop reference photos and local source notes are excluded from public assets.
 
@@ -108,3 +108,7 @@ The new reference translations were reviewed against the accepted English page. 
 ## ALL KONJAC wordmark (2026-10-15)
 
 The header, footer and trilingual 404 use the pure-letter ALL KONJAC outlined SVG. The small square icon contains only the letters AK. Source and license are in `assets/brand/` and `assets/fonts/Manrope-OFL.txt`. Manrope is licensed under SIL Open Font License 1.1; the website serves the font locally only for the homepage heading. Regenerate pages with `python scripts/build.py` after editing templates.
+
+## Public language policy
+
+All public language versions must contain no Han text or Chinese font declarations in body copy, navigation, references, metadata or styles. Preserve original raster images, including existing brand marks and QR annotations. Translate Chinese text with Google Translate into the page language, then review terminology, numerical facts and meaning. Internal Chinese manuscripts must remain excluded from static deployment. `python scripts/build.py` enforces this boundary. Comparison translation provenance is in `source/comparison/translation-review.md`.

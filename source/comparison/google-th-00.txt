@@ -1,0 +1,240 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+泰语
+英语
+印尼语
+原文
+clear
+4,289
+高级
+翻译结果
+[[U000]] ผงบุกบริสุทธิ์ (Refined Konjac Powder) กับ กัมจากบุก (Konjac Gum): ความแตกต่าง ข้อมูลจำเพาะ และวิธีการเลือกใช้
+
+[[U001]] เปรียบเทียบข้อมูลจำเพาะที่อยู่เบื้องหลังชื่อเรียกต่างๆ และผลลัพธ์ที่ได้ในผลิตภัณฑ์อาหารของคุณ
+
+[[U002]] การเปรียบเทียบส่วนประกอบ/ข้อมูลทางเทคนิค
+
+[[U003]] บทความ
+
+[[U004]] เว็บไซต์หลัก
+
+[[U005]] สำรวจส่วนประกอบต่างๆ
+
+[[U006]] เมนู
+
+[[U007]] ในหน้านี้
+
+[[U008]] เผยแพร่เมื่อ
+
+[[U009]] อ้างอิง
+
+[[U010]] นิยามของวัตถุดิบ
+
+[[U011]] ชื่อเรียก สารสำคัญที่วิเคราะห์ และเกณฑ์การทดสอบ
+
+[[U012]] การปรับวิธีทดสอบให้สอดคล้องกัน
+
+[[U013]] การละลายน้ำ (Hydration) และค่าความหนืดที่วัดได้
+
+[[U014]] การทดสอบยืนยันผลในผลิตภัณฑ์อาหาร
+
+[[U015]] ประสิทธิภาพและความคุ้มค่าในการใช้งาน
+
+[[U016]] เลื่อนตารางเพื่อดูข้อมูลในคอลัมน์ทั้งหมด
+
+[[U017]] การเปรียบเทียบทางเทคนิคนี้ไม่ได้ระบุข้อมูลจำเพาะสำหรับผลิตภัณฑ์ที่ทำจากบุกทั้งหมด โปรดตรวจสอบเกรดของผลิตภัณฑ์ เอกสารประจำล็อตการผลิต และวัตถุประสงค์ในการใช้งาน ข้อมูลจากการศึกษานี้ไม่ใช่การกล่าวอ้างสรรพคุณทางสุขภาพของผลิตภัณฑ์
+
+[[U018]] อ่านต่อ
+
+[[U019]] เตรียมคำถามเกี่ยวกับส่วนประกอบ (ภาษาอังกฤษ)
+
+[[U020]] คู่มือการใช้ KGM (ภาษาอังกฤษ)
+
+[[U021]] กลับสู่หน้าบทความ
+
+[[U022]] วิทยาศาสตร์ว่าด้วยส่วนประกอบสำหรับการพัฒนาผลิตภัณฑ์อาหาร โปรดตรวจสอบเกรดของผลิตภัณฑ์ ล็อตการผลิต วิธีการทดสอบ และผลลัพธ์ที่ได้ในผลิตภัณฑ์อาหารสำเร็จรูปจริง [[U023]] สอบถามข้อมูลเกี่ยวกับโครงการ
+
+[[U024]] ข้อมูลจำเพาะของวัตถุดิบใหม่
+
+[[U025]] งานวิจัยและคู่มือโครงการที่เกี่ยวข้องกับบุก
+
+[[U026]] การเปรียบเทียบเชิงเทคนิคระหว่างผงบุกชนิดผ่านกระบวนการปรับปรุงคุณภาพ (Refined Konjac Powder) กับกัมจากบุก (Konjac Gum) สำหรับผู้จัดซื้อวัตถุดิบและนักพัฒนาผลิตภัณฑ์อาหาร
+
+[[U027]] อ่านการเปรียบเทียบเชิงเทคนิค
+
+[[U028]] แหล่งข้อมูลที่เผยแพร่ไว้จะปรากฏอยู่ด้านล่างนี้ โดยชื่อบทความทางวิทยาศาสตร์และรหัสอ้างอิงมาตรฐานต่าง ๆ จะยังคงรูปแบบการอ้างอิงตามต้นฉบับเดิมไว้
+
+[[U029]] คำตอบโดยสรุป
+
+[[U030]] ผงบุกชนิดผ่านกระบวนการปรับปรุงคุณภาพและกัมจากบุกต่างก็เป็นวัตถุดิบที่ได้จากบุกเช่นเดียวกัน แต่ชื่อเรียกเพียงอย่างเดียวไม่สามารถบ่งบอกได้ว่าผลิตภัณฑ์แต่ละเกรดจะมีประสิทธิภาพในการใช้งานแตกต่างกันอย่างไร คุณควรพิจารณาเปรียบเทียบจากองค์ประกอบที่ระบุไว้พร้อมวิธีทดสอบ กระบวนการผลิต พฤติกรรมการดูดซับน้ำ (Hydration) ค่าความหนืดที่วัดได้ และประสิทธิภาพเมื่อนำไปใช้ในผลิตภัณฑ์อาหารของคุณ ทั้งนี้ ค่าองค์ประกอบที่สูงกว่าไม่ได้เป็นเครื่องยืนยันว่าจะส่งผลให้เกิดการดูดซับน้ำที่รวดเร็วขึ้น การสร้างเจลที่แข็งแรงขึ้น หรือสามารถใช้ในปริมาณที่น้อยลงได้เสมอไป
+
+[[U031]] ในขั้นตอนการจัดซื้อ คุณสามารถใช้ชื่อเรียกเป็นจุดเริ่มต้นในการหารือ แต่การตัดสินใจเลือกควรพิจารณาจากข้อมูลจำเพาะของเกรดผลิตภัณฑ์ ใบรับรองผลการวิเคราะห์ (Certificate of Analysis - COA) ของแต่ละล็อตการผลิต และผลการทดลองใช้ในสูตรอาหารจริง บทความนี้จะอธิบายถึงการเปรียบเทียบเชิงเทคนิค ส่วนคู่มือการสอบถามข้อมูลวัตถุดิบของเราจะให้คำแนะนำว่าควรส่งรายละเอียดใดบ้างให้กับซัพพลายเออร์
+
+[[U032]] 1. เริ่มต้นจากชื่อเรียก—และข้อมูลจำเพาะที่อยู่เบื้องหลังชื่อนั้น
+
+[[U033]] คอนแจ็ก กลูโคแมนแนน (Konjac Glucomannan หรือ KGM) คือพอลิแซ็กคาไรด์ที่มีบทบาทสำคัญในการเพิ่มความหนืดและสร้างเนื้อสัมผัสให้กับวัตถุดิบจากบุก ในเชิงพาณิชย์ คำว่า "แป้งบุก" (Konjac Flour), "ผงบุกชนิดผ่านกระบวนการปรับปรุงคุณภาพ" (Refined Konjac Powder), "แป้งบุกชนิดบริสุทธิ์" (Purified Konjac Flour) และ "กัมจากบุก" (Konjac Gum) อาจหมายถึงวัตถุดิบที่มีองค์ประกอบและผ่านกระบวนการผลิตที่แตกต่างกันได้ โดยชื่อเรียกเหล่านี้ไม่ได้เป็นลำดับขั้นมาตรฐานที่กำหนดระดับความบริสุทธิ์หรือค่าความหนืดไว้อย่างตายตัวสำหรับแต่ละชื่อ
+
+[[U034]] ประเทศจีนมีมาตรฐานแยกต่างหากสำหรับ "ผงบุกชนิดผ่านกระบวนการปรับปรุงคุณภาพ" (มาตรฐานเลขที่ GB/T 18104-2000) และ "แป้งบุก" (มาตรฐานเลขที่ NY/T 494-2010) ซึ่งเอกสารทางการเหล่านี้เป็นตัวกำหนดนิยามและรายละเอียดเฉพาะของผลิตภัณฑ์แต่ละประเภท ข้อกำหนดในการจัดซื้อยังคงจำเป็นต้องมีข้อกำหนดเฉพาะ (clauses) และวิธีการทดสอบที่เกี่ยวข้อง คำอธิบายผลิตภัณฑ์เพื่อการขายที่เป็นภาษาอังกฤษเพียงอย่างเดียวนั้นไม่เพียงพอที่จะใช้ยืนยันความเท่าเทียมกันระหว่างมาตรฐานหรือประเภทตามกฎระเบียบต่างๆ ได้
+
+[[U035]] สิ่งที่กำลังเปรียบเทียบ
+
+[[U036]] ผงบุกที่ผ่านการปรับปรุงคุณภาพ (Refined konjac powder)
+
+[[U037]] วัตถุดิบที่นำเสนอในฐานะกัมจากบุก (Konjac gum)
+
+[[U038]] สิ่งที่ควรเรียกขอ
+
+[[U039]] เอกลักษณ์ของผลิตภัณฑ์
+
+[[U040]] คำอธิบายผลิตภัณฑ์บุกที่ผ่านการปรับปรุงคุณภาพ ในเชิงพาณิชย์หรืออ้างอิงตามมาตรฐาน
+
+[[U041]] คำอธิบายเชิงพาณิชย์หรือการระบุประเภทวัตถุเจือปนอาหาร (ขึ้นอยู่กับตลาดปลายทาง)
+
+[[U042]] ชื่อผลิตภัณฑ์ที่ชัดเจน เกรด มาตรฐานที่เกี่ยวข้อง และตลาดปลายทาง
+
+[[U043]] องค์ประกอบ
+
+[[U044]] ขึ้นอยู่กับเกรดและวิธีการวิเคราะห์
+
+[[U045]] ขึ้นอยู่กับเกรดและการจำแนกประเภทตามกฎระเบียบ
+
+[[U046]] รายการสารที่วิเคราะห์ วิธีการวิเคราะห์ ผลลัพธ์ที่ได้ และระบุว่าเป็นการคำนวณบนพื้นฐานของน้ำหนักแห้ง (dry basis) หรือตามสภาพที่ได้รับมา (as-supplied basis)
+
+[[U047]] การคืนตัวในน้ำ (Hydration)
+
+[[U048]] ขึ้นอยู่กับลักษณะของอนุภาค การกระจายตัว และสภาวะในกระบวนการผลิต
+
+[[U049]] จำเป็นต้องมีการวัดค่านี้ด้วย เพราะคำว่า “กัม” (gum) ไม่ได้เป็นเครื่องรับประกันว่าจะสามารถคืนตัวในน้ำได้อย่างรวดเร็ว
+
+[[U050]] รูปแบบการคืนตัวในน้ำภายใต้สภาวะการผสมที่ตั้งใจไว้
+
+[[U051]] ความหนืดและคุณสมบัติในการเกิดเจล
+
+[[U052]] ต้องประเมินโดยใช้วิธีการและสูตรส่วนผสมที่กำหนดไว้
+
+[[U053]] ต้องประเมินโดยใช้วิธีการและสูตรส่วนผสมเดียวกัน
+
+[[U054]] รายละเอียดวิธีการวัดความหนืดทั้งหมด และเกณฑ์การยอมรับสำหรับผลิตภัณฑ์อาหารสำเร็จรูป
+[[U000]] p̄hng buk bris̄uthṭhi̒ (Refined Konjac Powder) kạb kạm cāk buk (Konjac Gum): Khwām tæk t̀āng k̄ĥxmūl cảpheāa læa wiṭhī kār leụ̄xk chı̂
+
+[[U001]] perīyb theīyb k̄ĥxmūl cảpheāa thī̀ xyū̀ beụ̄̂xng h̄lạng chụ̄̀x reīyk t̀āng«læa p̄hllạphṭh̒ thī̀ dị̂ nı p̄hlitp̣hạṇṯh̒ xāh̄ār k̄hxng khuṇ
+
+[[U002]] kār perīyb theīyb s̄̀wn prakxb/k̄ĥxmūl thāng thekhnikh
+
+[[U003]] bthkhwām
+
+[[U004]] wĕbsịt̒ h̄lạk
+
+[[U005]] s̄ảrwc s̄̀wn prakxb t̀āng«
+
+[[U006]] menū
+
+[[U007]] nı h̄n̂ā nī̂
+
+[[U008]] p̄hey phær̀ meụ̄̀x
+
+[[U009]] x̂āngxing
+
+[[U010]] niyām k̄hxng wạtt̄hudib
+
+[[U011]] chụ̄̀x reīyk s̄ār s̄ảkhạỵ thī̀ wikherāah̄̒ læa keṇṯh̒ kār thds̄xb
+
+[[U012]] kār prạb wiṭhī thds̄xb h̄ı̂ s̄xdkhl̂xng kạn
+
+[[U013]] kār lalāy n̂ả (Hydration) læa kh̀ā khwām h̄nụ̄d thī̀ wạd dị̂
+
+[[U014]] kār thds̄xb yụ̄nyạn p̄hl nı p̄hlitp̣hạṇṯh̒ xāh̄ār
+
+[[U015]] pras̄ithṭhip̣hāph læa khwām khûm kh̀ā nı kār chı̂ ngān
+
+[[U016]] leụ̄̀xn tārāng pheụ̄̀x dū k̄ĥxmūl nı khxlạmn̒ thậngh̄md
+
+[[U017]] kār perīyb theīyb thāng thekhnikh nī̂ mị̀ dị̂ rabu k̄ĥxmūl cảpheāa s̄ảh̄rạb p̄hlitp̣hạṇṯh̒ thī̀ thả cāk buk thậngh̄md pord trwc s̄xb kerd k̄hxng p̄hlitp̣hạṇṯh̒ xeks̄ār pra cả l̆x tkār p̄hlit læa wạtt̄hupras̄ngkh̒ nı kār chı̂ ngān k̄ĥxmūl cāk kār ṣ̄ụks̄ʹā nī̂ mị̀chı̀ kārk l̀ā wx̂āng s̄rrphkhuṇ thāng s̄uk̄hp̣hāph k̄hxng p̄hlitp̣hạṇṯh̒
+
+[[U018]] x̀ān t̀x
+
+[[U019]] terīym khảt̄hām keī̀yw kạb s̄̀wn prakxb (p̣hās̄ʹā xạngkvs̄ʹ)
+
+[[U020]] khū̀mụ̄x kār chı̂ KGM (p̣hās̄ʹā xạngkvs̄ʹ)
+
+[[U021]] klạb s̄ū̀ h̄n̂ā bthkhwām
+
+[[U022]] withyāṣ̄ās̄tr̒ ẁā d̂wy s̄̀wn prakxb s̄ảh̄rạb kār phạtʹhnā p̄hlitp̣hạṇṯh̒ xāh̄ār pord trwc s̄xb kerd k̄hxng p̄hlitp̣hạṇṯh̒ l̆x tkār p̄hlit wiṭhī kār thds̄xb læa p̄hllạphṭh̒ thī̀ dị̂ nı p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp cring [[U023]] s̄xbt̄hām k̄ĥxmūl keī̀yw kạb khorngkār
+
+[[U024]] k̄ĥxmūl cảpheāa k̄hxng wạtt̄hudib h̄ım̀
+
+[[U025]] ngān wicạy læa khū̀mụ̄x khorngkār thī̀ keī̀ywk̄ĥxng kạb buk
+
+[[U026]] kār perīyb theīyb cheing thekhnikh rah̄ẁāng p̄hng buk chnid p̄h̀ān krabwnkār prạbprung khuṇp̣hāph (Refined Konjac Powder) kạb kạm cāk buk (Konjac Gum) s̄ảh̄rạb p̄hū̂ cạd sụ̄̂x wạtt̄hudib læa nạk phạtʹhnā p̄hlitp̣hạṇṯh̒ xāh̄ār
+
+[[U027]] x̀ān kār perīyb theīyb cheing thekhnikh
+
+[[U028]] h̄æl̀ng k̄ĥxmūl thī̀ p̄hey phær̀ wị̂ ca prākt̩ xyū̀ d̂ān l̀āng nī̂ doy chụ̄̀x bthkhwām thāng withyāṣ̄ās̄tr̒ læa rh̄ạs̄ x̂āngxing mātrṭ̄hān t̀āng «ca yạng khng rūp bæb kār x̂āngxing tām t̂nc̄hbạb deim wị̂
+
+[[U029]] khả txb doy s̄rup
+
+[[U030]] p̄hng buk chnid p̄h̀ān krabwnkār prạbprung khuṇ p̣hāph læa kạm cāk buk t̀āng k̆ pĕn wạtt̄hudib thī̀ dị̂ cāk buk chèn deīywkạn tæ̀ chụ̄̀x reīyk pheīyng xỳāng deīyw mị̀ s̄āmārt̄h b̀ng bxk dị̂ ẁā p̄hlitp̣hạṇṯh̒ tæ̀la kerd ca mī pras̄ithṭhip̣hāph nı kār chı̂ ngān tæk t̀āng kạn xỳāngrị khuṇ khwr phicārṇā perīyb theīyb cāk xngkh̒ prakxb thī̀ rabu wị̂ phr̂xm wiṭhī thds̄xb krabwnkār p̄hlit phvtikrrm kār dūd sạb n̂ả (Hydration) kh̀ā khwām h̄nụ̄d thī̀ wạd dị̂ læa pras̄ithṭhip̣hāph meụ̄̀x nả pị chı̂ nı p̄hlitp̣hạṇṯh̒ xāh̄ār k̄hxng khuṇ thậngnī̂ kh̀ā xngkh̒ prakxb thī̀ s̄ūng kẁā mị̀ dị̂ pĕn kherụ̄̀xng yụ̄nyạn ẁā ca s̄̀ng p̄hl h̄ı̂ keid kār dūd sạb n̂ả thī̀ rwdrĕw k̄hụ̂n kār s̄r̂āng cel thī̀ k̄hæ̆ng ræng k̄hụ̂n h̄rụ̄x s̄āmārt̄h chı̂ nı primāṇ thī̀ n̂xy lng dị̂ s̄emx pị
+
+[[U031]] nı k̄hận txn kār cạd sụ̄̂x khuṇ s̄āmārt̄h chı̂ chụ̄̀x reīyk pĕn cud reìm t̂n nı kār h̄ārụ̄x tæ̀ kār tạds̄in cı leụ̄xk khwr phicārṇā cāk k̄ĥxmūl cảpheāa k̄hxng kerd p̄hlitp̣hạṇṯh̒ bırạb rxng p̄hl kār wikherāah̄̒ (Certificate of Analysis - COA) k̄hxng tæ̀ la l̆x tkār p̄hlit læa p̄hl kār thdlxng chı̂ nı s̄ūtr xāh̄ār cring bthkhwām nī̂ ca xṭhibāy t̄hụng kār perīyb theīyb cheing thekhnikh s̄̀wn khū̀mụ̄x kār s̄xbt̄hām k̄ĥxmūl wạtt̄hudib k̄hxng reā ca h̄ı̂ khả næanả ẁā khwr s̄̀ng rāy laxeīyd dı b̂āng h̄ı̂ kạb sạphphlāy xe xr̒
+
+[[U032]] 1. Reìm t̂n cāk chụ̄̀x reīyk—læa k̄ĥxmūl cảpheāa thī̀ xyū̀ beụ̄̂xng h̄lạng chụ̄̀x nận
+
+[[U033]] khxn cæ̆k klū kho mæn næn (Konjac Glucomannan h̄rụ̄x KGM) khụ̄x phx li sæ̆k khā rịd̒ thī̀ mī bthbāth s̄ảkhạỵ nı kār pheìm khwām h̄nụ̄d læa s̄r̂āng neụ̄̂x s̄ạmp̄hạs̄ h̄ı̂ kạb wạtt̄hudib cāk buk nı cheing phāṇichy̒ khả ẁā"pæ̂ng buk" (Konjac Flour), "p̄hng buk chnid p̄h̀ān krabwnkār prạbprung khuṇp̣hāph" (Refined Konjac Powder), "pæ̂ng buk chnid bris̄uthṭhi̒" (Purified Konjac Flour) læa"kạm cāk buk" (Konjac Gum) xāc h̄māy t̄hụng wạtt̄hudib thī̀ mī xngkh̒ prakxb læa p̄h̀ān krabwnkār p̄hlit thī̀ tæk t̀āng kạn dị̂ doy chụ̄̀x reīyk h̄el̀ā nī̂ mị̀ dị̂ pĕn lảdạb k̄hận mātrṭ̄hān thī̀ kảh̄nd radạb khwām bris̄uthṭhi̒ h̄rụ̄x kh̀ā khwām h̄nụ̄d wị̂ xỳāng tāytạw s̄ảh̄rạb tæ̀la chụ̄̀x
+
+[[U034]] pratheṣ̄ cīn mī mātrṭ̄hān yæk t̀āng h̄āk s̄ảh̄rạb"p̄hng buk chnid p̄h̀ān krabwnkār prạbprung khuṇp̣hāph" (mātrṭ̄hān lek̄h thī̀ GB/T 18104-2000) læa"pæ̂ng buk" (mātrṭ̄hān lek̄h thī̀ NY/T 494-2010) sụ̀ng xeks̄ār thāngkār h̄el̀ā nī̂ pĕn tạw kảh̄nd niyām læa rāy laxeīyd c̄hephāa k̄hxng p̄hlitp̣hạṇṯh̒ tæ̀la prap̣heth k̄ĥx kảh̄nd nı kār cạd sụ̄̂x yạng khng cảpĕn t̂xng mī k̄ĥx kảh̄nd c̄hephāa (clauses) læa wiṭhī kār thds̄xb thī̀ keī̀ywk̄ĥxng khả xṭhibāy p̄hlitp̣hạṇṯh̒ pheụ̄̀x kār k̄hāy thī̀ pĕn p̣hās̄ʹā xạngkvs̄ʹ pheīyng xỳāng deīyw nận mị̀ pheīyng phxthī̀ ca chı̂ yụ̄nyạn khwām thèā theīym kạn rah̄ẁāng mātrṭ̄hān h̄rụ̄x prap̣heth tām kḍ rabeīyb t̀āng«dị̂
+
+[[U035]] s̄ìng thī̀ kảlạng perīyb theīyb
+
+[[U036]] p̄hng buk thī̀ p̄h̀ān kār prạbprung khuṇp̣hāph (Refined konjac powder)
+
+[[U037]] wạtt̄hudib thī̀ nả s̄enx nı ṭ̄hāna kạm cāk buk (Konjac gum)
+
+[[U038]] s̄ìng thī̀ khwr reīyk k̄hx
+
+[[U039]] xeklạks̄ʹṇ̒ k̄hxng p̄hlitp̣hạṇṯh̒
+
+[[U040]] khả xṭhibāy p̄hlitp̣hạṇṯh̒ buk thī̀ p̄h̀ān kār prạbprung khuṇp̣hāph nı cheing phāṇichy̒ h̄rụ̄x x̂āngxing tām mātrṭ̄hān
+
+[[U041]] khả xṭhibāy cheing phāṇichy̒ h̄rụ̄x kār rabu prap̣heth wạtt̄hu ceụ̄xpn xāh̄ār (k̄hụ̂n xyū̀ kạb tlād plāy thāng)
+
+[[U042]] chụ̄̀x p̄hlitp̣hạṇṯh̒ thī̀ chạdcen kerd mātrṭ̄hān thī̀ keī̀ywk̄ĥxng læa tlād plāy thāng
+
+[[U043]] xngkh̒ prakxb
+
+[[U044]] k̄hụ̂n xyū̀ kạb kerd læa wiṭhī kār wikherāah̄̒
+
+[[U045]] k̄hụ̂n xyū̀ kạb kerd læa kār cảnæk prap̣heth tām kḍ rabeīyb
+
+[[U046]] rāykār s̄ār thī̀ wikherāah̄̒ wiṭhī kār wikherāah̄̒ p̄hllạphṭh̒ thī̀ dị̂ læa rabu ẁā pĕnkār khảnwṇ bn phụ̄̂n ṭ̄hān k̄hxng n̂ả h̄nạk h̄æ̂ng (dry basis) h̄rụ̄x tām s̄p̣hāph thī̀ dị̂ rạb mā (as-supplied basis)
+
+[[U047]] kār khụ̄ntạw nı n̂ả (Hydration)
+
+[[U048]] k̄hụ̂n xyū̀ kạb lạks̄ʹṇa k̄hxng xnup̣hākh kārk ra cā y tạw læa s̄p̣hāwa nı krabwnkār p̄hlit
+
+[[U049]] cảpĕn t̂xng mī kār wạd kh̀ā nī̂ d̂wy pherāa khả ẁā “kạm” (gum) mị̀ dị̂ pĕn kherụ̄̀xng rạb prakạn ẁā ca s̄āmārt̄h khụ̄ntạw nı n̂ả dị̂ xỳāng rwdrĕw
+
+[[U050]] rūp bæb kār khụ̄ntạw nı n̂ả p̣hāy tı̂ s̄p̣hāwa kār p̄hs̄m thī̀ tậngcı wị̂
+
+[[U051]] khwām h̄nụ̄d læa khuṇs̄mbạti nı kār keid cel
+
+[[U052]] t̂xng pramein doy chı̂ wiṭhī kār læa s̄ūtr s̄̀wn p̄hs̄m thī̀ kảh̄nd wị̂
+
+[[U053]] t̂xng pramein doy chı̂ wiṭhī kār læa s̄ūtr s̄̀wn p̄hs̄m deīywkạn
+
+[[U054]] rāy laxeīyd wiṭhī kār wạd khwām h̄nụ̄d thậngh̄md læa keṇṯh̒ kār yxmrạb s̄ảh̄rạb p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp
+展开
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

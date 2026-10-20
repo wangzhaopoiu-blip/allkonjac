@@ -1,0 +1,36 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+泰语
+英语
+印尼语
+原文
+clear
+519
+高级
+翻译结果
+[[U126]] ให้ถือว่าการเปลี่ยนส่วนประกอบเป็นการปรับเปลี่ยนสูตรผลิตภัณฑ์ โดยต้องเปรียบเทียบตัวอย่างภายใต้เงื่อนไขเดียวกัน จากนั้นจึงกำหนดปริมาณที่ใช้เพื่อให้ได้ผลลัพธ์ตามเป้าหมายที่ต้องการในผลิตภัณฑ์อาหารสำเร็จรูป ทั้งนี้ ชื่อของผลิตภัณฑ์ไม่ได้เป็นตัวบ่งชี้อัตราส่วนการทดแทนที่ตายตัวแต่อย่างใด
+
+[[U127]] การเป็นผลิตภัณฑ์เกรดที่มีความบริสุทธิ์สูง หมายความว่าผลิตภัณฑ์นั้นสามารถกล่าวอ้างสรรพคุณทางสุขภาพได้โดยอัตโนมัติหรือไม่?
+
+[[U128]] ไม่ใช่เช่นนั้น ประเด็นเรื่องเอกลักษณ์ของส่วนประกอบ การอนุญาตให้ใช้ ส่วนประกอบของผลิตภัณฑ์ และเงื่อนไขสำหรับการกล่าวอ้างสรรพคุณต่าง ๆ เป็นเรื่องที่แยกจากกัน การระบุสัดส่วนของส่วนประกอบในสูตรไม่ได้หมายความว่าจะได้รับอนุญาตให้กล่าวอ้างสรรพคุณทางสุขภาพสำหรับผลิตภัณฑ์สำเร็จรูปนั้นได้
+[[U126]] h̄ı̂ t̄hụ̄xẁā kār pelī̀yn s̄̀wn prakxb pĕnkār prạb pelī̀yn s̄ūtr p̄hlitp̣hạṇṯh̒ doy t̂xng perīyb theīyb tạwxỳāng p̣hāy tı̂ ngeụ̄̀xnk̄hị deīywkạn cāk nận cụng kảh̄nd primāṇ thī̀ chı̂ pheụ̄̀x h̄ı̂ dị̂ p̄hllạphṭh̒ tām pêā h̄māy thī̀ t̂xngkār nı p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp thậngnī̂ chụ̄̀x k̄hxng p̄hlitp̣hạṇṯh̒ mị̀ dị̂ pĕn tạw b̀ng chī̂ xạtrās̄̀wn kār thdthæn thī̀ tāytạw tæ̀ xỳāng dı
+
+[[U127]] kār pĕn p̄hlitp̣hạṇṯh̒ kerd thī̀ mī khwām bris̄uthṭhi̒ s̄ūng h̄māykhwām ẁā p̄hlitp̣hạṇṯh̒ nận s̄āmārt̄h kl̀āw x̂āng s̄rrphkhuṇ thāng s̄uk̄hp̣hāph dị̂ doy xạtnomạti h̄rụ̄x mị̀?
+
+[[U128]] mị̀chı̀ chèn nận pradĕn reụ̄̀xng xeklạks̄ʹṇ̒ k̄hxng s̄̀wn prakxb kār xnuỵāt h̄ı̂ chı̂ s̄̀wn prakxb k̄hxng p̄hlitp̣hạṇṯh̒ læa ngeụ̄̀xnk̄hị s̄ảh̄rạb kārk l̀ā wx̂āng s̄rrphkhuṇ t̀āng «pĕn reụ̄̀xng thī̀ yæk cāk kạn kār rabu s̄ạds̄̀wn k̄hxng s̄̀wn prakxb nı s̄ūtr mị̀ dị̂ h̄māykhwām ẁā ca dị̂ rạb xnuỵāt h̄ı̂ kl̀āw x̂āng s̄rrphkhuṇ thāng s̄uk̄hp̣hāph s̄ảh̄rạb p̄hlitp̣hạṇṯh̒ s̄ảrĕcrūp nận dị̂
+展开
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

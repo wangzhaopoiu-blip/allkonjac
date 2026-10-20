@@ -1,0 +1,7 @@
+# Translation and editorial record — 2026-10-20
+
+English editorial source: article.en.md. Four marked text batches were translated through the visible Google Translate website from English to Thai and Indonesian on 2026-10-20. google-th-00..03.txt and google-id-00..03.txt retain the observed source and output. Thai transliterations are not used. The JSON catalogs contain edited translations, not verbatim machine output.
+
+Reviewed corrections: preserve ALL KONJAC as the brand (Google translated it as a generic phrase); distinguish refined powder from a claim of absolute purity; use Thai บุก / กัมบุก and Indonesian konjak / gom konjak consistently; hydration is not simply dissolution; correct the Thai FAQ subject (KGM in gum); clarify that an EU specification does not establish US requirements; preserve the different 75% carbohydrate and 95% total dietary fibre dry-weight criteria; remove implications of universal substitution or a universal viscosity protocol. The 90% and 20,000 mPa·s figures are illustrative questions, not supplier specifications. Indonesian 20.000 is the local thousands format.
+
+Formal bibliographic titles and standard identifiers remain in their original English form. No Han text is included in any public language version. Google also translated the prior Chinese standard labels and preview UI into English; standard names were editorially aligned to Konjac refined powder and Konjac flour. The Chinese source and original attachments remain internal and are not published.

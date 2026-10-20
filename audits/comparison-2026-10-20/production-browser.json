@@ -1,0 +1,379 @@
+{
+  "base": "https://allkonjac.com",
+  "rows": [
+    {
+      "width": 390,
+      "route": "/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "en",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow,max-image-preview:large"
+    },
+    {
+      "width": 390,
+      "route": "/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "en",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 390,
+      "route": "/th/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "th",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/th/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "\"Noto Sans Thai\", Arial, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 390,
+      "route": "/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "th",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "\"Noto Sans Thai\", Arial, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 390,
+      "route": "/id/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "id",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/id/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 390,
+      "route": "/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "id",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 1440,
+      "route": "/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "en",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow,max-image-preview:large"
+    },
+    {
+      "width": 1440,
+      "route": "/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "en",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 1440,
+      "route": "/th/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "th",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/th/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "\"Noto Sans Thai\", Arial, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 1440,
+      "route": "/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "th",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "\"Noto Sans Thai\", Arial, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 1440,
+      "route": "/id/blog/",
+      "status": 200,
+      "h1": 1,
+      "lang": "id",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/id/blog/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    },
+    {
+      "width": 1440,
+      "route": "/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "h1": 1,
+      "lang": "id",
+      "overflow": false,
+      "han": false,
+      "brokenImages": 0,
+      "canonical": "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "alternates": [
+        [
+          "en",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "th",
+          "https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "id",
+          "https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/"
+        ],
+        [
+          "x-default",
+          "https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/"
+        ]
+      ],
+      "font": "Inter, Arial, Helvetica, sans-serif",
+      "robot": "index,follow"
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

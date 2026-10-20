@@ -1,0 +1,166 @@
+翻译
+
+翻译类型
+文字
+图片
+文档
+网站
+文本翻译
+检测语言
+英语
+中文（简体）
+德语
+泰语
+英语
+印尼语
+原文
+clear
+4,164
+高级
+翻译结果
+[[U090]] การระบุเพียงหมายเลขหัววัด (spindle number) โดยไม่มีการระบุรุ่นของเครื่องมือวัดนั้น ถือว่าไม่ใช่วิธีการทดสอบที่สมบูรณ์ นอกจากนี้ ไม่ควรยึดถืออุณหภูมิหรือความเร็วรอบใดรอบหนึ่งเป็นวิธีมาตรฐานสำหรับบุก (konjac) ทุกเกรด แต่ควรใช้วิธีที่ระบุไว้ในข้อกำหนด (specification) ที่เกี่ยวข้อง หรือใช้วิธีที่ตกลงร่วมกันซึ่งเหมาะสมสำหรับการเปรียบเทียบของคุณ
+
+[[U091]] ควรแยกพิจารณาคำถาม 3 ประการ ได้แก่ บุกชนิดนั้นกระจายตัวและดูดซับน้ำได้รวดเร็วเพียงใด? เมื่อดูดซับน้ำแล้วจะมีความหนืดเท่าใด? และผลิตภัณฑ์อาหารสำเร็จรูปมีเนื้อสัมผัสตามที่ต้องการหรือไม่? คำตอบสำหรับคำถามเหล่านี้จะนำไปสู่การเลือกเกรดของบุกที่แตกต่างกัน
+
+[[U092]] 5. การเลือกเกรดบุกโดยพิจารณาจากเป้าหมายของผลิตภัณฑ์อาหารสำเร็จรูป
+
+[[U093]] งานด้านการพัฒนาผลิตภัณฑ์อาหาร
+
+[[U094]] เกณฑ์ชี้วัดที่เป็นประโยชน์ในการทดลอง
+
+[[U095]] เหตุใดชื่อผลิตภัณฑ์จึงไม่เพียงพอต่อการระบุคุณสมบัติ
+
+[[U096]] ผลิตภัณฑ์อาหารประเภทเจลจากบุก
+
+[[U097]] การกระจายตัว กระบวนการขึ้นรูป เนื้อสัมผัส การคายน้ำ และพฤติกรรมของผลิตภัณฑ์หลังจากผ่านกระบวนการให้ความร้อนตามที่กำหนด
+
+[[U098]] การเกิดเจลขึ้นอยู่กับสูตรส่วนผสมและกระบวนการผลิต รวมถึงสภาวะความเป็นด่างและความร้อน (หากเกี่ยวข้อง)
+
+[[U099]] เครื่องดื่มหรือระบบที่มีเส้นใยกระจายตัวอยู่
+
+[[U100]] ความสามารถในการกระจายตัว ความหนืดที่เปลี่ยนแปลงตามเวลา คุณภาพทางประสาทสัมผัส และความเสถียรในกระบวนการผลิตจริง
+
+[[U101]] การทดสอบความหนืดในน้ำเพียงอย่างเดียวไม่สามารถใช้แทนการทดลองในผลิตภัณฑ์เครื่องดื่มจริงได้
+
+[[U102]] ผลิตภัณฑ์ประเภทแป้งโด (dough) หรือเส้นบะหมี่
+
+[[U103]] การจัดการน้ำ ความทนทานต่อการผสม ความสะดวกในการจัดการระหว่างกระบวนการผลิต และคุณภาพเมื่อรับประทานจริง
+
+[[U104]] บุก (KGM) แต่ละเกรดให้ผลลัพธ์ที่แตกต่างกันในการศึกษาผลิตภัณฑ์แป้งโดและซาลาเปา (หรือขนมปังนึ่ง) ชนิดหนึ่ง
+
+[[U105]] ผลิตภัณฑ์เนื้อสัตว์หรือส่วนผสมที่ประกอบด้วยไฮโดรคอลลอยด์ (hydrocolloid blends)
+
+[[U106]] เนื้อสัมผัส การสูญเสียน้ำหนักระหว่างการปรุง (cooking loss) การคายน้ำ และความเสถียรภายใต้กระบวนการผลิตจริง
+
+[[U107]] โปรตีน เกลือ และไฮโดรคอลลอยด์ชนิดอื่น ๆ อาจส่งผลต่อผลลัพธ์ที่ได้ ดังนั้นจึงจำเป็นต้องทดสอบเกรดของบุกในสูตรอาหารนั้น ๆ โดยเฉพาะ
+
+[[U108]] ประเด็นเหล่านี้เป็นคำถามสำหรับการประเมินผล ไม่ใช่คำแนะนำเรื่องปริมาณการใช้ที่ตายตัว ห้ามใช้อัตราส่วนการทดแทนแบบเดียวกันหมดระหว่างผงบุกบริสุทธิ์กับสารกลุ่มกัม (gum) ชนิดอื่น ๆ แต่จะต้องทำการทดลองเพื่อกำหนดปริมาณการใช้และสภาวะในกระบวนการผลิตที่เหมาะสมเพื่อให้ได้ผลลัพธ์ตามเป้าหมายที่ต้องการ [[U109]] ประเมินต้นทุนในการใช้งาน ไม่ใช่แค่ราคาต่อกิโลกรัม เริ่มจากราคาต่อหน่วยคูณด้วยปริมาณการใช้งานต่อชุดการผลิต จากนั้นพิจารณาความแตกต่างที่วัดได้ในเวลาการผลิต ผลผลิต และคุณภาพ ผงที่มีราคาแพงกว่าจะคุ้มค่าก็ต่อเมื่อผลลัพธ์ที่ได้รับการตรวจสอบแล้วนั้นคุ้มค่ากับต้นทุน
+
+[[U110]] 6. รายการตรวจสอบเปรียบเทียบซัพพลายเออร์ที่ใช้งานได้จริง
+
+[[U111]] ขอข้อมูลเดียวกันจากซัพพลายเออร์แต่ละรายเพื่อให้สามารถเปรียบเทียบข้อเสนอได้บนพื้นฐานเดียวกัน:
+
+[[U112]] ข้อมูลประจำตัวและการตรวจสอบย้อนกลับ: ชื่อผลิตภัณฑ์ เกรด หมายเลขชุดการผลิต เวอร์ชันข้อกำหนด และมาตรฐานที่เกี่ยวข้อง
+
+[[U113]] ส่วนประกอบ: สารวิเคราะห์ ขีดจำกัด ผลลัพธ์ของชุดการผลิต วิธีการวิเคราะห์ และหลักเกณฑ์การรายงาน
+
+[[U114]] วิธีการเชิงฟังก์ชัน: วิธีการวัดความหนืดแบบสมบูรณ์ รวมทั้งการทดสอบการดูดซับน้ำหรือการทดสอบเจลที่ตกลงกันไว้
+
+[U115]] คุณภาพทางกายภาพ: การกระจายขนาดอนุภาคหรือข้อกำหนดตะแกรง ขีดจำกัดสีและกลิ่น และวิธีการประเมิน
+
+[[U116]] เอกสารด้านความปลอดภัยและการตลาด: ผลการทดสอบทางจุลชีววิทยา สารปนเปื้อน และสารตกค้างที่เกี่ยวข้องสำหรับเกรดและตลาดเป้าหมาย รวมถึงข้อมูลตัวทำละลายในการแปรรูปหากเกี่ยวข้อง
+
+[[U117]] เงื่อนไขการจัดหา: บรรจุภัณฑ์ อายุการเก็บรักษาและคำแนะนำในการจัดเก็บ เอกสารการประเมินตัวอย่าง และข้อตกลงเรื่องความสม่ำเสมอของแต่ละล็อต
+
+[[U118]] ขอผลการทดสอบสำหรับวัสดุที่เสนอ ใบรับรองทั่วไป ฉลาก "เกรดอาหาร" ที่ไม่มีคุณสมบัติ หรือการอ้างว่า "ความบริสุทธิ์สูงสุดนั้นดีที่สุดเสมอ" ไม่สามารถใช้แทนการเปรียบเทียบนี้ได้
+
+[[U119]] เมื่อระบุวัสดุแล้ว ให้ใช้คู่มือการสอบถามส่วนผสมเพื่อเตรียมเอกสารสรุปโครงการ สำหรับคำอธิบายเพิ่มเติมเกี่ยวกับการทดสอบการดูดซับน้ำ ความหนืด และการเกิดเจล โปรดอ่านคู่มือการกำหนดสูตร KGM ของเรา
+
+[[U120]] 7. คำถามที่พบบ่อย
+
+[[U121]] ปริมาณกัมบุกใน KGM สูงกว่าผงบุกบริสุทธิ์เสมอหรือไม่?
+
+[[U122]] อย่าตัดสินจากชื่อเพียงอย่างเดียว ให้เปรียบเทียบสารวิเคราะห์ที่ระบุและวิธีการทดสอบเพื่อดูเกรดที่แท้จริง คำจำกัดความตามกฎระเบียบและฉลากทางการค้าไม่ได้ใช้หน่วยวัดเดียวกันเสมอไป
+
+[U123]] ผงละเอียดจะดูดซับน้ำได้ดีกว่าเสมอไปหรือไม่?
+
+
+[[U124]] คุณสมบัติของอนุภาคอาจส่งผลต่อกระบวนการไฮเดรชัน (hydration) แต่การกระจายตัวในทางปฏิบัติยังขึ้นอยู่กับเงื่อนไขในการผสมและการเติมสารด้วยเช่นกัน ดังนั้น ควรพิจารณาเปรียบเทียบจากกราฟแสดงกระบวนการไฮเดรชันและการเกิดก้อน (lump formation) ในกระบวนการผลิตของคุณ แทนที่จะเลือกใช้เพียงแค่ค่าขนาดอนุภาค (mesh count) เท่านั้น
+
+[[U125]] ฉันสามารถเปลี่ยนไปใช้ผลิตภัณฑ์เกรดอื่นแทนเกรดเดิม โดยใช้ปริมาณเท่าเดิมได้หรือไม่?
+[[U090]] kār rabu pheīyng h̄māylek̄h h̄ạw wạd (spindle number) doy mị̀mī kār rabu rùn k̄hxng kherụ̄̀xng mụ̄x wạd nận t̄hụ̄xẁā mị̀chı̀ wiṭhī kār thds̄xb thī̀ s̄mbūrṇ̒ nxkcāk nī̂ mị̀ khwr yụdt̄hụ̄x xuṇh̄p̣hūmi h̄rụ̄x khwāmrĕw rxb dı rxb h̄nụ̀ng pĕn wiṭhī mātrṭ̄hān s̄ảh̄rạb buk (konjac) thuk kerd tæ̀ khwr chı̂ wiṭhī thī̀ rabu wị̂ nı k̄ĥx kảh̄nd (specification) thī̀ keī̀ywk̄ĥxng h̄rụ̄x chı̂ wiṭhī thī̀ tklng r̀wm kạn sụ̀ng h̄emāa s̄m s̄ảh̄rạb kār perīyb theīyb k̄hxng khuṇ
+
+[[U091]] khwr yæk phicārṇā khảt̄hām 3 prakār dị̂kæ̀ buk chnid nận kracāy tạw læa dūd sạb n̂ả dị̂ rwdrĕw pheīyng dı? Meụ̄̀x dūd sạb n̂ả læ̂w ca mī khwām h̄nụ̄d thèādı? Læa p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp mī neụ̄̂x s̄ạmp̄hạs̄ tām thī̀ t̂xngkār h̄rụ̄x mị̀? Khả txb s̄ảh̄rạb khảt̄hām h̄el̀ā nī̂ ca nả pị s̄ū̀ kār leụ̄xk kerd k̄hxng buk thī̀ tæk t̀āng kạn
+
+[[U092]] 5. Kār leụ̄xk kerd buk doy phicārṇā cāk pêā h̄māy k̄hxng p̄hlitp̣hạṇṯh̒ xāh̄ār s̄ảrĕcrūp
+
+[[U093]] ngān d̂ān kār phạtʹhnā p̄hlitp̣hạṇṯh̒ xāh̄ār
+
+[[U094]] keṇṯh̒ chī̂ wạd thī̀ pĕn prayochn̒ nı kār thdlxng
+
+[[U095]] h̄etu dı chụ̄̀x p̄hlitp̣hạṇṯh̒ cụng mị̀ pheīyng phx t̀x kār rabu khuṇs̄mbạti
+
+[[U096]] p̄hlitp̣hạṇṯh̒ xāh̄ār pra p̣heth cel cāk buk
+
+[[U097]] kārk ra cā y tạw krabwnkār k̄hụ̂n rūp neụ̄̂x s̄ạmp̄hạs̄ kār khāy n̂ả læa phvtikrrm k̄hxng p̄hlitp̣hạṇṯh̒ h̄lạng cāk p̄h̀ān krabwnkār h̄ı̂ khwām r̂xn tām thī̀ kảh̄nd
+
+[[U098]] kār keid cel k̄hụ̂n xyū̀ kạb s̄ūtr s̄̀wn p̄hs̄m læa krabwnkār p̄hlit rwm t̄hụng s̄p̣hāwa khwām pĕn d̀āng læa khwām r̂xn (h̄āk keī̀ywk̄ĥxng)
+
+[[U099]] kherụ̄̀xng dụ̄̀m h̄rụ̄x rabb thī̀ mī s̄ênyı kracāy tạw xyū̀
+
+[[U100]] khwām s̄āmārt̄h nı kārk ra cā y tạw khwām h̄nụ̄d thī̀ pelī̀ynpælng tām welā khuṇp̣hāph thāng pras̄āth s̄ạmp̄hạs̄ læa khwām s̄et̄hīyr nı krabwnkār p̄hlit cring
+
+[[U101]] kār thds̄xb khwām h̄nụ̄d nı n̂ả pheīyng xỳāng deīyw mị̀ s̄āmārt̄h chı̂ thæn kār thdlxng nı p̄hlitp̣hạṇṯh̒ kherụ̄̀xng dụ̄̀m cring dị̂
+
+[[U102]] p̄hlitp̣hạṇṯh̒ prap̣heth pæ̂ng do (dough) h̄rụ̄x s̄ên bah̄mī̀
+
+[[U103]] kār cạdkār n̂ả khwām thnthān t̀x kār p̄hs̄m khwām s̄adwk nı kār cạdkār rah̄ẁāng krabwnkār p̄hlit læa khuṇp̣hāph meụ̄̀x rạb prathān cring
+
+[[U104]] buk (KGM) tæ̀la kerd h̄ı̂ p̄hllạphṭh̒ thī̀ tæk t̀āng kạn nı kār ṣ̄ụks̄ʹā p̄hlitp̣hạṇṯh̒ pæ̂ng do læa sālāpeā (h̄rụ̄x k̄hnmpạng nụ̀ng) chnid h̄nụ̀ng
+
+[[U105]] p̄hlitp̣hạṇṯh̒ neụ̄̂x s̄ạtw̒ h̄rụ̄x s̄̀wn p̄hs̄m thī̀ pra kx bd̂wyḥị dor khxllxyd̒ (hydrocolloid blends)
+
+[[U106]] neụ̄̂x s̄ạmp̄hạs̄ kār s̄ūỵ s̄eīy n̂ả h̄nạk rah̄ẁāng kār prung (cooking loss) kār khāy n̂ả læa khwām s̄et̄hīyr p̣hāy tı̂ krabwnkār p̄hlit cring
+
+[[U107]] portīn kelụ̄x læa ḥị dor khxllxyd̒ chnid xụ̄̀n «xāc s̄̀ng p̄hl t̀x p̄hllạphṭh̒ thī̀ dị̂ dạng nận cụng cảpĕn t̂xng thds̄xb kerd k̄hxng buk nı s̄ūtr xāh̄ār nận «doy c̄hephāa
+
+[[U108]] pradĕn h̄el̀ā nī̂ pĕn khảt̄hām s̄ảh̄rạb kār pramein p̄hl mị̀chı̀ khả næanả reụ̄̀xng primāṇ kār chı̂ thī̀ tāytạw h̄̂ām chı̂ xạtrās̄̀wn kār thdthæn bæb deīywkạn h̄md rah̄ẁāng p̄hng buk bris̄uthṭhi̒ kạb s̄ā rk lùm kạm (gum) chnid xụ̄̀n «tæ̀ ca t̂xng thảkār thdlxng pheụ̄̀x kảh̄nd primāṇ kār chı̂ læa s̄p̣hāwa nı krabwnkār p̄hlit thī̀ h̄emāa s̄m pheụ̄̀x h̄ı̂ dị̂ p̄hllạphṭh̒ tām pêā h̄māy thī̀ t̂xngkār [[U109]] pramein t̂nthun nı kār chı̂ ngān mị̀chı̀ khæ̀ rākhā t̀x kilokrạm reìm cāk rākhā t̀x h̄ǹwy khūṇ d̂wy primāṇ kār chı̂ ngān t̀x chud kār p̄hlit cāk nận phicārṇā khwām tæk t̀āng thī̀ wạd dị̂ nı welā kār p̄hlit p̄hlp̄hlit læa khuṇp̣hāph p̄hng thī̀ mī rākhā phæng kẁā ca khûm kh̀ā k̆ t̀x meụ̄̀x p̄hllạphṭh̒ thī̀ dị̂ rạb kār trwc s̄xb læ̂w nận khûm kh̀ā kạb t̂nthun
+
+[[U110]] 6. Rāykār trwc s̄xb perīyb theīyb sạphphlāy xe xr̒ thī̀ chı̂ ngān dị̂ cring
+
+[[U111]] k̄hx k̄ĥxmūl deīywkạn cāk sạphphlāy xe xr̒ tæ̀la rāy pheụ̄̀x h̄ı̂ s̄āmārt̄h perīyb theīyb k̄ĥx s̄enx dị̂ bn phụ̄̂n ṭ̄hān deīywkạn:
+
+[[U112]] k̄ĥxmūl pracả tạw læa kār trwc s̄xb ŷxn klạb: Chụ̄̀x p̄hlitp̣hạṇṯh̒ kerd h̄māylek̄h chud kār p̄hlit wexr̒chạn k̄ĥx kảh̄nd læa mātrṭ̄hān thī̀ keī̀ywk̄ĥxng
+
+[[U113]] s̄̀wn prakxb: S̄ār wikherāah̄̒ k̄hīd cảkạd p̄hllạphṭh̒ k̄hxng chud kār p̄hlit wiṭhī kār wikherāah̄̒ læa h̄lạk keṇṯh̒ kār rāyngān
+
+[[U114]] wiṭhī kār cheing fạngk̒chạn: Wiṭhī kār wạd khwām h̄nụ̄d bæb s̄mbūrṇ̒ rwm thậng kār thds̄xb kār dūd sạb n̂ả h̄rụ̄x kār thd s̄xb cel thī̀ tklng kạn wị̂
+
+[U115]] khuṇp̣hāph thāng kāyp̣hāph: Kārk ra cāy k̄hnād xnup̣hākh h̄rụ̄x k̄ĥx kảh̄nd takærng k̄hīd cảkạd s̄ī læa klìn læa wiṭhī kār pramein
+
+[[U116]] xeks̄ār d̂ān khwām plxdp̣hạy læa kār tlād: P̄hl kār thds̄xb thāng cul chīwwithyā s̄ār pn peụ̄̂xn læa s̄ār tkkĥāng thī̀ keī̀ywk̄ĥxng s̄ảh̄rạb kerd læa tlād pêā h̄māy rwm t̄hụng k̄ĥxmūl tạw thả lalāy nı kār pærrūp h̄āk keī̀ywk̄ĥxng
+
+[[U117]] ngeụ̄̀xnk̄hị kār cạdh̄ā: Brrcu p̣hạṇṯh̒ xāyu kār kĕb rạks̄ʹā læa khả næanả nı kār cạd kĕb xeks̄ār kār pramein tạwxỳāng læa k̄ĥx tklng reụ̄̀xng khwām s̄m̀ảs̄emx k̄hxng tæ̀ la l̆xt
+
+[[U118]] k̄hx p̄hl kār thds̄xb s̄ảh̄rạb wạs̄du thī̀ s̄enx bırạb rxng thạ̀wpị c̄hlāk"kerd xāh̄ār" thī̀ mị̀mī khuṇs̄mbạti h̄rụ̄x kār x̂āng ẁā"khwām bris̄uthṭhi̒ s̄ūngs̄ud nận dī thī̀s̄ud s̄emx" mị̀ s̄āmārt̄h chı̂ thæn kār perīyb theīyb nī̂ dị̂
+
+[[U119]] meụ̄̀x rabu wạs̄du læ̂w h̄ı̂ chı̂ khū̀mụ̄x kār s̄xbt̄hām s̄̀wn p̄hs̄m pheụ̄̀x terīym xeks̄ār s̄rup khorngkār s̄ảh̄rạb khả xṭhibāy pheìm teim keī̀yw kạb kār thds̄xb kār dūd sạb n̂ả khwām h̄nụ̄d læa kār keid cel pord x̀ān khū̀mụ̄x kār kảh̄nd s̄ūtr KGM k̄hxng reā
+
+[[U120]] 7. Khảt̄hām thī̀ phb b̀xy
+
+[[U121]] pri māṇkạm buk nı KGM s̄ūng kẁā p̄hng buk bris̄uthṭhi̒ s̄emx h̄rụ̄x mị̀?
+
+[[U122]] xỳā tạds̄in cāk chụ̄̀x pheīyng xỳāng deīyw h̄ı̂ perīyb theīyb s̄ār wikherāah̄̒ thī̀ rabu læa wiṭhī kār thds̄xb pheụ̄̀x dū kerd thī̀thæ̂ cring khả cảkạd khwām tām kḍ rabeīyb læa c̄hlāk thāngkār kĥā mị̀ dị̂ chı̂ h̄ǹwy wạd deīywkạn s̄emx pị
+
+[U123]] p̄hng laxeīyd ca dūd sạb n̂ả dị̂ dī kẁā s̄emx pị h̄rụ̄x mị̀?
+
+
+[[U124]] khuṇs̄mbạti k̄hxng xnup̣hākh xāc s̄̀ng p̄hl t̀x kra bwn kār ḥịder chạn (hydration) tæ̀ kārk ra cā y tạw nı thāng pt̩ibạti yạng k̄hụ̂n xyū̀ kạb ngeụ̄̀xnk̄hị nı kār p̄hs̄m læa kār teim s̄ār d̂wy chèn kạn dạng nận khwr phicārṇā perīyb theīyb cāk krāf s̄ædng kra bwn kār ḥịder chạn læa kār keid k̂xn (lump formation) nı krabwnkār p̄hlit k̄hxng khuṇ thænthī̀ ca leụ̄xk chı̂ pheīyng khæ̀ kh̀ā k̄hnād xnup̣hākh (mesh count) thèānận
+
+[[U125]] c̄hạn s̄āmārt̄h pelī̀yn pị chı̂ p̄hlitp̣hạṇṯh̒ kerd xụ̄̀n thæn kerd deim doy chı̂ primāṇ thèā deim dị̂ h̄rụ̄x mị̀?
+展开
+star_border
+发送反馈
+侧边栏
+历史记录
+已保存

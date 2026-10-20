@@ -14,7 +14,7 @@ const errors = [];
 (async () => {
   const browser = await pw.chromium.launch({headless: true, executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
   try {
-    assert.equal(paths.length, 33);
+    assert.equal(paths.length, 36);
     for (const width of [390, 1440]) {
       const context = await browser.newContext({viewport: {width, height: 850}, javaScriptEnabled: false});
       for (const urlPath of paths) {
