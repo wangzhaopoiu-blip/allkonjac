@@ -91,8 +91,8 @@
           "https://allkonjac.com/blog/"
         ]
       ],
-      "font": "\"Noto Sans Thai\", Arial, sans-serif",
-      "robot": "index,follow"
+      "font": "\"Noto Sans Thai\", Arial, Helvetica, sans-serif",
+      "robot": "index,follow,max-image-preview:large"
     },
     {
       "width": 390,
@@ -154,7 +154,7 @@
         ]
       ],
       "font": "Inter, Arial, Helvetica, sans-serif",
-      "robot": "index,follow"
+      "robot": "index,follow,max-image-preview:large"
     },
     {
       "width": 390,
@@ -277,8 +277,8 @@
           "https://allkonjac.com/blog/"
         ]
       ],
-      "font": "\"Noto Sans Thai\", Arial, sans-serif",
-      "robot": "index,follow"
+      "font": "\"Noto Sans Thai\", Arial, Helvetica, sans-serif",
+      "robot": "index,follow,max-image-preview:large"
     },
     {
       "width": 1440,
@@ -340,7 +340,7 @@
         ]
       ],
       "font": "Inter, Arial, Helvetica, sans-serif",
-      "robot": "index,follow"
+      "robot": "index,follow,max-image-preview:large"
     },
     {
       "width": 1440,

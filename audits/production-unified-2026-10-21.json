@@ -1,0 +1,857 @@
+{
+  "date": "2026-10-21",
+  "canonical_pages": 39,
+  "verified_files": 102,
+  "files": [
+    {
+      "path": "/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "81ee18fa63144760f2e681fc69a135a7c29bf3263447feb8f53354853adf9197",
+      "noindex_header": false
+    },
+    {
+      "path": "/ingredients/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "8297652304a83dfc9ebfe2bd97aa968657df71f17e4ee9bc40a23469cc7b2623",
+      "noindex_header": false
+    },
+    {
+      "path": "/equipment/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "21221ff981449b019ea2c2258fae88509a85ed90264856a823b9535a5ef569eb",
+      "noindex_header": false
+    },
+    {
+      "path": "/drying-lines/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "a880e2c9397c0b5dc633167a19a7814ee4a20a68a59bd2a9e0c83092bd10e948",
+      "noindex_header": false
+    },
+    {
+      "path": "/technology/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "882370a4fac7e993ba0e95bb11a7dd576266ca799cac86ad0622e4f33bd7f793",
+      "noindex_header": false
+    },
+    {
+      "path": "/ingredients/coa-reference/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "e097a579c5e00dc0146fe3523ab5e3f47a19b6a161daf21110eda525e163c891",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "e542ef155e74fd9190fd29009e459e4aea48583bf646c76fe67a102b4803002d",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/ingredients/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "cb85415c228416e5802b56372b08a50ceeca886118044d7a0b713b1470c021d5",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/equipment/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "a20bfc51968275ef8d09a10b6bbcf77e845834a78e46c1197ab41a179fc1e143",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/drying-lines/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "edd704a0b4929bdb79b82cf541e8406cd7dba91c71b874526627547c46fadb27",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/technology/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "b1472db28d99a01f98d01f6f38b43554bb3f3b888cc397038d1c9f5e1d7c8f36",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/ingredients/coa-reference/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4d504568fe1f0cb6b81991bb2435e0de6f36316d8501e4369c0654133be94a6e",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f687de41cf5062d1957ddd9e16ba78bcd70d277b566a8e756dd31eb7683fc6b9",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/ingredients/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "2e5ae837de141ede008681facfc8e666e16f0a5a982b440e414c0edea8a65827",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/equipment/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "b135b8a49fbe096f9361dd96a5ce21961cff2644f30ce63a0fd7d2aad6faa56c",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/drying-lines/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "15a983074e28511e0555668033f9b2dec266bf8ba1b17c5f1098d194750c02a4",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/technology/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "a3afa3224a875061db51160bb449735516995f6ce2c8d151cfab0461fa38149c",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/ingredients/coa-reference/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ac565ca322b9b8830deba788ddd47758f34625472b469f4833dcbac51ac3b135",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "944ed6bd2d236a5322e4807886036add12078cd7a900bbc655dc2d1e7ff3555e",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "0db49b1a7b792e572bfa55119c2f9919daf150e6c8a81620f0fde787ecc1421f",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/konjac-glucomannan-food-applications-research-guide/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "1d2e54a7b843c49e009162c20b9a808ca428d82c48cf730c77ed5c8158f65606",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/choose-konjac-powder-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "5f7641038d4b1c590fd610a9c0262b0f297870204d588aaab3ef356d26b9e72b",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/konjac-equipment-project-brief/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "46345e988f6e2459f5d275abe047bdcf30e1aafcb14de11e4e68e40af3ec96fa",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/plan-konjac-dried-chip-drying-line/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "e1a56b0570e3060b356784777aeceef347e87ba8f336e9824b1e15bdbb82d2e3",
+      "noindex_header": false
+    },
+    {
+      "path": "/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "c4919423d324627dbff458939b1c568d6a7c2e65ec7f5203e101348624ed4b02",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "2a8d8ff03a5201541ddad7b6f32302b52fb662db27084b5037ce1342fd173686",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "b8a27eea16a45b1d5c1d3e6cb5f9d91b5eb36219500bbaac15e1030a11be7a97",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/konjac-glucomannan-food-applications-research-guide/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ab116f066f07cf18cc267843a3dbc434ea6870f48e271d070a4c09d084651069",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/choose-konjac-powder-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "88f88ec50e213f27c146bfd5fe354bf031e7ded85054f42a868233a22b6e0ef8",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/konjac-equipment-project-brief/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "6fea0b26831ce2dbca8866227063c785aa7fa5f6432279371f907a9c53a7f558",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/plan-konjac-dried-chip-drying-line/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "5ab849d6416380a270ea2f98c0062f7624aca039ed8cbea301d139a68efcfdf9",
+      "noindex_header": false
+    },
+    {
+      "path": "/th/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "28a41f3c669341329ad29053ab1f08e4f0b3ba49d68bb6f908ed6e3d827f0cec",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "3305df9a099e9f8c5022072f64a516b2cfb13865b6cfde60c8fd788c5237d09e",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ed16ae47c2e55edceb02a116cbcb4107a33af271c6fc164eab0045879dd8d632",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/konjac-glucomannan-food-applications-research-guide/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4c5a9cddd9810f006556654d2cdf5229dc5c4db5ce5255983adda249ceace56c",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/choose-konjac-powder-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "7e109fed283b640e549b754b07ddc1ba129bf827aaa38ffc5e7eea184c23e8be",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/konjac-equipment-project-brief/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f22b3bdd0d88809b26db9c8a60f95c7d2e0d8a7b65da25607ae9ad1da8998013",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/plan-konjac-dried-chip-drying-line/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "df009670338ec5d20a695a73a1c90c303461bf47a91dcbec5c3fbf183057f440",
+      "noindex_header": false
+    },
+    {
+      "path": "/id/blog/konjac-refined-powder-vs-konjac-gum/",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "b19ab10993be5b367d7c2644052e2332f5e16cfa38a8682ce56d433bb1b531b3",
+      "noindex_header": false
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "e487bb7099219997e6ed752b9360a7bd309779dce1684b70330f6c0303dbab08",
+      "noindex_header": false
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "5b04372fbe62ff331dfbacccaf38bb65e7598b75837b08495ce636c5f4a8940e",
+      "noindex_header": false
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "5741a0b18ec05ed548e1b39b9e9b23f525a8bded891540f9d723fecfe78da45c",
+      "noindex_header": false
+    },
+    {
+      "path": "/favicon.ico",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ca541d8ab0eb8372d6ac83e8d1195ab6504a83d21ae4037892db62139e33e0a5",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/air-duct.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "0282f18a6842f5cc8ab5fcec7b41e10a0f471360252d161ec090b1fa5b92bf63",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/blog.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "9cfd7885788ffb0d49b1a95e660963dc0499d58f36ba1666e219ff21a02d70e8",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/blog.js",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ab8be5ad8c94d3b5d7f9573e37e6fe7ba636b2941c6543ee45bc8bce5846513e",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/blue-equipment.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "63d944639318ffeb9bd307cf08a3d7ab3354d1ec2df2f374fff636007b490218",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/comparison.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ddbe14434689ef4ae9aa3f2ae1479d80e7a68e79613468e536cda9edec289d8d",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/conveyor-detail-2.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "24b60fa350767c5e5a46c86833c3f50f63c39942986c2fcb175c91d8c48e7e7c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/conveyor-detail.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "24b60fa350767c5e5a46c86833c3f50f63c39942986c2fcb175c91d8c48e7e7c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-drive.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "62898289a1436201a555d3de48ee73b166ebc2504bd164f1892c3ff06b0f1b25",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-line-incline-lift-concept.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "0c045cff5874c8c6944eca0e82ff1ef7ec5b9eb0fe348317960ea34fed064b6d",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-line-incline-lift-white-v2.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "6c5f446f26b89c9fdbbb1de4f0adf71625b7d22c3b15c1f9843d06d0eab48cc7",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-line-room.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "33d8d4a1a746b1369bb6f9f11b53cef372401646dda9108429eff0ef899968ec",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-line-wide-2.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "56beb7ff8fb2c0fee297d42888f20f9490da68ab1ac147fdac18024cf1130b4c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/drying-line-wide.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "fb59302c4123d6868279ff3f86e8adb4e064bf978ad2ca6e3cdb72ea3af58762",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment-3d.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4265c1f9712dd86953f6f38384256666024b1b69e8fb01868a28ee7da7f8587e",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment-3d.js",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "c015519ff30db40a202f4031315db9980198dfe7ebbb9c48c15636fc6c9a935d",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment-reference.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "9418bf48e9062363ba4d742487fba62d7bf3c1275c66a83f8f856b09c518e0ba",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/factory-angle.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "0a8523b11fc6b0be092f405bf93801245e1c626d73a156541b0a9209d7353abd",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fan-detail.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "df0ec39905b10b40b40613ebb5393cde8a998d9bf0e1f4029d8453a6285b05b0",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fans-row.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f9feb6dffc84d549ef18632f3a1deca748f91148c72a665e68ae3cc1d57d409e",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/food-equipment.jpg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ecd8addfd5515551ab5888f9c96db552f0a3350d134ecd2e5f9aecd819642a1c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/ingredient-flour.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "874cdc6a21a137789a72ca3a9d700b51a4928a39200a9efb5f38c07e34f6641d",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/quality-content.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "7b632b5defa2c7c0133b7dbe1816b0af03ba13fded8994eeaec4c14e01d77578",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/site.css",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "6f53ddd3f97d11dfbd532fd90870f84ca25bc33ce0b841aff2a79001706ed290",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/site.js",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "c520b7b7ab45cf152dd6cb0da9ee6cf4a9c3de9327e4453a56f4ea2f3427aab8",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/wechat-qr.png",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "579ef98b6e9dc7de178258fbcf628aadf1a4c12bc260ae4799a25026dc84ff40",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/all-konjac-favicon.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "bac0970e6f63dec4377224644e2c0e2800ce99d2129eb9b13ea192ab92b39fb4",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/all-konjac-wordmark-white.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4c7d600abe0242994048d8460882dfdd48cdf336586bdc0f38a85a6ff675830f",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/all-konjac-wordmark.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4bc51e71666576d1242044125c8e2b64ca92472edcccb92b0b166fdd66bab2c2",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/apple-touch-icon.png",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "0a34fbab85518f31fcaef7538e4f0ed65f0b7693f10a531a473ba800d7e2f8df",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/favicon-16.png",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "af98c4671847ee4d42713cf519570cfbeff48310985650b3781e1d7f831dd822",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/brand/favicon-32.png",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "fb7c4a528940eb4c3925c78cacc6ca7dc4939d671a134bb8a885d4e99cadb851",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-conveyor-studio-v1-1448.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "8ac21a801f937d97e08c13f58c82cf1796dcf2ac9b7acfed73f8bdc03122b775",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-conveyor-studio-v1-480.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f34e9b920663ceb35dff925421e9af99ec52ca97d4fa266818af6bb2402b3cdb",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-conveyor-studio-v1-960.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "cf9b95f5c9964ef69c2165d0d4a0ddc421ed0b9dda9a7bf152dcb592dda92840",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-single-unit-studio-v1-1448.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "406d49bf0e19fec0a0fcd940c7ad6514c54b15c0a0db84bff5fb1cae9eff90b4",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-single-unit-studio-v1-480.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "264fed0e8a9ae5ecf5c56ca5d1262cef719be6467ed08908f78badf4f5a72dfc",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-single-unit-studio-v1-960.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "8bd844546ebc7b17bdeb52a679d70cf800e67920b0ba8fd0e11fce570b49c7a1",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-three-tank-studio-v1-1448.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "49792e25bcdff1f39fd3ef4c27a0c86bf3c5a98bb519ee4a0891ffc3ece74bb2",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-three-tank-studio-v1-480.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "857fbceff23d36decc344edf338e5c498c9ad9010a9b5d2070269c93da66d7ef",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-three-tank-studio-v1-960.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "88856bc846066d780dd5f7cfdd442ef1c7b2d60706ba3453829fc20bb40edd90",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-two-unit-studio-v1-1448.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "78f073cd1891cc147630c0bf44003e7fbe64925fb21f6488eee911023bf3e941",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-two-unit-studio-v1-480.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "3c5cf7b12c8f652399fd84c3728d3d97dea251e56ce31663e59502ab736b005c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment/equipment-two-unit-studio-v1-960.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "e4810acbdb7c0d33831a4e340833b78214a8294a24959d5de044231d9dcce277",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment3d/equipment01-poster.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "aae3f38f8ae4c2693c4fdb28deff477c7bd9430d7f83c5928a86e9a018fae61f",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment3d/THREE-LICENSE.txt",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "df2a91696186fe58c92518a25d48bc59c8ee2edc7cac9ca6d19a5a0d599a2a05",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment3d/viewer.html",
+      "status": 200,
+      "initial_status": 307,
+      "matches_local": true,
+      "local_sha256": "570057e0d83ae7b87ea2ec4c932452856b731d45956bf185fc3c777474698fc7",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/equipment3d/viewer.js",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f81e77920a24aa2e739aa1ad689f6e9808f867f36ae25cb71a84c5211512af3f",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/flags/gb.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "083a54aecad8dfbdec012dc43f8e2c51d58ff2fcc211fd48a7b6843e5db2930e",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/flags/id.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "8465b94ecd5c5af821aa3c46a7d6d81c4021d43ffc3a3bd4a207436aa2390630",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/flags/th.svg",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "d5fb30b70caf39d891c39a976283b4801a7d84e8028b27735395c1ab808fe9d6",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fonts/Manrope-OFL.txt",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4b8929f05a122b7abb9059501dc7dc4df86f8c97d5a1769d60d82cf2d2795dde",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fonts/Manrope-variable.ttf",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fonts/NotoSansThai-variable.ttf",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "5a1c559bb539583c8a1fd99d1c5b9491e5e14478c9cd2bd0970d5c3096cc9ef8",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/fonts/OFL.txt",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4ede860884bc2798f6b209bd43e5108be6d5724b228bdd9d33c43fb6ea94c2e8",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/materials/bulbil-machine-dried-chips-v4.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "6a0e2231804376feb55ee138f058baf93bd48986875f1135148dcd06cc86df2c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/materials/konjac-flour-enhanced-v1-1440.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "f4a24d22607a7c888294e9f584e3d82c9ef941e7c03a89a49c99a951317c2aa6",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/materials/konjac-flour-enhanced-v1-480.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "4f7cfaf6d39c147ccd3784744063e505f3fdf976208f34b33b50e60f24ed6fe6",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/materials/konjac-flour-enhanced-v1-960.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "ad7005dfbfeeec959c0a5175c55f19ff561aa76bb72db50bf81d93a7d35d183c",
+      "noindex_header": false
+    },
+    {
+      "path": "/assets/materials/white-machine-dried-chips-v4.webp",
+      "status": 200,
+      "initial_status": 200,
+      "matches_local": true,
+      "local_sha256": "932aa7ebf5a7a2bc7dd20e0f03dcb19d953441c0a1f703795ed5160a68a56c33",
+      "noindex_header": false
+    }
+  ],
+  "routing": [
+    {
+      "url": "http://allkonjac.com/th/ingredients/?release=20261021&lang=th",
+      "status": 301,
+      "location": "https://allkonjac.com/th/ingredients/?release=20261021&lang=th",
+      "passed": true
+    },
+    {
+      "url": "https://allkonjac.com/not-a-page-release-20261021/",
+      "status": 404,
+      "location": null,
+      "passed": true
+    },
+    {
+      "url": "https://allkonjac.com/source/data/coa-reference-en.json",
+      "status": 404,
+      "location": null,
+      "passed": true
+    },
+    {
+      "url": "https://allkonjac.com/audits/unified-release-2026-10-21.md",
+      "status": 404,
+      "location": null,
+      "passed": true
+    },
+    {
+      "url": "https://allkonjac.com/scripts/build.py",
+      "status": 404,
+      "location": null,
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "passed": true
+}
