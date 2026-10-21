@@ -6,17 +6,23 @@
 
 ## Three-language KGM journal (2026-10-20)
 
-The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Three English buyer guides are maintained in `source/blog/articles.json`, with first-party claim records in `source/blog/evidence.json`. Thai and Indonesian Blog copy is in `source/blog/localized.json`; `scripts/localized_blog.py` renders those twelve pages. Run `python scripts/build.py` to generate all 18 Blog pages and the 15 business pages. Each language has Blog navigation, reciprocal language links, canonical URLs, and sitemap entries. Research citations, study limitations, and buyer-guide source scope must remain visible. Thai and Indonesian editorial drafts still require native industry review.
+The English `/blog/` index and two KGM research articles are maintained in `source/kgm-blog/`. Three English buyer guides are maintained in `source/blog/articles.json`, with first-party claim records in `source/blog/evidence.json`. Thai and Indonesian Blog copy is in `source/blog/localized.json`; `scripts/localized_blog.py` renders those twelve pages. Run `python scripts/build.py` to generate all 21 Blog pages, 15 business pages and 3 COA reference pages. Each language has Blog navigation, reciprocal language links, canonical URLs, and sitemap entries. Research citations, study limitations, and buyer-guide source scope must remain visible. Thai and Indonesian editorial drafts still require native industry review.
 
 `source/buyer-briefs.json` supplies the four business-line enquiry briefs in all three languages. These distinguish buyer inputs, documents to discuss, decision boundaries and next steps. WhatsApp and email links carry business-line context; clicks are intent signals rather than qualified leads. The internal baseline, 24-question AI observation set, photo provenance gaps and post-release checks are in `audits/seo-geo-release-2026-10-20.md`.
 
-## Approved image watermark (2026-10-12)
+## Approved images retained (2026-10-21)
 
-Every public business image embeds the approved Tian Ran Xing logo, rotated -30 degrees, at 20% opacity and 25% of the image's short edge, in a staggered repeating pattern. All responsive WebP sizes, full-size gallery images, background images and social-preview pictures are covered. Image URLs, dimensions and formats stay unchanged. The company logo, WeChat QR and language flags are exempt.
+The unified release restores the previously approved image files from the 2026-10-16 release, including the ALL KONJAC watermark at 10% opacity and approximately one-third of the prior pattern density. No images are regenerated during this integration. Original photos, QR images and approved material visualizations remain unchanged. The source inventory records the historical transformations and hashes; `python scripts/check_watermarks.py` verifies the approved outputs.
 
-`source/image-watermark.json` records approved original/output hashes and the complete image inventory. `scripts/build.py` checks these hashes before rendering; new or changed images must be classified and watermarked before a build succeeds. Run `python scripts/check_watermarks.py` for a standalone check.
+Material visuals do not establish measured particle size, whiteness, species, performance or project ownership. Keep original source documents and ownership records outside the deployed asset directory.
 
-Regenerate with `node scripts/watermark-assets.cjs <private-original-assets-directory> <browser-executable>` using Node.js, Playwright and a Chromium-based browser. If needed, `ALL_KONJAC_NODE_MODULES` points at an existing dependency directory. The private input directory has the same relative image paths as `assets/`. The script always uses retained originals, verifies existing outputs and does not stack watermarks. Keep private originals and backups outside this repository and public deployment directory. Regeneration requires deliberate review of any changed originals or image inventory. Previously saved unwatermarked pictures cannot be recalled.
+## Unified release source
+
+Use the current `origin/main` as the base for future production changes. Merge approved work before deployment; do not deploy an older worktree over this integrated release. The canonical inventory is 39 URLs: five business pages, six articles, one Blog index and one COA reference page per language. `python scripts/build.py --check` must pass before rendering and publication.
+
+The comparison article and translations are in `source/comparison/`. The shared numerical quality data are in `source/data/coa-reference-en.json`; stored Thai and Indonesian quality strings are in `source/data/quality-translations.json`. Google translation preparation is a separate, optional operation; normal builds have no network dependency. Translation drafts have terminology checks but are not represented as native industry-reviewed copy.
+
+The quality pages distinguish historical sample report results from a supplier-provided 93% update. They are not manufacturer-issued batch COAs. Preserve the 17 report rows and one supplier-update row, and never turn a quantitation limit into a measured concentration or conformity claim.
 
 ## Interactive equipment exterior view (2026-10-12)
 

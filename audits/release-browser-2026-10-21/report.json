@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-21",
+  "status": "passed",
+  "pages": 39,
+  "layouts": [
+    390,
+    1440
+  ],
+  "checks": "HTTP, language, h1, canonical, visible content and navigation without JavaScript, horizontal overflow, mobile interactive menu and brand home link",
+  "errors": []
+}

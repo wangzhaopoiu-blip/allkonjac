@@ -1,13 +1,13 @@
 const fs=require('fs');
 const path=require('path');
-const {chromium}=require('C:/Users/wangzhao/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const {chromium}=require(process.env.ALL_KONJAC_PLAYWRIGHT_MODULE || 'playwright');
 const root=path.resolve(__dirname,'..');
 const base=process.argv[2]||'http://127.0.0.1:8787';
 const slug='konjac-refined-powder-vs-konjac-gum';
 const output=path.join(root,'audits/comparison-2026-10-20');
 fs.mkdirSync(output,{recursive:true});
 (async()=>{
- const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe'});
+ const browser=await chromium.launch({headless:true,executablePath:'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
  const errors=[],rows=[];
  try{
   for(const width of [390,1440]){
@@ -39,8 +39,9 @@ fs.mkdirSync(output,{recursive:true});
        if(!page.url().endsWith('#ref-1'))errors.push('Citation failed '+lang);
       }
      }else{
-      await page.locator('.comparison-feature-card').screenshot({path:path.join(output,`${lang}-card-${width}.png`)});
-      await page.locator('.comparison-feature-card a').first().click();
+      const cardLink = page.locator('main a[href="'+prefix+'/blog/'+slug+'/"]').first();
+      await cardLink.screenshot({path:path.join(output,`${lang}-card-${width}.png`)});
+      await cardLink.click();
       if(!page.url().includes(slug))errors.push('Card failed '+lang);
      }
     }

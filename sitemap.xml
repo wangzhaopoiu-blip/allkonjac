@@ -36,6 +36,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
   </url>
   <url>
+    <loc>https://allkonjac.com/ingredients/coa-reference/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/coa-reference/" />
+  </url>
+  <url>
     <loc>https://allkonjac.com/th/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/" />
     <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/" />
@@ -71,6 +78,13 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
   </url>
   <url>
+    <loc>https://allkonjac.com/th/ingredients/coa-reference/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/coa-reference/" />
+  </url>
+  <url>
     <loc>https://allkonjac.com/id/</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/" />
     <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/" />
@@ -104,6 +118,13 @@
     <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/technology/" />
     <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/technology/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/technology/" />
+  </url>
+  <url>
+    <loc>https://allkonjac.com/id/ingredients/coa-reference/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://allkonjac.com/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="th" href="https://allkonjac.com/th/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="id" href="https://allkonjac.com/id/ingredients/coa-reference/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://allkonjac.com/ingredients/coa-reference/" />
   </url>
   <url>
     <loc>https://allkonjac.com/blog/</loc>

@@ -15,7 +15,7 @@ class Page(HTMLParser):
 
 pages={}
 for file in ROOT.rglob('*.html'):
-    if any(p in {'source','.git','node_modules','.wrangler'} for p in file.relative_to(ROOT).parts):continue
+    if any(p in {'source','.git','node_modules','.wrangler','audits','audit'} for p in file.relative_to(ROOT).parts):continue
     doc=Page();doc.feed(file.read_text(encoding='utf-8'));pages[file.resolve()]=doc
 errors=[]
 for file,doc in pages.items():

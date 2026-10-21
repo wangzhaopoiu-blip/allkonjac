@@ -5,7 +5,7 @@ const pw = require(process.env.ALL_KONJAC_PLAYWRIGHT_MODULE || 'playwright');
 
 const base = process.env.ALL_KONJAC_PREVIEW_URL || 'http://127.0.0.1:8790';
 const root = path.resolve(__dirname, '..');
-const out = path.join(root, 'audits', 'release-browser-2026-10-20');
+const out = path.join(root, 'audits', 'release-browser-2026-10-21');
 fs.mkdirSync(out, {recursive: true});
 const paths = [...fs.readFileSync(path.join(root, 'sitemap.xml'), 'utf8').matchAll(/<loc>(https:\/\/allkonjac\.com[^<]+)<\/loc>/g)]
   .map(match => new URL(match[1]).pathname);
@@ -14,7 +14,7 @@ const errors = [];
 (async () => {
   const browser = await pw.chromium.launch({headless: true, executablePath: 'C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe'});
   try {
-    assert.equal(paths.length, 36);
+    assert.equal(paths.length, 39);
     for (const width of [390, 1440]) {
       const context = await browser.newContext({viewport: {width, height: 850}, javaScriptEnabled: false});
       for (const urlPath of paths) {
@@ -51,12 +51,12 @@ const errors = [];
       await page.close();
     }
     await context.close();
-    const report = {date: '2026-10-20', status: 'passed', pages: paths.length, layouts: [390, 1440], checks: 'HTTP, language, h1, canonical, visible content and navigation without JavaScript, horizontal overflow, mobile interactive menu and brand home link', errors};
+    const report = {date: '2026-10-21', status: 'passed', pages: paths.length, layouts: [390, 1440], checks: 'HTTP, language, h1, canonical, visible content and navigation without JavaScript, horizontal overflow, mobile interactive menu and brand home link', errors};
     fs.writeFileSync(path.join(out, 'report.json'), JSON.stringify(report, null, 2));
     console.log(JSON.stringify(report));
   } catch (error) {
     errors.push(error.message);
-    fs.writeFileSync(path.join(out, 'report.json'), JSON.stringify({date: '2026-10-20', status: 'failed', errors}, null, 2));
+    fs.writeFileSync(path.join(out, 'report.json'), JSON.stringify({date: '2026-10-21', status: 'failed', errors}, null, 2));
     throw error;
   } finally { await browser.close(); }
 })().catch(error => {console.error(error); process.exitCode = 1;});

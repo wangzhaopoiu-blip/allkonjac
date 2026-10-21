@@ -17,6 +17,7 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [konjac equipment project brief](https://allkonjac.com/blog/konjac-equipment-project-brief/)
 - [plan konjac dried chip drying line](https://allkonjac.com/blog/plan-konjac-dried-chip-drying-line/)
 - [konjac refined powder vs konjac gum](https://allkonjac.com/blog/konjac-refined-powder-vs-konjac-gum/)
+- [Sample test results and COA reference](https://allkonjac.com/ingredients/coa-reference/): Historical sample data and a separately identified supplier update; request documents for the actual grade and lot.
 
 ## ภาษาไทย
 - [ALL KONJAC](https://allkonjac.com/th/): Business overview and buyer questions.
@@ -31,6 +32,7 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [konjac equipment project brief](https://allkonjac.com/th/blog/konjac-equipment-project-brief/)
 - [plan konjac dried chip drying line](https://allkonjac.com/th/blog/plan-konjac-dried-chip-drying-line/)
 - [konjac refined powder vs konjac gum](https://allkonjac.com/th/blog/konjac-refined-powder-vs-konjac-gum/)
+- [Sample test results and COA reference](https://allkonjac.com/th/ingredients/coa-reference/): Historical sample data and a separately identified supplier update; request documents for the actual grade and lot.
 
 ## Bahasa Indonesia
 - [ALL KONJAC](https://allkonjac.com/id/): Business overview and buyer questions.
@@ -45,11 +47,12 @@ The canonical website is https://allkonjac.com/. Public business pages are avail
 - [konjac equipment project brief](https://allkonjac.com/id/blog/konjac-equipment-project-brief/)
 - [plan konjac dried chip drying line](https://allkonjac.com/id/blog/plan-konjac-dried-chip-drying-line/)
 - [konjac refined powder vs konjac gum](https://allkonjac.com/id/blog/konjac-refined-powder-vs-konjac-gum/)
+- [Sample test results and COA reference](https://allkonjac.com/id/ingredients/coa-reference/): Historical sample data and a separately identified supplier update; request documents for the actual grade and lot.
 
 ## Contact
 - [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.
 
 ## Website discovery
-- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and 21 Blog URLs with three-language alternates.
+- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages, 21 Blog URLs and 3 COA reference pages with three-language alternates.
 
 This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.

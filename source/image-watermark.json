@@ -1,245 +1,373 @@
 {
-  "version": 1,
+  "version": 2,
+  "brand": "ALL KONJAC",
+  "updated": "2026-10-16",
   "parameters": {
     "angle": -30,
-    "opacity": 0.2,
+    "opacity": 0.1,
     "logoWidthToShortEdge": 0.25,
     "spacingFactor": 1.8,
-    "quality": 0.95
+    "quality": 0.95,
+    "densityScale": 0.3333333333333333
   },
-  "logoSha256": "82c078e9f1eb49becb82b69c858c7c44245ee1c25271a3dbee2fe45012bcf4b8",
+  "minimumChangedPixelRatio": 0.001,
+  "logoPath": "brand/all-konjac-wordmark.svg",
+  "logoSha256": "2c23c9cace7a5aa9b5a823343c52c65e485e27d16b340c2406c74b3e31767165",
   "images": [
     {
       "path": "air-duct.jpg",
       "originalSha256": "d39dd15ff7b07468e0502ca1ee9a2e6b3b3a3f2f757979f6a4e63bc3379afc62",
-      "watermarkedSha256": "16607ef8567dab480b562e5792f81143bad4500df1b669c02c16d98ac1a5601a",
+      "watermarkedSha256": "0282f18a6842f5cc8ab5fcec7b41e10a0f471360252d161ec090b1fa5b92bf63",
       "width": 1152,
       "height": 2048,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.0738160875108507
+      "changedPixelRatio": 0.009362538655598959,
+      "stampCount": 8,
+      "previousStampCount": 25
     },
     {
       "path": "blue-equipment.jpg",
       "originalSha256": "3aec0559c33a8983b97f9c60cf79aee7929320ae27eb275f3776c387aefd7dc2",
-      "watermarkedSha256": "a2f87583c7fba22fa78fe67eb3c6ca49969c2b1e7443e408bcaaeb8e2192f4b0",
+      "watermarkedSha256": "63d944639318ffeb9bd307cf08a3d7ab3354d1ec2df2f374fff636007b490218",
       "width": 2048,
       "height": 1152,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.07332823011610243
+      "changedPixelRatio": 0.012198554144965278,
+      "stampCount": 8,
+      "previousStampCount": 23
     },
     {
       "path": "conveyor-detail-2.jpg",
       "originalSha256": "9ed25deaec6c2660fdc27c095f11901f055d29a966c811bfa12aa6cd4852d014",
-      "watermarkedSha256": "edee2b2b5b2e20eece2b67d3a0a6621003f79311ae905b8f12e0e6cc043c7eb8",
+      "watermarkedSha256": "24b60fa350767c5e5a46c86833c3f50f63c39942986c2fcb175c91d8c48e7e7c",
       "width": 1152,
       "height": 2048,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.07387881808810765
+      "changedPixelRatio": 0.009463416205512153,
+      "stampCount": 8,
+      "previousStampCount": 25
     },
     {
       "path": "conveyor-detail.jpg",
       "originalSha256": "9ed25deaec6c2660fdc27c095f11901f055d29a966c811bfa12aa6cd4852d014",
-      "watermarkedSha256": "edee2b2b5b2e20eece2b67d3a0a6621003f79311ae905b8f12e0e6cc043c7eb8",
+      "watermarkedSha256": "24b60fa350767c5e5a46c86833c3f50f63c39942986c2fcb175c91d8c48e7e7c",
       "width": 1152,
       "height": 2048,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.07387881808810765
+      "changedPixelRatio": 0.009463416205512153,
+      "stampCount": 8,
+      "previousStampCount": 25
     },
     {
       "path": "drying-drive.jpg",
       "originalSha256": "116bc7fbfd153943a3d6ec9e4f97fe008136a1ccbf83be684e830e91a2b9d916",
-      "watermarkedSha256": "753a3eede393052ac433ccdd71292182b66b5158fdae7a682940c17402f474eb",
+      "watermarkedSha256": "62898289a1436201a555d3de48ee73b166ebc2504bd164f1892c3ff06b0f1b25",
       "width": 2048,
       "height": 1151,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.07320103782037359
+      "changedPixelRatio": 0.011997464840356213,
+      "stampCount": 8,
+      "previousStampCount": 23
     },
     {
       "path": "drying-line-room.jpg",
       "originalSha256": "2a3f6f6c43273dcde4f1aaec8deb8c852fec7e8402855311f83adceab3030d69",
-      "watermarkedSha256": "c383c6fbd48515f4f2f4a2705ac8e2b048cf213e72a63e56d22ab5b620b9525d",
+      "watermarkedSha256": "33d8d4a1a746b1369bb6f9f11b53cef372401646dda9108429eff0ef899968ec",
       "width": 2048,
       "height": 1152,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.07331805759006077
+      "changedPixelRatio": 0.012658860948350694,
+      "stampCount": 8,
+      "previousStampCount": 23
     },
     {
       "path": "drying-line-wide-2.jpg",
       "originalSha256": "745464b0aa34e2b33c3eb01e4c2d21142519c7cb695ee30c2bb6372457dffc84",
-      "watermarkedSha256": "1ae6f0b8f697b0e48211f7c0b081cf827716b7ce4d0fef2d958c4d583bd3cfb0",
+      "watermarkedSha256": "56beb7ff8fb2c0fee297d42888f20f9490da68ab1ac147fdac18024cf1130b4c",
       "width": 2048,
       "height": 1536,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.057380994160970054
+      "changedPixelRatio": 0.008768081665039062,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "drying-line-wide.jpg",
       "originalSha256": "3d7b26507711594d5a5256580bb69cdbf0fb75be4204e020f84bd9fb2f48f155",
-      "watermarkedSha256": "5960fd0840f441716ebbe4351bf8021e083de6f17197247c1d0686d214c53b7d",
+      "watermarkedSha256": "fb59302c4123d6868279ff3f86e8adb4e064bf978ad2ca6e3cdb72ea3af58762",
       "width": 2048,
       "height": 1536,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.057473182678222656
+      "changedPixelRatio": 0.008499781290690104,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-conveyor-studio-v1-1448.webp",
       "originalSha256": "7be1d48d026c84bd4bff68d1138d9f46ff8b4892406586b1071f582c39c93792",
-      "watermarkedSha256": "f0d513265ccb265b68bafcbdce27ac4f82153d741b762e8ab4a90a06a563b864",
+      "watermarkedSha256": "8ac21a801f937d97e08c13f58c82cf1796dcf2ac9b7acfed73f8bdc03122b775",
       "width": 1448,
       "height": 1086,
       "format": "image/webp",
-      "changedPixelRatio": 0.05716400598272336
+      "changedPixelRatio": 0.009093637760345125,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-conveyor-studio-v1-480.webp",
       "originalSha256": "897c74a786e4465d4f9ad85d8de209abf0468776fb7d59a5e45133472514a70a",
-      "watermarkedSha256": "f5160a1a87bc88dc68bfc0cac784adaf678ebd95e5fc8c2cf8f646d76e6f52a7",
+      "watermarkedSha256": "f34e9b920663ceb35dff925421e9af99ec52ca97d4fa266818af6bb2402b3cdb",
       "width": 480,
       "height": 360,
       "format": "image/webp",
-      "changedPixelRatio": 0.05723958333333334
+      "changedPixelRatio": 0.011811342592592592,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-conveyor-studio-v1-960.webp",
       "originalSha256": "60586a6f99c1969eec096cd5c72b2c19bf730538ffa3a68f067d03b6a098da9f",
-      "watermarkedSha256": "b54df79a05806bb6da8d72efe19b512f61eecf82946d925bedb00138b0402a3e",
+      "watermarkedSha256": "cf9b95f5c9964ef69c2165d0d4a0ddc421ed0b9dda9a7bf152dcb592dda92840",
       "width": 960,
       "height": 720,
       "format": "image/webp",
-      "changedPixelRatio": 0.057177372685185184
+      "changedPixelRatio": 0.009837962962962963,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-single-unit-studio-v1-1448.webp",
       "originalSha256": "aebfc41d2199ce0953b89be2fdc1e3c7648356357d1c720766ed565046807c17",
-      "watermarkedSha256": "1742af043394c722cabc020501c5e372f6ce30efcc3c7061b8583bcebcae4f29",
+      "watermarkedSha256": "406d49bf0e19fec0a0fcd940c7ad6514c54b15c0a0db84bff5fb1cae9eff90b4",
       "width": 1448,
       "height": 1086,
       "format": "image/webp",
-      "changedPixelRatio": 0.0572721121658883
+      "changedPixelRatio": 0.009288864808766522,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-single-unit-studio-v1-480.webp",
       "originalSha256": "383c262731b4365e99e526c367dacf99f62049fcf106c1313e8eb8d207c36961",
-      "watermarkedSha256": "3dbae23a75a461ff9b9fecae059ed75a854a6e7786e1760074cc48d1a96e47d6",
+      "watermarkedSha256": "264fed0e8a9ae5ecf5c56ca5d1262cef719be6467ed08908f78badf4f5a72dfc",
       "width": 480,
       "height": 360,
       "format": "image/webp",
-      "changedPixelRatio": 0.05724537037037037
+      "changedPixelRatio": 0.012158564814814815,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-single-unit-studio-v1-960.webp",
       "originalSha256": "36db4c4a2862c9bc4c288b9fcfcb220d6d5599db0508b16bd575762df7771758",
-      "watermarkedSha256": "c7e3bb468628a7742bc0942f2cd386529bceb71d77004b8bd9c1bfd7e267fa1b",
+      "watermarkedSha256": "8bd844546ebc7b17bdeb52a679d70cf800e67920b0ba8fd0e11fce570b49c7a1",
       "width": 960,
       "height": 720,
       "format": "image/webp",
-      "changedPixelRatio": 0.05728443287037037
+      "changedPixelRatio": 0.01009548611111111,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-three-tank-studio-v1-1448.webp",
       "originalSha256": "1166bf8f0f5d40dc05948f7ab7e525020bfbb0022be47e3eadcf0d5a7eb80ee6",
-      "watermarkedSha256": "4ea1260d3ff5ea342cf8eef7652d53a93518131800a39c0a2a7a12e35bf8a18b",
+      "watermarkedSha256": "49792e25bcdff1f39fd3ef4c27a0c86bf3c5a98bb519ee4a0891ffc3ece74bb2",
       "width": 1448,
       "height": 1086,
       "format": "image/webp",
-      "changedPixelRatio": 0.05722696193644883
+      "changedPixelRatio": 0.00906565733646714,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-three-tank-studio-v1-480.webp",
       "originalSha256": "9bad3ed4dec8da56893bf1685499f77dac665cab813dc06271e26a68014e9793",
-      "watermarkedSha256": "08836d66c05acf35c3fac4e813673499fe6807d67a8d6b1270e94329e7781c6d",
+      "watermarkedSha256": "857fbceff23d36decc344edf338e5c498c9ad9010a9b5d2070269c93da66d7ef",
       "width": 480,
       "height": 360,
       "format": "image/webp",
-      "changedPixelRatio": 0.05720486111111111
+      "changedPixelRatio": 0.011631944444444445,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-three-tank-studio-v1-960.webp",
       "originalSha256": "403bbc553dcceeeb582897871e423fa3b9a63f8e6d1e585e32f1326c3495759e",
-      "watermarkedSha256": "0bec8f6019c57e0341fe1176b550821349d98968000bb84bcca8e0f844e079b6",
+      "watermarkedSha256": "88856bc846066d780dd5f7cfdd442ef1c7b2d60706ba3453829fc20bb40edd90",
       "width": 960,
       "height": 720,
       "format": "image/webp",
-      "changedPixelRatio": 0.05721498842592593
+      "changedPixelRatio": 0.009810474537037038,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-two-unit-studio-v1-1448.webp",
       "originalSha256": "654493087e432ce74ab97edc364a1847b9673578bfca35069252c6a1484ee722",
-      "watermarkedSha256": "683c11f2d588237d6e80da809b1926e95f8902beb2a51e66b2ec3919e16c9e6d",
+      "watermarkedSha256": "78f073cd1891cc147630c0bf44003e7fbe64925fb21f6488eee911023bf3e941",
       "width": 1448,
       "height": 1086,
       "format": "image/webp",
-      "changedPixelRatio": 0.05728928197144979
+      "changedPixelRatio": 0.008988075252078183,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-two-unit-studio-v1-480.webp",
       "originalSha256": "d902d5d2e93df51670b198ab90b543b977389f5d221f10f8ae871bf2a1f2de0f",
-      "watermarkedSha256": "1602bd62f711a80df1cca36d38ee2620356eddc285a059e1b9953b246cf8172a",
+      "watermarkedSha256": "3c5cf7b12c8f652399fd84c3728d3d97dea251e56ce31663e59502ab736b005c",
       "width": 480,
       "height": 360,
       "format": "image/webp",
-      "changedPixelRatio": 0.05730324074074074
+      "changedPixelRatio": 0.01150462962962963,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment/equipment-two-unit-studio-v1-960.webp",
       "originalSha256": "23c01e093a37da6dff53e4541917f50f26baea6b7cc275b528dee6770fffac51",
-      "watermarkedSha256": "e07f0955edcdf43f727716ab2ef628451d66f0cf308c59ce35eb79bc2ad30d76",
+      "watermarkedSha256": "e4810acbdb7c0d33831a4e340833b78214a8294a24959d5de044231d9dcce277",
       "width": 960,
       "height": 720,
       "format": "image/webp",
-      "changedPixelRatio": 0.05727575231481481
+      "changedPixelRatio": 0.0096875,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "factory-angle.jpg",
       "originalSha256": "9739155bbad5b145eff3eb39a2bed508de62d7d016d7803b331da3eef81c474c",
-      "watermarkedSha256": "4fee3411423cfb1d8042c64e4f1958346c255efc2f8a393f301c4d8301943680",
+      "watermarkedSha256": "0a8523b11fc6b0be092f405bf93801245e1c626d73a156541b0a9209d7353abd",
       "width": 1706,
       "height": 1279,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.057477770129249935
+      "changedPixelRatio": 0.008940528163946958,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "fan-detail.jpg",
       "originalSha256": "b26e950933afd487075a340415a63650eb13d66933427bb2947e80c8ecbd79b7",
-      "watermarkedSha256": "10555be6fbe632e7147d328436b2ea6e876eb2cea6c0354344837c399974df01",
+      "watermarkedSha256": "df0ec39905b10b40b40613ebb5393cde8a998d9bf0e1f4029d8453a6285b05b0",
       "width": 2048,
       "height": 1536,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.057518959045410156
+      "changedPixelRatio": 0.008431752522786459,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "fans-row.jpg",
       "originalSha256": "d107c47a3977db209c0a69c7015079983a520e4621d72e8559bdb077400501c4",
-      "watermarkedSha256": "3d3384452daa9ede97a178ce599ef8e2fa5dadeb2f80aa4d1fce1edd9de2a7f2",
+      "watermarkedSha256": "f9feb6dffc84d549ef18632f3a1deca748f91148c72a665e68ae3cc1d57d409e",
       "width": 2048,
       "height": 1536,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.057428995768229164
+      "changedPixelRatio": 0.008280754089355469,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "food-equipment.jpg",
       "originalSha256": "40149037e5d196761ee6192ac9ab035f508370e96b5441e9aceab52f81c73775",
-      "watermarkedSha256": "a899a52e59f505419a6934f11b5a0f7726a04b2596b35cc644a428f39b9c0b0b",
+      "watermarkedSha256": "ecd8addfd5515551ab5888f9c96db552f0a3350d134ecd2e5f9aecd819642a1c",
       "width": 1702,
       "height": 1276,
       "format": "image/jpeg",
-      "changedPixelRatio": 0.05750840795818307
+      "changedPixelRatio": 0.008808095952023988,
+      "stampCount": 5,
+      "previousStampCount": 15
     },
     {
       "path": "equipment3d/equipment01-poster.webp",
       "originalSha256": "9c737480cadc6f20b069f14482d7f9eaf74d13767bb5239b3ad1e4d2298c8e09",
-      "watermarkedSha256": "53ef05946ca7b86996fe644fb96848853f35a87534afa546b7e137b55b437b35",
+      "watermarkedSha256": "aae3f38f8ae4c2693c4fdb28deff477c7bd9430d7f83c5928a86e9a018fae61f",
       "width": 1600,
       "height": 1000,
       "format": "image/webp",
-      "changedPixelRatio": 0.071391875
+      "changedPixelRatio": 0.010835,
+      "stampCount": 7,
+      "previousStampCount": 21
+    },
+    {
+      "path": "drying-line-incline-lift-concept.webp",
+      "originalSha256": "911b9d68476f71cfb273aac462ac9bc5020cf98671a1d308401f2de33478cb26",
+      "watermarkedSha256": "0c045cff5874c8c6944eca0e82ff1ef7ec5b9eb0fe348317960ea34fed064b6d",
+      "width": 1200,
+      "height": 900,
+      "format": "image/webp",
+      "changedPixelRatio": 0.009539814814814815,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/bulbil-machine-dried-chips-v4.webp",
+      "originalSha256": "8757dd575ffb8c51df3f7a32345c4d427ee85e535027cb08923fa7d683ec30de",
+      "watermarkedSha256": "6a0e2231804376feb55ee138f058baf93bd48986875f1135148dcd06cc86df2c",
+      "width": 1448,
+      "height": 1086,
+      "format": "image/webp",
+      "changedPixelRatio": 0.009146419014478598,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/white-machine-dried-chips-v4.webp",
+      "originalSha256": "a0b8c76498d043e5980e5eccd129cf11080ccb6242ce9da3c94ed59d9cae4bc4",
+      "watermarkedSha256": "932aa7ebf5a7a2bc7dd20e0f03dcb19d953441c0a1f703795ed5160a68a56c33",
+      "width": 1536,
+      "height": 1024,
+      "format": "image/webp",
+      "changedPixelRatio": 0.008275985717773438,
+      "stampCount": 6,
+      "previousStampCount": 19
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-1440.webp",
+      "originalSha256": "c0207f339e42a98c40f0f126f8e195aeb6acb16f248f8dd1f4d5848d399c44ae",
+      "watermarkedSha256": "f4a24d22607a7c888294e9f584e3d82c9ef941e7c03a89a49c99a951317c2aa6",
+      "width": 1440,
+      "height": 1080,
+      "format": "image/webp",
+      "changedPixelRatio": 0.009360210905349794,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-960.webp",
+      "originalSha256": "9f192b614dd2a8283b0d084f8c59f43b29df7c395b376d1ed04ace67b9c7d370",
+      "watermarkedSha256": "ad7005dfbfeeec959c0a5175c55f19ff561aa76bb72db50bf81d93a7d35d183c",
+      "width": 960,
+      "height": 720,
+      "format": "image/webp",
+      "changedPixelRatio": 0.010151909722222222,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "materials/konjac-flour-enhanced-v1-480.webp",
+      "originalSha256": "a3719bc6ec45697fda425c23ddeba69355a5cadf9bfdb934d1e8402ffa98f828",
+      "watermarkedSha256": "4f7cfaf6d39c147ccd3784744063e505f3fdf976208f34b33b50e60f24ed6fe6",
+      "width": 480,
+      "height": 360,
+      "format": "image/webp",
+      "changedPixelRatio": 0.012256944444444445,
+      "stampCount": 5,
+      "previousStampCount": 15
+    },
+    {
+      "path": "drying-line-incline-lift-white-v2.webp",
+      "originalSha256": "4e117cbf026785fc0dd0a2459fd3a4d9edc0ec963388e6d520f4130943892841",
+      "watermarkedSha256": "6c5f446f26b89c9fdbbb1de4f0adf71625b7d22c3b15c1f9843d06d0eab48cc7",
+      "width": 1448,
+      "height": 1086,
+      "format": "image/webp",
+      "changedPixelRatio": 0.00921700599289806,
+      "stampCount": 5,
+      "previousStampCount": 15
     }
   ],
   "exempt": [
-    {
-      "path": "company-mark.jpg",
-      "sha256": "82c078e9f1eb49becb82b69c858c7c44245ee1c25271a3dbee2fe45012bcf4b8"
-    },
     {
       "path": "wechat-qr.png",
       "sha256": "579ef98b6e9dc7de178258fbcf628aadf1a4c12bc260ae4799a25026dc84ff40"

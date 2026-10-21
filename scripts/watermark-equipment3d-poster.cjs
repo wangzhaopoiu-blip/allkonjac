@@ -7,6 +7,7 @@ const target=path.join(root,'assets/equipment3d/equipment01-poster.webp');
 if(fs.realpathSync(original)===fs.realpathSync(target))throw new Error('Use a retained original outside public assets');
 const st=fs.statfsSync(path.dirname(target));if(st.bavail*st.bsize<2*1024**3+5*1024**2)throw new Error('D reserve');
 const manifest=JSON.parse(fs.readFileSync(manifestPath,'utf8')),params=manifest.parameters;
+if(manifest.version>=2)throw new Error('Use scripts/rebrand-watermarks.cjs with the retained original map for the current ALL KONJAC watermark');
 const hash=x=>crypto.createHash('sha256').update(x).digest('hex'),input=fs.readFileSync(original),logo=fs.readFileSync(path.join(root,'assets/company-mark.jpg'));
 if(hash(logo)!==manifest.logoSha256)throw new Error('Approved logo changed');
 const prior=manifest.images.find(x=>x.path==='equipment3d/equipment01-poster.webp');

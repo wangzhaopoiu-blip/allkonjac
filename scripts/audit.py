@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlsplit, unquote, urljoin
 import json, re, hashlib, sys
 import xml.etree.ElementTree as ET
-from build import BASE, PAGES, LANGUAGES, ALL_BLOG_PATHS, page_path, page_url, validate_output
+from build import BASE, PAGES, LANGUAGES, ALL_BLOG_PATHS, QUALITY_PATHS, page_path, page_url, validate_output
 from localized_blog import blog_path
 
 ROOT=Path(__file__).resolve().parents[1]
@@ -21,7 +21,7 @@ def audit():
             try: validate_output(source,page,lang)
             except Exception as e: errors.append(f'{path}: {e}')
             documents[path]=(source,Document(source))
-    for path in ALL_BLOG_PATHS:
+    for path in [*ALL_BLOG_PATHS, *QUALITY_PATHS]:
         source=(ROOT/path.strip('/')/'index.html').read_text(encoding='utf-8')
         documents[path]=(source,Document(source))
     for path,(source,doc) in documents.items():
@@ -39,6 +39,14 @@ def audit():
             expected_alternates={lang:BASE+blog_path(slug,lang) for lang in LANGUAGES}
             expected_alternates['x-default']=BASE+blog_path(slug)
             if alternates!=expected_alternates: errors.append(f'{path}: incorrect Blog alternates')
+        if path in QUALITY_PATHS:
+            alternates={a.get('hreflang'):a.get('href') for t,a in tags if t=='link' and a.get('rel')=='alternate'}
+            expected_alternates={lang:BASE+page_path('ingredients/coa-reference',lang) for lang in LANGUAGES}
+            expected_alternates['x-default']=BASE+'/ingredients/coa-reference/'
+            if alternates!=expected_alternates: errors.append(f'{path}: incorrect COA alternates')
+        for raw in re.findall(r'<script type="application/ld\+json">(.*?)</script>',source,re.S):
+            try: json.loads(raw)
+            except ValueError: errors.append(f'{path}: invalid JSON-LD')
         for tag,attrs in tags:
             if tag=='img' and ('alt' not in attrs or (not attrs['alt'] and attrs.get('aria-hidden')!='true')):
                 errors.append(f'{path}: missing image alt or decorative-image annotation')
@@ -57,8 +65,8 @@ def audit():
     namespace='{http://www.sitemaps.org/schemas/sitemap/0.9}'
     sitemap=ET.fromstring((ROOT/'sitemap.xml').read_text(encoding='utf-8'))
     locations=[n.find(namespace+'loc').text for n in sitemap.findall(namespace+'url')]
-    expected={page_url(p,l) for p in PAGES for l in LANGUAGES} | {BASE+p for p in ALL_BLOG_PATHS}
-    if set(locations)!=expected or len(locations)!=36: errors.append('Sitemap URL set differs from 36 canonical pages')
+    expected={page_url(p,l) for p in PAGES for l in LANGUAGES} | {BASE+p for p in [*ALL_BLOG_PATHS, *QUALITY_PATHS]}
+    if set(locations)!=expected or len(locations)!=39: errors.append('Sitemap URL set differs from 39 canonical pages')
     llms=(ROOT/'llms.txt').read_text(encoding='utf-8')
     if any(url not in llms for url in expected): errors.append('AI content index misses a language page')
     for lang in ['th','id']:
@@ -82,7 +90,7 @@ def audit():
     font=ROOT/'assets/fonts/NotoSansThai-variable.ttf'
     if not font.exists() or not (font.parent/'OFL.txt').exists(): errors.append('Local Thai font or license missing')
     motion_pages=[path for path,(_,doc) in documents.items() if any(tag=='body' and 'motion-enabled' in attrs.get('class','').split() for tag,attrs in doc.tags)]
-    report={'business_pages':15,'blog_pages':21,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'mobile and desktop browser review must be recorded for this release','hosting_response_checks':'production HTTP verification must be recorded for this release'}
+    report={'business_pages':15,'blog_pages':21,'quality_pages':3,'strings_per_language':len(json.loads((ROOT/'content/en.json').read_text(encoding='utf-8'))),'sitemap_urls':len(locations),'motion_enabled_pages':motion_pages,'records':records,'errors':errors,'font_sha256':hashlib.sha256(font.read_bytes()).hexdigest(),'browser_checks':'mobile and desktop browser review must be recorded for this release','hosting_response_checks':'production HTTP verification must be recorded for this release'}
     print(json.dumps(report,ensure_ascii=False,indent=2))
     return len(errors)
 

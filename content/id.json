@@ -252,6 +252,10 @@
   "equipment.dual.title": "Susunan dua unit peralatan",
   "equipment.dual.alt": "Dua mesin baja tahan karat dengan panel kontrol berbeda, hopper di bagian atas, roda tangan di sisi mesin, lubang keluar bawah, dan roda kastor.",
   "equipment.dual.description": "Dua konfigurasi peralatan ditampilkan berdampingan dengan mempertahankan perbedaan panel kontrol dan susunan hopper yang terlihat.",
+  "drying.lift.badge": "VISUALISASI KONSEP",
+  "drying.lift.title": "Konveyor pengumpan miring baja tahan karat",
+  "drying.lift.alt": "Visualisasi konsep AI dari konveyor pengumpan miring baja tahan karat dengan hopper bawah dan saluran keluar yang lebih tinggi.",
+  "drying.lift.note": "Visualisasi konsep yang dibuat dengan AI berdasarkan referensi peralatan. Ini bukan foto lokasi atau konfigurasi peralatan yang telah dikonfirmasi.",
   "equipment3d.eyebrow": "PERALATAN INTERAKTIF",
   "equipment3d.title": "Jelajahi peralatan dalam 3D",
   "equipment3d.description": "Putar, perbesar, dan lihat bilah, rangka dasar, serta unit penggerak dari berbagai sudut.",
@@ -261,5 +265,10 @@
   "equipment3d.frameTitle": "Tampilan peralatan 3D interaktif",
   "equipment3d.note": "Visualisasi bagian luar berdasarkan foto referensi. Dimensi dan konfigurasi akhir dikonfirmasi untuk setiap proyek.",
   "equipment3d.full": "Buka tampilan 3D penuh",
-  "equipment3d.hint": "Seret untuk memutar · Gulir atau cubit untuk memperbesar"
+  "equipment3d.hint": "Seret untuk memutar · Gulir atau cubit untuk memperbesar",
+  "ingredients.flour.eyebrow": "TAMPILAN BAHAN",
+  "ingredients.flour.title": "Tepung konjak",
+  "ingredients.flour.description": "Referensi visual untuk membahas kebutuhan bahan konjak Anda.",
+  "ingredients.flour.alt": "Tumpukan tepung konjak di atas permukaan putih yang memperlihatkan tekstur bubuknya.",
+  "ingredients.flour.note": "Gambar disempurnakan dari foto yang diberikan."
 }

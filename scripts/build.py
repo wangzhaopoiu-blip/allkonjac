@@ -19,6 +19,7 @@ from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_art
 from localized_blog import SLUGS as BLOG_SLUGS, blog_path, load_localized, render_index as render_localized_blog_index, render_article as render_localized_blog_article
 from comparison_blog import render as render_comparison, SLUG as COMPARISON_SLUG
 from check_language_policy import check as check_language_policy
+from quality_content import summary as quality_summary, materials as drying_materials, detail_page as quality_detail, STYLE as QUALITY_STYLE, DETAIL_PATH
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "https://allkonjac.com"
@@ -36,6 +37,7 @@ LANGUAGES = {
 }
 ALL_BLOG_PATHS = [blog_path(slug, lang) for lang in LANGUAGES
                   for slug in ("", *BLOG_SLUGS, COMPARISON_SLUG)]
+QUALITY_PATHS = [info["prefix"] + "/" + DETAIL_PATH + "/" for info in LANGUAGES.values()]
 TOKEN = re.compile(r"\{\{([^{}]+)\}\}")
 GLOBAL_IDS = {BASE + "/#organization", BASE + "/#website"}
 BUYER_PAGES = set(PAGES[1:])
@@ -215,6 +217,9 @@ def render_page(page, lang, catalog, include_reference=True):
     dynamic = {
         "lang": lang, "og_locale": LANGUAGES[lang]["og"], "canonical": page_url(page, lang),
         "seo_links": seo_links(page, lang), "language_switcher": language_switcher(page, lang, catalog),
+        "quality_styles": QUALITY_STYLE if page in ("ingredients", "drying-lines") else "",
+        "quality_summary": quality_summary(lang) if page == "ingredients" else "",
+        "drying_materials": drying_materials(lang) if page == "drying-lines" else "",
         "motion_attributes": ' class="motion-enabled"',
         "english_blog_link": f'<a href="{blog_path(lang=lang)}">{BLOG_LABELS[lang]}</a>',
         "jsonld": '<script type="application/ld+json">' + json_for_script(schema_for(page, lang, catalog)) + '</script>',
@@ -290,7 +295,7 @@ def render_sitemap():
     xhtml = "{http://www.w3.org/1999/xhtml}"
     root = ET.Element(namespace + "urlset")
     for lang in LANGUAGES:
-        for page in PAGES:
+        for page in [*PAGES, DETAIL_PATH]:
             node = ET.SubElement(root, namespace + "url")
             ET.SubElement(node, namespace + "loc").text = page_url(page, lang)
             for variant in LANGUAGES:
@@ -325,9 +330,10 @@ def render_llms(catalogs):
                      'Six articles on KGM studies, ingredient selection, grade comparisons, equipment enquiries and drying-line planning.')
         for slug in (*BLOG_SLUGS, COMPARISON_SLUG):
             parts.append(f'- [{slug.replace("-", " ")}]({BASE + blog_path(slug, lang)})')
+        parts.append(f'- [Sample test results and COA reference]({page_url(DETAIL_PATH, lang)}): Historical sample data and a separately identified supplier update; request documents for the actual grade and lot.')
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
-                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages and 21 Blog URLs with three-language alternates.", "",
+                  "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages, 21 Blog URLs and 3 COA reference pages with three-language alternates.", "",
                   "This optional summary helps tools that choose to read it. It does not replace the visible website content, robots.txt, or sitemap, and does not guarantee search rankings or AI citations.", ""])
     return "\n".join(parts)
 
@@ -407,7 +413,7 @@ def self_test(english):
         pass
     else:
         raise ValueError("Missing-translation validation test failed")
-    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 36:
+    if len(ET.fromstring(render_sitemap()).findall("{http://www.sitemaps.org/schemas/sitemap/0.9}url")) != 39:
         raise ValueError("Sitemap page count test failed")
 
 
@@ -455,6 +461,9 @@ def main():
             if rendered.count("<h1") != 1 or f'<link rel="canonical" href="{expected_url}">' not in rendered:
                 raise ValueError(f"Invalid KGM blog page: {relative}")
         output[relative] = rendered
+    for lang in LANGUAGES:
+        shell = output[page_path("ingredients", lang).lstrip("/") + "index.html"]
+        output[page_path(DETAIL_PATH, lang).lstrip("/") + "index.html"] = quality_detail(shell, lang)
     render_comparison(ROOT, output)
     check_language_policy(ROOT, output)
     if not options.check:
@@ -463,7 +472,7 @@ def main():
             target = ROOT / relative
             target.parent.mkdir(parents=True, exist_ok=True)
             target.write_text(rendered, encoding="utf-8", newline="\n")
-    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, 21 blog pages, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
+    print(f"{'Validated' if options.check else 'Generated'} 15 business pages, 21 blog pages, 3 COA references, trilingual 404, sitemap and llms.txt; {len(english)} strings in each catalog.")
 
 
 if __name__ == "__main__":
