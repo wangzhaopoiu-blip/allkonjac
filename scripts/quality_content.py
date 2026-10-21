@@ -133,4 +133,4 @@ def detail_page(shell, lang="en"):
         return '<script type="application/ld+json">' + json.dumps(value, ensure_ascii=False).replace('<', '\\u003c') + '</script>'
     result = re.sub(r'<script type="application/ld\+json">(.*?)</script>', schema, result, flags=re.S)
     validate_detail(result, lang)
-    return result + '\n'
+    return result.rstrip() + '\n'
