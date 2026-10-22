@@ -369,6 +369,26 @@
   ],
   "exempt": [
     {
+      "path": "market-snacks/01-weilong.png",
+      "sha256": "80f5712c5459ed0b6ae8405f6cf3f439520c2e6a0ded171276a65787306c06ee",
+      "reason": "Third-party market reference; user confirmed commercial display permission on 2026-10-21"
+    },
+    {
+      "path": "market-snacks/09-yanjinpuzi.jpg",
+      "sha256": "acea866fb07861a7054d913b5451f9c8527b822ccc6f1e3da86126c3c19d7553",
+      "reason": "Third-party market reference; user confirmed commercial display permission on 2026-10-21"
+    },
+    {
+      "path": "market-snacks/12-sunsu.png",
+      "sha256": "c65c4b252f53295cbad753b44930edc41f3e7b29f5b938b6328b8243c5fb2370",
+      "reason": "Third-party market reference; user confirmed commercial display permission on 2026-10-21"
+    },
+    {
+      "path": "market-snacks/18-md.png",
+      "sha256": "d5837abc15c5574f9ec163ed0456939a969a0a76d6e017bd618eee7011745c91",
+      "reason": "Third-party market reference; user confirmed commercial display permission on 2026-10-21"
+    },
+    {
       "path": "wechat-qr.png",
       "sha256": "579ef98b6e9dc7de178258fbcf628aadf1a4c12bc260ae4799a25026dc84ff40"
     },

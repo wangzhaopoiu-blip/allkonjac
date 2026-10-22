@@ -2,6 +2,7 @@
 from pathlib import Path
 import hashlib
 import json
+import os
 
 ROOT = Path(__file__).resolve().parents[1]
 EXTENSIONS = {'.jpg', '.jpeg', '.png', '.webp', '.svg'}
@@ -15,6 +16,9 @@ def verify_watermarks(root=ROOT):
     actual = {file.relative_to(assets).as_posix() for file in assets.rglob('*') if file.is_file() and file.suffix.lower() in EXTENSIONS}
     if len(expected) != len(records) or actual != expected:
         raise ValueError(f'Watermark image inventory mismatch; new={sorted(actual - expected)}, missing={sorted(expected - actual)}')
+    preview_only = [record['path'] for record in records if record.get('previewOnly')]
+    if preview_only and os.environ.get('ALLKONJAC_SNACK_PREVIEW') != '1':
+        raise ValueError('Third-party snack images are preview-only until commercial display permission is confirmed: ' + ', '.join(preview_only))
     for record in records:
         file = assets / record['path']
         if file.resolve().parent != assets.resolve() and assets.resolve() not in file.resolve().parents:

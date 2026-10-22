@@ -54,11 +54,45 @@ def reference_specifications(lang='en'):
     return specification_cards(reference_data(lang), lang)
 
 def overview_images(lang='en'):
-    labels = reference_labels(lang)
-    return f'''<div class="equipment-intro-media" id="equipment-overview">
-<figure class="equipment-intro-figure"><div class="equipment-intro-frame motion-image"><img src="/assets/equipment/equipment-three-tank-studio-v1-960.webp" srcset="/assets/equipment/equipment-three-tank-studio-v1-480.webp 480w, /assets/equipment/equipment-three-tank-studio-v1-960.webp 960w, /assets/equipment/equipment-three-tank-studio-v1-1448.webp 1448w" sizes="(max-width:900px) 92vw, (max-width:1283px) 45vw, 565px" alt="{labels['overview_tank_alt']}" width="1448" height="1086" loading="lazy" decoding="async"></div><figcaption><h3>{labels['overview_tank_title']}</h3><p>{labels['overview_tank_note']}</p></figcaption></figure>
-<figure class="equipment-intro-figure"><div class="equipment-intro-frame motion-image"><img src="/assets/food-equipment.jpg" alt="{labels['overview_workshop_alt']}" width="1702" height="1276" loading="lazy" decoding="async"></div><figcaption><h3>{labels['overview_workshop_title']}</h3><p>{labels['overview_workshop_note']}</p></figcaption></figure>
-</div>'''
+    if lang not in {'en', 'th', 'id'}:
+        raise ValueError('Unsupported snack reference language')
+    catalog = json.loads((ROOT / 'source/data/snack-examples.json').read_text(encoding='utf-8'))
+    required = {'eyebrow', 'heading', 'intro', 'china', 'thailand', 'disclaimer', 'products'}
+    product_keys = {'weilong', 'yanjinpuzi', 'sunsu', 'md'}
+    if set(catalog) != {'en', 'th', 'id'}:
+        raise ValueError('Snack references require en, th and id')
+    for locale, labels in catalog.items():
+        if set(labels) != required or set(labels['products']) != product_keys:
+            raise ValueError(f'Incomplete snack reference labels: {locale}')
+        if any(not isinstance(labels[key], str) or not labels[key].strip() for key in required - {'products'}):
+            raise ValueError(f'Empty snack reference label: {locale}')
+        for product in labels['products'].values():
+            if set(product) != {'brand', 'name', 'alt'} or any(not isinstance(value, str) or not value.strip() for value in product.values()):
+                raise ValueError(f'Incomplete snack reference product: {locale}')
+
+    images = {
+        'weilong': ('/assets/market-snacks/01-weilong.png', 1200, 1200),
+        'yanjinpuzi': ('/assets/market-snacks/09-yanjinpuzi.jpg', 1000, 1000),
+        'sunsu': ('/assets/market-snacks/12-sunsu.png', 2383, 3357),
+        'md': ('/assets/market-snacks/18-md.png', 2000, 1500),
+    }
+    for src, _, _ in images.values():
+        if not (ROOT / src.lstrip('/')).is_file():
+            raise ValueError(f'Missing snack reference image: {src}')
+
+    labels = catalog[lang]
+    def cards(keys):
+        parts = []
+        for key in keys:
+            product = labels['products'][key]
+            src, width, height = images[key]
+            parts.append(f'''<figure class="snack-reference-card"><div class="snack-reference-frame"><img src="{src}" alt="{escape(product['alt'])}" width="{width}" height="{height}" loading="lazy" decoding="async"></div><figcaption><h4>{escape(product['brand'])}</h4><p>{escape(product['name'])}</p></figcaption></figure>''')
+        return ''.join(parts)
+
+    return f'''<section class="snack-references" id="equipment-overview" aria-labelledby="snack-references-heading">
+<div class="snack-references-intro"><div><div class="eyebrow">{escape(labels['eyebrow'])}</div><h2 id="snack-references-heading">{escape(labels['heading'])}</h2></div><p>{escape(labels['intro'])}</p></div>
+<div class="snack-reference-markets"><section class="snack-reference-market" aria-labelledby="snack-market-cn"><h3 id="snack-market-cn">{escape(labels['china'])}</h3>{cards(('weilong', 'yanjinpuzi'))}</section><section class="snack-reference-market" aria-labelledby="snack-market-th"><h3 id="snack-market-th">{escape(labels['thailand'])}</h3>{cards(('sunsu', 'md'))}</section></div>
+<p class="snack-reference-disclaimer">{escape(labels['disclaimer'])}</p></section>'''
 
 def specification_cards(specs, lang='en'):
     labels = reference_labels(lang)

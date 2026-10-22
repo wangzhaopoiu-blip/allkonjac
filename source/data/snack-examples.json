@@ -1,0 +1,44 @@
+{
+  "en": {
+    "eyebrow": "MARKET PRODUCT REFERENCES",
+    "heading": "Ready-to-eat konjac product examples",
+    "intro": "Packaging from Chinese konjac snack brands and products offered in Thailand helps define the intended finished-product format before planning a process and equipment line.",
+    "china": "Chinese brands",
+    "thailand": "Products offered in Thailand",
+    "disclaimer": "Third-party market examples only. These brands are not presented as ALL KONJAC products, customers, or users of our equipment.",
+    "products": {
+      "weilong": {"brand": "WEILONG", "name": "Hot and Sour Konjac Snack", "alt": "WEILONG Hot and Sour Konjac Snack retail box"},
+      "yanjinpuzi": {"brand": "Yanker Shop", "name": "Shredded Konjac Snack Multipack", "alt": "Yanker Shop shredded konjac snack sharing pack and sachets"},
+      "sunsu": {"brand": "SUNSU", "name": "Muek Groob Original Mala", "alt": "SUNSU Muek Groob Original Mala konjac snack pack"},
+      "md": {"brand": "M&D", "name": "Tom Yum Seafood Konjac Snack", "alt": "M&D Tom Yum Seafood konjac snack retail box"}
+    }
+  },
+  "th": {
+    "eyebrow": "ตัวอย่างผลิตภัณฑ์ในตลาด",
+    "heading": "ตัวอย่างผลิตภัณฑ์บุกพร้อมรับประทาน",
+    "intro": "ตัวอย่างบรรจุภัณฑ์ของแบรนด์ขนมบุกจากจีนและผลิตภัณฑ์ที่จำหน่ายในไทยช่วยให้เห็นรูปแบบผลิตภัณฑ์ปลายทาง ก่อนวางแผนกระบวนการและสายการผลิต",
+    "china": "แบรนด์จากจีน",
+    "thailand": "ผลิตภัณฑ์ที่จำหน่ายในไทย",
+    "disclaimer": "ผลิตภัณฑ์ของบุคคลที่สามเหล่านี้ใช้เป็นตัวอย่างอ้างอิงตลาดเท่านั้น ไม่ได้แสดงว่าเป็นผลิตภัณฑ์ ลูกค้า หรือผู้ใช้เครื่องจักรของ ALL KONJAC",
+    "products": {
+      "weilong": {"brand": "WEILONG", "name": "ขนมบุกรสเปรี้ยวเผ็ด", "alt": "กล่องขนมบุกรสเปรี้ยวเผ็ดของ WEILONG"},
+      "yanjinpuzi": {"brand": "Yanker Shop", "name": "ขนมบุกเส้นแบบซองรวม", "alt": "ซองรวมและซองย่อยขนมบุกเส้นของ Yanker Shop"},
+      "sunsu": {"brand": "SUNSU", "name": "Muek Groob รสหม่าล่าสูตรดั้งเดิม", "alt": "ซองขนมบุก SUNSU Muek Groob รสหม่าล่าสูตรดั้งเดิม"},
+      "md": {"brand": "M&D", "name": "ขนมบุกรสต้มยำทะเล", "alt": "กล่องขนมบุกรสต้มยำทะเลของ M&D"}
+    }
+  },
+  "id": {
+    "eyebrow": "REFERENSI PRODUK DI PASAR",
+    "heading": "Contoh Produk Konjak Siap Santap",
+    "intro": "Kemasan merek camilan konjak dari Tiongkok dan produk yang ditawarkan di Thailand membantu menentukan bentuk produk akhir sebelum merencanakan proses dan lini peralatan.",
+    "china": "Merek Tiongkok",
+    "thailand": "Produk di Thailand",
+    "disclaimer": "Produk pihak ketiga ini hanya menjadi referensi pasar. Merek-merek tersebut tidak dinyatakan sebagai produk, pelanggan, atau pengguna peralatan ALL KONJAC.",
+    "products": {
+      "weilong": {"brand": "WEILONG", "name": "Camilan Konjak Rasa Asam Pedas", "alt": "Kotak camilan konjak rasa asam pedas WEILONG"},
+      "yanjinpuzi": {"brand": "Yanker Shop", "name": "Camilan Konjak Kemasan Berbagi", "alt": "Kemasan berbagi dan sachet camilan konjak Yanker Shop"},
+      "sunsu": {"brand": "SUNSU", "name": "Muek Groob Rasa Mala Orisinal", "alt": "Kemasan camilan konjak SUNSU Muek Groob rasa mala orisinal"},
+      "md": {"brand": "M&D", "name": "Camilan Konjak Rasa Tom Yum Seafood", "alt": "Kotak camilan konjak rasa tom yum seafood M&D"}
+    }
+  }
+}

@@ -8,7 +8,11 @@ assert len(urls)==39
 files=[u.removeprefix('https://allkonjac.com/').rstrip('/')+'/index.html' if u!='https://allkonjac.com/' else 'index.html' for u in urls]
 files += ['404.html','robots.txt','sitemap.xml','llms.txt','favicon.ico']
 files += [p.relative_to(ROOT).as_posix() for p in (ROOT/'assets').rglob('*') if p.is_file()]
-assert not any('market-snacks' in p for p in files), 'Unapproved snack preview must not be packaged'
+snack_assets={p for p in files if p.startswith('assets/market-snacks/')}
+if snack_assets:
+ provenance=json.loads((ROOT/'source/data/snack-image-provenance.json').read_text(encoding='utf-8'))
+ assert 'User confirmed commercial display permission' in provenance['publishability']
+ assert snack_assets=={item['file'] for item in provenance['images']}, 'Unexpected snack asset in public package'
 expected=set(files)
 existing={p.relative_to(OUT).as_posix() for p in OUT.rglob('*') if p.is_file()}
 assert not existing-expected, 'Unexpected stale package files: '+str(existing-expected)
