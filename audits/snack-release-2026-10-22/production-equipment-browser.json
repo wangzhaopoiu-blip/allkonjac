@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-22",
+  "base": "https://allkonjac.com",
+  "worker_version": "bc4ecad3-80dc-4a4d-b9c6-b210a01a12fd",
+  "languages": ["en", "th", "id"],
+  "viewport_widths": [390, 1440],
+  "scenarios": 6,
+  "checks_per_scenario": {
+    "http_status": 200,
+    "snack_cards": 4,
+    "existing_equipment_gallery_items": 4,
+    "specification_cards": 9,
+    "broken_images": 0,
+    "horizontal_overflow": false,
+    "page_errors": []
+  },
+  "passed": true
+}
