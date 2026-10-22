@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-22",
+  "timezone": "Asia/Shanghai",
+  "status": "preview_verified",
+  "checks": [
+    {
+      "name": "en_automatic_load_without_click",
+      "passed": true
+    },
+    {
+      "name": "en_visible_default_turntable_playing",
+      "passed": true
+    },
+    {
+      "name": "en_pause_reset_and_full_framing",
+      "passed": true,
+      "details": {
+        "max": 0.7499650427118042
+      }
+    },
+    {
+      "name": "en_nine_localized_views",
+      "passed": true
+    },
+    {
+      "name": "en_desktop_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "keyboard_rotation",
+      "passed": true
+    },
+    {
+      "name": "mouse_drag_rotation_stops_auto",
+      "passed": true
+    },
+    {
+      "name": "wheel_zoom",
+      "passed": true
+    },
+    {
+      "name": "zoom_buttons",
+      "passed": true
+    },
+    {
+      "name": "offscreen_turntable_pauses",
+      "passed": true
+    },
+    {
+      "name": "return_to_view_resumes_requested_turntable",
+      "passed": true
+    },
+    {
+      "name": "window_resize_keeps_complete_overview",
+      "passed": true
+    },
+    {
+      "name": "th_automatic_load_without_click",
+      "passed": true
+    },
+    {
+      "name": "th_visible_default_turntable_playing",
+      "passed": true
+    },
+    {
+      "name": "th_pause_reset_and_full_framing",
+      "passed": true,
+      "details": {
+        "max": 0.7499650427118042
+      }
+    },
+    {
+      "name": "th_nine_localized_views",
+      "passed": true
+    },
+    {
+      "name": "th_desktop_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "id_automatic_load_without_click",
+      "passed": true
+    },
+    {
+      "name": "id_visible_default_turntable_playing",
+      "passed": true
+    },
+    {
+      "name": "id_pause_reset_and_full_framing",
+      "passed": true,
+      "details": {
+        "max": 0.7499650427118042
+      }
+    },
+    {
+      "name": "id_nine_localized_views",
+      "passed": true
+    },
+    {
+      "name": "id_desktop_no_horizontal_overflow",
+      "passed": true
+    },
+    {
+      "name": "mobile_auto_load_pause_reset_and_framing",
+      "passed": true
+    },
+    {
+      "name": "mobile_touch_rotation",
+      "passed": true
+    },
+    {
+      "name": "mobile_pinch_zoom",
+      "passed": true
+    },
+    {
+      "name": "reduced_motion_default_stays_still",
+      "passed": true
+    },
+    {
+      "name": "no_webgl_image_fallback",
+      "passed": true
+    },
+    {
+      "name": "no_page_errors_failed_requests_or_cdn_dependencies",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "failed_requests": [],
+  "external_requests": [],
+  "browser": {
+    "version": "155.0.4283.62",
+    "headless": true,
+    "renderer": "ANGLE D3D11"
+  },
+  "limits": [
+    "Mobile tests simulate touch; no physical phone acceptance",
+    "Original model uses relative dimensions; exterior acceptance remains pending"
+  ]
+}

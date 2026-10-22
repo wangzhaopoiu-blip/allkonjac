@@ -1,6 +1,11 @@
 {
   "en": {
-    "labels": ["Send with your enquiry", "Documents to discuss", "Decision boundary", "Next step"],
+    "labels": [
+      "Send with your enquiry",
+      "Documents to discuss",
+      "Decision boundary",
+      "Next step"
+    ],
     "ingredients": {
       "heading": "Prepare an ingredient enquiry",
       "items": [
@@ -9,7 +14,7 @@
         "A product name or food-grade label alone does not confirm suitability, purity or regulatory status for your market. Evaluate the actual sample and documents.",
         "Send the brief, agree on a proposed grade and evaluation method, then confirm the supply terms before ordering."
       ],
-      "message": "Hello ALL KONJAC. I have a konjac ingredients enquiry. Destination market: . Finished product and requirement: ."
+      "message": "ALL KONJAC\nBusiness line: Konjac ingredients\nDestination country / market: ______\nFinished product / project need: ______\nQuantity / target output: ______\nProcess and site conditions: ______\nSpecification / evaluation target: ______\nDocuments requested: ______\nTarget timing: ______\nReply email or WhatsApp: ______"
     },
     "equipment": {
       "heading": "Prepare an equipment project enquiry",
@@ -19,7 +24,7 @@
         "Gallery images and listed configurations are references; final dimensions, power, capacity and responsibilities require a project proposal.",
         "Share the project brief, review the proposed configuration and exclusions, then agree on acceptance criteria before ordering."
       ],
-      "message": "Hello ALL KONJAC. I have a konjac food equipment enquiry. Destination market: . Product, output and site conditions: ."
+      "message": "ALL KONJAC\nBusiness line: Food equipment\nDestination country / market: ______\nFinished product / project need: ______\nQuantity / target output: ______\nProcess and site conditions: ______\nSpecification / evaluation target: ______\nDocuments requested: ______\nTarget timing: ______\nReply email or WhatsApp: ______"
     },
     "drying-lines": {
       "heading": "Prepare a drying-line enquiry",
@@ -29,7 +34,7 @@
         "Photographs and diagrams illustrate process categories; they do not establish drying performance, energy use or a final configuration.",
         "Share the material and factory brief, review the proposed line scope, then agree on trials and acceptance criteria."
       ],
-      "message": "Hello ALL KONJAC. I have a konjac dried-chip drying-line enquiry. Destination market: . Material, output and site conditions: ."
+      "message": "ALL KONJAC\nBusiness line: Dried-chip drying line\nDestination country / market: ______\nFinished product / project need: ______\nQuantity / target output: ______\nProcess and site conditions: ______\nSpecification / evaluation target: ______\nDocuments requested: ______\nTarget timing: ______\nReply email or WhatsApp: ______"
     },
     "technology": {
       "heading": "Prepare an application-development enquiry",
@@ -39,11 +44,16 @@
         "Published studies and general ingredient descriptions do not predict performance in your own formulation or establish market compliance.",
         "Share the development brief, agree on a trial method and success criteria, then confirm responsibilities and commercial scope."
       ],
-      "message": "Hello ALL KONJAC. I have a konjac application-development enquiry. Destination market: . Product, process and target result: ."
+      "message": "ALL KONJAC\nBusiness line: Application development\nDestination country / market: ______\nFinished product / project need: ______\nQuantity / target output: ______\nProcess and site conditions: ______\nSpecification / evaluation target: ______\nDocuments requested: ______\nTarget timing: ______\nReply email or WhatsApp: ______"
     }
   },
   "th": {
-    "labels": ["ข้อมูลที่ควรส่ง", "เอกสารที่ควรสอบถาม", "ข้อจำกัดในการตัดสินใจ", "ขั้นตอนถัดไป"],
+    "labels": [
+      "ข้อมูลที่ควรส่ง",
+      "เอกสารที่ควรสอบถาม",
+      "ข้อจำกัดในการตัดสินใจ",
+      "ขั้นตอนถัดไป"
+    ],
     "ingredients": {
       "heading": "เตรียมข้อมูลสอบถามวัตถุดิบบุก",
       "items": [
@@ -52,7 +62,7 @@
         "ชื่อผลิตภัณฑ์หรือคำว่าเกรดอาหารเพียงอย่างเดียวไม่ยืนยันความเหมาะสม ความบริสุทธิ์ หรือสถานะด้านกฎระเบียบในตลาดของคุณ ต้องตรวจตัวอย่างและเอกสารจริง",
         "ส่งข้อมูลโครงการ ตกลงเกรดที่เสนอและวิธีประเมิน แล้วจึงยืนยันเงื่อนไขการจัดหาก่อนสั่งซื้อ"
       ],
-      "message": "สวัสดี ALL KONJAC ต้องการสอบถามวัตถุดิบบุก ตลาดปลายทาง: . ผลิตภัณฑ์และข้อกำหนด: ."
+      "message": "ALL KONJAC\nประเภทธุรกิจ: วัตถุดิบบุก\nประเทศ / ตลาดปลายทาง: ______\nผลิตภัณฑ์ / ความต้องการโครงการ: ______\nปริมาณ / กำลังผลิตเป้าหมาย: ______\nกระบวนการและสภาพสถานที่: ______\nข้อกำหนด / เป้าหมายการประเมิน: ______\nเอกสารที่ต้องการ: ______\nกำหนดเวลาที่ต้องการ: ______\nอีเมลหรือ WhatsApp สำหรับติดต่อกลับ: ______"
     },
     "equipment": {
       "heading": "เตรียมข้อมูลสอบถามโครงการเครื่องจักร",
@@ -62,7 +72,7 @@
         "ภาพและรูปแบบเครื่องจักรที่แสดงเป็นข้อมูลอ้างอิง ขนาด กำลังไฟ กำลังผลิต และความรับผิดชอบสุดท้ายต้องระบุในข้อเสนอโครงการ",
         "ส่งข้อมูลโครงการ ตรวจรูปแบบที่เสนอและรายการที่ไม่รวม แล้วตกลงเกณฑ์การตรวจรับก่อนสั่งซื้อ"
       ],
-      "message": "สวัสดี ALL KONJAC ต้องการสอบถามเครื่องจักรผลิตอาหารบุก ตลาดปลายทาง: . ผลิตภัณฑ์ กำลังผลิต และสภาพโรงงาน: ."
+      "message": "ALL KONJAC\nประเภทธุรกิจ: เครื่องจักรอาหาร\nประเทศ / ตลาดปลายทาง: ______\nผลิตภัณฑ์ / ความต้องการโครงการ: ______\nปริมาณ / กำลังผลิตเป้าหมาย: ______\nกระบวนการและสภาพสถานที่: ______\nข้อกำหนด / เป้าหมายการประเมิน: ______\nเอกสารที่ต้องการ: ______\nกำหนดเวลาที่ต้องการ: ______\nอีเมลหรือ WhatsApp สำหรับติดต่อกลับ: ______"
     },
     "drying-lines": {
       "heading": "เตรียมข้อมูลสอบถามสายการอบแห้ง",
@@ -72,7 +82,7 @@
         "ภาพถ่ายและแผนภาพแสดงประเภทกระบวนการ ไม่ยืนยันประสิทธิภาพการอบแห้ง การใช้พลังงาน หรือรูปแบบสุดท้าย",
         "ส่งข้อมูลวัตถุดิบและโรงงาน ตรวจขอบเขตสายการผลิตที่เสนอ แล้วตกลงการทดลองและเกณฑ์การตรวจรับ"
       ],
-      "message": "สวัสดี ALL KONJAC ต้องการสอบถามสายการอบชิ้นบุกแห้ง ตลาดปลายทาง: . วัตถุดิบ กำลังผลิต และสภาพโรงงาน: ."
+      "message": "ALL KONJAC\nประเภทธุรกิจ: สายการอบชิ้นบุกแห้ง\nประเทศ / ตลาดปลายทาง: ______\nผลิตภัณฑ์ / ความต้องการโครงการ: ______\nปริมาณ / กำลังผลิตเป้าหมาย: ______\nกระบวนการและสภาพสถานที่: ______\nข้อกำหนด / เป้าหมายการประเมิน: ______\nเอกสารที่ต้องการ: ______\nกำหนดเวลาที่ต้องการ: ______\nอีเมลหรือ WhatsApp สำหรับติดต่อกลับ: ______"
     },
     "technology": {
       "heading": "เตรียมข้อมูลสอบถามการพัฒนาการใช้งาน",
@@ -82,11 +92,16 @@
         "งานวิจัยที่ตีพิมพ์และคำอธิบายวัตถุดิบทั่วไปไม่สามารถทำนายผลในสูตรของคุณหรือยืนยันการปฏิบัติตามกฎระเบียบของตลาดได้",
         "ส่งข้อมูลการพัฒนา ตกลงวิธีทดลองและเกณฑ์ความสำเร็จ แล้วจึงยืนยันหน้าที่และขอบเขตทางการค้า"
       ],
-      "message": "สวัสดี ALL KONJAC ต้องการสอบถามการพัฒนาการใช้งานบุก ตลาดปลายทาง: . ผลิตภัณฑ์ กระบวนการ และผลที่ต้องการ: ."
+      "message": "ALL KONJAC\nประเภทธุรกิจ: การพัฒนาการใช้งาน\nประเทศ / ตลาดปลายทาง: ______\nผลิตภัณฑ์ / ความต้องการโครงการ: ______\nปริมาณ / กำลังผลิตเป้าหมาย: ______\nกระบวนการและสภาพสถานที่: ______\nข้อกำหนด / เป้าหมายการประเมิน: ______\nเอกสารที่ต้องการ: ______\nกำหนดเวลาที่ต้องการ: ______\nอีเมลหรือ WhatsApp สำหรับติดต่อกลับ: ______"
     }
   },
   "id": {
-    "labels": ["Informasi untuk dikirim", "Dokumen yang perlu ditanyakan", "Batas keputusan", "Langkah berikutnya"],
+    "labels": [
+      "Informasi untuk dikirim",
+      "Dokumen yang perlu ditanyakan",
+      "Batas keputusan",
+      "Langkah berikutnya"
+    ],
     "ingredients": {
       "heading": "Siapkan pertanyaan tentang bahan baku konjak",
       "items": [
@@ -95,7 +110,7 @@
         "Nama produk atau istilah food grade saja tidak memastikan kesesuaian, kemurnian, atau status regulasi di pasar Anda. Evaluasi sampel dan dokumen yang sebenarnya.",
         "Kirim ringkasan kebutuhan, sepakati grade usulan dan metode evaluasi, lalu pastikan ketentuan pasokan sebelum memesan."
       ],
-      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang bahan baku konjak. Pasar tujuan: . Produk dan kebutuhan: ."
+      "message": "ALL KONJAC\nBidang bisnis: Bahan baku konjak\nNegara / pasar tujuan: ______\nProduk akhir / kebutuhan proyek: ______\nJumlah / target kapasitas: ______\nKondisi proses dan lokasi: ______\nSpesifikasi / target evaluasi: ______\nDokumen yang diminta: ______\nTarget waktu: ______\nEmail atau WhatsApp untuk balasan: ______"
     },
     "equipment": {
       "heading": "Siapkan pertanyaan proyek peralatan",
@@ -105,7 +120,7 @@
         "Gambar galeri dan konfigurasi yang tercantum adalah referensi; dimensi, daya, kapasitas, dan tanggung jawab akhir memerlukan proposal proyek.",
         "Kirim ringkasan proyek, tinjau konfigurasi serta pengecualiannya, lalu sepakati kriteria penerimaan sebelum memesan."
       ],
-      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang peralatan pangan konjak. Pasar tujuan: . Produk, kapasitas, dan kondisi pabrik: ."
+      "message": "ALL KONJAC\nBidang bisnis: Peralatan pangan\nNegara / pasar tujuan: ______\nProduk akhir / kebutuhan proyek: ______\nJumlah / target kapasitas: ______\nKondisi proses dan lokasi: ______\nSpesifikasi / target evaluasi: ______\nDokumen yang diminta: ______\nTarget waktu: ______\nEmail atau WhatsApp untuk balasan: ______"
     },
     "drying-lines": {
       "heading": "Siapkan pertanyaan lini pengeringan",
@@ -115,7 +130,7 @@
         "Foto dan diagram menggambarkan kategori proses; keduanya tidak menetapkan kinerja pengeringan, pemakaian energi, atau konfigurasi akhir.",
         "Kirim informasi bahan dan pabrik, tinjau ruang lingkup lini yang diusulkan, lalu sepakati uji coba dan kriteria penerimaan."
       ],
-      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang lini pengeringan irisan konjak. Pasar tujuan: . Bahan, keluaran, dan kondisi pabrik: ."
+      "message": "ALL KONJAC\nBidang bisnis: Lini pengeringan irisan konjak\nNegara / pasar tujuan: ______\nProduk akhir / kebutuhan proyek: ______\nJumlah / target kapasitas: ______\nKondisi proses dan lokasi: ______\nSpesifikasi / target evaluasi: ______\nDokumen yang diminta: ______\nTarget waktu: ______\nEmail atau WhatsApp untuk balasan: ______"
     },
     "technology": {
       "heading": "Siapkan pertanyaan pengembangan aplikasi",
@@ -125,7 +140,7 @@
         "Studi terbitan dan uraian umum bahan tidak dapat meramalkan hasil dalam formulasi Anda atau memastikan kepatuhan di pasar tujuan.",
         "Kirim ringkasan pengembangan, sepakati metode uji dan kriteria keberhasilan, lalu pastikan tanggung jawab dan lingkup komersial."
       ],
-      "message": "Halo ALL KONJAC. Saya ingin bertanya tentang pengembangan aplikasi konjak. Pasar tujuan: . Produk, proses, dan hasil yang diinginkan: ."
+      "message": "ALL KONJAC\nBidang bisnis: Pengembangan aplikasi\nNegara / pasar tujuan: ______\nProduk akhir / kebutuhan proyek: ______\nJumlah / target kapasitas: ______\nKondisi proses dan lokasi: ______\nSpesifikasi / target evaluasi: ______\nDokumen yang diminta: ______\nTarget waktu: ______\nEmail atau WhatsApp untuk balasan: ______"
     }
   }
 }

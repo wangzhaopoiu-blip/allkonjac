@@ -13,6 +13,7 @@ import re
 import sys
 from urllib.parse import quote
 import xml.etree.ElementTree as ET
+from buyer_resources import quotation, inquiry_tools, add_article_routes
 from equipment_reference import overview_images, reference_specifications
 from check_watermarks import verify_watermarks
 from buyer_guides import ARTICLE_LINKS, article_path, load_editorial, render_article
@@ -61,7 +62,7 @@ def buyer_brief(page, lang):
                     for label, body in zip(locale["labels"], brief["items"]))
     section = ('<section class="buyer-brief" id="buyer-brief"><div class="wrap"><h2>'
                + html.escape(brief["heading"]) + '</h2><div class="buyer-brief-grid">' + cards
-               + '</div></div></section>')
+               + '</div>' + inquiry_tools(page, lang, brief['message']) + '</div></section>')
     whatsapp = 'https://wa.me/8615637136906?text=' + quote(brief["message"])
     email = ('mailto:583411495@qq.com?subject=' + quote('ALL KONJAC - ' + brief["heading"])
              + '&body=' + quote(brief["message"]))
@@ -251,7 +252,7 @@ def render_page(page, lang, catalog, include_reference=True):
         contact = '<section class="contact" id="contact">'
         if output.count(contact) != 1:
             raise ValueError(f"Missing contact section in {lang}/{page}")
-        output = output.replace(contact, section + contact)
+        output = output.replace(contact, section + (quotation(lang) if page == "ingredients" else "") + contact)
         old_whatsapp = 'href="https://wa.me/8615637136906"'
         old_email = 'href="mailto:583411495@qq.com"'
         if output.count(old_whatsapp) != 1 or output.count(old_email) != 1:
@@ -331,6 +332,7 @@ def render_llms(catalogs):
         for slug in (*BLOG_SLUGS, COMPARISON_SLUG):
             parts.append(f'- [{slug.replace("-", " ")}]({BASE + blog_path(slug, lang)})')
         parts.append(f'- [Sample test results and COA reference]({page_url(DETAIL_PATH, lang)}): Historical sample data and a separately identified supplier update; request documents for the actual grade and lot.')
+        parts.append(f'- [Anonymous ingredient quotation example]({page_url("ingredients", lang)}#quotation-example): Illustrative amounts and terms only, not current prices, an offer or evidence of a completed sale.')
         parts.append("")
     parts.extend(["## Contact", "- [Project enquiries](https://allkonjac.com/#contact): Email 583411495@qq.com; WhatsApp +86 15637136906.", "",
                   "## Website discovery", "- [Sitemap](https://allkonjac.com/sitemap.xml): The 15 business pages, 21 Blog URLs and 3 COA reference pages with three-language alternates.", "",
@@ -465,6 +467,7 @@ def main():
         shell = output[page_path("ingredients", lang).lstrip("/") + "index.html"]
         output[page_path(DETAIL_PATH, lang).lstrip("/") + "index.html"] = quality_detail(shell, lang)
     render_comparison(ROOT, output)
+    add_article_routes(output)
     check_language_policy(ROOT, output)
     if not options.check:
         # Nothing writes until every language, template and schema passes.

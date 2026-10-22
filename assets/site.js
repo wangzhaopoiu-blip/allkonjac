@@ -198,3 +198,14 @@
     finishReveals();
   }
 })();
+
+// Clipboard enhancement; the complete brief remains selectable without script.
+document.querySelectorAll('[data-copy-enquiry]').forEach(button => {
+  button.hidden = false;
+  button.addEventListener('click', async () => {
+    const text = document.getElementById('enquiry-template').textContent;
+    const status = button.nextElementSibling;
+    try { await navigator.clipboard.writeText(text); status.textContent = button.dataset.success; }
+    catch (_) { status.textContent = button.dataset.failure; }
+  });
+});

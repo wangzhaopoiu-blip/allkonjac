@@ -1,0 +1,26 @@
+[
+  {
+    "language": "en",
+    "pages": 2,
+    "bytes": 77208,
+    "sha256": "7cdda6eebe1ceb5bdcc44b2a891969dfd76cf3bbc34b0f9cd43f5e7edb129c99",
+    "amounts_and_anonymity": "passed",
+    "visual_review": "both pages inspected"
+  },
+  {
+    "language": "th",
+    "pages": 2,
+    "bytes": 180537,
+    "sha256": "58f4b83e6ec814a0fed2e24af002b25ab814c37f2106ba041e4a0e7733372d70",
+    "amounts_and_anonymity": "passed",
+    "visual_review": "both pages inspected"
+  },
+  {
+    "language": "id",
+    "pages": 2,
+    "bytes": 76430,
+    "sha256": "ffe3f374d0581f529c98d792df1a35ebd0aea446bc19c0912d318b1171c5df6d",
+    "amounts_and_anonymity": "passed",
+    "visual_review": "both pages inspected"
+  }
+]

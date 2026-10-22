@@ -1,0 +1,515 @@
+{
+  "files": [
+    {
+      "path": "assets/air-duct.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/blog.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/blog.js",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/blue-equipment.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/all-konjac-favicon.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/all-konjac-wordmark-white.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/all-konjac-wordmark.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/apple-touch-icon.png",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/favicon-16.png",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/brand/favicon-32.png",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/comparison.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/conveyor-detail-2.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/conveyor-detail.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-drive.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-line-incline-lift-concept.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-line-incline-lift-white-v2.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-line-room.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-line-wide-2.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/drying-line-wide.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment-3d.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment-3d.js",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment-reference.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-1448.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-480.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-conveyor-studio-v1-960.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-1448.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-480.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-single-unit-studio-v1-960.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-1448.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-480.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-three-tank-studio-v1-960.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-1448.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-480.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment/equipment-two-unit-studio-v1-960.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment3d/THREE-LICENSE.txt",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment3d/equipment01-poster.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment3d/viewer.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/equipment3d/viewer.js",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/factory-angle.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fan-detail.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fans-row.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/flags/gb.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/flags/id.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/flags/th.svg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fonts/Manrope-OFL.txt",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fonts/Manrope-variable.ttf",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fonts/NotoSansThai-variable.ttf",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/fonts/OFL.txt",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/food-equipment.jpg",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/ingredient-flour.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/materials/bulbil-machine-dried-chips-v4.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/materials/konjac-flour-enhanced-v1-1440.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/materials/konjac-flour-enhanced-v1-480.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/materials/konjac-flour-enhanced-v1-960.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/materials/white-machine-dried-chips-v4.webp",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/quality-content.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/site.css",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/site.js",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "assets/wechat-qr.png",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/choose-konjac-powder-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/konjac-equipment-project-brief/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/konjac-glucomannan-food-applications-research-guide/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/konjac-refined-powder-vs-konjac-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "blog/plan-konjac-dried-chip-drying-line/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "drying-lines/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "equipment/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "favicon.ico",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/choose-konjac-powder-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/konjac-equipment-project-brief/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/konjac-glucomannan-food-applications-research-guide/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/konjac-refined-powder-vs-konjac-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/blog/plan-konjac-dried-chip-drying-line/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/drying-lines/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/equipment/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/ingredients/coa-reference/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/ingredients/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "id/technology/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "ingredients/coa-reference/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "ingredients/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "llms.txt",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "robots.txt",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "sitemap.xml",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "technology/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/choose-konjac-powder-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/konjac-equipment-project-brief/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/konjac-glucomannan-food-applications-research-guide/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/konjac-glucomannan-ingredient-selection-hydration-viscosity/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/konjac-refined-powder-vs-konjac-gum/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/blog/plan-konjac-dried-chip-drying-line/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/drying-lines/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/equipment/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/ingredients/coa-reference/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/ingredients/index.html",
+      "status": 200,
+      "matches_base": true
+    },
+    {
+      "path": "th/technology/index.html",
+      "status": 200,
+      "matches_base": true
+    }
+  ],
+  "differences": []
+}

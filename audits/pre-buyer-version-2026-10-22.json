@@ -1,0 +1,40 @@
+{
+  "id": "1507c738-e7c4-406d-8bec-a5161cff2ae0",
+  "number": 43,
+  "metadata": {
+    "created_on": "2026-10-21T01:03:20.52694Z",
+    "source": "wrangler",
+    "author_id": "7adbd9c2c02438c971aef14ce429bfb9",
+    "author_email": "wangzhaopoiu@gmail.com",
+    "has_preview": true
+  },
+  "annotations": {
+    "workers/triggered_by": "version_upload"
+  },
+  "resources": {
+    "script": {
+      "etag": "a395b453fd7740f3533a4e77fa40898df38ac2804e8d16e87a110a0f15ec64a2",
+      "handlers": [
+        "fetch"
+      ],
+      "last_deployed_from": "wrangler"
+    },
+    "script_runtime": {
+      "assets": {
+        "html_handling": "auto-trailing-slash",
+        "not_found_handling": "404-page",
+        "serve_directly": false,
+        "raw_run_worker_first": true,
+        "base_path": "/"
+      },
+      "compatibility_date": "2026-10-06",
+      "usage_model": "standard"
+    },
+    "bindings": [
+      {
+        "name": "ASSETS",
+        "type": "assets"
+      }
+    ]
+  }
+}

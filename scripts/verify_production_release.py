@@ -10,7 +10,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://allkonjac.com'
-OUT = ROOT / 'audits/production-unified-2026-10-21.json'
+OUT = ROOT / 'audits/production-buyer-quotation-2026-10-22.json'
 
 
 def fetch(url):
@@ -55,7 +55,8 @@ if __name__ == '__main__':
     files += [p.relative_to(ROOT).as_posix() for p in (ROOT / 'assets').rglob('*') if p.is_file()]
     with ThreadPoolExecutor(max_workers=6) as pool:
         rows = list(pool.map(check_file, files))
-    errors = [row['path'] for row in rows if row['status'] != 200 or not row['matches_local'] or row['noindex_header']]
+    errors = [row['path'] for row in rows if row['status'] != 200 or not row['matches_local']
+              or row['noindex_header'] != bool(re.fullmatch(r'/assets/documents/quotation-example-(en|th|id)\.pdf', row['path']))]
     routing = []
     for url, expected, location in [
             ('http://allkonjac.com/th/ingredients/?release=20261021&lang=th', 301,
@@ -71,7 +72,7 @@ if __name__ == '__main__':
         routing.append({'url': url, 'status': status, 'location': target, 'passed': passed})
         if not passed:
             errors.append(url)
-    report = {'date': '2026-10-21', 'canonical_pages': 39, 'verified_files': len(rows),
+    report = {'date': '2026-10-22', 'canonical_pages': 39, 'verified_files': len(rows),
               'files': rows, 'routing': routing, 'errors': errors, 'passed': not errors}
     OUT.write_text(json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print(json.dumps({key: report[key] for key in ['canonical_pages', 'verified_files', 'routing', 'errors', 'passed']}, ensure_ascii=False))

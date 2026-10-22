@@ -1,5 +1,15 @@
 # ALL KONJAC website
 
+## Buyer resources and quotation examples (2026-10-22)
+
+The four business pages use `source/buyer-briefs.json` and `source/data/buyer-resources.json` for localized procurement references, selectable enquiry templates and contextual WhatsApp/email links. Clipboard support is progressive; no form, sending backend or new click analytics is installed. The internal manual enquiry workflow is `audits/enquiry-ledger.md`.
+
+Three anonymous quotation PDFs and their HTML summaries share `source/data/quotation-sample.json`. These are illustrative amounts and clauses, not live prices or completed-sale evidence. Source identity and the original document are excluded. To regenerate PDFs, run `python scripts/prepare_quotation_print.py`, serve the checkout locally, and run `scripts/export_quotation_pdf.cjs` with the preview URL and Playwright module configured. Chromium is used for correct Thai text shaping with the existing licensed local font. Inspect every PDF page after regeneration. Do not use the historical supplier-update value as a batch COA result.
+
+Publication now uses an explicit package: after building and checking, run `python scripts/package_public.py`, then Wrangler dry-run/deploy with `wrangler.jsonc`. Its asset directory is `.wrangler/public`, containing only the 39 canonical pages, 404, discovery files and approved public assets (106 files for this release). Internal directories and original customer files are never copied into that package. The Worker sets `X-Robots-Tag: noindex` on the three sample PDFs while keeping their explanatory HTML pages indexable. Do not deploy until the package is current.
+
+Six article reading routes distinguish purchasing, material comparison, measurement, application research, food-equipment scope and dried-chip planning. All three languages contain the same routes; publication dates are preserved and the substantive reading-route update is dated 2026-10-21. Thai and Indonesian remain editorial drafts pending native industry review.
+
 ## External editorial citations
 
 `audits/external-citations-2026-10-19.md` identifies the currently live pages suitable for fact-checked editorial references. The shared process is in `../link-development-2026-10-19.md`. These are internal operating documents excluded from deployment; no link quotas, anchor ratios, paid ranking links or automated placements are part of the site build.
