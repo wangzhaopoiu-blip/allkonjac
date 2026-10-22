@@ -1,7 +1,7 @@
 const fs=require('fs'),path=require('path'),assert=require('assert/strict');
 const {chromium}=require(process.env.ALL_KONJAC_PLAYWRIGHT_MODULE || 'playwright');
 const base=process.env.ALL_KONJAC_PREVIEW_URL||'http://127.0.0.1:8791',root=path.resolve(__dirname,'..');
-const out=path.join(root,'audits/buyer-quotation-browser');fs.mkdirSync(out,{recursive:true});
+const out=path.join(root,base.startsWith('https:')?'audits/buyer-quotation-production-browser':'audits/buyer-quotation-browser');fs.mkdirSync(out,{recursive:true});
 const data=JSON.parse(fs.readFileSync(path.join(root,'source/data/buyer-resources.json'),'utf8'));
 const briefs=JSON.parse(fs.readFileSync(path.join(root,'source/buyer-briefs.json'),'utf8'));
 const checks=[];
@@ -36,5 +36,5 @@ try{for(const lang of ['en','th','id']){
  const nojs=await browser.newContext({javaScriptEnabled:false,viewport:{width:390,height:850}});const p=await nojs.newPage();await p.goto(base+prefix+'/ingredients/');assert(await p.locator('#enquiry-template').isVisible());assert(await p.locator('.quote-download').isVisible());assert(!await p.locator('[data-copy-enquiry]').isVisible());await nojs.close();
  checks.push(lang+' anonymous PDF, numeric total, no-JS template and download');
 }
-fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({status:'passed',checks,sentMessages:0},null,2));console.log('Buyer-resource checks passed: '+checks.length);
+fs.writeFileSync(path.join(out,'report.json'),JSON.stringify({status:'passed',base,verifiedAt:new Date().toISOString(),checks,sentMessages:0},null,2));console.log('Buyer-resource checks passed: '+checks.length);
 }finally{await browser.close();}})().catch(e=>{console.error(e);process.exit(1)});

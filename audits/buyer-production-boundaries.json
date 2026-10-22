@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://allkonjac.com/audits/quotation-print/en.html",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "url": "https://allkonjac.com/source/data/quotation-sample.json",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "url": "https://allkonjac.com/.git",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "url": "https://allkonjac.com/assets/market-snacks/",
+    "status": 404,
+    "expected": 404
+  },
+  {
+    "url": "http://www.allkonjac.com/id/ingredients/?sample=1",
+    "status": 301,
+    "expected": 301
+  }
+]

@@ -32,4 +32,8 @@ Native Thai/Indonesian industry review is pending. No new current-grade supplier
 
 ## Production status
 
-Pending deployment and live verification. Do not treat local checks as deployment or SEO/GEO success.
+Deployed on 2026-10-22 from public-source commit `8972eb8`, synchronized to origin/main before publication. Production Worker version: `018a5b4c-ca02-435a-a597-5b9d4b493df2`.
+
+Live verification passed: all 39 canonical pages and all 105 non-404 public files match the local release. The 106th packaged file is the 404 document, checked through unknown-path responses. Three PDFs return 200 with selective noindex headers; indexable pages do not receive those headers. HTTP redirects preserve paths and queries; unknown pages and internal source/audit/script/git paths return 404. Market-snack preview paths remain absent. Production buyer-resource checks passed all 15 groups, with zero sent messages; production 3D passed all 28 checks.
+
+Evidence: `production-buyer-quotation-2026-10-22.json`, `buyer-production-boundaries.json`, `buyer-quotation-production-browser/report.json`, `buyer-quotation-production-3d/browser-verification.json`. These are technical and content acceptance results, not proof of improved search rankings, AI citations or valid enquiries.
