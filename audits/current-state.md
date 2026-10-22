@@ -1,5 +1,7 @@
 # ALL KONJAC 当前短交接
 
+待预览确认：2026-10-22 将四张已获用户确认商业展示授权的第三方魔芋零食图及三语说明并入本目录最新发布源，未部署生产。三语离线食品设备页预览入口：`D:/Codex/Outputs/外贸网站/outputs/ALL_KONJAC_snack_equipment_preview_2026-10-22/index.html`。预览源码已本地提交 `dbc9359`，未推送或部署生产；生成器、公开语言/链接检查、39 页 390/1440px 浏览器检查、统一内容、15 组报价资源及 Wrangler dry-run 已通过。上线前需用户预览确认，随后再次核对最新 origin/main、提交/推送、部署并逐页线上验收。
+
 更新：2026-10-22（北京时间）。后续从最新 origin/main 开始；不要把旧预览工作树整站覆盖上线。
 
 - 当前发布源码工作目录：`D:/Codex/Projects/ChatGPT/外贸网站/work/allkonjac-buyer-quotation-2026-10-21`。公开站点源码提交 `8972eb8`；后续记录提交只更新验收资料。

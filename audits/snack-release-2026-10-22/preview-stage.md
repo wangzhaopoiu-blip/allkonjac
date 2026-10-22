@@ -1,0 +1,9 @@
+# Food equipment snack preview stage · 2026-10-22
+
+- Source base: `origin/main` at `aefb8c3` (public content commit `8972eb8`); preview source commit `dbc9359` on `codex/snack-reference-release-20261022`.
+- Scope: four third-party snack package images and explanatory copy on each of the English, Thai, and Indonesian equipment pages. Existing four-image equipment gallery, nine specification cards, buyer resources, and 39 canonical URLs remain.
+- Image permission: user confirmed commercial display permission for the four preview images on 2026-10-21. No independent license document is held in the repository. Source URLs, hashes, and market-label limits are recorded in `source/data/snack-image-provenance.json`.
+- Local preview: `D:/Codex/Outputs/外贸网站/outputs/ALL_KONJAC_snack_equipment_preview_2026-10-22/index.html`, linking three self-contained HTML files. All 14 images decoded on each page. The snack section passed 390px and 1440px checks in all three languages, with four snack cards, four equipment gallery cards, nine specification cards, no horizontal overflow, no page errors, and no external network requests.
+- Checks passed: generator `--check` and build; 39-page link/language audit; 39 canonical pages at 390px and 1440px; unified content/browser checks; 15 buyer-resource checks; Worker redirect and PDF noindex test; watermark inventory; public package of 110 files; Wrangler dry-run. Reports and public manifest are in this directory.
+- Status: preview delivered; no production deployment or push. Before publishing, recheck latest `origin/main`, then deploy the packaged source and verify all 39 live pages, all public assets, HTTP→HTTPS, real 404, and private-directory isolation.
+- Thai and Indonesian industry copy has not had native-speaker review. Thai products are described as offered in Thailand; no sales ranking is claimed.

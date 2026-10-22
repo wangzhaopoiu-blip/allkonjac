@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "base": "http://127.0.0.1:8791",
+  "verifiedAt": "2026-10-22T01:20:30.647Z",
+  "checks": [
+    "en/ingredients prefill, clipboard success/failure, layout",
+    "en/equipment prefill, clipboard success/failure, layout",
+    "en/drying-lines prefill, clipboard success/failure, layout",
+    "en/technology prefill, clipboard success/failure, layout",
+    "en anonymous PDF, numeric total, no-JS template and download",
+    "th/ingredients prefill, clipboard success/failure, layout",
+    "th/equipment prefill, clipboard success/failure, layout",
+    "th/drying-lines prefill, clipboard success/failure, layout",
+    "th/technology prefill, clipboard success/failure, layout",
+    "th anonymous PDF, numeric total, no-JS template and download",
+    "id/ingredients prefill, clipboard success/failure, layout",
+    "id/equipment prefill, clipboard success/failure, layout",
+    "id/drying-lines prefill, clipboard success/failure, layout",
+    "id/technology prefill, clipboard success/failure, layout",
+    "id anonymous PDF, numeric total, no-JS template and download"
+  ],
+  "sentMessages": 0
+}
